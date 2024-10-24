@@ -28,6 +28,11 @@ Explore the various sections to see my design work, learn about my process, and 
 This project is licensed under the MIT License, which allows you to freely use, modify, and distribute this software, provided proper attribution is given.
 
 ## Contact
-For inquiries, collaboration opportunities, or feedback, please reach out to me at [cheyennaraelynn@gmail.com](mailto:cheyennaraelynn@gmail.com). You can also connect with me on [LinkedIn](https://www.linkedin.com/in/cheyenna-raelynn) and explore my work on [GitHub](https://github.com/RaeOfChey).
+For inquiries, collaboration opportunities, or feedback, please reach out to me:
+- Email: [cheyennaraelynn@gmail.com](mailto:cheyennaraelynn@gmail.com)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/cheyenna-raelynn)
+- GitHub: [GitHub](https://github.com/RaeOfChey)
+- Graphic Design Portfolio: [Graphic Design Portfolio](https://cheyennaraelynn.myportfolio.com/)
+- Instagram: [Instagram](https://www.instagram.com/raeofchey/)
 
 
