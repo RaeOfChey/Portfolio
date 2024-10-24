@@ -8,9 +8,7 @@
 3. [Installation](#installation)
 4. [Usage](#usage)
 6. [License](#license)
-7. [Contributing](#contributing)
-8. [Tests](#tests)
-9. [Questions](#questions)
+9. [Contact](#contact)
 
 ## Description
 This is my React portfolio showcasing my web development projects. It includes sections for About Me, Portfolio, Contact, and Resume, using React Router for navigation. The portfolio is designed to be mobile-first, with a polished user interface and links to my deployed applications and GitHub repositories.
