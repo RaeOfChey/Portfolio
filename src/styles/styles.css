@@ -10,9 +10,51 @@
   --color-white: #ffffff;
 }
 
-body {
+main {
   font-family: "neulis", sans-serif;
   margin: 0px 100px;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-darkblue);
+  font-family: "neulis", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+footer p {
+  color: var(--color-lightblue);
+  padding-left: 25px;
+}
+
+footer a {
+  color: var(--color-lightblue);
+  padding-right: 25px;
+}
+
+footer a:hover {
+  color: var(--color-blue);
+  padding-right: 25px;
+}
+
+#root > div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }
