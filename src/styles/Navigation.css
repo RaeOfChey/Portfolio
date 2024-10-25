@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--color-white);
+    font: 
+  }
+
+  .logo {
+    height: 50px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+
+  nav a {
+    color: #313647;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+  }
+
+  nav a {
+    color: #ddeaff;
+  }
+  

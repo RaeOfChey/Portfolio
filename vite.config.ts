@@ -5,7 +5,14 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 3000, 
+    port: 3000,
     open: true     // Opens the browser when running `npm run dev`
-  }
+  },
+  css: {
+    preprocessorOptions: {
+      scss: { // Suppress Sass warnings from dependencies (like Bulma)
+        quietDeps: true,
+      },
+    },
+  },
 });
