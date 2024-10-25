@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
 :root {
   --color-lightblue:  #ddeaff;
-  --color-medblue: #acbddc;
+  --color-blue: #acbddc;
   --color-darkblue: #313647;
   --color-lightpink: #fbe3e6;
   --color-pink: #fbe3e6;
-  --color-medpink: #f1919b;
+  --color-pink: #f1919b;
   --color-darkpink: #993e55;
   --color-black: #000000;
   --color-white: #ffffff;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0;
+  font-family: "neulis", sans-serif;
+  margin: 0px 100px;
   padding: 0;
   box-sizing: border-box;
 }

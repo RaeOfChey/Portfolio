@@ -1,0 +1,36 @@
+.header-container {
+    display: flex;
+    width: 100%;
+    align-items: center; /* Aligns both sections in the center */
+    padding-top: 50px;
+  }
+  
+  .hero-text {
+    width: 66.67%; /* 2/3 of the container */
+    text-align: left;
+    font-family: "neulis-cursive", sans-serif;
+    padding-right: 25px;
+  }
+
+  .title {
+    font-size: 80px;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .intro-text {
+    width: 33.33%; /* 1/3 of the container */
+    text-align: left;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+    color: var(--color-black);
+    font-family: "neulis", sans-serif;
+  }
+  
+  .intro-image img {
+    max-width: 100%;
+  }
+
+  

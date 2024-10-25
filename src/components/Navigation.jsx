@@ -6,7 +6,11 @@ function Navigation() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <img src={logo} alt="Cheyenna Logo" className="logo" />
+        <Link to="/">
+          <div className="logo"> {/* Wrap the img in a div for styling */}
+            <img src={logo} alt="Cheyenna Logo" />
+          </div>
+        </Link>
       </div>
       <ul className="navbar-links">
         <li><Link to="/">About Me</Link></li>
