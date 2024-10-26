@@ -1,3 +1,4 @@
+/* Global Styles */
 :root {
   --color-lightblue:  #ddeaff;
   --color-blue: #acbddc;
@@ -19,8 +20,110 @@ main {
 
 body {
   margin: 0px;
+  font-family: "neulis", sans-serif;
 }
 
+h1 {
+  font-family: "neulis-cursive", sans-serif;
+  font-size: 40px;
+}
+
+p {
+  font-family: "neulis", sans-serif;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+p, li {
+  font-family: "neulis", sans-serif;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+/* Nav Bar Styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "neulis", sans-serif;
+  font-weight: 600;
+  margin: 0px 100px;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+  background-color: var(--color-white);
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo:hover {
+background-color: var(--color-lightblue);
+padding: 10px;
+}
+
+.logo img {
+max-height: 100%;
+max-width: 100%;
+object-fit: contain;
+}
+
+.navbar-links li a{
+color: var(--color-darkblue);  
+}
+
+.navbar-links li a:hover {
+color: var(--color-black);  
+background-color: var(--color-lightblue);  
+border-radius: 50px;
+}
+
+.navbar-links li a:active {
+color: var(--color-black);  
+background-color: var(--color-lightblue);  
+border-radius: 50px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  color: var(--color-darkblue);
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 16px;
+  padding: 15px
+}
+
+
+/* Home Page Header CTA */
+.learn-more-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: var(--color-darkblue);
+  color: var(--color-lightblue);
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: "neulis", sans-serif;
+  font-weight: 500;
+  width: auto;
+  font-size: 24px;
+  letter-spacing: .5px;
+}
+
+.learn-more-button:hover {
+  background-color: var(--color-lightblue);
+  color: var(--color-black);
+}
+
+
+/* Footer Styles */
 footer {
   display: flex;
   justify-content: space-between;
@@ -29,24 +132,25 @@ footer {
   font-family: "neulis", sans-serif;
   font-weight: 100;
   text-align: center;
-  margin: 0px;
-  padding: 0px;
+  padding: 25px 50px;
 }
 
 
 footer p {
   color: var(--color-lightblue);
-  padding-left: 25px;
+  margin: 0px;
+  
 }
 
 footer a {
   color: var(--color-lightblue);
-  padding-right: 25px;
+  padding-left: 25px;
+  text-decoration: none;
 }
 
 footer a:hover {
   color: var(--color-blue);
-  padding-right: 25px;
+  padding-left: 25px;
 }
 
 #root > div {
@@ -58,3 +162,4 @@ footer a:hover {
 main {
   flex: 1;
 }
+

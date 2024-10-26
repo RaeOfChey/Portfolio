@@ -1,0 +1,76 @@
+/* Who am I? Section */
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.about-left {
+  width: 40%;
+}
+
+.about-right {
+  width: 60%;
+}
+
+.about-image {
+  width: 75%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Skills Section */
+.skills-container {
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.skills-left {
+  width: 60%;
+}
+
+.skills-right {
+  width: 40%;
+  justify-content: center; /* Center the image */
+  align-items: center; /* Center the image vertically */
+}
+
+.skills-image {
+  max-width: 75%;
+  height: auto;
+  margin-top: 23px;
+}
+
+/* Skills Section: List styles */
+.skills-lists {
+  display: flex;
+  justify-content: space-between; /* Space out the columns */
+}
+
+.skills-column {
+  width: 50%; /* Each column takes up nearly half the space */
+}
+
+.skills-left ul {
+  padding: 0;
+  padding-left: 15px;
+  padding-bottom: 0px;
+}
+
+/* Media queries: Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .about-container {
+      flex-direction: column; /* Stack columns on smaller screens */
+  }
+
+  .skills-container {
+      display: flex;
+      flex-direction: column; /* Stack the skills section on smaller screens */
+  }
+
+  .skills-left,
+  .skills-right {
+      width: 100%; /* Make skills sections full width on small screens */
+  }
+}
