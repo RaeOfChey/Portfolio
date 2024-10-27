@@ -65,7 +65,7 @@ p, li {
   width: 70px;
   background-color: var(--color-white);
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,8 +115,8 @@ p, li {
 .navbar-links li a:hover::after,
 .navbar-links li a.active::after {
   width: 80%;
-  left: 50%; /* Start at the center */
-  transform: translateX(-50%); /* Shift left by half the width */
+  left: 50%;
+  transform: translateX(-50%);
   background-color: var(--color-lightblue);
 }
 
@@ -128,12 +128,13 @@ p, li {
 .navbar-links li a.active,
 .navbar-links li a:active {
   color: var(--color-black);
+  position: relative
 }
 
+
 .navbar-links li a:not(:hover)::after {
-  width: 0; /* Set to 0 when not hovering */
-  left: 50%; /* Center it */
-  transform: translateX(-50%); /* Center it */
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Home Page Header CTA */

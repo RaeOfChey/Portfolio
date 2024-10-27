@@ -18,7 +18,7 @@ const Contact = () => {
         <ul className="social-links">
           <li>
             <a 
-              href="https://github.com/YourUsername" 
+              href="https://github.com/RaeOfChey" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="social-link" 
@@ -29,7 +29,7 @@ const Contact = () => {
           </li>
           <li>
             <a 
-              href="https://yourdesignportfolio.com" 
+              href="https://cheyennaraelynn.myportfolio.com/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="social-link" 
@@ -40,7 +40,7 @@ const Contact = () => {
           </li>
           <li>
             <a 
-              href="https://linkedin.com/in/YourProfile" 
+              href="https://www.linkedin.com/in/cheyenna-raelynn/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="social-link" 
@@ -51,7 +51,7 @@ const Contact = () => {
           </li>
           <li>
             <a 
-              href="https://instagram.com/YourProfile" 
+              href="https://www.instagram.com/raeofchey/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="social-link" 

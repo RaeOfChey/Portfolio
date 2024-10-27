@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'; // Use NavLink
 import logo from '../assets/Cheyenna Logo (Nav).png';
 import '../styles/styles.css';
 import ResumePDF from '../assets/Cheyenna-Raelynn-Resume.pdf';

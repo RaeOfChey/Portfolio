@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Cheyenna Raelynn. All rights reserved.</p>
       <div>
         <a href="https://github.com/RaeOfChey" target="_blank" rel="noopener noreferrer">
           GitHub Portfolio
