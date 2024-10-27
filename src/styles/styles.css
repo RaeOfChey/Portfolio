@@ -18,6 +18,10 @@ main {
   box-sizing: border-box;
 }
 
+html {
+  overflow-y: scroll; /* Always show the vertical scrollbar */
+}
+
 body {
   margin: 0px;
   font-family: "neulis", sans-serif;
@@ -52,7 +56,8 @@ p, li {
   justify-content: space-between;
   font-family: "neulis", sans-serif;
   font-weight: 600;
-  margin: 0px 100px;
+  margin: 25px 100px 0px 100px;
+  font-size: 18px;
 }
 
 .logo {
@@ -67,44 +72,69 @@ p, li {
 }
 
 .logo:hover {
-background-color: var(--color-lightblue);
-padding: 10px;
+  background-color: var(--color-lightblue);
+  padding: 10px;
 }
 
 .logo img {
-max-height: 100%;
-max-width: 100%;
-object-fit: contain;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
 }
 
-.navbar-links li a{
-color: var(--color-darkblue);  
+.navbar-links {
+  position: relative;
 }
 
-.navbar-links li a:hover {
-color: var(--color-black);  
-background-color: var(--color-lightblue);  
-border-radius: 50px;
+.navbar-links li {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
 }
 
-.navbar-links li a:active {
-color: var(--color-black);  
-background-color: var(--color-lightblue);  
-border-radius: 50px;
-}
-
-nav ul li {
-  display: inline;
-}
-
-nav a {
+.navbar-links li a {
   color: var(--color-darkblue);
   text-decoration: none;
   transition: color 0.3s;
-  font-size: 16px;
-  padding: 15px
+  position: relative;
+  padding-bottom: 10px;
 }
 
+.navbar-links li a::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  background-color: var(--color-lightblue);
+  border-radius: 10px;
+  transition: width 0.4s ease, left 0.4s ease, transform 0.4s ease;
+}
+
+.navbar-links li a:hover::after,
+.navbar-links li a.active::after {
+  width: 80%;
+  left: 50%; /* Start at the center */
+  transform: translateX(-50%); /* Shift left by half the width */
+  background-color: var(--color-lightblue);
+}
+
+.navbar-links li a:hover {
+  color: var(--color-black);
+}
+
+/* Active Link Styles */
+.navbar-links li a.active,
+.navbar-links li a:active {
+  color: var(--color-black);
+}
+
+.navbar-links li a:not(:hover)::after {
+  width: 0; /* Set to 0 when not hovering */
+  left: 50%; /* Center it */
+  transform: translateX(-50%); /* Center it */
+}
 
 /* Home Page Header CTA */
 .learn-more-button {

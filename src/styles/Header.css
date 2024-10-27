@@ -30,4 +30,30 @@
     max-width: 100%;
   }
 
-  
+  /* Header.css */
+.animated-title {
+  display: inline-block;
+  color: var(--color-darkblue); 
+}
+
+/* Add a sliding effect */
+.title {
+  overflow: hidden; /* Prevent overflow when animating */
+}
+
+.title span {
+  display: inline-block;
+  opacity: 0;
+  animation: fade-in 0.5s forwards;
+}
+
+@keyframes fade-in {
+  from {
+    transform: translateX(-100%); /* Start from the left */
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0); /* Move to original position */
+    opacity: 1;
+  }
+}
