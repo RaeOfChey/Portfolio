@@ -8,16 +8,20 @@ const AboutMe = () => {
         <>
             <div className="about-container">
                 <div className="about-left">
-                    <h1>Who am I?</h1>
+
                     <img src={aboutImage} alt="Cheyenna Logo" className="about-image" />
                 </div>
                 <div className="about-right">
+                    <h1>Who am I?</h1>
                     <p>
-                        As a Graphic Designer transitioning into UI/UX, I bring 5 years of experience creating engaging visual designs combined with new skills in front-end development. My unique approach blends design and code to create seamless, user-centered digital experiences that not only look great but solve real user problems.<br />
-                        In my next role, I’m eager to leverage my design expertise along with my growing proficiency in HTML, CSS, and JavaScript to create intuitive interfaces that enhance user satisfaction. I’m passionate about transforming user research and data into designs that are not only functional but also elevate brand identity.<br />
-                    </p>
+                        As a Graphic Designer transitioning into UI/UX, I hold a BFA in Graphic Design, have 5 years of professional design experience, and a full-stack development certificate from the University of Minnesota.
+                        <br />
+                        My unique approach blends design and code to deliver user-centered digital experiences that are visually appealing and solve real problems. In my next role, I’m eager to leverage my design expertise and growing proficiency in HTML, CSS, and JavaScript to create intuitive interfaces that enhance user satisfaction. I’m passionate about transforming user research and data into functional designs that elevate brand identity.
+                        <br />
 
-                    Here are a few highlights:<br />
+                    </p>
+                    <br />
+                    Here are a few highlights of my accomplishments:<br />
                     <ul>
                         <li>Redesigned a client’s website, improving user navigation and reducing bounce rates by 15%.</li>
                         <li>Led a UX/UI revamp of a mobile app that resulted in a 20% increase in user retention within three months.</li>
@@ -27,8 +31,11 @@ const AboutMe = () => {
                     </ul>
 
                     <p>
-                        I’m excited to bring my combination of creative design skills and technical knowledge to a UI/UX design team. My goal is to create digital experiences that are visually appealing, user-friendly, and business-driven.
+                        I’m excited to bring my blend of creative design skills and technical knowledge to a UI/UX design team, aiming to create digital experiences that are visually appealing, user-friendly, and aligned with business objectives.
                     </p>
+                    <a href="/portfolio" className="see-my-work">
+                        See my portfolio
+                    </a>
                 </div>
             </div>
 
@@ -37,9 +44,9 @@ const AboutMe = () => {
                 <div className="skills-left">
                     <h1>Skills</h1>
                     <p>
-                        With 5 years of professional graphic design experience, I’ve had the privilege of collaborating with diverse teams across various industries. This journey has allowed me to dive deep into multiple branches of design, honing a rich array of skills that I am excited to leverage in a UX/UI role. My expertise includes:
+                        I’ve had the privilege of collaborating with diverse teams across various industries. This journey has allowed me to dive deep into multiple branches of design, honing a rich array of skills that I am excited to leverage in a UX/UI role. My expertise includes:
                     </p>
-                    
+
                     {/* New Wrapper for Skills Lists */}
                     <div className="skills-lists">
                         <div className="skills-column">

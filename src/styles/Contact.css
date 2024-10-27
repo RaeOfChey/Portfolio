@@ -1,0 +1,127 @@
+.contact-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+/* Contact Me side of the page */
+.contact-left {
+  flex: 60%;
+}
+
+/* Email link */
+.email-link {
+  margin-bottom: 20px;
+  color: var(--color-darkblue);
+}
+
+.email-link:hover {
+  color: var(--color-blue);
+}
+
+/* Social media links */
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+
+.social-link {
+  color: var(--color-darkblue);
+  font-size: 24px;
+  text-decoration: none;
+  position: relative;
+}
+
+.social-link:hover {
+  color: var(--color-lightblue);
+}
+
+/* Tooltip styles */
+.social-link::after {
+  content: attr(title); /* Displays the title as tooltip */
+  position: absolute;
+  background-color: #000000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  visibility: hidden;
+  white-space: nowrap;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  font-size: 16px;
+}
+
+.social-link:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Form side of the page */
+.contact-right {
+  flex: 40%;
+  padding-left: 20px;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contact form 1st and 2nd row */
+.name-fields,
+.country-number-fields {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.name-fields label:nth-child(2),
+.country-number-fields label:nth-child(2) {
+    margin-left: 25px; /* Adds 25px space to the left of the second label */
+}
+
+/* All input box labels */
+.contact-form label {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.required-note, .email-label {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Input boxes */
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  width: auto;
+  margin-top: 5px;
+}
+
+/* Button */
+.contact-form button {
+  padding: 10px;
+  background-color: var(--color-darkblue);
+  color: var(--color-lightblue);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 500;
+  display: inline-block;
+  font-size: 24px;
+  letter-spacing: .5px;
+  margin: 20px auto;
+}
+
+.contact-form button:hover {
+  background-color: var(--color-lightblue);
+  color: var(--color-darkblue);
+}

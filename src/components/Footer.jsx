@@ -7,10 +7,10 @@ const Footer = () => {
       <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
       <div>
         <a href="https://github.com/RaeOfChey" target="_blank" rel="noopener noreferrer">
-          GitHub
+          GitHub Portfolio
         </a>
         <a href="https://cheyennaraelynn.myportfolio.com/" target="_blank" rel="noopener noreferrer">
-          Portfolio
+          Design Portfolio
         </a>
         <a href="https://www.linkedin.com/in/cheyenna-raelynn/" target="_blank" rel="noopener noreferrer">
           LinkedIn

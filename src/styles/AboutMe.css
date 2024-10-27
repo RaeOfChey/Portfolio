@@ -19,6 +19,26 @@
   margin-top: 20px;
 }
 
+.see-my-work {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: var(--color-darkblue);
+  color: var(--color-lightblue);
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: "neulis", sans-serif;
+  font-weight: 500;
+  width: auto;
+  font-size: 24px;
+  letter-spacing: .5px;
+}
+
+.see-my-work:hover {
+  background-color: var(--color-lightblue);
+  color: var(--color-black);
+}
+
 /* Skills Section */
 .skills-container {
   margin-top: 50px;

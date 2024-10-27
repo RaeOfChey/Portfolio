@@ -28,6 +28,11 @@ h1 {
   font-size: 40px;
 }
 
+h2 {
+  font-family: "neulis", sans-serif;
+  font-size: 26px;
+}
+
 p {
   font-family: "neulis", sans-serif;
   line-height: 30px;
