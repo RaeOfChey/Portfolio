@@ -3,6 +3,7 @@
   display: flex;
   align-items: flex-start;
   margin-top: 50px;
+  gap: 50px;
 }
 
 .about-left {
@@ -21,7 +22,7 @@
 .see-my-work {
   display: inline-block;
   padding: 10px 20px;
-  margin-top: 10px;
+  margin-top: 25px;
   background-color: var(--color-darkblue);
   color: var(--color-lightblue);
   text-decoration: none;
@@ -43,6 +44,7 @@
   margin-top: 50px;
   display: flex;
   align-items: flex-start;
+  gap: 50px;
 }
 
 .skills-left {
@@ -51,24 +53,66 @@
 
 .skills-right {
   width: 40%;
-  justify-content: center; /* Center the image */
-  align-items: center; /* Center the image vertically */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 23px;
 }
 
 .skills-image {
   max-width: 75%;
   height: auto;
-  margin-top: 23px;
+  border-radius: 5px;
+  display: block; 
+}
+
+.skills-image:last-child {
+  margin-bottom: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 100%;
+  background-color: rgba(49, 54, 71, 0.75);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+}
+
+.image-wrapper:hover .overlay {
+  opacity: 1; 
+}
+
+.overlay-text {
+  color: var(--color-lightblue);
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  font-family: "neulis", sans-serif;
+  font-size: 26px;
 }
 
 /* Skills Section: List styles */
 .skills-lists {
   display: flex;
-  justify-content: space-between; /* Space out the columns */
+  justify-content: space-between;
 }
 
 .skills-column {
-  width: 50%; /* Each column takes up nearly half the space */
+  width: 50%;
 }
 
 .skills-left ul {
@@ -76,6 +120,7 @@
   padding-left: 15px;
   padding-bottom: 0px;
 }
+
 
 /* Media queries: Adjustments for smaller screens */
 @media (max-width: 768px) {

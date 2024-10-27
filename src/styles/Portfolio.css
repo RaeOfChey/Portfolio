@@ -1,7 +1,7 @@
 /* Filter Buttons Container */
 .filter-buttons {
   text-align: center;
-  margin: 50px 0px 25px 0px;
+  margin: 50px 0px 50px 0px;
 }
 
 /* Filter Button Styles */
@@ -10,12 +10,11 @@
   background: none;
   border: none;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 26px;
   cursor: pointer;
   padding: 10px 15px;
   position: relative;
   transition: color 0.3s;
-  font-family: "neulis", sans-serif;
 }
 
 /* Underline Effect */

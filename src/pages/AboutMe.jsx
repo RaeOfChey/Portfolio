@@ -1,14 +1,15 @@
 import React from 'react';
 import aboutImage from '../assets/Cheyennas Logo (AboutMe).png';
-import skillsImage from '../assets/Flowers(Skills).png';
+import skillsImage1 from '../assets/Norseman Nuptials (Skills).png';
+import skillsImage2 from '../assets/Northwoods (Skills).png';
 import '../styles/AboutMe.css';
+import '../styles/styles.css';
 
 const AboutMe = () => {
     return (
         <>
             <div className="about-container">
                 <div className="about-left">
-
                     <img src={aboutImage} alt="Cheyenna Logo" className="about-image" />
                 </div>
                 <div className="about-right">
@@ -18,16 +19,14 @@ const AboutMe = () => {
                         <br />
                         My unique approach blends design and code to deliver user-centered digital experiences that are visually appealing and solve real problems. In my next role, I’m eager to leverage my design expertise and growing proficiency in HTML, CSS, and JavaScript to create intuitive interfaces that enhance user satisfaction. I’m passionate about transforming user research and data into functional designs that elevate brand identity.
                         <br />
-
                     </p>
                     <br />
                     Here are a few highlights of my accomplishments:<br />
                     <ul>
-                        <li>Redesigned a client’s website, improving user navigation and reducing bounce rates by 15%.</li>
-                        <li>Led a UX/UI revamp of a mobile app that resulted in a 20% increase in user retention within three months.</li>
-                        <li>Conducted user testing and implemented design changes that improved conversion rates by 25% on an eCommerce site.</li>
-                        <li>Created responsive web designs that increased mobile traffic engagement by 30%, ensuring a seamless experience across devices.</li>
-                        <li>Collaborated with cross-functional teams on a web redesign project that improved the site’s usability, resulting in a 10% increase in customer satisfaction scores.</li>
+                        <li>Boosted revenue by 35% in 4 months by contributing to the successful launch of a new eCommerce website using WordPress and Shopify integration, providing a streamlined user experience for customers by reducing friction in the sales process.</li>
+                        <li>Increased customer satisfaction by 40% through the development and implementation of a user-friendly customer portal, enabling clients to track orders, access product documentation, and manage warranties independently.</li>
+                        <li>Increased web traffic by 40% by focusing on improving user experience, mobile responsiveness, and search engine optimization (SEO) ranking for key terms, resulting in enhanced visibility and customer engagement.</li>
+                        <li>Coordinated with external development teams to deliver a fully branded, responsive, and accessible website, utilizing Figma for wireframing, prototyping, and design feedback, ensuring a cohesive UI/UX across all platforms.</li>
                     </ul>
 
                     <p>
@@ -98,7 +97,18 @@ const AboutMe = () => {
                     </div>
                 </div>
                 <div className="skills-right">
-                    <img src={skillsImage} alt="Skills Image" className="skills-image" />
+                    <a href="/portfolio" className="image-wrapper">
+                        <img src={skillsImage1} alt="Skills Image 1" className="skills-image" />
+                        <div className="overlay">
+                            <span className="overlay-text">See more Front-End Development work</span>
+                        </div>
+                    </a>
+                    <a href="/portfolio" className="image-wrapper">
+                        <img src={skillsImage2} alt="Skills Image 2" className="skills-image" />
+                        <div className="overlay">
+                            <span className="overlay-text">See more Graphic Design work</span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </>

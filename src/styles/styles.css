@@ -11,9 +11,10 @@
   --color-white: #ffffff;
 }
 
+
 main {
   font-family: "neulis", sans-serif;
-  margin: 0px 150px;
+  margin: 0px 200px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -29,7 +30,7 @@ body {
 
 h1 {
   font-family: "neulis-cursive", sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   margin: 0px;
 }
 
@@ -67,7 +68,7 @@ p, li {
   width: 70px;
   background-color: var(--color-white);
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;

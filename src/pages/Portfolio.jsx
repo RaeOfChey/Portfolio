@@ -129,18 +129,18 @@ function Portfolio() {
       <h1>Portfolio</h1>
       <p>Look through my work, read through my case studies, have a look at final designs and try out prototypes I’ve built.</p>
       <div className="filter-buttons">
-  <button onClick={() => setFilter('All')} className={filter === 'All' ? 'active' : ''}>All</button>
-  <button onClick={() => setFilter('Development')} className={filter === 'Development' ? 'active' : ''}>Development</button>
-  <button onClick={() => setFilter('Graphic Design')} className={filter === 'Graphic Design' ? 'active' : ''}>Graphic Design</button>
-</div>
+        <button onClick={() => setFilter('All')} className={filter === 'All' ? 'active' : ''}>All</button>
+        <button onClick={() => setFilter('Development')} className={filter === 'Development' ? 'active' : ''}>Development</button>
+        <button onClick={() => setFilter('Graphic Design')} className={filter === 'Graphic Design' ? 'active' : ''}>Graphic Design</button>
+      </div>
       <div className="project-cards">
         {filteredProjects.map((project, index) => (
           <div key={index} className="project-card">
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img src={project.image} alt={project.title} />
               <h2 className="project-title">{project.title}</h2>
-<p className="project-type">{project.type}</p>
-<p className="project-cta">{project.cta}</p>
+              <p className="project-type">{project.type}</p>
+              <p className="project-cta">{project.cta}</p>
             </a>
           </div>
         ))}

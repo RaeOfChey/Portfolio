@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaInstagram, FaBriefcase } from 'react-icons/fa'; // Importing icons
+import { FaGithub, FaLinkedin, FaInstagram, FaBriefcase } from 'react-icons/fa';
 import '../styles/Contact.css';
 
 const Contact = () => {
@@ -63,7 +63,13 @@ const Contact = () => {
         </ul>
       </div>
       <div className="contact-right">
-        <form className="contact-form">
+        <form 
+          name="contact" // Name attribute for Netlify
+          method="POST" 
+          data-netlify="true" // Enable Netlify form handling
+          className="contact-form"
+        >
+          <input type="hidden" name="form-name" value="contact" /> {/* Hidden input for form name */}
           <p className="required-note"><strong>All fields are required</strong></p>
           <div className="name-fields">
             <label>

@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 
-import HomePage from './pages/HomePage'; // This is the home page
-import AboutMe from './pages/AboutMe'; // This should be the About Me page
+import HomePage from './pages/HomePage';
+import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
