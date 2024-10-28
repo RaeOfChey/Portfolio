@@ -3,26 +3,12 @@ import { FaGithub, FaLinkedin, FaInstagram, FaBriefcase } from 'react-icons/fa';
 import '../styles/Contact.css';
 
 const Contact = () => {
-  const handleSubmit = event => {
-    event.preventDefault();
-    const myForm = event.target;
-    const formData = new FormData(myForm);
-
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString(),
-    })
-      .then(() => alert("Form successfully submitted!"))
-      .catch(error => alert(error));
-  };
-
   return (
     <div className="contact-container">
       <div className="contact-left">
         <h1>Contact Me</h1>
         <p>
-          If you have any questions or comments, please contact me via or send me a message using the contact form.
+          If you have any questions or comments, please contact me via email or send me a message using the contact form.
         </p>
         <p>
           <span className="email-label">Email</span> <br />
@@ -82,6 +68,7 @@ const Contact = () => {
           name="contact"
           method="POST"
           data-netlify="true"
+          action="/success" // Redirects to success page if desired
           style={{ display: 'none' }} // Hide the form
         >
           <input type="hidden" name="form-name" value="contact" />
@@ -94,11 +81,14 @@ const Contact = () => {
           <textarea name="message"></textarea>
         </form>
 
-        {/* Visible JavaScript-rendered form */}
+        {/* Visible form */}
         <form
-          onSubmit={handleSubmit}
+          name="contact"
+          method="POST"
+          data-netlify="true"
           className="contact-form"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <p className="required-note"><strong>All fields are required</strong></p>
           <div className="name-fields">
             <label>
