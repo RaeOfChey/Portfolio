@@ -22,7 +22,7 @@ const Contact = () => {
       <div className="contact-left">
         <h1>Contact Me</h1>
         <p>
-          If you have any questions or comments, please contact me via or send me a message using the contact form.
+          If you have any questions or comments, please contact me via email or send me a message using the contact form.
         </p>
         <p>
           <span className="email-label">Email</span> <br />
@@ -79,16 +79,22 @@ const Contact = () => {
       <div className="contact-right">
         {/* Hidden form for Netlify */}
         <form
-  name="contact"
-  method="POST"
-  data-netlify="true"
-  onSubmit={handleSubmit}
-  className="contact-form"
->
-  <input type="hidden" name="form-name" value="contact" />
-  <p className="required-note"><strong>All fields are required</strong></p>
-  <!-- The rest of your form fields go here -->
-</form>
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          onSubmit={handleSubmit}
+          className="contact-form"
+          style={{ display: 'none' }}
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="text" name="firstName" />
+          <input type="text" name="lastName" />
+          <input type="text" name="country" />
+          <input type="tel" name="phone" />
+          <input type="email" name="email" />
+          <input type="text" name="subject" />
+          <textarea name="message"></textarea>
+        </form>
 
         {/* Visible JavaScript-rendered form */}
         <form
