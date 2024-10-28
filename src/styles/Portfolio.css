@@ -54,13 +54,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 25px;
+  gap: 35px;
 }
 
 .project-card {
   border: 1px solid #cccccc;
   border-radius: 5px;
-  width: calc(33.333% - 20px);
+  width: calc(33.333% - 35px);
   text-align: center;
   overflow: hidden;
   transition: transform 0.3s;

@@ -6,6 +6,7 @@ import './styles/Portfolio.css';
 
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import ScrollButton from './components/ScrollButton';  // Import ScrollButton
 
 import HomePage from './pages/HomePage';
 import AboutMe from './pages/AboutMe';
@@ -73,6 +74,8 @@ function App() {
                 <Footer />
                 {/* Custom cursor element */}
                 <div ref={cursorRef} className="custom-cursor" />
+                {/* Scroll-to-top button */}
+                <ScrollButton />  {/* Add ScrollButton here */}
             </div>
         </Router>
     );
