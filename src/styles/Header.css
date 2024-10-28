@@ -1,45 +1,50 @@
 .header-container {
-    display: flex;
-    width: 100%;
-    align-items: center; /* Aligns both sections in the center */
-    padding-top: 50px;
-  }
-  
-  .hero-text {
-    width: 66.67%; /* 2/3 of the container */
-    text-align: left;
-    font-family: "neulis-cursive", sans-serif;
-    padding-right: 25px;
-  }
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-top: 50px;
+  gap:25px;
+}
 
-  .title {
-    font-size: 90px;
-    margin: 0;
-    line-height: 1.2;
-  }
-  
-  .subtitle {
-    font-size: 1.25rem;
-    color: var(--color-black);
-    font-family: "neulis", sans-serif;
-    width: 70%;
-    padding-bottom: 25px;
-  }
-  
-  .intro-image img {
-    max-width: 100%;
-  }
+.hero-text {
+  flex: 0 0 60%;
+  text-align: left;
+  font-family: "neulis-cursive", sans-serif;
+}
 
-  /* Header.css */
+.intro-image {
+  flex: 0 0 40%;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center;
+}
+
+.intro-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  font-size: 100px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--color-black);
+  font-family: "neulis", sans-serif;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+/* Header.css */
 .animated-title {
   display: inline-block;
-  color: var(--color-darkblue); 
+  color: var(--color-darkblue);
 }
 
 /* Add a sliding effect */
-.title {
-  overflow: hidden; /* Prevent overflow when animating */
-}
 
 .title span {
   display: inline-block;
@@ -49,11 +54,14 @@
 
 @keyframes fade-in {
   from {
-    transform: translateX(-100%); /* Start from the left */
+    transform: translateX(-100%);
+    /* Start from the left */
     opacity: 0;
   }
+
   to {
-    transform: translateX(0); /* Move to original position */
+    transform: translateX(0);
+    /* Move to original position */
     opacity: 1;
   }
 }

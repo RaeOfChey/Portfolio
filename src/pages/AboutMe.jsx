@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImage from '../assets/Cheyennas Logo (AboutMe).png';
+import aboutImage from '../assets/Profile Headshot Image.png';
 import skillsImage1 from '../assets/Norseman Nuptials (Skills).png';
 import skillsImage2 from '../assets/Northwoods (Skills).png';
 import '../styles/AboutMe.css';

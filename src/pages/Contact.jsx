@@ -3,6 +3,20 @@ import { FaGithub, FaLinkedin, FaInstagram, FaBriefcase } from 'react-icons/fa';
 import '../styles/Contact.css';
 
 const Contact = () => {
+  const handleSubmit = event => {
+    event.preventDefault();
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => alert("Form successfully submitted!"))
+      .catch(error => alert(error));
+  };
+
   return (
     <div className="contact-container">
       <div className="contact-left">
@@ -17,44 +31,44 @@ const Contact = () => {
         <h2>Social Links</h2>
         <ul className="social-links">
           <li>
-            <a 
-              href="https://github.com/RaeOfChey" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="social-link" 
+            <a
+              href="https://github.com/RaeOfChey"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
               title="GitHub Portfolio"
             >
               <FaGithub />
             </a>
           </li>
           <li>
-            <a 
-              href="https://cheyennaraelynn.myportfolio.com/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="social-link" 
+            <a
+              href="https://cheyennaraelynn.myportfolio.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
               title="Design Portfolio"
             >
               <FaBriefcase />
             </a>
           </li>
           <li>
-            <a 
-              href="https://www.linkedin.com/in/cheyenna-raelynn/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="social-link" 
+            <a
+              href="https://www.linkedin.com/in/cheyenna-raelynn/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
               title="LinkedIn"
             >
               <FaLinkedin />
             </a>
           </li>
           <li>
-            <a 
-              href="https://www.instagram.com/raeofchey/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="social-link" 
+            <a
+              href="https://www.instagram.com/raeofchey/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
               title="Instagram"
             >
               <FaInstagram />
@@ -63,13 +77,28 @@ const Contact = () => {
         </ul>
       </div>
       <div className="contact-right">
-        <form 
-          name="contact" // Name attribute for Netlify
-          method="POST" 
-          data-netlify="true" // Enable Netlify form handling
+        {/* Hidden form for Netlify */}
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          style={{ display: 'none' }} // Hide the form
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="text" name="firstName" />
+          <input type="text" name="lastName" />
+          <input type="text" name="country" />
+          <input type="tel" name="phone" />
+          <input type="email" name="email" />
+          <input type="text" name="subject" />
+          <textarea name="message"></textarea>
+        </form>
+
+        {/* Visible JavaScript-rendered form */}
+        <form
+          onSubmit={handleSubmit}
           className="contact-form"
         >
-          <input type="hidden" name="form-name" value="contact" /> {/* Hidden input for form name */}
           <p className="required-note"><strong>All fields are required</strong></p>
           <div className="name-fields">
             <label>

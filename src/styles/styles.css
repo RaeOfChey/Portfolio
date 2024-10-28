@@ -165,32 +165,34 @@ p, li {
 /* Footer Styles */
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Keeps items on the ends */
   align-items: center;
   background-color: var(--color-darkblue);
   font-family: "neulis", sans-serif;
   font-weight: 100;
-  text-align: center;
   padding: 25px 50px;
-  margin-top: 50px;
 }
-
 
 footer p {
   color: var(--color-lightblue);
-  margin: 0px;
-  
+  margin: 0;
+  text-align: left; /* Ensure text is left-aligned */
+  flex: 1; /* Allow this element to take available space */
+}
+
+.footer-links {
+  display: flex;
+  gap: 25px; /* Spacing between links */
+  justify-content: flex-end; /* Aligns the links to the right */
 }
 
 footer a {
   color: var(--color-lightblue);
-  padding-left: 25px;
   text-decoration: none;
 }
 
 footer a:hover {
   color: var(--color-blue);
-  padding-left: 25px;
 }
 
 #root > div {
@@ -276,68 +278,20 @@ main {
     width: auto;
     padding-right: 50px;
   }
-}
+
   .learn-more-button {
     font-size: 20px;
     padding: 8px 16px;
   }
 
   footer {
-    flex-direction: column;
-    padding: 20px 30px;
+    flex-direction: column; /* Stack items on smaller screens */
+    align-items: flex-start; /* Align items to start */
+    padding: 20px; /* Adjust padding */
   }
 
-/* Mobile (480px and below) */
-@media (max-width: 480px) {
-  main {
-    margin: 0 20px;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 15px 20px;
-    font-size: 14px;
-  }
-
-  .logo {
-    height: 50px;
-    width: 50px;
-  }
-
-  .navbar-links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 10px;
-  }
-
-  .navbar-links li {
-    padding-left: 0;
-    padding-top: 5px;
-  }
-
-  .learn-more-button {
-    font-size: 18px;
-    padding: 8px 12px;
-  }
-
-  footer {
-    flex-direction: column;
-    padding: 15px 20px;
-    text-align: center;
-  }
-
-  footer p,
-  footer a {
-    padding: 5px 0;
+  .footer-links {
+    justify-content: flex-start; /* Align links to the start */
+    margin-top: 10px; /* Add margin for spacing */
   }
 }
