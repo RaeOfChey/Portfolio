@@ -1,6 +1,7 @@
 # Portfolio
 
 ![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9bdca3e9-f016-4e13-bb90-d86575fbfdc8/deploy-status)](https://app.netlify.com/sites/cheyenna-raelynn-portfolio/deploys)
 
 ## Table of Contents
 1. [Description](#description)

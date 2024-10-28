@@ -82,7 +82,6 @@ const Contact = () => {
           name="contact"
           method="POST"
           data-netlify="true"
-          onSubmit={handleSubmit}
           className="contact-form"
           style={{ display: 'none' }}
         >
