@@ -5,10 +5,9 @@
 ## Table of Contents
 1. [Description](#description)
 2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-6. [License](#license)
-9. [Contact](#contact)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contact](#contact)
 
 ## Description
 This is my React portfolio showcasing my web development projects. It includes sections for About Me, Portfolio, Contact, and Resume, using React Router for navigation. The portfolio is designed to be mobile-first, with a polished user interface and links to my deployed applications and GitHub repositories.
