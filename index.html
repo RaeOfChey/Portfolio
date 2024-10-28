@@ -1,32 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/xkz6hxr.css">
     <title>Cheyenna's Portfolio</title>
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
-    <div id="root"></div>
-
-    <!-- Netlify Form -->
-    <form
-        name="contact"
-        method="POST"
-        data-netlify="true"
-        class="contact-form"
-    >
-        <input type="hidden" name="form-name" value="contact" />
-        <input type="text" name="firstName" required placeholder="First Name" />
-        <input type="text" name="lastName" required placeholder="Last Name" />
-        <input type="text" name="country" required placeholder="Country" />
-        <input type="tel" name="phone" required placeholder="Phone Number" />
-        <input type="email" name="email" required placeholder="Email" />
-        <input type="text" name="subject" required placeholder="Subject" />
-        <textarea name="message" required placeholder="Your Message"></textarea>
-        <button type="submit">Send Message</button>
+  </head>
+  <body>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <input type="text" name="country" />
+      <input type="tel" name="phone" />
+      <input type="email" name="email" />
+      <input type="text" name="subject" />
+      <textarea name="message"></textarea>
     </form>
-
-    <script src="/main.js"></script>
-</body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
