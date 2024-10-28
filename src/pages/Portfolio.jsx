@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/styles.css';
 import '../styles/Portfolio.css';
 
 import AutoBuilderImg from '../assets/Thumbnail Cover for Development Projects.png';

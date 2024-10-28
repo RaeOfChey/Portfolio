@@ -13,8 +13,8 @@
 
 
 main {
-  font-family: "neulis", sans-serif;
-  margin: 0px 200px;
+  font-family: 'neulis-sans', 'Arial', sans-serif;
+  margin: 0px 225px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -25,28 +25,26 @@ html {
 
 body {
   margin: 0px;
-  font-family: "neulis", sans-serif;
+  font-family: 'neulis-sans', 'Arial', sans-serif;
+  font-size: 18px;
 }
 
 h1 {
-  font-family: "neulis-cursive", sans-serif;
+  font-family: 'neulis-cursive', sans-serif;
   font-size: 50px;
   margin: 0px;
 }
 
 h2 {
-  font-family: "neulis", sans-serif;
   font-size: 26px;
 }
 
 p {
-  font-family: "neulis", sans-serif;
   line-height: 30px;
   margin-bottom: 25px;
 }
 
-p, li {
-  font-family: "neulis", sans-serif;
+li {
   line-height: 30px;
   margin-bottom: 5px;
 }
@@ -56,9 +54,9 @@ p, li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "neulis", sans-serif;
+  font-family: 'neulis-sans', 'Arial', sans-serif;
   font-weight: 600;
-  margin: 25px 100px 0px 100px;
+  margin: 25px 225px 0px 225px;
   font-size: 18px;
   padding-bottom: 100px;
 }
@@ -120,7 +118,7 @@ p, li {
   width: 80%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: var(--color-lightblue);
+  background-color: var(--color-blue);
 }
 
 .navbar-links li a:hover {
@@ -143,14 +141,14 @@ p, li {
 /* Home Page Header CTA */
 .learn-more-button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 12px 20px;
   margin-top: 10px;
   background-color: var(--color-darkblue);
   color: var(--color-lightblue);
   text-decoration: none;
   border-radius: 50px;
-  font-family: "neulis", sans-serif;
-  font-weight: 500;
+  font-family: 'neulis-sans', 'Arial', sans-serif;
+  font-weight: 400;
   width: auto;
   font-size: 24px;
   letter-spacing: .5px;
@@ -165,25 +163,27 @@ p, li {
 /* Footer Styles */
 footer {
   display: flex;
-  justify-content: space-between; /* Keeps items on the ends */
+  justify-content: space-between;
   align-items: center;
   background-color: var(--color-darkblue);
-  font-family: "neulis", sans-serif;
+  font-family: 'neulis-sans', 'Arial', sans-serif;
   font-weight: 100;
-  padding: 25px 50px;
+  padding: 25px 0px 25px 0px;
+  margin-top: 50px;
 }
 
 footer p {
   color: var(--color-lightblue);
-  margin: 0;
-  text-align: left; /* Ensure text is left-aligned */
-  flex: 1; /* Allow this element to take available space */
+  margin: 0px 225px;
+  text-align: left;
+  flex: 1;
 }
 
 .footer-links {
   display: flex;
-  gap: 25px; /* Spacing between links */
-  justify-content: flex-end; /* Aligns the links to the right */
+  gap: 25px;
+  justify-content: flex-end;
+  margin: 0px 225px;
 }
 
 footer a {
@@ -205,6 +205,25 @@ main {
   flex: 1;
 }
 
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  pointer-events: none;
+  transition: transform 0.15s ease;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+/* Enlarged cursor on button hover */
+.custom-cursor.cursor-hover {
+  transform: translate(-50%, -50%) scale(2);
+}
+
 /* Hamburger Menu Styles */
 .hamburger {
   display: none; /* Hide on larger screens */
@@ -221,7 +240,7 @@ main {
 }
 
 .hamburger .bar.open {
-  color: orange;
+  color: var(--color-black);
 }
 
 /* Responsive Styles */

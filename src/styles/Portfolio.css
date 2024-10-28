@@ -9,12 +9,14 @@
   color: var(--color-darkblue);
   background: none;
   border: none;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 26px;
   cursor: pointer;
   padding: 10px 15px;
   position: relative;
   transition: color 0.3s;
+  font-family: 'neulis-sans', 'Arial', sans-serif;
+  cursor: pointer;
 }
 
 /* Underline Effect */
@@ -36,7 +38,7 @@
   width: 70%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: var(--color-lightblue);
+  background-color: var(--color-blue);
 }
 
 .filter-buttons button:hover {
@@ -47,7 +49,6 @@
 .filter-buttons button:active {
   color: var(--color-black);
 }
-
 
 .project-cards {
   display: flex;
@@ -101,6 +102,6 @@
 
 /* Targets the second <p> (cta) on card */
 .project-card p:nth-of-type(2):hover {
-  color: var(--color-lightblue);
+  color: var(--color-black);
   font-weight: 600;
 }

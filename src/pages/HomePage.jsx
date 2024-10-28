@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import '../styles/styles.css';
 import '../styles/Header.css';
 import introImage from '../assets/Cheyennas Logo (HomePage).png';
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaInstagram, FaBriefcase } from 'react-icons/fa';
+import '../styles/styles.css';
 import '../styles/Contact.css';
 
 const Contact = () => {

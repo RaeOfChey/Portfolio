@@ -3,7 +3,7 @@
   width: 100%;
   align-items: center;
   padding-top: 50px;
-  gap:25px;
+  gap:50px;
 }
 
 .hero-text {
@@ -33,7 +33,7 @@
 .subtitle {
   font-size: 1.25rem;
   color: var(--color-black);
-  font-family: "neulis", sans-serif;
+  font-family: 'neulis-sans', 'Arial', sans-serif;
   width: 100%;
   padding-bottom: 25px;
 }

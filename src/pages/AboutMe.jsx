@@ -2,8 +2,8 @@ import React from 'react';
 import aboutImage from '../assets/Profile Headshot Image.png';
 import skillsImage1 from '../assets/Norseman Nuptials (Skills).png';
 import skillsImage2 from '../assets/Northwoods (Skills).png';
-import '../styles/AboutMe.css';
 import '../styles/styles.css';
+import '../styles/AboutMe.css';
 
 const AboutMe = () => {
     return (
@@ -16,12 +16,13 @@ const AboutMe = () => {
                     <h1>Who am I?</h1>
                     <p>
                         As a Graphic Designer transitioning into UI/UX, I hold a BFA in Graphic Design, have 5 years of professional design experience, and a full-stack development certificate from the University of Minnesota.
-                        <br />
-                        My unique approach blends design and code to deliver user-centered digital experiences that are visually appealing and solve real problems. In my next role, I’m eager to leverage my design expertise and growing proficiency in HTML, CSS, and JavaScript to create intuitive interfaces that enhance user satisfaction. I’m passionate about transforming user research and data into functional designs that elevate brand identity.
-                        <br />
                     </p>
-                    <br />
-                    Here are a few highlights of my accomplishments:<br />
+                    <p>
+                        My unique approach blends design and code to deliver user-centered digital experiences that are visually appealing and solve real problems. In my next role, I’m eager to leverage my design expertise and growing proficiency in HTML, CSS, JavaScript, TypeScript, and React to create intuitive interfaces that enhance user satisfaction. I’m passionate about transforming user research and data into functional designs that elevate brand identity.
+                    </p>
+                    <strong>
+                    Here are a few highlights of my accomplishments:
+                    </strong>
                     <ul>
                         <li>Boosted revenue by 35% in 4 months by contributing to the successful launch of a new eCommerce website using WordPress and Shopify integration, providing a streamlined user experience for customers by reducing friction in the sales process.</li>
                         <li>Increased customer satisfaction by 40% through the development and implementation of a user-friendly customer portal, enabling clients to track orders, access product documentation, and manage warranties independently.</li>
