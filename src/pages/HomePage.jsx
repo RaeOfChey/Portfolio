@@ -22,7 +22,7 @@ const HomePage = () => {
     <header className="header-container">
   <div className="hero-text">
     <h1 className="title">
-      Hello,<br />I'm Cheyenna,<br />a <span className="animated-title">{currentTitle}</span>
+      Hello,<br />I'm Cheyenna,<br /><span className="animated-title">{currentTitle}</span>
     </h1>
     <p className="subtitle">
       I design intuitive, visually engaging interfaces that bridge the gap between creativity and code to enhance user experiences.

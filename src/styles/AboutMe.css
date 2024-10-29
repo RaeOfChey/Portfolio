@@ -121,8 +121,48 @@
   padding-bottom: 0px;
 }
 
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  pointer-events: none;
+  transition: transform 0.15s ease;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+/* Enlarged cursor on button hover */
+.custom-cursor.cursor-hover {
+  transform: translate(-50%, -50%) scale(2);
+}
+
 
 /* Media queries: Adjustments for smaller screens */
+@media (max-width: 1145px) {
+  .about-container {
+      flex-direction: column; /* Stack columns on smaller screens */
+  }
+  .about-left {
+    width: 40%;
+  }
+  
+  .about-right {
+    width: 100%;
+  }
+  
+  .about-image {
+    width: 75%;
+    height: auto;
+  }
+}
+
+
+
+
 @media (max-width: 768px) {
   .about-container {
       flex-direction: column; /* Stack columns on smaller screens */

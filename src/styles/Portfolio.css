@@ -105,3 +105,22 @@
   color: var(--color-black);
   font-weight: 600;
 }
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  pointer-events: none;
+  transition: transform 0.15s ease;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+/* Enlarged cursor on button hover */
+.custom-cursor.cursor-hover {
+  transform: translate(-50%, -50%) scale(2);
+}

@@ -231,25 +231,6 @@ main {
   flex: 1;
 }
 
-.custom-cursor {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: black;
-  pointer-events: none;
-  transition: transform 0.15s ease;
-  transform: translate(-50%, -50%);
-  z-index: 1000;
-}
-
-/* Enlarged cursor on button hover */
-.custom-cursor.cursor-hover {
-  transform: translate(-50%, -50%) scale(2);
-}
-
 /* Hamburger Menu Styles */
 .hamburger {
   display: none; /* Hide on larger screens */
@@ -269,9 +250,66 @@ main {
   color: var(--color-black);
 }
 
+
 /* Responsive Styles */
 
-/* Tablet (768px and below) */
+/* 1920px styles */
+@media (max-width: 1920px) {
+  main {
+    margin: 0 200px;
+  }
+  .navbar {
+    margin: 25px 200px;
+  }
+  footer {
+    margin: 50px 0px 0px 0px;
+  }
+  footer p {
+    margin: 0px 50px 0px 200px;
+    text-align: left;
+  }
+  .footer-links {
+    margin: 0px 200px 0px 50px;
+  }
+}
+
+/* 1460px styles */
+@media (max-width: 1460px) {
+  main {
+    margin: 0 125px;
+  }
+  .navbar {
+    margin: 25px 125px;
+  }
+  footer p {
+    margin: 0px 50px 0px 125px;
+    text-align: left;
+  }
+  .footer-links {
+    margin: 0px 125px 0px 50px;
+  }
+}
+
+/* 1145px styles */
+@media (max-width: 1145px) {
+  main {
+    margin: 0 75px;
+  }
+  .navbar {
+    margin: 25px 75px;
+  }
+  footer p {
+    margin: 0px 50px 0px 75px;
+    text-align: left;
+  }
+  .footer-links {
+    margin: 0px 75px 0px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* 768px styles */
 @media (max-width: 768px) {
   main {
     margin: 0 50px;
@@ -286,8 +324,9 @@ main {
   }
 
   .navbar {
-    margin: 20px 50px;
+    margin: 20px 50px 0px 50px;
     font-size: 16px;
+    padding-bottom: 50px;
   }
 
   .logo {
@@ -330,13 +369,21 @@ main {
   }
 
   footer {
-    flex-direction: column; /* Stack items on smaller screens */
-    align-items: flex-start; /* Align items to start */
-    padding: 20px; /* Adjust padding */
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 25px;
+  }
+
+  footer p {
+    margin: 0px auto 20px auto;
+    font-size: 15px;
+    text-align: center;
   }
 
   .footer-links {
-    justify-content: flex-start; /* Align links to the start */
-    margin-top: 10px; /* Add margin for spacing */
+    justify-content: flex-start;
+    margin: auto;
+    font-size: 15px;
   }
 }
