@@ -28,27 +28,27 @@ To view my portfolio, simply navigate to the live website at [https://cheyenna-r
 
 Explore the various sections to see my design work, learn about my process, and discover how my skills can benefit your business goals.
 
-### Tools and Technologies
+## Tools and Technologies
 **Frontend Framework**
 - React: JavaScript framework for building UI components.
 - React Router : Navigation and routing between pages (HomePage, AboutMe, Portfolio, Contact, Resume).
   
-**JavaScript Superset**:
+**JavaScript Superset**
   - TypeScript : Integrated for improved type safety in component development.
 
 **Build Tool**
   - Vite: Fast build tool for project scaffolding and development.
 
-**Styling**:
+**Styling**
   - Custom CSS: Complete custom styling, including global and component-specific styles.
   - CSS Media Queries: Responsive design adjustments for various screen sizes.
   - CSS Variables: Manage colors and consistency across components.
   - CSS Animations: Custom cursor effects, scroll-to-top button rotation on scroll.
 
-**Hosting**:
+**Hosting**
   - Netlify: Deployment with integrated form handling and continuous deployment.
 
-### Dependencies and Installs
+## Dependencies and Installs
 
 **NPM Packages**:
   - `react`, `react-dom` - Core React dependencies.
