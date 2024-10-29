@@ -60,6 +60,14 @@ Explore the various sections to see my design work, learn about my process, and 
 ## License
 This project is licensed under the MIT License, which allows you to freely use, modify, and distribute this software, provided proper attribution is given.
 
+## Testing
+
+This project has undergone thorough testing for code quality and accessibility.
+- Code Quality tested by ESLint
+- Accessibility tested by [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- Unit Testing tested by [Jest](https://jestjs.io/)
+- Integration tested by [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+
 ## Contact
 For inquiries, collaboration opportunities, or feedback, please reach out to me:
 - GitHub: [GitHub](https://github.com/RaeOfChey)
