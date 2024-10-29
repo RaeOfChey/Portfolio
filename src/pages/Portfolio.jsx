@@ -2,18 +2,18 @@ import React, { useState } from 'react';
 import '../styles/styles.css';
 import '../styles/Portfolio.css';
 
-import AutoBuilderImg from '../assets/Thumbnail Cover for Development Projects.png';
-import EmployeeOrganizerImg from '../assets/Thumbnail Cover for Development Projects.png';
-import FuncTasticImg from '../assets/Thumbnail Cover for Development Projects.png';
-import ReadMeGenieImg from '../assets/Thumbnail Cover for Development Projects.png';
-import SlugfolioImg from '../assets/Thumbnail Cover for Development Projects.png';
-import NorsemanNuptialsImg from '../assets/Thumbnail Cover for Graphic Design Projects.png';
-import OchaTeaHouseImg from '../assets/Thumbnail Cover for Graphic Design Projects.png';
-import NorthWoodsImg from '../assets/Thumbnail Cover for Graphic Design Projects.png';
-import SecureWorldSignageImg from '../assets/Thumbnail Cover for Graphic Design Projects.png';
-import SecureWorldCollateralImg from '../assets/Thumbnail Cover for Graphic Design Projects.png';
-import SwankyCollateralImg from '../assets/Thumbnail Cover for Graphic Design Projects.png';
-import PolitosPizzaImg from '../assets/Thumbnail Cover for Graphic Design Projects.png';
+import AutoBuilderImg from '../assets/Auto Builder Thumbnail Image.png';
+import EmployeeOrganizerImg from '../assets/Employee Organizer Pro Thumbnail Image.png';
+import FuncTasticImg from '../assets/FuncTastic Thumbnail Image.png';
+import ReadMeGenieImg from '../assets/ReadMe Genie Thumbnail Image.png';
+import SlugfolioImg from '../assets/Slugfolio Thumbnail Image.png';
+import NorsemanNuptialsImg from '../assets/Norseman Nupitals Thumbnail Cover.png';
+import OchaTeaHouseImg from '../assets/Ocha Tea House Regular Thumbnail Image.png';
+import NorthWoodsImg from '../assets/North Woods Cold Brew Thumbnail Image.png';
+import SecureWorldSignageImg from '../assets/SecureWorld Conference Signage Thumbnail Image.png';
+import SecureWorldCollateralImg from '../assets/SecureWorld Marketing Collateral Thumbnail Image.png';
+import SwankyCollateralImg from '../assets/Swanky Marketing Collateral Thumbnail Image.png';
+import PolitosPizzaImg from '../assets/Politos Pizza Regular Thumbnail Image.png';
 
 const projects = [
   // Development Projects

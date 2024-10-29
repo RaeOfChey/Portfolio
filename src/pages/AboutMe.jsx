@@ -1,7 +1,7 @@
 import React from 'react';
 import aboutImage from '../assets/Profile Headshot Image.png';
-import skillsImage1 from '../assets/Norseman Nuptials (Skills).png';
-import skillsImage2 from '../assets/Northwoods (Skills).png';
+import skillsImage1 from '../assets/Example of dev work thumbnail image.png';
+import skillsImage2 from '../assets/Example of design work thumbnail image.png';
 import '../styles/styles.css';
 import '../styles/AboutMe.css';
 
