@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/styles.css';
 import '../styles/Portfolio.css';
+import ScrollButton from '../components/ScrollButton';
 
 import AutoBuilderImg from '../assets/Auto Builder Thumbnail Image.png';
 import EmployeeOrganizerImg from '../assets/Employee Organizer Pro Thumbnail Image.png';
@@ -14,9 +15,18 @@ import SecureWorldSignageImg from '../assets/SecureWorld Conference Signage Thum
 import SecureWorldCollateralImg from '../assets/SecureWorld Marketing Collateral Thumbnail Image.png';
 import SwankyCollateralImg from '../assets/Swanky Marketing Collateral Thumbnail Image.png';
 import PolitosPizzaImg from '../assets/Politos Pizza Regular Thumbnail Image.png';
+import CodexXImg from '../assets/CodexX Thumbnail Image.png';
 
 const projects = [
   // Development Projects
+  {
+    title: 'CodeX',
+    link: 'https://github.com/RaeOfChey/CodexX',
+    type: 'React, TypeScript, Vite, Bulma, Node.js, Express, PostgreSQL, RAWG API',
+    category: 'Development',
+    cta: 'Read case study →',
+    image: CodexXImg,
+  },
   {
     title: 'Auto Builder',
     link: 'https://github.com/RaeOfChey/autobuilder',
@@ -145,6 +155,9 @@ function Portfolio() {
           </div>
         ))}
       </div>
+
+      {/* Add the ScrollButton component at the bottom of the page */}
+      <ScrollButton />
     </div>
   );
 }

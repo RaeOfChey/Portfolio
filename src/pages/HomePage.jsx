@@ -3,7 +3,7 @@ import '../styles/styles.css';
 import '../styles/Header.css';
 import introImage from '../assets/Cheyennas Logo (HomePage).png';
 
-const titles = ["UX Designer", "Web Designer", "Graphic Designer" ];
+const titles = ["UI/UX Designer", "Front-End Developer", "Web Designer" ];
 
 const HomePage = () => {
   const [currentTitle, setCurrentTitle] = useState(titles[0]);
@@ -24,7 +24,7 @@ const HomePage = () => {
     <h1 className="title">
       Hello,<br />I'm Cheyenna,<br /><span className="animated-title">{currentTitle}</span>
     </h1>
-    <p className="subtitle">
+    <p className="subtitle"> 
       I design intuitive, visually engaging interfaces that bridge the gap between creativity and code to enhance user experiences.
     </p>
     <a href="/portfolio" className="learn-more-button">

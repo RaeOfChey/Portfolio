@@ -74,8 +74,7 @@ function App() {
                 <Footer />
                 {/* Custom cursor element */}
                 <div ref={cursorRef} className="custom-cursor" />
-                {/* Scroll-to-top button */}
-                <ScrollButton />  {/* Add ScrollButton here */}
+                
             </div>
         </Router>
     );
