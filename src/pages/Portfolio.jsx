@@ -16,37 +16,30 @@ import SecureWorldCollateralImg from '../assets/SecureWorld Marketing Collateral
 import SwankyCollateralImg from '../assets/Swanky Marketing Collateral Thumbnail Image.png';
 import PolitosPizzaImg from '../assets/Politos Pizza Regular Thumbnail Image.png';
 import CodexXImg from '../assets/CodexX Thumbnail Image.png';
+import BookVaultImg from '../assets/BookVault Thumbnail Image.png';
 
 const projects = [
   // Development Projects
   {
+    title: 'BookVault',
+    link: 'https://github.com/RaeOfChey/CodexX',
+    type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Apollo Server (GraphQL), Node.js, MongoDB Atlas',
+    category: 'Development',
+    cta: 'Read case study →',
+    image: BookVaultImg,
+  },
+  {
     title: 'CodeX',
     link: 'https://github.com/RaeOfChey/CodexX',
-    type: 'React, TypeScript, Vite, Bulma, Node.js, Express, PostgreSQL, RAWG API',
+    type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Vite, Bulma, Node.js, PostgreSQL, RAWG API',
     category: 'Development',
     cta: 'Read case study →',
     image: CodexXImg,
   },
   {
-    title: 'Auto Builder',
-    link: 'https://github.com/RaeOfChey/autobuilder',
-    type: 'TypeScript',
-    category: 'Development',
-    cta: 'Read case study →',
-    image: AutoBuilderImg,
-  },
-  {
-    title: 'Employee Organizer Pro',
-    link: 'https://github.com/RaeOfChey/EmployeeOrganizerPro',
-    type: 'TypeScript',
-    category: 'Development',
-    cta: 'Read case study →',
-    image: EmployeeOrganizerImg,
-  },
-  {
     title: 'FuncTastic',
     link: 'https://github.com/RaeOfChey/function-checklist',
-    type: 'HTML, CSS, JavaScript',
+    type: 'HTML, CSS, JavaScript, Bootstrap',
     category: 'Development',
     cta: 'Read case study →',
     image: FuncTasticImg,
@@ -54,7 +47,7 @@ const projects = [
   {
     title: 'ReadMe Genie',
     link: 'https://github.com/RaeOfChey/ReadMeGenie',
-    type: 'JavaScript',
+    type: 'JavaScript, TypeScript, Node.js, Inquirer',
     category: 'Development',
     cta: 'Read case study →',
     image: ReadMeGenieImg,
@@ -62,7 +55,7 @@ const projects = [
   {
     title: 'Slugfolio',
     link: 'https://github.com/RaeOfChey/Slugfolio',
-    type: 'HTML, CSS, JavaScript',
+    type: 'HTML, CSS, JavaScript, TypeScript, Node.js, Inquirer',
     category: 'Development',
     cta: 'Read case study →',
     image: SlugfolioImg,

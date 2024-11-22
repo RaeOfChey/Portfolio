@@ -89,7 +89,7 @@
 
 /* Targets the first <p> (type) on card */
 .project-card p:nth-of-type(1) {
-  padding: 0px;
+  padding: 0px 5px;
   margin: 0px;
 }
 
