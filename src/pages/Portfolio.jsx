@@ -3,6 +3,7 @@ import '../styles/styles.css';
 import '../styles/Portfolio.css';
 import ScrollButton from '../components/ScrollButton';
 
+import AutoPipelineImg from '../assets/Auto Pipeline Thumbnail Image.png';
 import AutoBuilderImg from '../assets/Auto Builder Thumbnail Image.png';
 import EmployeeOrganizerImg from '../assets/Employee Organizer Pro Thumbnail Image.png';
 import FuncTasticImg from '../assets/FuncTastic Thumbnail Image.png';
@@ -21,6 +22,14 @@ import BookVaultImg from '../assets/BookVault Thumbnail Image.png';
 const projects = [
   // Development Projects
   {
+    title: 'Auto Pipeline',
+    link: 'https://github.com/RaeOfChey/AutoPipeline',
+    type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, GitHub Actions, MongoDB Atlas, CI/CD, Cypress',
+    category: 'Development',
+    cta: 'Read case study →',
+    image: AutoPipelineImg,
+  },
+  {
     title: 'BookVault',
     link: 'https://github.com/RaeOfChey/CodexX',
     type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Apollo Server (GraphQL), Node.js, MongoDB Atlas',
@@ -37,6 +46,14 @@ const projects = [
     image: CodexXImg,
   },
   {
+    title: 'Employee Organizer',
+    link: 'https://github.com/RaeOfChey/EmployeeOrganizerPro',
+    type: 'HTML, CSS, JavaScript, Bootstrap, Node.js, Inquirer, npm, CLI, PostgresSQL',
+    category: 'Development',
+    cta: 'Read case study →',
+    image: EmployeeOrganizerImg,
+  },
+  {
     title: 'FuncTastic',
     link: 'https://github.com/RaeOfChey/function-checklist',
     type: 'HTML, CSS, JavaScript, Bootstrap',
@@ -47,10 +64,18 @@ const projects = [
   {
     title: 'ReadMe Genie',
     link: 'https://github.com/RaeOfChey/ReadMeGenie',
-    type: 'JavaScript, TypeScript, Node.js, Inquirer',
+    type: 'JavaScript, TypeScript, Node.js, Inquirer, npm, CLI',
     category: 'Development',
     cta: 'Read case study →',
     image: ReadMeGenieImg,
+  },
+  {
+    title: 'Auto Builder',
+    link: 'https://github.com/RaeOfChey/Autobuilder',
+    type: 'JavaScript, TypeScript, Node.js, Inquirer, npm, OOP, CLI',
+    category: 'Development',
+    cta: 'Read case study →',
+    image: AutoBuilderImg,
   },
   {
     title: 'Slugfolio',
