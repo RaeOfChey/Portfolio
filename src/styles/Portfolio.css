@@ -73,6 +73,8 @@
 
 .project-card:hover {
   transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 /* Targets all text on card */
@@ -123,4 +125,19 @@
 /* Enlarged cursor on button hover */
 .custom-cursor.cursor-hover {
   transform: translate(-50%, -50%) scale(2);
+}
+
+/* Media Queries */
+/* 768px styles */
+@media (max-width: 768px) {
+  .project-card {
+    width: calc(50% - 20px);
+  }
+}
+
+/* 460px styles */
+@media (max-width: 460px) {
+  .project-card {
+    width: 100%;
+  }
 }

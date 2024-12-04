@@ -3,7 +3,7 @@ import '../styles/styles.css';
 import '../styles/Header.css';
 import introImage from '../assets/Cheyennas Logo (HomePage).png';
 
-const titles = ["UI/UX Designer", "Front-End Developer", "Web Designer" ];
+const titles = ["Front-End Developer", "UI/UX Designer", "Graphic Designer" ];
 
 const HomePage = () => {
   const [currentTitle, setCurrentTitle] = useState(titles[0]);

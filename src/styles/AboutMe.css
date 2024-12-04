@@ -70,7 +70,7 @@
   max-width: 75%;
   height: auto;
   border-radius: 5px;
-  display: block; 
+  display: block;
 }
 
 .skills-image:last-child {
@@ -93,7 +93,7 @@
 }
 
 .image-wrapper:hover .overlay {
-  opacity: 1; 
+  opacity: 1;
 }
 
 .overlay-text {
@@ -144,37 +144,68 @@
 /* Media queries: Adjustments for smaller screens */
 @media (max-width: 1145px) {
   .about-container {
-      flex-direction: column; /* Stack columns on smaller screens */
+    flex-direction: column;
+    margin-top: 0px;
   }
+
   .about-left {
     width: 40%;
   }
-  
+
   .about-right {
     width: 100%;
   }
-  
+
   .about-image {
     width: 75%;
     height: auto;
   }
 }
 
-
-
-
 @media (max-width: 768px) {
   .about-container {
-      flex-direction: column; /* Stack columns on smaller screens */
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+  .about-image {
+    width: 100%;
+    height: auto;
+    margin: 0px;
   }
 
   .skills-container {
-      display: flex;
-      flex-direction: column; /* Stack the skills section on smaller screens */
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
   }
 
   .skills-left,
   .skills-right {
-      width: 100%; /* Make skills sections full width on small screens */
+    width: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+  .about-container {
+    margin-top: 0px;
+  }
+
+  .about-image {
+    width: 150%;
+    height: auto;
+    margin: 0px;
+  }
+
+  .skills-lists {
+    flex-direction: column;
+  }
+
+  .skills-column {
+    width: 100%;
+  }
+
+  .skills-image {
+    max-width: 100%;
   }
 }

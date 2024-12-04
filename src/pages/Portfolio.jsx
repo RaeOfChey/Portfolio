@@ -3,6 +3,7 @@ import '../styles/styles.css';
 import '../styles/Portfolio.css';
 import ScrollButton from '../components/ScrollButton';
 
+import FilmTrackerImg from '../assets/Film Tracker Thumbnail Image.png';
 import AutoPipelineImg from '../assets/Auto Pipeline Thumbnail Image.png';
 import AutoBuilderImg from '../assets/Auto Builder Thumbnail Image.png';
 import EmployeeOrganizerImg from '../assets/Employee Organizer Pro Thumbnail Image.png';
@@ -21,6 +22,14 @@ import BookVaultImg from '../assets/BookVault Thumbnail Image.png';
 
 const projects = [
   // Development Projects
+  {
+    title: 'Film Tracker',
+    link: 'https://github.com/RaeOfChey/FilmTracker',
+    type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Node.js',
+    category: 'Development',
+    cta: 'Read case study →',
+    image: FilmTrackerImg,
+  },
   {
     title: 'Auto Pipeline',
     link: 'https://github.com/RaeOfChey/AutoPipeline',
