@@ -1,40 +1,61 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/styles.css';
 import '../styles/Header.css';
-import introImage from '../assets/Cheyennas Logo (HomePage).png';
-
-const titles = ["Front-End Developer", "UI/UX Designer", "Graphic Designer" ];
 
 const HomePage = () => {
-  const [currentTitle, setCurrentTitle] = useState(titles[0]);
-  let index = 0;
+  const phrase = "developer + designer";
+  const [typedText, setTypedText] = useState("");
+  const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      index = (index + 1) % titles.length; // Loop through all the titles
-      setCurrentTitle(titles[index]);
-    }, 2000); // Change title every 2 seconds
+    let typingInterval;
 
-    return () => clearInterval(interval);
-  }, []);
+    if (index < phrase.length) {
+      typingInterval = setInterval(() => {
+        setTypedText((prev) => prev + phrase[index]);
+        setIndex((prev) => prev + 1);
+      }, 100);
+    } else {
+      const resetTimeout = setTimeout(() => {
+        setTypedText("");
+        setIndex(0);
+      }, 2000);
+
+      return () => clearTimeout(resetTimeout);
+    }
+
+    return () => clearInterval(typingInterval);
+  }, [index, phrase]);
 
   return (
     <header className="header-container">
-  <div className="hero-text">
-    <h1 className="title">
-      Hello,<br />I'm Cheyenna,<br /><span className="animated-title">{currentTitle}</span>
-    </h1>
-    <p className="subtitle"> 
-      I design intuitive, visually engaging interfaces that bridge the gap between creativity and code to enhance user experiences.
-    </p>
-    <a href="/portfolio" className="learn-more-button">
-      Learn more
-    </a>
-  </div>
-  <div className="intro-image">
-    <img src={introImage} alt="Introduction" />
-  </div>
-</header>
+      <div className="hero-text">
+        <h1 className="title">
+          Hello, I'm Cheyenna,<br />
+          <span className="animated-title">{typedText}</span>
+          <span className="cursor">|</span>
+        </h1>
+        <p className="subtitle">
+          I design intuitive, visually engaging interfaces that bridge the gap between creativity and code to enhance user experiences.
+        </p>
+
+        {/* New Content Section */}
+        <div className="experience-section">
+          <div className="experience-item">
+            <h2>01</h2>
+            <p>5 years experience in design combined with development to craft user-focused solutions for industries including marketing, education, and e-commerce.</p>
+          </div>
+          <div className="experience-item">
+            <h2>02</h2>
+            <p>Blending creativity and technical expertise, I bring designs to life through clean code, intuitive interfaces, and thoughtful user experiences.</p>
+          </div>
+          <div className="experience-item">
+            <h2>03</h2>
+            <p>I bridge the gap between design and development, ensuring products are both visually engaging and seamlessly functional to drive user satisfaction and business goals.</p>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 };
 

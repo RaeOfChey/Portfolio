@@ -55,9 +55,8 @@ li {
   justify-content: space-between;
   font-family: 'neulis-sans', 'Arial', sans-serif;
   font-weight: 600;
-  margin: 25px 225px 0px 225px;
+  margin: 25px 200px 50px 200px;
   font-size: 18px;
-  padding-bottom: 100px;
 }
 
 .logo {
@@ -90,6 +89,7 @@ li {
   display: inline-block;
   position: relative;
   padding-left: 25px;
+  font-weight: 500;
 }
 
 .navbar-links li a {
@@ -188,18 +188,20 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-darkblue);
+  background-color: #fff;
   font-family: 'neulis-sans', 'Arial', sans-serif;
   font-weight: 100;
   padding: 25px 0px 25px 0px;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 footer p {
-  color: var(--color-lightblue);
+  color: var(--color-darkblue);
   margin: 0px 225px;
   text-align: left;
   flex: 1;
+  font-weight: 400;
+  color: gray;
 }
 
 .footer-links {
@@ -210,8 +212,9 @@ footer p {
 }
 
 footer a {
-  color: var(--color-lightblue);
+  color: var(--color-darkblue);
   text-decoration: none;
+  font-weight: 400;
 }
 
 footer a:hover {
@@ -254,9 +257,6 @@ main {
 @media (max-width: 1920px) {
   main {
     margin: 0 200px;
-  }
-  .navbar {
-    margin: 25px 200px;
   }
   footer {
     margin: 50px 0px 0px 0px;

@@ -4,10 +4,10 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <p>Content copyright &copy; {new Date().getFullYear()} by Cheyenna Raelynn. All rights reserved.</p>
+      <p>Cheyenna Raelynn &copy; {new Date().getFullYear()}</p>
       <div className="footer-links">
         <a href="https://github.com/RaeOfChey" target="_blank" rel="noopener noreferrer">
-          GitHub Portfolio
+          GitHub
         </a>
         <a href="https://cheyennaraelynn.myportfolio.com/" target="_blank" rel="noopener noreferrer">
           Design Portfolio

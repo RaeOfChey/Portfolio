@@ -19,9 +19,18 @@ import SwankyCollateralImg from '../assets/Swanky Marketing Collateral Thumbnail
 import PolitosPizzaImg from '../assets/Politos Pizza Regular Thumbnail Image.png';
 import CodexXImg from '../assets/CodexX Thumbnail Image.png';
 import BookVaultImg from '../assets/BookVault Thumbnail Image.png';
+import EmployEaseImg from '../assets/EmployEase Thumbnail Image.png';
 
 const projects = [
   // Development Projects
+  {
+    title: 'EmployEase',
+    link: 'https://github.com/RaeOfChey/FilmTracker',
+    type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Node.js, Bootstrap, Vite, ESLint',
+    category: 'Development',
+    cta: 'Read case study →',
+    image: EmployEaseImg,
+  },
   {
     title: 'Film Tracker',
     link: 'https://github.com/RaeOfChey/FilmTracker',
