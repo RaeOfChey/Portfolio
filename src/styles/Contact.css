@@ -1,6 +1,6 @@
 .contact-container {
   display: flex;
-  gap:50px;
+  gap:25px;
 }
 
 /* Contact Me side of the page */
@@ -121,7 +121,7 @@
 .contact-form input,
 .contact-form textarea {
   padding: 10px;
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
   border-radius: 3px;
   width: auto;
   margin-top: 5px;

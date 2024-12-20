@@ -38,8 +38,9 @@ h2 {
 }
 
 p {
-  line-height: 30px;
   margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 li {
@@ -79,8 +80,8 @@ li {
 .navbar-links li {
   display: inline-block;
   position: relative;
-  padding-left: 25px;
-  font-weight: 550;
+  padding-left: 15px;
+  font-weight: 450;
 }
 
 .navbar-links li a {
@@ -88,37 +89,25 @@ li {
   text-decoration: none;
   transition: color 0.3s;
   position: relative;
-  padding-bottom: 10px;
-}
-
-.navbar-links li a::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: -5px;
-  width: 0;
-  height: 3px;
-  background-color: var(--color-pink);
-  border-radius: 10px;
-  transition: width 0.4s ease, left 0.4s ease, transform 0.4s ease;
-}
-
-.navbar-links li a:hover::after,
-.navbar-links li a.active::after {
-  width: 80%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: var(--color-pink);
+  padding: 10px;
+  border: 2px solid #fff;
 }
 
 .navbar-links li a:hover {
-  color: var(--color-pink);
+  color: var(--color-blue);
+  padding: 10px;
+  border: 2px solid var(--color-blue);
+  border-radius: 50px;
+  width: auto;
+  margin-top: 5px;
 }
 
 /* Active Link Styles */
 .navbar-links li a.active,
 .navbar-links li a:active {
-  color: var(--color-pink);
+  border: 2px solid var(--color-blue);
+  color: var(--color-blue);
+  border-radius: 50px;
   position: relative
 }
 
@@ -207,61 +196,27 @@ main {
   display: none; /* Hide on larger screens */
 }
 
-/* .custom-cursor {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: black;
-  pointer-events: none;
-  transition: transform 0.15s ease;
-  transform: translate(-50%, -50%);
-  z-index: 1000;
-}
-
 /* Enlarged cursor on button hover */
 .custom-cursor.cursor-hover {
   transform: translate(-50%, -50%) scale(2);
-} */
+}
 
 
 /* Responsive Styles */
-
-/* 1281px styles */
-@media (max-width: 1281px) {
-  main {
-    margin: 0 200px;
-  }
-  footer {
-    margin: 50px 0px 0px 0px;
-  }
-  footer p {
-    margin: 0px 50px 0px 200px;
-    text-align: left;
-  }
-  .footer-links {
-    margin: 0px 200px 0px 50px;
-  }
-}
-
 /* 1281px - 1025px styles */
 @media (max-width: 1281px) and (min-width: 1025px) {
   main {
     margin: 0 125px;
   }
   .navbar {
-    margin: 15px 35px;
+    margin: 25px 125px;
     font-size: 16px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
   }
-
   .logo {
     height: 60px;
     width: 60px;
   }
-
   .hamburger {
     display: flex;
     cursor: pointer;
@@ -269,11 +224,9 @@ main {
     gap: 5px;
     color: var(--color-darkblue);
   }
-
   .hamburger:hover {
     color: var(--color-blue);
   }
-  
   .navbar-links {
     display: none;
     position: absolute;
@@ -284,11 +237,9 @@ main {
     width: 100%;
     align-items: flex-end;
   }
-  
   .navbar-links.open {
     display: flex;
   }
-  
   .navbar-links li {
     text-align: right;
     padding: 5px;
@@ -304,190 +255,65 @@ main {
   .footer-links {
     margin: 0px 125px 0px 50px;
   }
+  .carousel-item {
+    font-size: 16px;
+    height: 100px; 
+    width: 100px;
+  }
 }
 
-/* 1025px - 769px styles */
-/* @media (max-width: 1025px) and (min-width: 769px) {
+@media (max-width: 1024px) and (min-width: 768px) {
   main {
-    margin: 0 55px;
+    margin: 0 75px;
   }
   .navbar {
-    margin: 25px 55px;
+    margin: 25px 75px;
+    font-size: 16px;
+    padding-bottom: 20px;
   }
-  footer {
-    margin: 25px 0px 0px 0px;
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+  .navbar-links li {
+    padding-right: 40px;
   }
   footer p {
-    margin: 0px 50px 0px 75px;
-    text-align: left;
-    font-size: 18px;
+    margin: 0px 40px 0px 75px;
   }
   .footer-links {
-    margin: 0px 75px 0px 50px;
-    display: flex;
+    margin: 0px 75px 0px 40px;
+  }
+  .scroll-button {
+    width: 60px;
+    height: 60px;
   }
 }
 
-/* 769px - 480px styles */
-/* @media (max-width: 769px) and (min-width: 480px) {
+@media (max-width: 767px) and (min-width: 481px) {
   main {
     margin: 0 50px;
   }
-
-  h1 {
-    font-size: 30px;
-  }
-
-  h2 {
-    font-size: 22px;
-  }
-
   .navbar {
-    margin: 20px 50px 0px 50px;
+    margin: 20px 50px;
     font-size: 16px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
-
   .logo {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
   }
-
-  .hamburger {
-    display: flex;
-    cursor: pointer;
-    flex-direction: column;
-    gap: 5px;
-  }
-  
-  .navbar-links {
-    display: none;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    background-color: var(--color-white);
-    flex-direction: column;
-    width: 100%;
-    align-items: flex-end;
-  }
-  
-  .navbar-links.open {
-    display: flex;
-  }
-  
   .navbar-links li {
-    text-align: right;
-    padding: 5px;
-    width: auto;
-    padding-right: 50px;
+    padding-right: 2px;
   }
-
-  .learn-more-button {
-    font-size: 20px;
-    padding: 8px 16px;
-  }
-
-  footer {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    margin-top: 25px;
-  }
-
   footer p {
-    margin: auto;
-    line-height: 2;
-    font-size: 15px;
-    text-align: center;
+    margin: 0px 30px 0px 50px;
   }
-
   .footer-links {
-    justify-content: flex-start;
-    margin: auto;
-    font-size: 15px;
+    margin: 0px 50px 0px 30px;
   }
-} //
-
-/* 480px styles */
-@media (max-width: 480px) {
-  main {
-    margin: 0 35px;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
-
-  h2 {
-    font-size: 22px;
-  }
-
-  .navbar {
-    margin: 15px 35px;
-    font-size: 16px;
-    padding-bottom: 25px;
-  }
-
-  .logo {
-    height: 60px;
+  .scroll-button {
     width: 60px;
-  }
-
-  .hamburger {
-    display: flex;
-    cursor: pointer;
-    flex-direction: column;
-    gap: 5px;
-    color: var(--color-darkblue);
-  }
-
-  .hamburger:hover {
-    color: var(--color-blue);
-  }
-  
-  .navbar-links {
-    display: none;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    background-color: var(--color-white);
-    flex-direction: column;
-    width: 100%;
-    align-items: flex-end;
-  }
-  
-  .navbar-links.open {
-    display: flex;
-  }
-  
-  .navbar-links li {
-    text-align: right;
-    padding: 5px;
-    width: auto;
-    padding-right: 50px;
-  }
-
-  footer {
-    flex-direction: column;
-    padding: 20px;
-    margin-top: 0px;
-    margin-bottom: 15px;
-    align-items: center;
-  }
-
-  footer p {
-    margin: auto;
-    line-height: 1.7;
-    font-size: 15px;
-    text-align: center;
-    padding-bottom: 25px;
-  }
-
-  .footer-links {
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    font-size: 15px;
-    text-align: center;
+    height: 60px;
   }
 }
