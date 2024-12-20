@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom'; // Use NavLink
+import { NavLink } from 'react-router-dom';
 import logo from '../assets/Cheyenna Logo (Nav).png';
 import '../styles/styles.css';
-import ResumePDF from '../assets/Cheyenna-Raelynn-Resume.pdf';
+import { MenuIcon } from '../components/MenuIcon';
 
 function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,12 +20,13 @@ function Navigation() {
           </div>
         </NavLink>
       </div>
+      
+      {/* The hamburger icon now directly reflects the isOpen state */}
       <div className="hamburger" onClick={toggleMenu}>
-        <span className={isOpen ? "bar open" : "bar"}></span>
-        <span className={isOpen ? "bar open" : "bar"}></span>
-        <span className={isOpen ? "bar open" : "bar"}></span>
+        <MenuIcon isOpen={isOpen} />
       </div>
-      <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
+      
+      <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
         <li><NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>About</NavLink></li>
         <li><NavLink to="/portfolio" className={({ isActive }) => (isActive ? 'active' : '')}>Portfolio</NavLink></li>
         <li><NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>Contact</NavLink></li>

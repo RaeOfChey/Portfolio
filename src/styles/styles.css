@@ -85,7 +85,7 @@ li {
 }
 
 .navbar-links li a {
-  color: var(--color-darkpink);
+  color: var(--color-darkblue);
   text-decoration: none;
   transition: color 0.3s;
   position: relative;
@@ -172,7 +172,7 @@ footer p {
 }
 
 footer a {
-  color: var(--color-darkpink);
+  color: var(--color-darkblue);
   text-decoration: none;
   font-weight: 450;
 }
@@ -217,11 +217,14 @@ main {
     height: 60px;
     width: 60px;
   }
+  .menu-bars {
+    font-size: 2rem;
+
+  }
   .hamburger {
     display: flex;
     cursor: pointer;
     flex-direction: column;
-    gap: 5px;
     color: var(--color-darkblue);
   }
   .hamburger:hover {
@@ -232,19 +235,42 @@ main {
     position: absolute;
     top: 70px;
     right: 0;
-    background-color: var(--color-white);
+
     flex-direction: column;
-    width: 100%;
+    width: 14%;
     align-items: flex-end;
+    transition: display 0.3s ease;
   }
   .navbar-links.open {
     display: flex;
+    margin-right: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 0px;
+    /* background-color: #fff;
+    border: 2px solid var(--color-lightblue); */
   }
   .navbar-links li {
     text-align: right;
     padding: 5px;
     width: auto;
     padding-right: 50px;
+    padding-left: 50px;
+    border: none;
+  }
+  .navbar-links li a {
+    padding: 0px;
+    border: none;
+  }
+  .navbar-links li a.active,
+  .navbar-links li a:hover,
+  .navbar-links li a:active {
+    border: none;
+  }
+  .scroll-button {
+    width: 65px;
+    height: 65px;
   }
   footer p {
     margin: 0px 50px 0px 125px;
@@ -252,13 +278,11 @@ main {
     font-size: 17px;
     line-height:25px;
   }
+  footer a {
+    font-size: 17px;
+  }
   .footer-links {
     margin: 0px 125px 0px 50px;
-  }
-  .carousel-item {
-    font-size: 1px;
-    height: 100px; 
-    width: 100px;
   }
 }
 
@@ -277,6 +301,19 @@ main {
   }
   .navbar-links li {
     padding-right: 0px;
+  }
+  .menu-bars {
+    font-size: 2rem;
+
+  }
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    color: var(--color-darkblue);
+  }
+  .hamburger:hover {
+    color: var(--color-blue);
   }
   footer p {
     margin: 0px 40px 0px 75px;
