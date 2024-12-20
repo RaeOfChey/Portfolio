@@ -6,9 +6,6 @@ import './styles/Portfolio.css';
 
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
-import ScrollButton from './components/ScrollButton';  // Import ScrollButton
-
-import HomePage from './pages/HomePage';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -60,23 +57,23 @@ function App() {
 
     return (
         <Router>
-            <div>
-                <Navigation />
-                <main>
-                    <Routes>
-                        <Route path="/" element={<HomePage />} />
-                        <Route path="/about" element={<AboutMe />} />
-                        <Route path="/portfolio" element={<Portfolio />} />
-                        <Route path="/contact" element={<Contact />} />
-                        <Route path="/resume" element={<Resume />} />
-                    </Routes>
-                </main>
-                <Footer />
-                {/* Custom cursor element */}
-                <div ref={cursorRef} className="custom-cursor" />
-                
-            </div>
-        </Router>
+  <div>
+    <Navigation />
+    <main>
+      <Routes>
+        {/* Change the default route to /about */}
+        <Route path="/" element={<AboutMe />} /> 
+        <Route path="/about" element={<AboutMe />} /> {/* Optional: keeps the /about route */}
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+    </main>
+    <Footer />
+    {/* Custom cursor element */}
+    <div ref={cursorRef} className="custom-cursor" />
+  </div>
+</Router>
     );
 }
 

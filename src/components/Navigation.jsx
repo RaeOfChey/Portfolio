@@ -29,7 +29,6 @@ function Navigation() {
         <li><NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>About</NavLink></li>
         <li><NavLink to="/portfolio" className={({ isActive }) => (isActive ? 'active' : '')}>Portfolio</NavLink></li>
         <li><NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>Contact</NavLink></li>
-        <li><a href={ResumePDF} target="_blank" rel="noopener noreferrer">Resume</a></li>
       </ul>
     </nav>
   );

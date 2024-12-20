@@ -36,7 +36,7 @@ const HomePage = () => {
           <span className="cursor">|</span>
         </h1>
         <p className="subtitle">
-          I design intuitive, visually engaging interfaces that bridge the gap between creativity and code to enhance user experiences.
+          I build engagaing and accessible, web experience that bridge the gap between creativity and code to drive user satisfaction and business growth.
         </p>
 
         {/* New Content Section */}

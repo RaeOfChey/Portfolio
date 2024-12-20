@@ -28,7 +28,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/FilmTracker',
     type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Node.js, Bootstrap, Vite, ESLint',
     category: 'Development',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: EmployEaseImg,
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/FilmTracker',
     type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Node.js',
     category: 'Development',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: FilmTrackerImg,
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/AutoPipeline',
     type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, GitHub Actions, MongoDB Atlas, CI/CD, Cypress',
     category: 'Development',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: AutoPipelineImg,
   },
   {
@@ -52,7 +52,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/CodexX',
     type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Apollo Server (GraphQL), Node.js, MongoDB Atlas',
     category: 'Development',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: BookVaultImg,
   },
   {
@@ -60,7 +60,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/CodexX',
     type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Vite, Bulma, Node.js, PostgreSQL, RAWG API',
     category: 'Development',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: CodexXImg,
   },
   {
@@ -68,7 +68,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/EmployeeOrganizerPro',
     type: 'HTML, CSS, JavaScript, Bootstrap, Node.js, Inquirer, npm, CLI, PostgresSQL',
     category: 'Development',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: EmployeeOrganizerImg,
   },
   {
@@ -76,7 +76,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/function-checklist',
     type: 'HTML, CSS, JavaScript, Bootstrap',
     category: 'Development',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: FuncTasticImg,
   },
   {
@@ -84,7 +84,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/ReadMeGenie',
     type: 'JavaScript, TypeScript, Node.js, Inquirer, npm, CLI',
     category: 'Development',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: ReadMeGenieImg,
   },
   {
@@ -92,7 +92,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/Autobuilder',
     type: 'JavaScript, TypeScript, Node.js, Inquirer, npm, OOP, CLI',
     category: 'Development',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: AutoBuilderImg,
   },
   {
@@ -100,7 +100,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/Slugfolio',
     type: 'HTML, CSS, JavaScript, TypeScript, Node.js, Inquirer',
     category: 'Development',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: SlugfolioImg,
   },
 
@@ -110,7 +110,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-norseman-nuptials',
     type: 'Branding',
     category: 'Graphic Design',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: NorsemanNuptialsImg,
   },
   {
@@ -118,7 +118,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-ocha-tea-house',
     type: 'Branding',
     category: 'Graphic Design',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: OchaTeaHouseImg,
   },
   {
@@ -126,7 +126,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-north-woods-cold-brew',
     type: 'Package Design',
     category: 'Graphic Design',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: NorthWoodsImg,
   },
   {
@@ -134,7 +134,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/2023-themed-conference-signage-secureworld',
     type: 'Print Design',
     category: 'Graphic Design',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: SecureWorldSignageImg,
   },
   {
@@ -142,7 +142,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-marketing-secureworld',
     type: 'Branding, Digital, Print, and Multimedia Design',
     category: 'Graphic Design',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: SecureWorldCollateralImg,
   },
   {
@@ -150,7 +150,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-marketing-swanky',
     type: 'Branding, Digital Design',
     category: 'Graphic Design',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: SwankyCollateralImg,
   },
   {
@@ -158,7 +158,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/rebranding-politos-pizza',
     type: 'Branding',
     category: 'Graphic Design',
-    cta: 'Read case study →',
+    cta: 'Read case study',
     image: PolitosPizzaImg,
   },
 ];
@@ -172,25 +172,28 @@ function Portfolio() {
 
   return (
     <div className="portfolio">
-      <h1>Portfolio</h1>
+      <h1 className="portfolio-h2">Portfolio</h1>
       <p>Look through my work, read through my case studies, have a look at final designs and try out prototypes I’ve built.</p>
       <div className="filter-buttons">
         <button onClick={() => setFilter('All')} className={filter === 'All' ? 'active' : ''}>All</button>
         <button onClick={() => setFilter('Development')} className={filter === 'Development' ? 'active' : ''}>Development</button>
-        <button onClick={() => setFilter('Graphic Design')} className={filter === 'Graphic Design' ? 'active' : ''}>Graphic Design</button>
+        <button onClick={() => setFilter('Graphic Design')} className={filter === 'Graphic Design' ? 'active' : ''}>Design</button>
       </div>
+
       <div className="project-cards">
-        {filteredProjects.map((project, index) => (
-          <div key={index} className="project-card">
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
-              <img src={project.image} alt={project.title} />
-              <h2 className="project-title">{project.title}</h2>
-              <p className="project-type">{project.type}</p>
-              <p className="project-cta">{project.cta}</p>
-            </a>
-          </div>
-        ))}
-      </div>
+  {filteredProjects.map((project, index) => (
+    <div key={index} className="project-card">
+      <a href={project.link} target="_blank" rel="noopener noreferrer">
+        <img src={project.image} alt={project.title} />
+        <div className="project-info">
+          <h2 className="project-title">{project.title}</h2>
+          <p className="project-type">{project.type}</p>
+          <p className="project-cta">{project.cta}</p>
+        </div>
+      </a>
+    </div>
+  ))}
+</div>
 
       {/* Add the ScrollButton component at the bottom of the page */}
       <ScrollButton />

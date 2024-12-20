@@ -21,15 +21,15 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <div className="contact-left">
-        <h1>Contact Me</h1>
-        <p>
+        <h1 className="contact-title">Contact Me</h1>
+        <p className="contact-message">
           If you have any questions or comments, please contact me via email or send me a message using the contact form.
         </p>
         <p>
           <span className="email-label">Email</span> <br />
           <a href="mailto:cheyennaraelynn@gmail.com" className="email-link">cheyennaraelynn@gmail.com</a>
         </p>
-        <h2>Social Links</h2>
+        <h2 className="email-label">Social Links</h2>
         <ul className="social-links">
           <li>
             <a
@@ -101,7 +101,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="contact-form"
         >
-          <p className="required-note"><strong>All fields are required</strong></p>
+          <p className="required-note">All fields are required</p>
           <div className="name-fields">
             <label>
               First Name

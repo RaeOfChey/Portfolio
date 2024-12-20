@@ -6,11 +6,11 @@
 
 /* Filter Button Styles */
 .filter-buttons button {
-  color: var(--color-darkblue);
+  color: var(--color-darkpink);
   background: none;
   border: none;
-  font-weight: 500;
-  font-size: 26px;
+  font-weight: 400;
+  font-size: 24px;
   cursor: pointer;
   padding: 10px 15px;
   position: relative;
@@ -27,7 +27,7 @@
   bottom: -5px;
   width: 0;
   height: 3px;
-  background-color: var(--color-lightblue);
+  background-color: var(--color-pink);
   border-radius: 10px;
   transition: width 0.4s ease, left 0.4s ease, transform 0.4s ease;
 }
@@ -38,32 +38,33 @@
   width: 70%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: var(--color-blue);
+  background-color: var(--color-pink);
 }
 
 .filter-buttons button:hover {
-  color: var(--color-black);
+  color: var(--color-pink);
 }
 
 .filter-buttons button.active,
 .filter-buttons button:active {
-  color: var(--color-black);
+  color: var(--color-pink);
 }
 
 .project-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 35px;
+  gap: 25px;
 }
 
 .project-card {
-  border: 1px solid #cccccc;
   border-radius: 5px;
-  width: calc(33.333% - 35px);
+  width: calc(50% - 25px);
   text-align: center;
   overflow: hidden;
-  transition: transform 0.3s;
+  /* box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border: 2px solid var(--color-blue);
 }
 
 .project-card img {
@@ -72,10 +73,11 @@
 }
 
 .project-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
+
 
 /* Targets all text on card */
 .project-card a {
@@ -85,27 +87,38 @@
 
 /* Targets project titles on card */
 .project-card h2 {
-  padding: 15px 10px 0px 10px;
-  padding-top: 5px;
+  /* padding: 15px 10px 0px 10px; */
+  font-size: 26px;
+  color: #000;
 }
 
 /* Targets the first <p> (type) on card */
 .project-card p:nth-of-type(1) {
-  padding: 0px 5px;
+  padding: 0px 25px;
   margin: 0px;
 }
 
 /* Targets the second <p> (cta) on card */
 .project-card p:nth-of-type(2) {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #fff;
+  border: 2px solid var(--color-darkblue);
   color: var(--color-darkblue);
-  font-weight: 600;
-  padding-bottom: 15px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: 'neulis-sans', 'Arial', sans-serif;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
 }
 
 /* Targets the second <p> (cta) on card */
 .project-card p:nth-of-type(2):hover {
-  color: var(--color-black);
-  font-weight: 600;
+  border: 2px solid var(--color-blue);
+  color: var(--color-blue);
 }
 
 .custom-cursor {
