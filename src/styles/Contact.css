@@ -130,7 +130,7 @@
 /* Button */
 .contact-form button {
   display: inline-block;
-  padding: 12px 20px;
+  padding: 10px 20px;
   background-color: #fff;
   border: 2px solid var(--color-darkblue);
   color: var(--color-darkpink);
@@ -147,3 +147,5 @@
   border: 2px solid var(--color-blue);
   color: var(--color-blue);
 }
+
+main

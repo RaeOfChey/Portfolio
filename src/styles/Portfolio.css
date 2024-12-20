@@ -98,6 +98,7 @@
   margin: 0px;
   font-size: 18px;
   line-height: 1.5;
+  color: #000;
 }
 
 /* Targets the second <p> (cta) on card */
@@ -115,6 +116,12 @@
   font-size: 24px;
   letter-spacing: 0.5px;
   text-align: center;
+}
+
+.project-card a .project-cta {
+  /* Add styles specific to project-cta */
+  color: var(--color-darkblue);
+  padding: 8px 20px;
 }
 
 /* Targets the second <p> (cta) on card */
@@ -145,6 +152,11 @@
 
 
 /* Media Queries */
+@media (max-width: 1281px) and (min-width: 1025px) {
+  .see-my-work-button {
+    font-size: 22px;
+  }
+}
 /* 768px styles */
 @media (max-width: 768px) {
   .project-card {

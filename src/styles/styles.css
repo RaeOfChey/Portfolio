@@ -54,7 +54,7 @@ li {
   align-items: center;
   justify-content: space-between;
   font-family: 'neulis-sans', 'Arial', sans-serif;
-  margin: 25px 200px 100px 200px;
+  margin: 25px 225px 100px 225px;
   font-size: 18px;
 }
 
@@ -235,7 +235,6 @@ main {
     position: absolute;
     top: 70px;
     right: 0;
-
     flex-direction: column;
     width: 14%;
     align-items: flex-end;

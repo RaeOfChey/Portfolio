@@ -49,8 +49,8 @@
   display: inline-block;
   padding: 12px 20px;
   background-color: #fff;
-  border: 2px solid var(--color-darkpink);
-  color: var(--color-darkpink);
+  border: 2px solid var(--color-darkblue);
+  color: var(--color-darkblue);
   text-decoration: none;
   border-radius: 50px;
   font-family: 'neulis-sans', 'Arial', sans-serif;
