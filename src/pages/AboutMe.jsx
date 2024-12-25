@@ -62,7 +62,7 @@ const AboutMe = () => {
                         <span className="cursor">|</span>
                     </h1>
                     <p className="subtitle">
-                        I craft engaging and accessible web experiences, combining creativity and code to deliver solutions that inspire users and drive results.
+                    I craft engaging, accessible web experiences that inspire users, boost engagement, and deliver measurable results.
                     </p>
                     <div className="button-container">
                         <Link to="/portfolio">
