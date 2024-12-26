@@ -11,6 +11,10 @@
   color: var(--color-darkblue);
 }
 
+.sticky {
+  white-space: nowrap; /* Prevent breaking for "designer" and cursor */
+}
+
 .cursor {
   color: #000;
   animation: blink 1s infinite step-end; 
@@ -287,6 +291,56 @@
   .who-am-i-title {
     margin: 0px 0px 20px 0px;
     font-size: 40px;
+  }
+  .title-column .experience-item-container {
+    grid-template-columns: 1fr;
+  }
+  .title-column {
+    margin-bottom: 20px;
+  }
+  .experience-section {
+    margin-bottom: 30px;
+  }
+  .experience-item h2 {
+    font-size: 1px;
+  }
+  .experience-item p {
+    font-size: 16px;
+  }
+  .toolkit-title {
+    font-size: 40px;
+    margin: 0px 0px 20px 0px;
+  }
+  .carousel-item {
+    font-size: 16px;
+    height: 100px; 
+    width: 100px;
+  }
+  .project-card p:nth-of-type(2) {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 38px;
+  }
+  .subtitle {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+  .button-container {
+    margin-bottom: 30px;
+  }
+  .see-my-work-button {
+    font-size: 19px;
+  }
+  .who-am-i-title {
+    margin: 0px 0px 20px 0px;
+    font-size: 40px;
+  }
+  .title-column .experience-item-container {
+    grid-template-columns: 1fr;
   }
   .title-column {
     margin-bottom: 20px;

@@ -56,11 +56,18 @@ const AboutMe = () => {
             {/* HomePage content */}
             <header className="header-container">
                 <div className="hero-text">
-                    <h1 className="title">
-                        Hello, I'm Cheyenna,<br />
-                        <span className="animated-title">{typedText}</span>
-                        <span className="cursor">|</span>
-                    </h1>
+
+                <h1 className="title">
+  Hello, I'm Cheyenna, 
+  <span className="animated-title">
+    {typedText.replace("designer", "")}
+    <span className="sticky">
+      designer<span className="cursor">|</span>
+    </span>
+  </span>
+</h1>
+
+                    
                     <p className="subtitle">
                     I craft engaging, accessible web experiences that inspire users, boost engagement, and deliver measurable results.
                     </p>

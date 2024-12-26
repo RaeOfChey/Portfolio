@@ -247,8 +247,8 @@ main {
     padding-bottom: 10px;
     border-radius: 5px;
     padding-left: 0px;
-    /* background-color: #fff;
-    border: 2px solid var(--color-lightblue); */
+    background-color: #fff;
+    border: 2px solid var(--color-lightblue);
   }
   .navbar-links li {
     text-align: right;
@@ -348,5 +348,115 @@ main {
   .scroll-button {
     width: 60px;
     height: 60px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 481px) {
+  main {
+    margin: 0 50px;
+  }
+  .navbar {
+    margin: 20px 50px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+  footer p {
+    margin: 0px 30px 0px 50px;
+  }
+  .footer-links {
+    margin: 0px 50px 0px 30px;
+  }
+  .scroll-button {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    margin: 0 25px;
+  }
+  .navbar {
+    margin: 25px 25px;
+    font-size: 17px;
+    padding-bottom: 25px;
+  }
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+  .menu-bars {
+    font-size: 2rem;
+
+  }
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    color: var(--color-darkblue);
+  }
+  .hamburger:hover {
+    color: var(--color-blue);
+  }
+  .navbar-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    flex-direction: column;
+    width: 14%;
+    align-items: flex-end;
+    transition: display 0.3s ease;
+  }
+  .navbar-links.open {
+    display: flex;
+    margin-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 50px;
+    background-color: #fff;
+    border: 2px solid var(--color-lightblue);
+  }
+  .navbar-links li {
+    text-align: right;
+    padding: 5px;
+    width: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: none;
+  }
+  .navbar-links li a {
+    padding: 0px;
+    border: none;
+  }
+  .navbar-links li a.active,
+  .navbar-links li a:hover,
+  .navbar-links li a:active {
+    border: none;
+  }
+  .scroll-button {
+    width: 65px;
+    height: 65px;
+    position: fixed;
+  }
+  footer p {
+    margin: 0 10px; 
+    text-align: center; 
+    font-size: 16px; 
+  }
+  
+  .footer-links {
+    margin: 0 10px; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 15px;
+  }
+  footer a {
+    font-size: 17px;
   }
 }
