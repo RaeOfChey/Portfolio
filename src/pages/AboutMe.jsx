@@ -6,15 +6,10 @@ import ScrollButton from '../components/ScrollButton';
 import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
-    const phrase = "developer + designer";
-    const [typedText, setTypedText] = useState("");
-    const [index, setIndex] = useState(0);
-
-    // Drag scroll state
-    const carouselContainerRef = useRef(null); // Reference to the carousel container
-    const [isDragging, setIsDragging] = useState(false); // To track dragging state
-    const [startX, setStartX] = useState(0); // Starting X position for dragging
-    const [scrollLeft, setScrollLeft] = useState(0); // Scroll position
+    const phrase = "developer + designer";  
+    const [typedText, setTypedText] = useState("");  
+    const [index, setIndex] = useState(0);  
+    const [isTypingFinished, setIsTypingFinished] = useState(false); 
 
     // Handle typing effect
     useEffect(() => {
@@ -24,13 +19,19 @@ const AboutMe = () => {
                 setIndex((prev) => prev + 1);
             }, 100);
 
-            return () => clearInterval(typingInterval);
+            return () => clearInterval(typingInterval); 
+        } else {
+            setIsTypingFinished(true); // Typing is finished
         }
 
         return undefined;
     }, [index, phrase]);
 
-    // Mouse events for dragging
+    const carouselContainerRef = useRef(null);
+    const [isDragging, setIsDragging] = useState(false);
+    const [startX, setStartX] = useState(0);
+    const [scrollLeft, setScrollLeft] = useState(0);
+
     const handleMouseDown = (e) => {
         setIsDragging(true);
         setStartX(e.clientX);
@@ -56,17 +57,15 @@ const AboutMe = () => {
             {/* HomePage content */}
             <header className="header-container">
                 <div className="hero-text">
-
                     <h1 className="title">
                         Hello, I'm Cheyenna,
                         <span className="animated-title">
-                            {typedText.replace("designer", "")}
-                            <span className="sticky">
-                                designer<span className="cursor">|</span>
+                            {typedText}
+                            <span className={`sticky ${isTypingFinished ? 'cursor-finished' : ''}`}>
+                                <span className="cursor">|</span>
                             </span>
                         </span>
                     </h1>
-
                     <p className="subtitle">
                         I craft engaging, accessible web experiences that inspire users, boost engagement, and deliver measurable results.
                     </p>

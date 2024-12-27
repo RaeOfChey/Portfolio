@@ -88,7 +88,7 @@
 
 .name-fields label:nth-child(2),
 .country-number-fields label:nth-child(2) {
-    margin-left: 25px; /* Adds 25px space to the left of the second label */
+    margin-left: 25px;
 }
 
 /* All input box labels */
@@ -125,6 +125,13 @@
   border-radius: 3px;
   width: auto;
   margin-top: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid black;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
 }
 
 /* Button */
@@ -148,4 +155,67 @@
   color: var(--color-blue);
 }
 
-main
+@media (max-width: 480px) {
+.contact-container p {
+  font-size: 16px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+}
+.social-links {
+  margin-bottom: 0px;
+}
+.contact-container {
+  flex-direction: column; 
+  gap: 20px; 
+}
+.contact-left,
+.contact-right {
+  flex: 100%; 
+}
+/* Social links remain on the same row */
+.social-links {
+  display: flex;
+  gap: 15px;
+  padding: 0px;
+  margin-top: 0px;
+  justify-content: flex-start; 
+}
+/* Ensure all form fields are in a single column */
+.contact-form {
+  flex-direction: column; 
+  gap: 15px; 
+}
+/* Adjust labels for form fields */
+.contact-form label {
+  padding-bottom: 15px;
+  font-size: 16px; 
+}
+/* Stack First Name + Last Name input fields */
+.name-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+/* Stack Country + Phone Number input fields */
+.country-number-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+.contact-form button {
+  width: auto; 
+  padding: 10px 20px; 
+  font-size: 17px; 
+  margin: 20px auto;
+}
+.required-note p {
+  font-size: 16px;
+}
+.email-label {
+  font-size: 16px;
+}
+.name-fields label:nth-child(2),
+.country-number-fields label:nth-child(2) {
+  margin-left: 0px;
+}
+}
