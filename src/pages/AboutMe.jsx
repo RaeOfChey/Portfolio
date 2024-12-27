@@ -57,19 +57,18 @@ const AboutMe = () => {
             <header className="header-container">
                 <div className="hero-text">
 
-                <h1 className="title">
-  Hello, I'm Cheyenna, 
-  <span className="animated-title">
-    {typedText.replace("designer", "")}
-    <span className="sticky">
-      designer<span className="cursor">|</span>
-    </span>
-  </span>
-</h1>
+                    <h1 className="title">
+                        Hello, I'm Cheyenna,
+                        <span className="animated-title">
+                            {typedText.replace("designer", "")}
+                            <span className="sticky">
+                                designer<span className="cursor">|</span>
+                            </span>
+                        </span>
+                    </h1>
 
-                    
                     <p className="subtitle">
-                    I craft engaging, accessible web experiences that inspire users, boost engagement, and deliver measurable results.
+                        I craft engaging, accessible web experiences that inspire users, boost engagement, and deliver measurable results.
                     </p>
                     <div className="button-container">
                         <Link to="/portfolio">
@@ -131,7 +130,7 @@ const AboutMe = () => {
                             "Git", "GitHub", "Jest", "Cypress", "Figma", "Netlify", "MongoDB",
                             "Node", "jQuery", "OOP", "JSON", "API", "Insomnia", "SQL", "Python"
                         ]
-                            .concat([ 
+                            .concat([
                                 "HTML/CSS", "JavaScript", "TypeScript", "React", "Sass/SCSS", "Tailwind CSS",
                                 "Git", "GitHub", "Jest", "Cypress", "Figma", "Netlify", "MongoDB",
                                 "Node", "jQuery", "OOP", "JSON", "API", "Insomnia", "SQL", "Python"
