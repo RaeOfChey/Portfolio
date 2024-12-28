@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9bdca3e9-f016-4e13-bb90-d86575fbfdc8/deploy-status)](https://app.netlify.com/sites/cheyenna-raelynn-portfolio/deploys)
 
-![Website mockup image_V1](https://github.com/user-attachments/assets/1a0c6b1f-0f4e-4b97-922c-39b92bd10365)
+![0_Website mockup image_V2](https://github.com/user-attachments/assets/954d787d-f334-443d-9ceb-a7455fea88a2)
 
 ## Table of Contents
 1. [Description](#description)
