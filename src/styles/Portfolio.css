@@ -151,8 +151,39 @@
 
 /* Media Queries */
 @media (max-width: 1281px) and (min-width: 1025px) {
-  .see-my-work-button {
-    font-size: 22px;
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 17px;
+  }
+  .filter-buttons button {
+    font-size: 21px;
+  }
+  .project-card h2 {
+    font-size: 21px; 
+  }
+  .project-card p:nth-of-type(1) {
+    font-size: 17px;
+  }
+  .project-card a .project-cta {
+    font-size: 21px; 
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .project-card a .project-cta {
+    font-size: 21px; 
+  }
+  p {
+    font-size: 17px; 
+  }
+  .project-card p:nth-of-type(1) {
+    font-size: 17px; 
+  }
+  .filter-buttons button,
+  .project-card h2 {
+    font-size: 21px; 
   }
 }
 
@@ -160,9 +191,6 @@
 @media (max-width: 768px) {
   .project-card {
     width: calc(50% - 20px);
-  }
-  .project-card p:nth-of-type(2) {
-    font-size: 19px;
   }
 }
 

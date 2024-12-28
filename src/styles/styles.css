@@ -208,6 +208,9 @@ main {
   main {
     margin: 0 125px;
   }
+  .custom-cursor {
+    display: none;
+  }
   .navbar {
     margin: 25px 125px;
     font-size: 17px;
@@ -219,7 +222,6 @@ main {
   }
   .menu-bars {
     font-size: 2rem;
-
   }
   .hamburger {
     display: flex;
@@ -254,7 +256,7 @@ main {
     text-align: right;
     padding: 5px;
     width: auto;
-    padding-right: 50px;
+    padding-right: 55px;
     padding-left: 50px;
     border: none;
   }
@@ -289,21 +291,20 @@ main {
   main {
     margin: 0 75px;
   }
+  .custom-cursor {
+    display: none;
+  }
   .navbar {
     margin: 25px 75px;
     font-size: 17px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
   }
   .logo {
-    height: 50px;
-    width: 50px;
-  }
-  .navbar-links li {
-    padding-right: 0px;
+    height: 60px;
+    width: 60px;
   }
   .menu-bars {
     font-size: 2rem;
-
   }
   .hamburger {
     display: flex;
@@ -313,6 +314,44 @@ main {
   }
   .hamburger:hover {
     color: var(--color-blue);
+  }
+  .navbar-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    flex-direction: column;
+    width: 14%;
+    align-items: flex-end;
+    transition: display 0.3s ease;
+  }
+  .navbar-links.open {
+    display: flex;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 0px;
+    padding-right: 23px;
+    background-color: #fff;
+    border: 2px solid var(--color-lightblue);
+  }
+  .navbar-links li {
+    text-align: right;
+    padding: 5px;
+    width: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: none;
+  }
+  .navbar-links li a {
+    padding: 0px;
+    border: none;
+  }
+  .navbar-links li a.active,
+  .navbar-links li a:hover,
+  .navbar-links li a:active {
+    border: none;
   }
   footer p {
     margin: 0px 40px 0px 75px;
@@ -326,92 +365,12 @@ main {
   }
 }
 
-@media (max-width: 767px) and (min-width: 481px) {
-  main {
-    margin: 0 50px;
-  }
-  .navbar {
-    margin: 20px 50px;
-    font-size: 16px;
-    padding-bottom: 20px;
-  }
-  .logo {
-    height: 50px;
-    width: 50px;
-  }
-  .footer-links {
-    margin: 0px 50px 0px 30px;
-  }
-  footer {
-    flex-direction: column; 
-    align-items: center;
-    padding: 20px 0;
-  }
-  footer p {
-    padding-bottom: 20px;
-    text-align: center;
-    font-size: 16px;
-  }
-  .footer-links {
-    display: flex;
-    flex-direction: column; 
-    gap: 20px;
-    align-items: center;
-  }
-  footer a {
-    font-size: 16px;
-  }
-  .scroll-button {
-    width: 60px;
-    height: 60px;
-  }
-}
-
-@media (max-width: 767px) and (min-width: 481px) {
-  main {
-    margin: 0 50px;
-  }
-  .navbar {
-    margin: 20px 50px;
-    font-size: 16px;
-    padding-bottom: 20px;
-  }
-  .logo {
-    height: 50px;
-    width: 50px;
-  }
-  .footer-links {
-    margin: 0px 50px 0px 30px;
-  }
-  footer {
-    flex-direction: column; 
-    align-items: center;
-    padding: 20px 0;
-  }
-  footer p {
-    padding-bottom: 20px;
-    text-align: center;
-    font-size: 16px;
-    margin: 0px;
-  }
-  .footer-links {
-    display: flex;
-    flex-direction: column; 
-    gap: 20px;
-    align-items: center;
-  }
-  footer a {
-    font-size: 16px;
-  }
-  .scroll-button {
-    width: 60px;
-    height: 60px;
-  }
-}
-
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   main {
     margin: 0 15px;
+  }
+  .custom-cursor {
+    display: none;
   }
   .navbar {
     margin: 15px 25px;
@@ -424,7 +383,6 @@ main {
   }
   .menu-bars {
     font-size: 2rem;
-
   }
   .hamburger {
     display: flex;
