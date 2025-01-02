@@ -6,10 +6,10 @@ import ScrollButton from '../components/ScrollButton';
 import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
-    const phrase = "developer + designer";  
-    const [typedText, setTypedText] = useState("");  
-    const [index, setIndex] = useState(0);  
-    const [isTypingFinished, setIsTypingFinished] = useState(false); 
+    const phrase = "developer + designer";
+    const [typedText, setTypedText] = useState("");
+    const [index, setIndex] = useState(0);
+    const [isTypingFinished, setIsTypingFinished] = useState(false);
 
     // Handle typing effect
     useEffect(() => {
@@ -19,7 +19,7 @@ const AboutMe = () => {
                 setIndex((prev) => prev + 1);
             }, 100);
 
-            return () => clearInterval(typingInterval); 
+            return () => clearInterval(typingInterval);
         } else {
             setIsTypingFinished(true); // Typing is finished
         }
@@ -86,29 +86,38 @@ const AboutMe = () => {
 
                     <div className="experience-item-container">
                         <div className="experience-item">
-                            <CircleCheckIcon className="circle-check-icon" />
-                            <h2>A creative with a technical edge</h2>
+                            <div className="experience-item-header">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h2>A creative with a technical edge</h2>
+                            </div>
                             <p>5 years of experience in design, expanded with development skills to create user-focused solutions for industries like marketing, education, and e-commerce.</p>
                         </div>
 
                         <div className="experience-item">
-                            <CircleCheckIcon className="circle-check-icon" />
-                            <h2>A bridge between design and development</h2>
+                            <div className="experience-item-header">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h2>A bridge between design and development</h2>
+                            </div>
                             <p>I bring designs to life through clean code, intuitive interfaces, and seamless user experiences that align with business goals.</p>
                         </div>
 
                         <div className="experience-item">
-                            <CircleCheckIcon className="circle-check-icon" />
-                            <h2>A champion of thoughtful solutions</h2>
+                            <div className="experience-item-header">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h2>A champion of thoughtful solutions</h2>
+                            </div>
                             <p>Combining analytical thinking and a love for creativity, I craft accessible, visually compelling, and highly functional web experiences.</p>
                         </div>
 
                         <div className="experience-item">
-                            <CircleCheckIcon className="circle-check-icon" />
-                            <h2>An advocate for user-first design</h2>
+                            <div className="experience-item-header">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h2>An advocate for user-first design</h2>
+                            </div>
                             <p>I prioritize the user in every project, leveraging my design expertise and technical skills to deliver engaging, accessible, and impactful digital experiences.</p>
                         </div>
                     </div>
+
                 </div>
             </div>
 

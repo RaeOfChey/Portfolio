@@ -25,7 +25,7 @@ const projects = [
   // Development Projects
   {
     title: 'EmployEase',
-    link: 'https://github.com/RaeOfChey/FilmTracker',
+    link: '/employease-case-study',
     type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Node.js, Bootstrap, Vite, ESLint',
     category: 'Development',
     cta: 'Read Case Study',

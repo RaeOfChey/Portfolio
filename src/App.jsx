@@ -11,6 +11,8 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
+import EmployEaseCaseStudy from './pages/EmployEaseCaseStudy';
+
 function App() {
     const cursorRef = useRef(null);
 
@@ -65,6 +67,7 @@ function App() {
         <Route path="/" element={<AboutMe />} /> 
         <Route path="/about" element={<AboutMe />} /> {/* Optional: keeps the /about route */}
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/employease-case-study" element={<EmployEaseCaseStudy />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
