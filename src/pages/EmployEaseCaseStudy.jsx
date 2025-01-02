@@ -12,11 +12,12 @@ import { UsersIcon } from '../components/UsersIcon';
 import { FilePenLineIcon } from '../components/FilePenLineIcon';
 import { CogIcon } from '../components/CogIcon';
 import { TrendingUpIcon } from '../components/TrendingUpIcon';
+import { SparklesIcon } from '../components/SparklesIcon';
 
 import CaseStudyImage1 from '../assets/EmployEase CaseStudy Image1.png';
-import CaseStudyImage2 from '../assets/EmployEase CaseStudy Image2.png';
+// import CaseStudyImage2 from '../assets/EmployEase CaseStudy Image2.png';
 import CaseStudyImage3 from '../assets/EmployEase CaseStudy Image3.png';
-import CaseStudyImage4 from '../assets/EmployEase CaseStudy Image4.png';
+// import CaseStudyImage4 from '../assets/EmployEase CaseStudy Image4.png';
 import CaseStudyImage5 from '../assets/EmployEase CaseStudy Image5.png';
 import CaseStudyImage6 from '../assets/EmployEase CaseStudy Image6.png';
 import CaseStudyImage7 from '../assets/EmployEase CaseStudy Image7.png';
@@ -91,13 +92,12 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Problems</h3>
-                        {/* <h5>Lost opportunities</h5> */}
+                        <h3>User Problems</h3>
                     </div>
 
                     <div className="section-right">
                         <p>
-                            Job seekers struggle to organize and track their applications without a centralized system. They rely on scattered tools like spreadsheets, emails, and notepads because there is no unified platform tailored specifically to address the pain points of tracking job applications and deadlines. These pain points include:
+                            Job seekers face a variety of challenges in today’s fragmented and complex job search landscape. The process of applying for jobs quickly becomes exhausting, as users waste valuable time and energy dealing with pain points such as:
                         </p>
 
                         <div className="context-item-container">
@@ -105,30 +105,40 @@ const EmployEaseCaseStudy = () => {
                             <div className="context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
-                                    <h4>Disorganization</h4>
+                                    <h4>Fragmented job search process</h4>
                                 </div>
                                 <p>
-                                    Tracking application statuses is cumbersome. Users have to manually maintain spreadsheets or rely on multiple tools that don't provide an intuitive way to organize their job search progress. This leads to confusion over which jobs they've applied to, when follow-ups are needed, what the next steps should be, or lost time.
+                                    Job seekers face the challenge of searching for jobs across multiple platforms, each with its own set of listings. This fragmented process leads to outdated or irrelevant results and requires users to juggle different sites.
                                 </p>
                             </div>
 
                             <div className="context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
-                                    <h4>Fragmentation</h4>
+                                    <h4>Lack of organization and tracking</h4>
                                 </div>
                                 <p>
-                                    Accessing real-time, relevant job data is challenging. Users have to visit multiple platforms to search for opportunities. This process is time-consuming and often results in outdated or irrelevant listings, further complicating their job search.
+                                    Without a unified system, job seekers often rely on spreadsheets or manual note-taking to track applications. This not only results in confusion over application statuses, deadlines, and follow-up actions but also wastes valuable time and energy as users try to stay organized across multiple tools.
                                 </p>
                             </div>
 
                             <div className="context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
-                                    <h4>Complexity</h4>
+                                    <h4>High maintenance</h4>
                                 </div>
                                 <p>
-                                    Existing tools lack integration and user-friendliness, making it difficult for users to manage their applications efficiently. Poor design and fragmented workflows cause frustration, especially for users who are not tech-savvy or who need to access their data across multiple devices.
+                                    Job seekers often have to create and maintain detailed profiles on multiple job search platforms. This process is repetitive and time-consuming, requiring constant updates. It's a tedious task that doesn't add value for the user, especially when recruiters don't look at all these profiles.
+                                </p>
+                            </div>
+
+                            <div className="context-item">
+                                <div className="context-item-header">
+                                    <DownvoteIcon className="downvote-icon" />
+                                    <h4>Overwhelming features</h4>
+                                </div>
+                                <p>
+                                    Many job search platforms, like LinkedIn, offer a plethora of features that can overwhelm users and complicate the job search process. With so many options and distractions, users can easily feel lost or confused, making it difficult to focus on their primary goal: Getting a job.
                                 </p>
                             </div>
                         </div>
@@ -144,7 +154,7 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="section-right">
                     <p>
-                        The challenge was to revolutionize the job search process by prioritizing simplicity, organization, and actionable insights. By integrating features like real-time job data, personalized tracking, and user-friendly design, EmployEase aimed to empower job seekers to navigate their job hunt with confidence and clarity.
+                        The challenge was to create a unified, user-friendly platform that streamlines the job search process, enhances organization, and minimizes unnecessary complexity, saving users valuable time and energy, and empowering them to navigate their job hunt with confidence and clarity.
                     </p>
                 </div>
             </section>
@@ -158,7 +168,7 @@ const EmployEaseCaseStudy = () => {
                 <div className="section-right">
 
                     <p>
-                        The design and development of EmployEase focused on key principles to guide decisions and ensured the platform met user needs in a meaningful and effective way:
+                        The design and development of EmployEase focused on these key principles to guide decisions and ensured the platform met user needs in a meaningful and effective way:
                     </p>
 
                     <div className="context-item-container">
@@ -174,22 +184,22 @@ const EmployEaseCaseStudy = () => {
                         </div>
 
                         <div className="context-item">
-                            <div className="context-item-header iteration-feedback">
-                                <RefreshIcon className="refresh-icon" />
-                                <h4>Iteration based on user feedback</h4>
-                            </div>
-                            <p>
-                                Continuous feedback from potential users is integrated throughout the development process to ensure the solution aligns with user needs and expectations. Regular testing and iteration help refine the interface and functionality, leading to a more intuitive and efficient user experience.
-                            </p>
-                        </div>
-
-                        <div className="context-item">
                             <div className="context-item-header user-centered-efficiency">
                                 <UsersIcon className="user-icon" />
                                 <h4>User centered efficiency</h4>
                             </div>
                             <p>
                                 The project is centered around reducing complexity for users, with a focus on integrating features that directly address their needs. Real-time job data and personalized tracking are prioritized to ensure the solution is efficient, streamlined, and reduces the time spent managing job applications.
+                            </p>
+                        </div>
+
+                        <div className="context-item">
+                            <div className="context-item-header iteration-feedback">
+                                <RefreshIcon className="refresh-icon" />
+                                <h4>Iteration based on user feedback</h4>
+                            </div>
+                            <p>
+                                Continuous feedback from potential users is integrated throughout the development process to ensure the solution aligns with user needs and expectations. Regular testing and iteration help refine the interface and functionality, leading to a more intuitive and efficient user experience.
                             </p>
                         </div>
 
@@ -350,14 +360,12 @@ const EmployEaseCaseStudy = () => {
             <section className="challenge-section-header">
                 <div className="section-left">
                     <h3>Solution</h3>
-
                 </div>
 
                 <div className="section-right">
                     <p id="solution-paragraph-1">
-                        By addressing the core pain points of disorganization, fragmentation, and complexity, we were able to provide job seekers with a unified, easy-to-use platform. The real-time data integration eliminated the need for users to visit multiple platforms, while personalized tracking ensured that users could keep up with deadlines and application statuses without losing track of progress.
+                        EmployEase addresses the pain points job seekers face by creating a platform that prioritizes by offering a unified, streamlined platform that minimizes time and energy spent on the job search process.
                     </p>
-
                     <div className="solution-link solution-section">
                         <a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a>
                     </div>
@@ -367,10 +375,24 @@ const EmployEaseCaseStudy = () => {
                         <div id="end-result" className="context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>How EmployEase solved the Problem</h4>
+                                <h4>How EmployEase solves user problems</h4>
                             </div>
                             <p>
-                                EmployEase tackled the core challenges of disorganization, fragmentation, and complexity by providing job seekers with a unified, easy-to-use platform. Real-time data integration eliminated the need to visit multiple platforms, while personalized tracking allowed users to stay on top of deadlines and application statuses without losing track of progress.
+                                EmployEase directly addresses the pain points job seekers face such as disorganization, fragmentation, and overwhelming complexity by:
+                                <ul>
+                                    <li>
+                                        By consolidating job listings into one place, EmployEase eliminates the fragmented job search experience, providing real-time, relevant job data without the need to visit multiple platforms.
+                                    </li>
+                                    <li>
+                                        Users can easily track and customize application statuses and deadlines within the app, eliminating the need for spreadsheets or manual note-taking.
+                                    </li>
+                                    <li>
+                                        EmployEase eliminates the repetitive task of maintaining profiles on multiple platforms by offering a simplified sign-up process that doesn’t require constant updates.
+                                    </li>
+                                    <li>
+                                        EmployEase offers a clean, distraction-free interface that keeps users focused on their primary goal of obtaining a job.
+                                    </li>
+                                </ul>
                             </p>
                         </div>
 
@@ -403,16 +425,15 @@ const EmployEaseCaseStudy = () => {
                         <div className="context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>What EmployEase improved beyond the Problem</h4>
+                                <h4>What EmployEase improved beyond the Challenge</h4>
                             </div>
                             <p>
-                                Beyond solving pain points, EmployEase elevated the job search experience by focusing on simplicity and efficiency in features such as:
+                                EmployEase creates a streamlined job search platform by incorporating additional features that enhance the user experience and empower job seekers:
                                 <ul>
-                                    <li>Integrating real-time job data to ensure up-to-date opportunities.</li>
-                                    <li>Enabling personalized job tracking for tailored user experiences.</li>
-                                    <li>Ensuring mobile responsiveness for seamless access across devices.</li>
+                                    <li>Integrated real-time job data ensures up-to-date opportunities in a streamlined centralized location.</li>
+                                    <li>Personalized job tracking options provide users with a tailored experience for managing applications, statuses, and deadlines.</li>
+                                    <li>Mobile responsiveness ensures seamless accessibility, enabling users to manage their job search wherever they are.</li>
                                 </ul>
-                                These features streamlined the job application process, empowering users to manage everything in a centralized, intuitive location.
                             </p>
                         </div>
 
@@ -457,7 +478,7 @@ const EmployEaseCaseStudy = () => {
                                 <h4>End result</h4>
                             </div>
                             <p>
-                                The final product is a user-friendly web platform that enables job seekers to easily track their applications, deadlines, and follow-ups. Key features include a dynamic job dashboard, real-time job data integration, and an intuitive user interface designed to minimize distractions. The platform is optimized for both desktop and mobile devices, ensuring accessibility for users on any device.
+                                The final product is a unified, user-friendly web platform that simplifies the job search process. EmployEase offers a dynamic job dashboard, real-time data integration, and intuitive design, all optimized for both desktop and mobile devices. Users can manage every aspect of their job search with ease, saving time and energy while navigating their journey with confidence.
                             </p>
                         </div>
 
@@ -479,9 +500,9 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="section-right">
                     <p>
-                        The project significantly improved the user experience for job seekers, providing them with a centralized platform that saved time and reduced the complexity of managing job applications. </p>
+                        EmployEase revolutionized the job search process by providing a streamlined, user-focused platform. By addressing key challenges like fragmentation, disorganization, and overwhelming features, it empowered users to manage their job applications with confidence and clarity.</p>
                     <p id="impact-paragraph-2">
-                        By addressing key pain points such as fragmentation and disorganization, the platform empowered users to track their progress more efficiently, which led to a smoother and more organized job search experience.
+                        The intuitive design saved time and reduced frustration, making the platform a trusted tool for job seekers to stay organized and focused on their career goals.
                     </p>
                     <br />
 
@@ -494,9 +515,10 @@ const EmployEaseCaseStudy = () => {
                             </div>
                             <p>
                                 <ul>
-                                    <li>The platform saw an increase in user engagement after integrating real-time job data and simplifying the tracking process.</li>
-                                    <li>Users reported a reduction in time spent managing their job applications due to the platform's intuitive design and centralized tracking system.</li>
-                                    <li>Users accessed the platform via mobile devices, highlighting the success of the mobile optimization efforts.</li>
+                                    <li>The platform saw increased user engagement after integrating real-time job data and consolidating listings from multiple sources.</li>
+                                    <li>Users reported spending significantly less time managing their job applications, thanks to the intuitive design and centralized tracking system.</li>
+                                    <li>Mobile optimization efforts resulted in high usage rates across devices, ensuring accessibility and convenience for users on the go.</li>
+                                    <li>Feedback highlighted reduced frustration and greater clarity in navigating the job search process, demonstrating the platform's effectiveness in solving user pain points.</li>
                                 </ul>
                             </p>
                         </div>
@@ -508,7 +530,7 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Project Takeaways</h3>
+                        <h3>Takeaways</h3>
                     </div>
 
                     <div className="section-right">
@@ -521,7 +543,7 @@ const EmployEaseCaseStudy = () => {
                                     <h4>Lessons learned</h4>
                                 </div>
                                 <p>
-                                    Through this project, I gained a deeper understanding of how to balance user needs with technical constraints. I learned how to manage real-time data integrations and how critical it is to continuously iterate based on user feedback. This project also reinforced the importance of mobile-first design and optimizing user experience across multiple devices.
+                                    Through this project, I gained a deeper understanding of how to balance user needs with technical constraints. Managing real-time data integrations taught me how critical it is to prioritize seamless functionality while keeping the platform responsive. This project also reinforced the importance of mobile-first design and optimizing the user experience across multiple devices.
                                 </p>
                             </div>
 
@@ -531,17 +553,25 @@ const EmployEaseCaseStudy = () => {
                                     <h4>Key challenges overcome</h4>
                                 </div>
                                 <p>
-                                    One of the most challenging aspects was integrating real-time data from multiple sources while ensuring the platform remained responsive. By developing a robust backend system and implementing effective data syncing techniques, I was able to overcome this hurdle and deliver a seamless experience for users.
+                                    The most significant challenges was integrating real-time data from multiple sources while ensuring the platform remained responsive. By developing a robust backend system and implementing effective data syncing techniques, I was able to overcome this hurdle and deliver a streamlined user experience.
+                                </p>
+                                <br />
+                                <p>
+                                    Additionally, balancing simplicity with functionality required constant iteration and user feedback, helping me focus on solving core problems without adding unnecessary complexity.
                                 </p>
                             </div>
 
                             <div className="context-item">
-                                <div className="context-item-header growth-and-future">
-                                    <TrendingUpIcon className="trendingup-icon" />
-                                    <h4>Growth and future development</h4>
+                                <div className="context-item-header key-challenges-overcome">
+                                    <SparklesIcon className="sparkles-icon" />
+                                    <h4>Personal reflections</h4>
                                 </div>
                                 <p>
-                                    In the future, the platform could be expanded to include AI-powered job recommendations based on user preferences and past application data. There is also potential to integrate additional job boards and enhance the mobile app for even greater accessibility.
+                                    This project was an opportunity to blend my design and development skills to tackle real-world challenges faced by job seekers. I was motivated by the chance to simplify a process that is often overwhelming and stressful.
+                                </p>
+                                <br />
+                                <p>
+                                    The experience has been transformative, enhancing my ability to think critically about user needs and implement innovative yet practical solutions. I’m proud of the impact EmployEase can have on job seekers, and I look forward to applying these insights to future projects.
                                 </p>
                             </div>
                         </div>
@@ -549,16 +579,61 @@ const EmployEaseCaseStudy = () => {
                 </div>
             </section>
 
-            <section className="challenge-section-header">
-                <div className="section-left">
-                    <h3>Reflections</h3>
-                    {/* <h5>Streamlining the job search</h5> */}
-                </div>
+            <section className="section-title">
 
-                <div className="section-right">
-                    <p id="reflections-paragraph">
-                        The EmployEase project allowed me to demonstrate my ability to create a user-centered design that addresses real-world challenges. It showcased my skills in both front-end development and UX/UI design, as well as my ability to iterate based on feedback to improve the user experience. This project reflects my commitment to creating practical solutions that empower users.
-                    </p>
+                <div className="problem-section-header">
+                    <div className="section-left">
+                        <h3>Growth & Future Development</h3>
+                    </div>
+
+                    <div className="section-right">
+
+                        <p>EmployEase has the potential to evolve into an even more powerful tool for job seekers with the following enhancements:</p>
+
+                        <div className="context-item-container">
+
+                            <div className="context-item">
+                                <div className="context-item-header lessons-learned">
+                                    <TrendingUpIcon className="trendingup-icon" />
+                                    <h4>Advanced search features</h4>
+                                </div>
+                                <p>
+                                    Introduce search filters such as distance from a desired location, salary range, and job type (remote, hybrid, in-person) to provide more tailored job recommendations. Expand beyond the current "top city in each state" model to include a broader range of locations, ensuring more comprehensive coverage across the U.S.
+                                </p>
+                            </div>
+
+                            <div className="context-item">
+                                <div className="context-item-header key-challenges-overcome">
+                                    <TrendingUpIcon className="trendingup-icon" />
+                                    <h4>Kanban board for saved jobs</h4>
+                                </div>
+                                <p>
+                                    Transform the "Saved Jobs" section into a fully interactive Kanban board. Users could categorize and track jobs through different stages (e.g., Interested, Applied, Interviewing, Offered) for a more visual and intuitive experience.
+                                </p>
+                            </div>
+
+                            <div className="context-item">
+                                <div className="context-item-header key-challenges-overcome">
+                                    <TrendingUpIcon className="trendingup-icon" />
+                                    <h4>Enhanced mobile experience</h4>
+                                </div>
+                                <p>
+                                    Develop a dedicated mobile app with features like push notifications for application deadlines, one-click job saves, and offline tracking capabilities, ensuring seamless access for users on the go.
+                                </p>
+                            </div>
+
+                            <div className="context-item">
+                                <div className="context-item-header key-challenges-overcome">
+                                    <TrendingUpIcon className="trendingup-icon" />
+                                    <h4>AI powered job recommendations</h4>
+                                </div>
+                                <p>
+                                    Leverage machine learning to provide personalized job recommendations based on user preferences, past applications, and engagement history.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </section>
 
