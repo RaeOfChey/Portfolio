@@ -72,11 +72,11 @@ const EmployEaseCaseStudy = () => {
         <div className="case-study-container">
 
             <h1 className="case-study-h1">EmployEase</h1>
-            <h2 className="case-study-subtitle">Simplifying job searches with API integration and responsive design.</h2>
+            <h2 className="case-study-subtitle">Empowering job seekers with a unified, streamlined platform, real-time job data, and responsive design.</h2>
 
             <div className="links">
                 <a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a>
-                <a href="https://github.com/RaeOfChey/EmployEase" target="_blank">View GitHub Repo</a>
+                <a href="https://github.com/RaeOfChey/EmployEase" target="_blank">View GitHub</a>
             </div>
 
             <section className="section-title">
@@ -675,7 +675,7 @@ const EmployEaseCaseStudy = () => {
                     </div>
 
                     <div class="cta-option">
-                        <p><a href="https://employease-hubi.onrender.com/" target="_blank">View Github Repo</a></p>
+                        <p><a href="https://employease-hubi.onrender.com/" target="_blank">View Github</a></p>
                     </div>
 
                     <div class="cta-option">

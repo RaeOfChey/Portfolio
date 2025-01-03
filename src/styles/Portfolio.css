@@ -171,7 +171,7 @@
   }
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1024px) and (min-width: 767px) {
   .project-card a .project-cta {
     font-size: 21px; 
   }
@@ -188,7 +188,7 @@
 }
 
 /* 768px styles */
-@media (max-width: 768px) {
+@media (max-width: 766px) {
   .project-card {
     width: calc(50% - 20px);
   }

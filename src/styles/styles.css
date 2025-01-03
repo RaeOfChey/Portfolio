@@ -287,7 +287,7 @@ main {
   }
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1024px) and (min-width: 767px) {
   main {
     margin: 0 75px;
   }
@@ -365,7 +365,7 @@ main {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 766px) {
   main {
     margin: 0 15px;
   }

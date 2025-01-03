@@ -227,7 +227,7 @@ h5 {
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* ----- Process Section ----- */
+/* ----- Timeline & Process Section ----- */
 .process-section-header {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -265,6 +265,16 @@ h5 {
   border-radius: 10px;
   margin-bottom: 20px;
   background-color: #fff;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 .process-section-header h4:hover {
@@ -397,7 +407,7 @@ ul li {
 }
 
 .solution-link {
-  margin-bottom: 20px;
+  margin-top:
 }
 
 .solution-link a {
@@ -555,7 +565,7 @@ ul li {
   font-family: 'neulis-sans', 'Arial', sans-serif;
   cursor: pointer;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 24px;
   letter-spacing: 0.5px;
   text-align: center;
 }
@@ -593,3 +603,170 @@ ul li {
   color: var(--color-blue);
   border: 2px solid var(--color-blue);
 }
+
+@media (max-width: 1281px) {
+  .filter-buttons button,
+  .links a,
+  .solution-link a,
+  .cta-option a,
+  p {
+    font-size: 21px;
+  }
+  .solution-link {
+    margin-bottom: 0px;
+  }
+  .case-study-container h1 {
+    font-size: 40px;
+  }
+  .case-study-container h2 {
+    font-size: 17px;
+  }
+  .project-overview p,
+  .carousel-item-casestudy,
+  .context-item ul li {
+    font-size: 17px;
+  }
+  .section-title h3,
+  .process-section-header h3,
+  .skills-carousel-section .skills-section-header,
+  .challenge-section-header h3 {
+    font-size: 21px;
+  }
+  .section-right p,
+  .context-item h4,
+  #unique-section .section-right p {
+    font-size: 17px;
+  }
+  #filter-bar-description,
+  .image-column-right-1 .image-subtitles {
+  font-size: 15px;
+  }
+  .case-study-container h3 {
+    margin: 0px;
+    font-size: 17px;
+  }
+  .links {
+    margin: 45px 0px;
+  }
+  .problem-section-header,
+  .challenge-section-header,
+  .approach-section-header,
+  .process-section-header {
+    margin: 70px 0px 45px 0px;
+  }
+  #unique-section .section-right p {
+    margin-bottom: 45px;
+  }
+  .skills-section-header {
+    margin: 90px 0px 45px 0px;
+  }
+  .challenge-section-header .case-study-image {
+    margin: 0px auto;
+  }
+  .image-row-2 {
+    margin: 20px 0px 45px 0px;
+  }
+  #end-result.context-item {
+    margin-top: 45px;
+  }
+  .cta-options {
+    padding-bottom: 45px;
+  }
+}
+
+@media (max-width: 766px) {
+  .filter-buttons button,
+  .links a,
+  .solution-link a,
+  .cta-option a,
+  p {
+    font-size: 17px;
+  }
+  .solution-link {
+    margin-bottom: 0px;
+  }
+  .case-study-container h1 {
+    font-size: 45px;
+  }
+  .case-study-container h2 {
+    font-size: 16px;
+  }
+  .project-overview p {
+    font-size: 16px;
+    padding: 15px;
+  }
+  .context-item {
+    padding: 15px;
+  }
+  .carousel-item-casestudy,
+  .context-item ul li {
+    font-size: 16px;
+  }
+  .section-title h3,
+  .process-section-header h3,
+  .skills-carousel-section .skills-section-header,
+  .challenge-section-header h3 {
+    font-size: 23px;
+  }
+  .section-right p,
+  .context-item h4,
+  #unique-section .section-right p,
+  #solution-paragraph-1 {
+    font-size: 16px;
+  }
+  #filter-bar-description {
+  font-size: 14px;
+  padding-bottom: 0px;
+}
+  .image-column-right-1 .image-subtitles {
+  font-size: 14px;
+  padding-bottom: 20px;
+  }
+  .case-study-container h3,
+  .approach-section-header h3 {
+    margin: 0px;
+    font-size: 23px;
+  }
+  .links {
+    margin: 40px 0px;
+  }
+  .problem-section-header,
+  .challenge-section-header,
+  .approach-section-header,
+  .process-section-header {
+    margin: 60px 0px 40px 0px;
+  }
+  .process-section-header h4 {
+    padding: 15px; 
+  }
+  #unique-section .section-right p {
+    margin-bottom: 40px;
+    padding: 15px;
+  }
+  .skills-section-header {
+    margin: 80px 0px 40px 0px;
+  }
+  .challenge-section-header .case-study-image {
+    margin: 0px auto;
+  }
+  #end-result.context-item {
+    margin-top: 40px;
+  }
+  .cta-options {
+    padding-bottom: 40px;
+  }
+  .image-row-2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    margin: 0px 0px 40px 0px;
+  }
+  .image-row-1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  .carousel-item-casestudy {
+    width: 180px;
+  }
+}
+
+

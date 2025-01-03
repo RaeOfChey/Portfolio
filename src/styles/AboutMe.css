@@ -238,7 +238,7 @@
   }
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1024px) and (min-width: 767px) {
   .title {
     font-size: 68px;
   }
@@ -277,7 +277,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 766px) {
   .title {
     font-size: 50px;
   }
