@@ -98,7 +98,7 @@ h5 {
 .project-overview {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  gap: 20px;
   text-align: center;
 }
 
@@ -606,19 +606,20 @@ ul li {
 
 @media (max-width: 1281px) {
   .filter-buttons button,
-  .links a,
-  .solution-link a,
-  .cta-option a,
-  p {
-    font-size: 21px;
+  .solution-link a {
+    font-size: 27px;
+  }
+  .cta-option a {
+    font-size: 23px;
   }
   .solution-link {
     margin-bottom: 0px;
   }
   .case-study-container h1 {
-    font-size: 40px;
+    font-size: 45px;
   }
-  .case-study-container h2 {
+  .case-study-container h2,
+  p {
     font-size: 17px;
   }
   .project-overview p,
@@ -630,7 +631,7 @@ ul li {
   .process-section-header h3,
   .skills-carousel-section .skills-section-header,
   .challenge-section-header h3 {
-    font-size: 21px;
+    font-size: 27px;
   }
   .section-right p,
   .context-item h4,
@@ -643,8 +644,13 @@ ul li {
   }
   .case-study-container h3 {
     margin: 0px;
-    font-size: 17px;
+    font-size: 27px;
   }
+
+  .links a {
+    font-size: 27px;
+  }
+
   .links {
     margin: 45px 0px;
   }
@@ -676,11 +682,13 @@ ul li {
 
 @media (max-width: 766px) {
   .filter-buttons button,
-  .links a,
   .solution-link a,
   .cta-option a,
   p {
     font-size: 17px;
+  }
+  .links a {
+    font-size: 21px;
   }
   .solution-link {
     margin-bottom: 0px;
@@ -717,7 +725,7 @@ ul li {
   #filter-bar-description {
   font-size: 14px;
   padding-bottom: 0px;
-}
+  }
   .image-column-right-1 .image-subtitles {
   font-size: 14px;
   padding-bottom: 20px;
@@ -769,4 +777,122 @@ ul li {
   }
 }
 
+@media (max-width: 480px) {
+  p {
+    font-size: 16px;
+  }
+  .context-item-container {
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .case-study-container h2 {
+    text-align: center;
+  }
+  .links {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  .project-overview {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .project-overview p {
+    margin-bottom: 20px;
+  }
+  .context-item {
+    margin-bottom: 20px;
+  }
+  #unique-section .section-right p {
+    margin-bottom: 20px;
+  }
+  .image-row-2 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .skills-carousel-section {
+    margin-bottom: 80px;
+  }
+  .image-column-right-1 .image-subtitles {
+    padding-bottom: 20px;
+  }
+  .image-column-right-2 .case-study-image {
+    margin-bottom: 0px;
+  }
+  #the-filter-bar-subtitle {
+    padding-bottom: 0px;
+  }
+  .parent-class .context-item.beyond-the-challenge {
+    padding-bottom: 40px;
+  }
+  .context-item-header.obstacles,
+  .context-item-header.milestones {
+  align-items: top;
+  margin: 0px;
+  }
+  .process-section-header .context-item {
+    height: 400px;
+  }
+  .image-row-1 {
+    padding: 0px;
+    margin: 0px;
+  }
+  .case-study-container h3 {
+    font-size: 23px;
+  }
+  .approach-section-header {
+    margin: 0px;
+    gap: 0px;
+    padding: 0px;
+  }
+  .problem-section-header {
+    grid-template-columns: 1fr;
+  }
+  .challenge-section-header {
+    grid-template-columns: 1fr; 
+    margin-bottom: 60px;
+  }
+  .approach-section-header {
+    grid-template-columns: 1fr; 
+    gap: 20px;
+  }
+  .process-section-header {
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+  }
+  .process-section-header h4,
+  .context-item-header {
+    margin: 0px;
+  }
+  .process-section-header .context-item {
+    grid-template-columns: 1fr; 
+    gap: 0px;
+    height: 300px;
+  }
+  .process-section-header .context-item ul {
+    padding-left: 20px;
+  }
+  .skills-section-header {
+    grid-template-columns: 1fr;
+  }
+  /* Solution Section */
+  .solution-link {
+    text-align: center;
+  }  
+  #filter-bar-description {
+    padding-top: 0px;
+  }
+  #add-a-job-subtitle-3 {
+    padding-bottom: 0px;
+  }
+  #end-result-image {
+    margin-bottom: 0px;
+  }
+  .cta-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+}
 

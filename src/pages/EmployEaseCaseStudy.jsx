@@ -405,7 +405,7 @@ const EmployEaseCaseStudy = () => {
                                 />
                             </div>
                             <div className="image-column-right-1">
-                                <p className="image-subtitles">The Filter Bar empowers users to customize their job search by selecting desired locations (top U.S. city in each state), industries (15 popular options), and experience levels (Entry, Mid, Senior, Management, Internship). With a single click, real-time job data is retrieved via The Muse API, delivering tailored opportunities that match the user’s preferences.</p>
+                                <p id="the-filter-bar-subtitle" className="image-subtitles">The Filter Bar empowers users to customize their job search by selecting desired locations (top U.S. city in each state), industries (15 popular options), and experience levels (Entry, Mid, Senior, Management, Internship). With a single click, real-time job data is retrieved via The Muse API, delivering tailored opportunities that match the user’s preferences.</p>
                             </div>
                         </div>
 
@@ -422,7 +422,7 @@ const EmployEaseCaseStudy = () => {
                             </div>
                         </div>
 
-                        <div className="context-item">
+                        <div className="context-item beyond-the-challenge">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
                                 <h4>What EmployEase improved beyond the Challenge</h4>
@@ -452,7 +452,7 @@ const EmployEaseCaseStudy = () => {
                                 <p className="image-subtitles">
                                     This unique functionality sets EmployEase apart from platforms like LinkedIn or Indeed, ensuring users can manage all job listings on their personalized 'Saved Jobs' page, whether from the app or external sources.
                                 </p>
-                                <p className="image-subtitles">
+                                <p id="add-a-job-subtitle-3" className="image-subtitles">
                                     By offering this feature, EmployEase gives users the ability to track and organize their job search from multiple platforms, making it easier to stay on top of opportunities, applications, and interviews in one convenient location.
                                 </p>
                             </div>
