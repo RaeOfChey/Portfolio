@@ -579,30 +579,35 @@ ul li {
   text-align: center;
 }
 
+.see-more-button p {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.arrow-right-icon {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 5px;
+  align-items: center;
+}
+
 .arrow-link {
-  width: 70px;
-  height: 70px;
-  padding: 10px;
-  margin-left: 10px;
-  background-color: #fff;
-  border: 2px solid var(--color-darkblue);
   color: var(--color-darkblue);
   text-decoration: none;
-  border-radius: 50px;
   font-family: 'neulis-sans', 'Arial', sans-serif;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-  font-weight: 400;
   font-size: 24px;
   letter-spacing: 0.5px;
   text-align: center;
 }
 
 .arrow-link:hover {
-  background-color: #fff;
   color: var(--color-blue);
-  border: 2px solid var(--color-blue);
 }
+
+
 
 @media (max-width: 1281px) {
   .filter-buttons button,

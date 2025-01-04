@@ -8,16 +8,14 @@ import { DownvoteIcon } from '../components/DownvoteIcon';
 import { CircleCheckIcon } from '../components/CircleCheckIcon';
 import { RefreshIcon } from '../components/RefreshIcon';
 import { UsersIcon } from '../components/UsersIcon';
-/* import { UpvoteIcon } from '../components/UpvoteIcon'; */
 import { FilePenLineIcon } from '../components/FilePenLineIcon';
 import { CogIcon } from '../components/CogIcon';
 import { TrendingUpIcon } from '../components/TrendingUpIcon';
 import { SparklesIcon } from '../components/SparklesIcon';
+import { ArrowRightIcon } from '../components/ArrowRightIcon';
 
 import CaseStudyImage1 from '../assets/EmployEase CaseStudy Image1.png';
-// import CaseStudyImage2 from '../assets/EmployEase CaseStudy Image2.png';
 import CaseStudyImage3 from '../assets/EmployEase CaseStudy Image3.png';
-// import CaseStudyImage4 from '../assets/EmployEase CaseStudy Image4.png';
 import CaseStudyImage5 from '../assets/EmployEase CaseStudy Image5.png';
 import CaseStudyImage6 from '../assets/EmployEase CaseStudy Image6.png';
 import CaseStudyImage7 from '../assets/EmployEase CaseStudy Image7.png';
@@ -692,10 +690,10 @@ const EmployEaseCaseStudy = () => {
 
             <div class="see-more-button">
                 <p>
-                    Explore more of my portfolio to see how I can help bring your ideas to life
-                    <a href="/portfolio" class="arrow-link">→</a>
+                    Explore more of my portfolio to see how I can help bring your ideas to life <a href="/portfolio" class="arrow-link"> <ArrowRightIcon className="arrow-right-icon" /> </a>
                 </p>
             </div>
+            
             <ScrollButton />
         </div >
     );
