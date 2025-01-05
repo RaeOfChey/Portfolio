@@ -544,7 +544,7 @@ ul li {
 
 .cta-options {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   text-align: center;
   padding-bottom: 50px;
@@ -585,6 +585,7 @@ ul li {
   justify-content: center;
   gap: 0.5rem;
 }
+
 .arrow-right-icon {
   display: inline-block;
   vertical-align: middle;
@@ -592,27 +593,24 @@ ul li {
   align-items: center;
 }
 
-.arrow-link {
+#arrow-link {
   color: var(--color-darkblue);
-  text-decoration: none;
-  font-family: 'neulis-sans', 'Arial', sans-serif;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-  font-size: 24px;
-  letter-spacing: 0.5px;
-  text-align: center;
 }
 
-.arrow-link:hover {
+#arrow-link:hover {
   color: var(--color-blue);
 }
 
-
-
 @media (max-width: 1281px) {
-  .filter-buttons button,
   .solution-link a {
-    font-size: 27px;
+    font-size: 23px;
+  }
+  #solution-paragraph-1 {
+    font-size: 17px;
+  }
+  .filter-buttons button {
+    font-size: 27px; 
   }
   .cta-option a {
     font-size: 23px;
@@ -639,23 +637,28 @@ ul li {
     font-size: 27px;
   }
   .section-right p,
-  .context-item h4,
-  #unique-section .section-right p {
+  .context-item h4 {
     font-size: 17px;
   }
-  #filter-bar-description,
+  #filter-bar-description {
+    font-size: 15px;
+  }
   .image-column-right-1 .image-subtitles {
-  font-size: 15px;
+    font-size: 15px;
+  }
+  #the-filter-bar-subtitle {
+    padding-bottom: 40px;
+  }
+  #add-a-job-subtitle-3 {
+    padding-bottom: 40px;
   }
   .case-study-container h3 {
     margin: 0px;
     font-size: 27px;
   }
-
   .links a {
     font-size: 27px;
   }
-
   .links {
     margin: 45px 0px;
   }
@@ -666,7 +669,8 @@ ul li {
     margin: 70px 0px 45px 0px;
   }
   #unique-section .section-right p {
-    margin-bottom: 45px;
+    margin-bottom: 20px;
+    font-size: 17px;
   }
   .skills-section-header {
     margin: 90px 0px 45px 0px;
@@ -682,6 +686,16 @@ ul li {
   }
   .cta-options {
     padding-bottom: 45px;
+  }
+  .image-row-2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    margin: 0px 0px 40px 0px;
+    gap: 0px;
+  }
+  .image-row-1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
   }
 }
 
@@ -723,7 +737,6 @@ ul li {
   }
   .section-right p,
   .context-item h4,
-  #unique-section .section-right p,
   #solution-paragraph-1 {
     font-size: 16px;
   }
@@ -753,8 +766,9 @@ ul li {
     padding: 15px; 
   }
   #unique-section .section-right p {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding: 15px;
+    font-size: 16px;
   }
   .skills-section-header {
     margin: 80px 0px 40px 0px;
@@ -766,12 +780,18 @@ ul li {
     margin-top: 40px;
   }
   .cta-options {
-    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .cta-option {
+    margin-bottom: 20px;
   }
   .image-row-2 {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     margin: 0px 0px 40px 0px;
+    gap: 0px;
   }
   .image-row-1 {
     grid-template-columns: 1fr;
@@ -855,7 +875,7 @@ ul li {
   }
   .challenge-section-header {
     grid-template-columns: 1fr; 
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
   .approach-section-header {
     grid-template-columns: 1fr; 
@@ -892,12 +912,6 @@ ul li {
   }
   #end-result-image {
     margin-bottom: 0px;
-  }
-  .cta-options {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
   }
 }
 

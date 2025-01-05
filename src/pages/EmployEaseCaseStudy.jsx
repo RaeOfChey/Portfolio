@@ -680,20 +680,19 @@ const EmployEaseCaseStudy = () => {
                         <p><a href="mailto:cheyennaraelynn@gmail.com">Email Me</a></p>
                     </div>
 
-                    <div class="cta-option">
-                        <p><a href="https://www.linkedin.com/in/cheyenna-raelynn/" target="_blank">View LinkedIn</a></p>
-                    </div>
-
                 </div>
 
             </section>
 
             <div class="see-more-button">
                 <p>
-                    Explore more of my portfolio to see how I can help bring your ideas to life <a href="/portfolio" class="arrow-link"> <ArrowRightIcon className="arrow-right-icon" /> </a>
+                    Explore more of my portfolio to see how I can help bring your ideas to life.
                 </p>
+                <a href="/portfolio" id="arrow-link" >
+                    <ArrowRightIcon className="arrow-right-icon" />
+                </a>
             </div>
-            
+
             <ScrollButton />
         </div >
     );
