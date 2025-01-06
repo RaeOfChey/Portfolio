@@ -20,6 +20,7 @@ import PolitosPizzaImg from '../assets/Politos Pizza Regular Thumbnail Image.png
 import CodexXImg from '../assets/CodexX Thumbnail Image.png';
 import BookVaultImg from '../assets/BookVault Thumbnail Image.png';
 import EmployEaseImg from '../assets/EmployEase Thumbnail Image.png';
+import DotNetProductAPIImg from '../assets/DotNetProductAPI Thumbnail Image.png';
 
 const projects = [
   // Development Projects
@@ -28,7 +29,7 @@ const projects = [
     link: '/employease-case-study',
     type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Node.js, Bootstrap, Vite, ESLint',
     category: 'Development',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: EmployEaseImg,
   },
   {
@@ -36,15 +37,23 @@ const projects = [
     link: 'https://github.com/RaeOfChey/FilmTracker',
     type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Node.js',
     category: 'Development',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: FilmTrackerImg,
+  },
+  {
+    title: 'DotNetProductAPI',
+    link: 'https://github.com/RaeOfChey/DotNetProductAPI',
+    type: 'C#, .NET Core, ASP.NET Core, Entity Framework Core, SQL Server, RESTful APIs, JSON, Insomnia, Swagger',
+    category: 'Read GitHub Repo',
+    cta: 'Learn More',
+    image: DotNetProductAPIImg,
   },
   {
     title: 'Auto Pipeline',
     link: 'https://github.com/RaeOfChey/AutoPipeline',
-    type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, GitHub Actions, MongoDB Atlas, CI/CD, Cypress',
+    type: 'HTML, CSS, JavaScript, TypeScript, MongoDB, Express.js, React, Node.js, GitHub Actions, CI/CD, Cypress',
     category: 'Development',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: AutoPipelineImg,
   },
   {
@@ -52,7 +61,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/CodexX',
     type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Apollo Server (GraphQL), Node.js, MongoDB Atlas',
     category: 'Development',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: BookVaultImg,
   },
   {
@@ -60,7 +69,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/CodexX',
     type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Vite, Bulma, Node.js, PostgreSQL, RAWG API',
     category: 'Development',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: CodexXImg,
   },
   {
@@ -68,7 +77,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/EmployeeOrganizerPro',
     type: 'HTML, CSS, JavaScript, Bootstrap, Node.js, Inquirer, npm, CLI, PostgresSQL',
     category: 'Development',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: EmployeeOrganizerImg,
   },
   {
@@ -76,7 +85,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/function-checklist',
     type: 'HTML, CSS, JavaScript, Bootstrap',
     category: 'Development',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: FuncTasticImg,
   },
   {
@@ -84,7 +93,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/ReadMeGenie',
     type: 'JavaScript, TypeScript, Node.js, Inquirer, npm, CLI',
     category: 'Development',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: ReadMeGenieImg,
   },
   {
@@ -92,7 +101,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/Autobuilder',
     type: 'JavaScript, TypeScript, Node.js, Inquirer, npm, OOP, CLI',
     category: 'Development',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: AutoBuilderImg,
   },
   {
@@ -100,7 +109,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/Slugfolio',
     type: 'HTML, CSS, JavaScript, TypeScript, Node.js, Inquirer',
     category: 'Development',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: SlugfolioImg,
   },
 
@@ -110,7 +119,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-norseman-nuptials',
     type: 'Branding',
     category: 'Graphic Design',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: NorsemanNuptialsImg,
   },
   {
@@ -118,7 +127,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-ocha-tea-house',
     type: 'Branding',
     category: 'Graphic Design',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: OchaTeaHouseImg,
   },
   {
@@ -126,7 +135,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-north-woods-cold-brew',
     type: 'Package Design',
     category: 'Graphic Design',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: NorthWoodsImg,
   },
   {
@@ -134,7 +143,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/2023-themed-conference-signage-secureworld',
     type: 'Print Design',
     category: 'Graphic Design',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: SecureWorldSignageImg,
   },
   {
@@ -142,7 +151,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-marketing-secureworld',
     type: 'Branding, Digital, Print, and Multimedia Design',
     category: 'Graphic Design',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: SecureWorldCollateralImg,
   },
   {
@@ -150,7 +159,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-marketing-swanky',
     type: 'Branding, Digital Design',
     category: 'Graphic Design',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: SwankyCollateralImg,
   },
   {
@@ -158,7 +167,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/rebranding-politos-pizza',
     type: 'Branding',
     category: 'Graphic Design',
-    cta: 'Read Case Study',
+    cta: 'Learn More',
     image: PolitosPizzaImg,
   },
 ];
