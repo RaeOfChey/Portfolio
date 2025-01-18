@@ -261,7 +261,7 @@
   }
 
   .who-am-i-title {
-    font-size: 40px;
+    font-size: 45px;
     margin: 45px 0px 25px 0px;
     color: #000;
   }
@@ -275,7 +275,7 @@
   }
 
   .toolkit-title {
-    font-size: 40px;
+    font-size: 45px;
     margin: 0px 0px 25px 0px;
   }
 
@@ -313,7 +313,7 @@
   }
 
   .who-am-i-title {
-    font-size: 45px;
+    font-size: 40px;
     margin: 40px 0px 20px 0px;
     color: #000;
   }
@@ -335,6 +335,10 @@
     font-size: 17px;
     height: 100px;
     width: 100px;
+  }
+  
+  .education-title {
+    font-size: 40px;
   }
 }
 
@@ -386,9 +390,30 @@
     margin: 0px 0px 20px 0px;
   }
 
+  .toolkit-section {
+    margin-bottom: 50px;
+  }
+
   .carousel-item {
     font-size: 16px;
     height: 100px;
     width: 100px;
   }
+
+  .education-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .education-items {
+    grid-template-columns: 1fr !important;
+  }
+
+  .education-item h2 {
+    font-size: 16px;
+  }
+  .education-item p {
+    font-size: 16px;
+  } 
+
 }
