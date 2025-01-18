@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import ScrollButton from '../components/ScrollButton'; // Adjust the import path as needed
+import ScrollButton from '../components/ScrollButton';
 
 import '../styles/styles.css';
 import '../styles/CaseStudy.css';
@@ -70,7 +70,7 @@ const EmployEaseCaseStudy = () => {
         <div className="case-study-container">
 
             <h1 className="case-study-h1">EmployEase</h1>
-            <h2 className="case-study-subtitle">Empowering job seekers with a unified, streamlined platform, real-time job data, and responsive design.</h2>
+            <h2 className="case-study-subtitle">Streamlining the job hunt on a unified platform for job search and application management.</h2>
 
             <div className="links">
                 <a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a>
@@ -82,7 +82,7 @@ const EmployEaseCaseStudy = () => {
                     <p><strong>Project<br /></strong> EmployEase</p>
                     <p><strong>Duration<br /></strong> 1.5 weeks</p>
                     <p><strong>Completed<br /></strong> December 2024</p>
-                    <p><strong>Role<br /></strong> Full-Stack Developer</p>
+                    <p><strong>Role<br /></strong> Developer, Designer</p>
                 </div>
             </section>
 
@@ -220,13 +220,13 @@ const EmployEaseCaseStudy = () => {
 
             <section className="process-section-header">
                 <div className="section-left">
-                    <h3>Timelime & Process</h3>
+                    <h3>Timelime & SDLC</h3>
                 </div>
 
                 <div className="section-right">
                     <div className="context-item">
                         <div className="context-item-header">
-                            <h4>Day 1–2<br />Research</h4>
+                            <h4>Day 1–2<br />Planning</h4>
                         </div>
                         <ul>
                             <li>Conducted user interviews and competitive analysis to identify pain points in existing job search tools.</li>
@@ -236,7 +236,7 @@ const EmployEaseCaseStudy = () => {
 
                     <div className="context-item">
                         <div className="context-item-header">
-                            <h4>Day 3–4<br />Ideation & Planning</h4>
+                            <h4>Day 3–4<br />Designing</h4>
                         </div>
                         <ul>
                             <li>Developed user personas and journey maps to define the most critical features and workflows.</li>
@@ -246,19 +246,10 @@ const EmployEaseCaseStudy = () => {
 
                     <div className="context-item">
                         <div className="context-item-header">
-                            <h4>Day 5–6<br />Design & Prototyping</h4>
+                            <h4>Day 5–6<br />Implementing</h4>
                         </div>
                         <ul>
                             <li>Designed high-fidelity mockups and interactive prototypes in Figma.</li>
-                            <li>Conducted initial testing with potential users to gather feedback on design, layout, and functionality.</li>
-                        </ul>
-                    </div>
-
-                    <div className="context-item">
-                        <div className="context-item-header">
-                            <h4>Day 7–10<br />Development & Implementation</h4>
-                        </div>
-                        <ul>
                             <li>Developed the front-end using React.js, ensuring the app was responsive and user-friendly.</li>
                             <li>Integrated APIs to pull real-time job data, enabling users to track their job applications directly within the tool.</li>
                         </ul>
@@ -266,11 +257,21 @@ const EmployEaseCaseStudy = () => {
 
                     <div className="context-item">
                         <div className="context-item-header">
-                            <h4>Day 11–12<br />Testing & Iteration</h4>
+                            <h4>Day 7–10<br />Testing</h4>
                         </div>
                         <ul>
                             <li>Conducted usability testing and made iterations based on feedback.</li>
-                            <li>Adjusted user interface for clarity, refined features, and a seamless experience across devices.</li>
+                            <li>Adjusted user interface for clarity, refined features, and ensured a seamless experience across devices.</li>
+                        </ul>
+                    </div>
+
+                    <div className="context-item">
+                        <div className="context-item-header">
+                            <h4>Day 11–12<br />Deploying & Maintaining</h4>
+                        </div>
+                        <ul>
+                            <li>Prepared the app for deployment to a production environment, ensuring it was ready for end-users.</li>
+                            <li>Monitored post-launch performance and began gathering feedback for future updates and improvements.</li>
                         </ul>
                     </div>
                 </div>
@@ -629,7 +630,6 @@ const EmployEaseCaseStudy = () => {
                                     Leverage machine learning to provide personalized job recommendations based on user preferences, past applications, and engagement history.
                                 </p>
                             </div>
-
                         </div>
                     </div>
                 </div>

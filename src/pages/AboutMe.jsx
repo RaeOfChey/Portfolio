@@ -134,20 +134,32 @@ const AboutMe = () => {
                 >
                     <div className="carousel-container">
                         {[
-                            "HTML/CSS", "JavaScript", "TypeScript", "React", "Sass/SCSS", "Tailwind CSS",
-                            "Git", "GitHub", "Jest", "Cypress", "Figma", "Netlify", "MongoDB",
-                            "Node", "jQuery", "OOP", "JSON", "API", "Insomnia", "SQL", "Python"
+                            "API", "Bootstrap", "CSS3", "Cypress", "Express.js", "Figma", "Git/GitHub", "HTML5", "Insomnia", "JavaScript", "Jest", "JSON", "Miro", "MongoDB", "NPM", "Node.js", "Next.js", "OOP", "PWA", "Python", "React", "Sass/SCSS", "Sequelize", "SQL", "TypeScript", "Webpack", "WordPress", "jQuery"
                         ]
                             .concat([
-                                "HTML/CSS", "JavaScript", "TypeScript", "React", "Sass/SCSS", "Tailwind CSS",
-                                "Git", "GitHub", "Jest", "Cypress", "Figma", "Netlify", "MongoDB",
-                                "Node", "jQuery", "OOP", "JSON", "API", "Insomnia", "SQL", "Python"
+                                "API", "Bootstrap", "CSS3", "Cypress", "Express.js", "Figma", "Git/GitHub", "HTML5", "Insomnia", "JavaScript", "Jest", "JSON", "Miro", "MongoDB", "NPM", "Node.js", "Next.js", "OOP", "PWA", "Python", "React", "Sass/SCSS", "Sequelize", "SQL", "TypeScript", "Webpack", "WordPress", "jQuery"
                             ])
                             .map((tool, index) => (
                                 <div className="carousel-item" key={`${tool}-${index}`} title={tool}>
                                     {tool}
                                 </div>
                             ))}
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="education-section">
+                <h1 class="education-title">Education</h1>
+                <div class="education-items">
+                    <div class="education-item">
+                        <h2>University of Minnesota</h2>
+                        <p>Full-Stack Development Certificate</p>
+                        <p>Completed: December 2024</p>
+                    </div>
+                    <div class="education-item">
+                        <h2>University of Minnesota</h2>
+                        <p>Bachelor of Fine Arts (BFA) in Graphic Design</p>
+                        <p>Graduated: December 2019</p>
                     </div>
                 </div>
             </section>

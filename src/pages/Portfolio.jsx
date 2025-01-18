@@ -27,7 +27,7 @@ const projects = [
   {
     title: 'EmployEase',
     link: '/employease-case-study',
-    type: 'HTML, CSS, JavaScript, TypeScript, React, Express.js, Node.js, Bootstrap, Vite, ESLint',
+    type: 'Streamlining the job hunt on a unified platform for job search and application management.',
     category: 'Development',
     cta: 'Learn More',
     image: EmployEaseImg,

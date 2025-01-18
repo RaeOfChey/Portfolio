@@ -37,20 +37,9 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="social-link"
-              title="GitHub Portfolio"
+              title="GitHub"
             >
               <FaGithub />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://cheyennaraelynn.myportfolio.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-link"
-              title="Design Portfolio"
-            >
-              <FaBriefcase />
             </a>
           </li>
           <li>
@@ -62,17 +51,6 @@ const Contact = () => {
               title="LinkedIn"
             >
               <FaLinkedin />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/raeofchey/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-link"
-              title="Instagram"
-            >
-              <FaInstagram />
             </a>
           </li>
         </ul>
