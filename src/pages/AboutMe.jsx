@@ -164,6 +164,85 @@ const AboutMe = () => {
                 </div>
             </section>
 
+            <section id="career" class="career-section">
+                <h1 class="career-title">My Career Path</h1>
+                <div class="career-items">
+
+                    <div class="career-item">
+                        <div class="career-item-row">
+                            <div class="career-left">
+                                <h2>Digital Marketing Specialist</h2>
+                                <p>ITASCA Minneapolis</p>
+                            </div>
+                            <div class="career-right">
+                                <p>July 2023 - August 2024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="career-item">
+                        <div class="career-item-row">
+                            <div class="career-left">
+                                <h2>Graphic Designer</h2>
+                                <p>SecureWorld</p>
+                            </div>
+                            <div class="career-right">
+                                <p>May 2022 - July 2023</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="career-item">
+                        <div class="career-item-row">
+                            <div class="career-left">
+                                <h2>Graphic & UX Designer</h2>
+                                <p>Kelvix</p>
+                            </div>
+                            <div class="career-right">
+                                <p>September 2021 - May 2022</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="career-item">
+                        <div class="career-item-row">
+                            <div class="career-left">
+                                <h2>Graphic Designer</h2>
+                                <p>Catchafire</p>
+                            </div>
+                            <div class="career-right">
+                                <p>July 2020 - March 2021</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="career-item">
+                        <div class="career-item-row">
+                            <div class="career-left">
+                                <h2>Branch Designer</h2>
+                                <p>Aussie Peppers of MN</p>
+                            </div>
+                            <div class="career-right">
+                                <p>January 2020 - July 2020</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="career-item">
+                        <div class="career-item-row">
+                            <div class="career-left">
+                                <h2>Graphic Designer</h2>
+                                <p>Minnesota State University</p>
+                            </div>
+                            <div class="career-right">
+                                <p>January 2018 - May 2018</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
             <ScrollButton />
         </>
     );

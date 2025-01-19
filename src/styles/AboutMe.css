@@ -136,7 +136,7 @@
   grid-gap: 20px;
 }
 
-/* Toolkit Section */
+/* ----- Toolkit Section Styles ----- */
 .toolkit-section {
   text-align: center;
   margin-bottom: 75px;
@@ -222,8 +222,37 @@
   font-weight: 600;
 }
 
+#education {
+  margin-bottom: 50px;
+}
 
+/* ----- My Career Path Section Styles ----- */
+.career-title {
+  font-family: 'neulis-cursive', sans-serif;
+  font-size: 50px;
+  margin: 0px 0px 30px 0px;
+}
 
+.career-item-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.career-left h2 {
+  
+}
+
+.career-right {
+  text-align: right; 
+  white-space: nowrap; 
+}
+
+.career-item-row h2 {
+  font-size: 18px;
+  color: #000;
+  margin: 0px 0px 15px 0px;
+}
 
 /* Keyframes for Seamless Continuous Scrolling */
 @keyframes scroll-carousel {
@@ -288,6 +317,30 @@
     height: 100px;
     width: 100px;
   }
+
+  .toolkit-section {
+    margin-bottom: 60px;
+  }
+
+  .education-title {
+    font-size: 45px;
+  }
+
+  #education {
+    margin-bottom: 45px;
+  }
+
+  .education-item p {
+    font-size: 17px;
+  }
+
+  .career-title {
+    font-size: 45px;
+  }
+
+  .career-item-row h2 {
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 1024px) and (min-width: 767px) {
@@ -331,6 +384,10 @@
     margin: 0px 0px 20px 0px;
   }
 
+  .toolkit-section {
+    margin-bottom: 55px;
+  }
+
   .carousel-item {
     font-size: 17px;
     height: 100px;
@@ -338,6 +395,14 @@
   }
   
   .education-title {
+    font-size: 40px;
+  }
+
+  #education {
+    margin-bottom: 45px;
+  }
+
+  .career-title {
     font-size: 40px;
   }
 }
@@ -412,8 +477,25 @@
   .education-item h2 {
     font-size: 16px;
   }
+
   .education-item p {
     font-size: 16px;
   } 
 
+  #education {
+    margin-bottom: 40px;
+  }
+
+  .education-item p {
+    font-size: 16px;
+  }
+
+  .career-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .career-item-row h2 {
+    font-size: 16px;
+  }
 }
