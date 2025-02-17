@@ -79,6 +79,12 @@ const AboutMe = () => {
                 </div>
             </header>
 
+            <div className="recent-work-section">
+
+
+            </div>
+
+
             {/* Experience Section */}
             <div className="experience-section">
                 <div className="title-column">
@@ -134,10 +140,10 @@ const AboutMe = () => {
                 >
                     <div className="carousel-container">
                         {[
-                            "API", "Bootstrap", "CSS3", "Cypress", "Express.js", "Figma", "Git/GitHub", "HTML5", "Insomnia", "JavaScript", "Jest", "JSON", "Miro", "MongoDB", "NPM", "Node.js", "Next.js", "OOP", "PWA", "Python", "React", "Sass/SCSS", "Sequelize", "SQL", "TypeScript", "Webpack", "WordPress", "jQuery"
+                            "Miro", "Adobe Illustrator", "Adobe Photoshop", "Figma", "Zeplin", "CodePen", "Bootstrap", "CSS3", "Sass/SCSS", "HTML5", "JavaScript", "TypeScript", "Webpack", "jQuery", "Jest", "PWA", "Insomnia", "React", "Slack", "Trello", "Jira", "Hotjar", "Usability Hub", "JSON", "OOP", "React", "WordPress", "Git/GitHub"
                         ]
                             .concat([
-                                "API", "Bootstrap", "CSS3", "Cypress", "Express.js", "Figma", "Git/GitHub", "HTML5", "Insomnia", "JavaScript", "Jest", "JSON", "Miro", "MongoDB", "NPM", "Node.js", "Next.js", "OOP", "PWA", "Python", "React", "Sass/SCSS", "Sequelize", "SQL", "TypeScript", "Webpack", "WordPress", "jQuery"
+                                "Miro", "Adobe Illustrator", "Adobe Photoshop", "Figma", "Zeplin", "CodePen", "Bootstrap", "CSS3", "Sass/SCSS", "HTML5", "JavaScript", "TypeScript", "Webpack", "jQuery", "Jest", "PWA", "Insomnia", "React", "Slack", "Trello", "Jira", "Hotjar", "Usability Hub", "JSON", "OOP", "React", "WordPress", "Git/GitHub"
                             ])
                             .map((tool, index) => (
                                 <div className="carousel-item" key={`${tool}-${index}`} title={tool}>
@@ -157,7 +163,7 @@ const AboutMe = () => {
                         <p>Completed: December 2024</p>
                     </div>
                     <div class="education-item">
-                        <h2>University of Minnesota</h2>
+                        <h2>Minnesota State University</h2>
                         <p>Bachelor of Fine Arts (BFA) in Graphic Design</p>
                         <p>Completed: December 2019</p>
                     </div>
