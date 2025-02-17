@@ -159,12 +159,12 @@ const AboutMe = () => {
                     <div class="education-item">
                         <h2>University of Minnesota</h2>
                         <p>Bachelor of Fine Arts (BFA) in Graphic Design</p>
-                        <p>Graduated: December 2019</p>
+                        <p>Completed: December 2019</p>
                     </div>
                 </div>
             </section>
 
-            <section id="career" class="career-section">
+            {/* <section id="career" class="career-section">
                 <h1 class="career-title">My Career Path</h1>
                 <div class="career-items">
 
@@ -241,7 +241,7 @@ const AboutMe = () => {
                     </div>
 
                 </div>
-            </section>
+            </section> */}
 
             <ScrollButton />
         </>

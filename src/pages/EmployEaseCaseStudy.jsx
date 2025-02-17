@@ -70,7 +70,7 @@ const EmployEaseCaseStudy = () => {
         <div className="case-study-container">
 
             <h1 className="case-study-h1">EmployEase</h1>
-            <h2 className="case-study-subtitle">Streamlining the job hunt on a unified platform for job search and application management.</h2>
+            <h2 className="case-study-subtitle">Streamlining the job application process on a unified platform to reduce complexity and increase efficiency.</h2>
 
             <div className="links">
                 <a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a>
