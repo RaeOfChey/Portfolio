@@ -82,7 +82,7 @@ const EmployEaseCaseStudy = () => {
                     <p><strong>Project<br /></strong> EmployEase</p>
                     <p><strong>Duration<br /></strong> 1.5 weeks</p>
                     <p><strong>Completed<br /></strong> December 2024</p>
-                    <p><strong>Role<br /></strong> Developer, Designer</p>
+                    <p><strong>Role<br /></strong> UX/UI Designer, Front-End Developer</p>
                 </div>
             </section>
 

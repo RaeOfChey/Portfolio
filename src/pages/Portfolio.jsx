@@ -27,7 +27,7 @@ const projects = [
   // Development Projects
   {
     title: 'ITASCA Software',
-    link: 'https://itascasoftware.com/',
+    link: '/itasca-software-case-study',
     type: 'Redesigning a B2B eCommerce SaaS platform to enhance user experience and drive software sales growth by 25%.',
     category: 'Development',
     cta: 'See More',

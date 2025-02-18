@@ -10,7 +10,7 @@ import ITASCASoftwareThumbnail from '../assets/ITASCA Software Thumbnail Image.p
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 
 const AboutMe = () => {
-    const phrase = "developer + designer";
+    const phrase = "designer + developer";
     const [typedText, setTypedText] = useState("");
     const [index, setIndex] = useState(0);
     const [isTypingFinished, setIsTypingFinished] = useState(false);
@@ -81,7 +81,7 @@ const AboutMe = () => {
                 <div className="recent-work-items">
 
                 <div className="recent-work-item">
-                        <a href="https://itascasoftware.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="/itasca-software-case-study" target="_blank" rel="noopener noreferrer">
                             <img src={ITASCASoftwareThumbnail} alt="ITASCA Software project thumbnail" />
                         </a>
                     </div>
