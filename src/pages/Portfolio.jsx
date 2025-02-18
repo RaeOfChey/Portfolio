@@ -21,15 +21,24 @@ import CodexXImg from '../assets/CodexX Thumbnail Image.png';
 import BookVaultImg from '../assets/BookVault Thumbnail Image.png';
 import EmployEaseImg from '../assets/EmployEase Thumbnail Image.png';
 import DotNetProductAPIImg from '../assets/DotNetProductAPI Thumbnail Image.png';
+import ITASCASoftwareImg from '../assets/ITASCA Software Thumbnail Image.png';
 
 const projects = [
   // Development Projects
+  {
+    title: 'ITASCA Software',
+    link: 'https://itascasoftware.com/',
+    type: 'Redesigning a B2B eCommerce SaaS platform to enhance user experience and drive software sales growth by 25%.',
+    category: 'Development',
+    cta: 'See More',
+    image: ITASCASoftwareImg,
+  },
   {
     title: 'EmployEase',
     link: '/employease-case-study',
     type: 'Streamlining the job application process on a unified platform to reduce complexity and increase efficiency.',
     category: 'Development',
-    cta: 'Learn More',
+    cta: 'See More',
     image: EmployEaseImg,
   },
   {
@@ -37,7 +46,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/FilmTracker',
     type: 'Designing a seamless film-tracking experience to help movie lovers organize their watchlists effortlessly.',
     category: 'Development',
-    cta: 'Learn More',
+    cta: 'See More',
     image: FilmTrackerImg,
   },
   {
@@ -45,7 +54,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/DotNetProductAPI',
     type: 'Designing a CRUD API for E-Commerce Product Management with .NET Core.',
     category: 'Read GitHub Repo',
-    cta: 'Learn More',
+    cta: 'See More',
     image: DotNetProductAPIImg,
   },
   {
@@ -53,7 +62,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/AutoPipeline',
     type: 'Automating continuous integration and deployment for MERN applications using GitHub Actions and Render.',
     category: 'Development.',
-    cta: 'Learn More',
+    cta: 'See More',
     image: AutoPipelineImg,
   },
   {
@@ -61,7 +70,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/CodexX',
     type: 'Helping readers easily discover and organize their favorite books with a modern and intuitive search and library management experience.',
     category: 'Development',
-    cta: 'Learn More',
+    cta: 'See More',
     image: BookVaultImg,
   },
   {
@@ -69,7 +78,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/CodexX',
     type: 'Empowering gamers to discover new titles and curate their ultimate wishlist with a personalized video game library platform.',
     category: 'Development',
-    cta: 'Learn More',
+    cta: 'See More',
     image: CodexXImg,
   },
   {
@@ -77,7 +86,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/EmployeeOrganizerPro',
     type: 'Streamlining employee and department management with an intuitive command-line application for businesses to efficiently organize their workforce.',
     category: 'Development',
-    cta: 'Learn More',
+    cta: 'See More',
     image: EmployeeOrganizerImg,
   },
   {
@@ -85,15 +94,15 @@ const projects = [
     link: 'https://github.com/RaeOfChey/function-checklist',
     type: 'JavaScript function checklist and tracker for developers to manage and monitor function details within a project.',
     category: 'Development',
-    cta: 'Learn More',
+    cta: 'See More',
     image: FuncTasticImg,
   },
   {
     title: 'ReadMe Genie',
     link: 'https://github.com/RaeOfChey/ReadMeGenie',
-    type: 'Command-line tool to dynamically generate professional README.md files based on user input.',
+    type: 'A command-line tool to dynamically generate professional README.md files based on user input.',
     category: 'Development',
-    cta: 'Learn More',
+    cta: 'See More',
     image: ReadMeGenieImg,
   },
   {
@@ -101,7 +110,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/Autobuilder',
     type: 'A command-line tool to create and manage vehicles with customized details and actions.',
     category: 'Development',
-    cta: 'Learn More',
+    cta: 'See More',
     image: AutoBuilderImg,
   },
   {
@@ -109,7 +118,7 @@ const projects = [
     link: 'https://github.com/RaeOfChey/Slugfolio',
     type: 'A command-line tool to generate a customizable portfolio with personal information and social links.',
     category: 'Development',
-    cta: 'Learn More',
+    cta: 'See More',
     image: SlugfolioImg,
   },
 
@@ -119,7 +128,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-norseman-nuptials',
     type: 'Creating a brand identity and collateral for couples seeking non-traditional wedding experiences that increased engagement and bookings.',
     category: 'Graphic Design',
-    cta: 'Learn More',
+    cta: 'See More',
     image: NorsemanNuptialsImg,
   },
   {
@@ -127,7 +136,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-ocha-tea-house',
     type: 'Developing a unique brand identity and collateral for a Japanese tea house that increased foot traffic and sales by blending tradition with modern appeal.',
     category: 'Graphic Design',
-    cta: 'Learn More',
+    cta: 'See More',
     image: OchaTeaHouseImg,
   },
   {
@@ -135,7 +144,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-north-woods-cold-brew',
     type: 'Creating seasonal label designs that captured the adventurous spirit of cold brew coffee and increased sales by 25%.',
     category: 'Graphic Design',
-    cta: 'Learn More',
+    cta: 'See More',
     image: NorthWoodsImg,
   },
   {
@@ -143,7 +152,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/2023-themed-conference-signage-secureworld',
     type: 'Designing an EDM-inspired conference theme that increased attendee engagement by 50% and enhanced the event experience.',
     category: 'Graphic Design',
-    cta: 'Learn More',
+    cta: 'See More',
     image: SecureWorldSignageImg,
   },
   {
@@ -151,7 +160,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-marketing-secureworld',
     type: 'Modernizing a brand identity across print digital and multimedia platforms resulting in a 60% increase in engagement.',
     category: 'Graphic Design',
-    cta: 'Learn More',
+    cta: 'See More',
     image: SecureWorldCollateralImg,
   },
   {
@@ -159,7 +168,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/branding-marketing-swanky',
     type: 'Increasing engagement through targeted social media outreach email blasts and rebranding technical documents for improved community connection.',
     category: 'Graphic Design',
-    cta: 'Learn More',
+    cta: 'See More',
     image: SwankyCollateralImg,
   },
   {
@@ -167,7 +176,7 @@ const projects = [
     link: 'https://cheyennaraelynn.myportfolio.com/rebranding-politos-pizza',
     type: 'Rebranding to increase brand awareness and attract new customers with a refreshed logo and engaging collateral.',
     category: 'Graphic Design',
-    cta: 'Learn More',
+    cta: 'See More',
     image: PolitosPizzaImg,
   },
 ];

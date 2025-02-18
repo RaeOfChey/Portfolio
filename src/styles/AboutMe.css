@@ -57,31 +57,72 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 50px;
+}
+
+/* ----- Recent Work Experience Section ----- */
+#recent-work {
+  margin: 100px 0px 75px 0px; 
+}
+
+.recent-work-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; 
+  align-items: center;
+  justify-content: center; 
+}
+
+.recent-work-item {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.recent-work-item img {
+  width: 100%;  
+  height: auto;  
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border: 2px solid var(--color-darkblue);
+}
+
+.recent-work-item img:hover {
+  transform: scale(1.03);
+  /* box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border: 2px solid var(--color-blue); 
+}
+
+.button-item {
+  display: flex;
+  justify-content: center;  
+  align-items: center;  
+}
+
+.button-container {
+  text-align: center;
 }
 
 .see-my-work-button {
   display: inline-block;
   padding: 12px 20px;
   background-color: #fff;
-  border: 2px solid var(--color-darkblue);
   color: var(--color-darkblue);
   text-decoration: none;
-  border-radius: 50px;
   font-family: 'neulis-sans', 'Arial', sans-serif;
   cursor: pointer;
   font-weight: 400;
   font-size: 24px;
   letter-spacing: 0.5px;
   text-align: center;
+  border: none;
 }
 
 .see-my-work-button:hover {
-  border: 2px solid var(--color-blue);
   color: var(--color-blue);
-  /* box-shadow: 0px 0px 15px #ddeaff; */
 }
 
+/* ----- Who am I section ----- */
 .who-am-i-title {
   font-family: 'neulis-cursive', sans-serif;
   font-size: 50px;
@@ -277,10 +318,6 @@
     margin-bottom: 45px;
   }
 
-  .button-container {
-    margin-bottom: 45px;
-  }
-
   .see-my-work-button {
     font-size: 21px;
   }
@@ -357,6 +394,14 @@
     margin-bottom: 40px;
   }
 
+  #recent-work {
+    margin: 75px 0px 30px 0px; 
+  }
+  
+  .recent-work-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .see-my-work-button {
     font-size: 21px;
   }
@@ -419,6 +464,14 @@
 
   .button-container {
     margin-bottom: 30px;
+  }
+
+  #recent-work {
+    margin: 60px 0px 45px 0px; 
+  }
+  
+  .recent-work-items {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .see-my-work-button {
@@ -497,5 +550,12 @@
 
   .career-item-row h2 {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  .recent-work-items {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

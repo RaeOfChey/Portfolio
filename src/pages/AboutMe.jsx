@@ -4,6 +4,10 @@ import '../styles/AboutMe.css';
 import { CircleCheckIcon } from '../components/CircleCheckIcon';
 import ScrollButton from '../components/ScrollButton';
 import { Link } from 'react-router-dom';
+import EmployEaseThumbnail2 from '../assets/EmployEase Thumbnail Image 2.png';
+import NorsemanNupitalsThumbnail from '../assets/Norseman Nupitals Thumbnail Cover.png';
+import ITASCASoftwareThumbnail from '../assets/ITASCA Software Thumbnail Image.png';
+import { ArrowRightIcon } from '../components/ArrowRightIcon';
 
 const AboutMe = () => {
     const phrase = "developer + designer";
@@ -67,23 +71,44 @@ const AboutMe = () => {
                         </span>
                     </h1>
                     <p className="subtitle">
-                        I craft engaging, accessible web experiences that inspire users, boost engagement, and deliver measurable results.
+                        I design accessible, user-friendly web experiences that engage users, simplify journeys, and drive conversions aligned with business goals.
                     </p>
-                    <div className="button-container">
-                        <Link to="/portfolio">
-                            <button className="see-my-work-button">
-                                See My Work
-                            </button>
-                        </Link>
-                    </div>
+
                 </div>
             </header>
 
-            <div className="recent-work-section">
+            <section id="recent-work" className="homepage">
+                <div className="recent-work-items">
 
+                <div className="recent-work-item">
+                        <a href="https://itascasoftware.com/" target="_blank" rel="noopener noreferrer">
+                            <img src={ITASCASoftwareThumbnail} alt="ITASCA Software project thumbnail" />
+                        </a>
+                    </div>
 
-            </div>
+                    <div className="recent-work-item">
+                        <Link to="/employease-case-study">
+                            <img src={EmployEaseThumbnail2} alt="EmployEase project thumbnail" />
+                        </Link>
+                    </div>
 
+                    <div className="recent-work-item">
+                        <a href="https://cheyennaraelynn.myportfolio.com/branding-norseman-nuptials" target="_blank" rel="noopener noreferrer">
+                            <img src={NorsemanNupitalsThumbnail} alt="Norseman Nupitals project thumbnail" />
+                        </a>
+                    </div>
+
+                    <div className="button-container">
+                        <Link to="/portfolio">
+                            <button className="see-my-work-button">
+                                See More Projects
+                                <ArrowRightIcon className="arrow-right-icon" />
+                            </button>
+                        </Link>
+                    </div>
+
+                </div>
+            </section>
 
             {/* Experience Section */}
             <div className="experience-section">
