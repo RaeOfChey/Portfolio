@@ -19,7 +19,6 @@ import ITASCASoftwareImage2 from '../assets/ITASCASoftware CaseStudy Image2.png'
 import ITASCASoftwareImage3 from '../assets/ITASCASoftware CaseStudy Image3.png';
 import ITASCASoftwareImage4 from '../assets/ITASCASoftware CaseStudy Image4.png';
 import ITASCASoftwareImage5 from '../assets/ITASCASoftware CaseStudy Image5.png';
-import CaseStudyImage8 from '../assets/EmployEase CaseStudy Image8.png';
 
 const ITASCASoftwareCaseStudy = () => {
 

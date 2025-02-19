@@ -29,7 +29,7 @@ const projects = [
     title: 'ITASCA Software',
     link: '/itasca-software-case-study',
     type: 'Redesigning a B2B eCommerce SaaS platform to enhance user experience and drive software sales growth by 25%.',
-    category: 'Development',
+    category: ['Development', 'UX/UI Design'],
     cta: 'See More',
     image: ITASCASoftwareImg,
   },
@@ -37,7 +37,7 @@ const projects = [
     title: 'EmployEase',
     link: '/employease-case-study',
     type: 'Streamlining the job application process on a unified platform to reduce complexity and increase efficiency.',
-    category: 'Development',
+    category: ['Development', 'UX/UI Design'],
     cta: 'See More',
     image: EmployEaseImg,
   },
@@ -45,7 +45,7 @@ const projects = [
     title: 'Film Tracker',
     link: 'https://github.com/RaeOfChey/FilmTracker',
     type: 'Designing a seamless film-tracking experience to help movie lovers organize their watchlists effortlessly.',
-    category: 'Development',
+    category: ['Development', 'UX/UI Design'],
     cta: 'See More',
     image: FilmTrackerImg,
   },
@@ -53,7 +53,7 @@ const projects = [
     title: 'DotNetProductAPI',
     link: 'https://github.com/RaeOfChey/DotNetProductAPI',
     type: 'Designing a CRUD API for E-Commerce Product Management with .NET Core.',
-    category: 'Read GitHub Repo',
+    category: 'Development',
     cta: 'See More',
     image: DotNetProductAPIImg,
   },
@@ -69,7 +69,7 @@ const projects = [
     title: 'BookVault',
     link: 'https://github.com/RaeOfChey/CodexX',
     type: 'Helping readers easily discover and organize their favorite books with a modern and intuitive search and library management experience.',
-    category: 'Development',
+    category: ['Development', 'UX/UI Design'],
     cta: 'See More',
     image: BookVaultImg,
   },
@@ -77,7 +77,7 @@ const projects = [
     title: 'CodeX',
     link: 'https://github.com/RaeOfChey/CodexX',
     type: 'Empowering gamers to discover new titles and curate their ultimate wishlist with a personalized video game library platform.',
-    category: 'Development',
+    category: ['Development', 'UX/UI Design'],
     cta: 'See More',
     image: CodexXImg,
   },
@@ -93,7 +93,7 @@ const projects = [
     title: 'FuncTastic',
     link: 'https://github.com/RaeOfChey/function-checklist',
     type: 'JavaScript function checklist and tracker for developers to manage and monitor function details within a project.',
-    category: 'Development',
+    category: ['Development', 'UX/UI Design'],
     cta: 'See More',
     image: FuncTasticImg,
   },
@@ -186,7 +186,11 @@ function Portfolio() {
 
   const filteredProjects = filter === 'All'
     ? projects
-    : projects.filter(project => project.category === filter);
+    : projects.filter(project =>
+        Array.isArray(project.category)
+          ? project.category.includes(filter)
+          : project.category === filter
+      );
 
   return (
     <div className="portfolio">
@@ -194,26 +198,31 @@ function Portfolio() {
       <p>Look through my work, read through my case studies, have a look at final designs and try out prototypes I’ve built.</p>
       <div className="filter-buttons">
         <button onClick={() => setFilter('All')} className={filter === 'All' ? 'active' : ''}>All</button>
+        <button onClick={() => setFilter('UX/UI Design')} className={filter === 'UX/UI Design' ? 'active' : ''}>UX/UI Design</button>
         <button onClick={() => setFilter('Development')} className={filter === 'Development' ? 'active' : ''}>Development</button>
-        <button onClick={() => setFilter('Graphic Design')} className={filter === 'Graphic Design' ? 'active' : ''}>Design</button>
+        <button onClick={() => setFilter('Graphic Design')} className={filter === 'Graphic Design' ? 'active' : ''}>Graphic Design</button>
       </div>
 
       <div className="project-cards">
-  {filteredProjects.map((project, index) => (
-    <div key={index} className="project-card">
-    <a href={project.link} target="_blank" rel="noopener noreferrer">
-      <img src={project.image} alt={project.title} />
-      <div className="project-info">
-        <h2 className="project-title">{project.title}</h2>
-        <p className="project-type">{project.type}</p>
-        <p className="project-cta">{project.cta}</p>
-      </div>
-    </a>
-  </div>
-  ))}
-</div>
+        {filteredProjects.map((project, index) => (
+          <div key={index} className="project-card relative group">
+            <a href={project.link} target="_blank" rel="noopener noreferrer" className="block">
+              {/* Image */}
+              <img src={project.image} alt={project.title} className="w-full h-auto rounded-lg" />
+              
+              {/* Project Info */}
+              <div className="project-info relative p-4">
+                <h2 className="project-title">{project.title}</h2>
+                <p className="project-type">{project.type}</p>
 
-      {/* Add the ScrollButton component at the bottom of the page */}
+                {/* Hover Overlay */}
+                <div className="overlay">Learn More</div>
+              </div>
+            </a>
+          </div>
+        ))}
+      </div>
+
       <ScrollButton />
     </div>
   );

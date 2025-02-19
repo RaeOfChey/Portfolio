@@ -58,18 +58,17 @@
 }
 
 .project-card {
-  border-radius: 5px;
+  border-radius: 7px;
   width: calc(50% - 35px);
   text-align: center;
   overflow: hidden;
-  /* box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); */
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   border: 2px solid var(--color-darkblue);
+  position: relative; /* Ensure overlay is positioned relative to the card */
 }
 
 .project-card:hover {
   transform: scale(1.03);
-  /* box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); */
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   border: 2px solid var(--color-blue);
 }
@@ -77,31 +76,45 @@
 .project-card img {
   width: 100%;
   height: auto;
+  transition: opacity 0.3s ease; /* Optional: for a smooth fade effect */
 }
 
-/* Targets all text on card */
+/* To make the overlay appear on hover */
+.project-card .project-info .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(172, 189, 220, 0.9);
+  color: var(--color-darkblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 27px;
+}
+
+.project-card:hover .project-info .overlay {
+  opacity: 1; 
+}
+
 .project-card a {
   text-decoration: none;
   color: var(--color-black);
 }
 
-/* Targets project titles on card */
 .project-card h2 {
-  /* padding: 15px 10px 0px 10px; */
   font-size: 26px;
   color: #000;
 }
 
-/* Targets the first <p> (type) on card */
 .project-card p:nth-of-type(1) {
-  padding: 0px 25px;
+  padding: 0px 25px 25px 25px;
   margin: 0px;
   font-size: 18px;
   line-height: 1.5;
   color: #000;
 }
 
-/* Targets the second <p> (cta) on card */
 .project-card p:nth-of-type(2) {
   display: inline-block;
   padding: 12px 20px;
@@ -118,13 +131,6 @@
   text-align: center;
 }
 
-.project-card a .project-cta {
-  /* Add styles specific to project-cta */
-  color: var(--color-darkblue);
-  padding: 8px 20px;
-}
-
-/* Targets the second <p> (cta) on card */
 .project-card p:nth-of-type(2):hover {
   border: 2px solid var(--color-blue);
   color: var(--color-blue);
@@ -152,7 +158,7 @@
 /* Media Queries */
 @media (max-width: 1281px) and (min-width: 1025px) {
   h1 {
-    font-size: 40px;
+    font-size: 45px;
   }
   p {
     font-size: 17px;
@@ -166,12 +172,15 @@
   .project-card p:nth-of-type(1) {
     font-size: 17px;
   }
-  .project-card a .project-cta {
-    font-size: 21px; 
+  .project-card .project-info .overlay {
+    font-size: 27px;
   }
 }
 
 @media (max-width: 1024px) and (min-width: 767px) {
+  h1 {
+    font-size: 40px;
+  }
   .project-card a .project-cta {
     font-size: 21px; 
   }
@@ -182,13 +191,17 @@
     font-size: 17px; 
   }
   .filter-buttons button,
-  .project-card h2 {
+  .project-card h2,
+  .project-card .project-info .overlay {
     font-size: 21px; 
   }
 }
 
 /* 768px styles */
 @media (max-width: 766px) {
+  h1 {
+    font-size: 30px;
+  }
   .project-card {
     width: calc(50% - 20px);
   }
@@ -219,5 +232,8 @@
   }
   .project-card p:nth-of-type(2) {
     font-size: 17px;
+  }
+  .project-card .project-info .overlay {
+    font-size: 20px;
   }
 }

@@ -69,28 +69,60 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 20px; 
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .recent-work-item {
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.recent-work-item img {
-  width: 100%;  
-  height: auto;  
-  border-radius: 5px;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  border-radius: 7px;
+  overflow: hidden;
   border: 2px solid var(--color-darkblue);
+  transition: border-color 0.3s ease;
 }
 
-.recent-work-item img:hover {
-  transform: scale(1.03);
-  /* box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); */
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-  border: 2px solid var(--color-blue); 
+.image-container:hover {
+  border-color: var(--color-blue);
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block; 
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+}
+
+.image-container img:hover {
+  transform: scale(1.03); 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(172, 189, 220, 0.9); 
+  color: var(--color-darkblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 5px; /* Match the rounded corners */
+}
+
+.image-container:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
 }
 
 .button-item {
@@ -318,7 +350,8 @@
     margin-bottom: 45px;
   }
 
-  .see-my-work-button {
+  .see-my-work-button,
+  .overlay {
     font-size: 21px;
   }
 
@@ -402,7 +435,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .see-my-work-button {
+  .see-my-work-button,
+  .overlay {
     font-size: 21px;
   }
 
@@ -474,7 +508,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .see-my-work-button {
+  .see-my-work-button,
+  .overlay {
     font-size: 17px;
   }
 
