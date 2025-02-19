@@ -15,10 +15,10 @@ import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 
 import ITASCASoftwareImage1 from '../assets/ITASCASoftware CaseStudy Image1.png';
-import CaseStudyImage3 from '../assets/EmployEase CaseStudy Image3.png';
-import CaseStudyImage5 from '../assets/EmployEase CaseStudy Image5.png';
-import CaseStudyImage6 from '../assets/EmployEase CaseStudy Image6.png';
-import CaseStudyImage7 from '../assets/EmployEase CaseStudy Image7.png';
+import ITASCASoftwareImage2 from '../assets/ITASCASoftware CaseStudy Image2.png';
+import ITASCASoftwareImage3 from '../assets/ITASCASoftware CaseStudy Image3.png';
+import ITASCASoftwareImage4 from '../assets/ITASCASoftware CaseStudy Image4.png';
+import ITASCASoftwareImage5 from '../assets/ITASCASoftware CaseStudy Image5.png';
 import CaseStudyImage8 from '../assets/EmployEase CaseStudy Image8.png';
 
 const ITASCASoftwareCaseStudy = () => {
@@ -213,12 +213,12 @@ const ITASCASoftwareCaseStudy = () => {
 
                         <div className="image-row-2">
                             <div className="image-column">
-                                <p id="filter-bar-description" className="image-subtitles-left-2">The design focuses on a streamlined user experience, simplifying navigation and product discovery. With clear, action-driven calls to action, a modernized layout, and an emphasis on mobile responsiveness, the homepage is optimized for both engagement and conversion..</p>
+                                <p id="filter-bar-description" className="image-subtitles-left-2">The design focuses on a streamlined user experience, simplifying navigation and product discovery. With clear, action-driven calls to action, a modernized layout, and an emphasis on mobile responsiveness, the homepage is optimized for both engagement and conversion.</p>
                             </div>
                             <div className="image-column-right-2 left-align">
                                 <img
                                     src={ITASCASoftwareImage1}
-                                    alt="First description"
+                                    alt="This image depicts the home page, which shows how the design focuses on a streamlined user experience, simplifying navigation and product discovery. With clear, action-driven calls to action, a modernized layout, and an emphasis on mobile responsiveness, the homepage is optimized for both engagement and conversion."
                                     className="case-study-image"
                                 />
                             </div>
@@ -228,7 +228,7 @@ const ITASCASoftwareCaseStudy = () => {
                 </div>
             </section>
 
-            {/* <section className="process-section-header">
+            <section className="process-section-header">
                 <div className="section-left">
                     <h3>Timelime & SDLC</h3>
                 </div>
@@ -236,38 +236,40 @@ const ITASCASoftwareCaseStudy = () => {
                 <div className="section-right">
                     <div className="context-item">
                         <div className="context-item-header">
-                            <h4>Day 1–2<br />Planning</h4>
+                            <h4>Weeks 1–2<br />Planning</h4>
                         </div>
                         <ul>
-                            <li>Conducted user interviews and competitive analysis to identify pain points in existing job search tools.</li>
-                            <li>This research informed the development of core features, such as application tracking and real-time job updates.</li>
+                            <li>CConducted user interviews with the sales team and analyzed website analytics to identify key pain points in the sales and user journey.</li>
+                            <li>Evaluated competitor websites and performed a gap analysis to uncover areas of improvement.</li>
+                            <li>Reviewed existing website content, architecture, and functionality.</li>
                         </ul>
                     </div>
 
                     <div className="context-item">
                         <div className="context-item-header">
-                            <h4>Day 3–4<br />Designing</h4>
+                            <h4>Weeks 3–5<br />Designing</h4>
                         </div>
                         <ul>
-                            <li>Developed user personas and journey maps to define the most critical features and workflows.</li>
-                            <li>Created wireframes and basic prototypes to visualize the user experience.</li>
+                            <li>Developed wireframes for the new site layout, focusing on simplicity, clarity, and ease of navigation.</li>
+                            <li>Created high-fidelity mockups incorporating updated branding, CTAs, and key elements for better user flow.</li>
+                            <li>Collaborated with stakeholders to refine design concepts, ensuring alignment with brand goals.</li>
                         </ul>
                     </div>
 
                     <div className="context-item">
                         <div className="context-item-header">
-                            <h4>Day 5–6<br />Implementing</h4>
+                            <h4>Weeks 6–9<br />Implementing</h4>
                         </div>
                         <ul>
-                            <li>Designed high-fidelity mockups and interactive prototypes in Figma.</li>
-                            <li>Developed the front-end using React.js, ensuring the app was responsive and user-friendly.</li>
-                            <li>Integrated APIs to pull real-time job data, enabling users to track their job applications directly within the tool.</li>
+                            <li>Developed the website's front-end using WordPress and a custom theme, incorporating the new design elements.</li>
+                            <li>Integrated necessary tools, such as Google Analytics, Hotjar, and Optimizely, to monitor user engagement and gather data.</li>
+                            <li>Focused on optimizing the site for mobile responsiveness and accessibility (WCAG compliance).</li>
                         </ul>
                     </div>
 
                     <div className="context-item">
                         <div className="context-item-header">
-                            <h4>Day 7–10<br />Testing</h4>
+                            <h4>Weeks 10–12<br />Testing</h4>
                         </div>
                         <ul>
                             <li>Conducted usability testing and made iterations based on feedback.</li>
@@ -280,8 +282,8 @@ const ITASCASoftwareCaseStudy = () => {
                             <h4>Day 11–12<br />Deploying & Maintaining</h4>
                         </div>
                         <ul>
-                            <li>Prepared the app for deployment to a production environment, ensuring it was ready for end-users.</li>
-                            <li>Monitored post-launch performance and began gathering feedback for future updates and improvements.</li>
+                            <li>Launched the site and began post-launch monitoring to address any immediate user concerns.</li>
+                            <li>Ongoing maintenance to ensure optimal performance, troubleshoot issues, and continuously improve the user experience based on feedback.</li>
                         </ul>
                     </div>
                 </div>
@@ -304,12 +306,10 @@ const ITASCASoftwareCaseStudy = () => {
                     >
                         <div className="carousel-container-casestudy">
                             {[
-                                "React", "TypeScript", "Apollo Server", "Express.js", "MongoDB Atlas", "Bootstrap",
-                                "GraphQL", "Responsive Design", "Real-Time Integration"
+                                "WordPress (CMS)", "PHP", "JavaScript", "Monday.com", "Miro", "Figma", "HTML/CSS", "SEO Optimization", "Google Analytics", "Hotjar", "Optimizely", "UX/UI Design", "WCAG", "FastSpring", "Stripe"
                             ]
                                 .concat([
-                                    "React", "TypeScript", "Apollo Server", "Express.js", "MongoDB Atlas", "Bootstrap",
-                                    "GraphQL", "Responsive Design", "Real-Time Integration"
+                                    "WordPress (CMS)", "PHP", "JavaScript", "Monday.com", "Miro", "Figma", "HTML/CSS", "SEO Optimization", "Google Analytics", "Hotjar", "Optimizely", "UX/UI Design", "WCAG", "FastSpring", "Stripe"
                                 ])
                                 .map((skill, index) => (
                                     <div className="carousel-item-casestudy" key={`${skill}-${index}`} title={skill}>
@@ -338,9 +338,9 @@ const ITASCASoftwareCaseStudy = () => {
                                     <h4>Obstacles</h4>
                                 </div>
                                 <ul>
-                                    <li>Accommodating an increasing number of users and data volume.</li>
-                                    <li>Slow response times during peak usage.</li>
-                                    <li>Aggregating and displaying real-time job data from multiple sources.</li>
+                                    <li>Aligning the website with the existing consulting website for consistency in branding and user experience.</li>
+                                    <li>Managing communication between multiple external third-party teams and global stakeholders.</li>
+                                    <li>Balancing technical product details with user-friendly content to avoid overwhelming users.</li>
                                     <li>Ensuring the platform handled user data securely and complied with relevant regulations.</li>
                                 </ul>
                             </div>
@@ -351,10 +351,10 @@ const ITASCASoftwareCaseStudy = () => {
                                     <h4>Milestones</h4>
                                 </div>
                                 <ul>
-                                    <li>User testing provided valuable feedback that helped refine the platform’s core features.</li>
-                                    <li>Optimizating backend efforts to enhance performance when handling real-time job data and high user activity.</li>
-                                    <li>Addition of critical features such as advanced job search filters were added.</li>
-                                    <li>Integration of real-time job listings from external sources.</li>
+                                    <li>Increased software sales by 25% post-launch.</li>
+                                    <li>Boosted lead generation by 30% with streamlined information architecture and clear CTAs.</li>
+                                    <li>Achieved full mobile responsiveness, language localization, and global accessibility standards</li>
+                                    <li>Properly implemented SEO optimization and data-driven insights tools.</li>
                                 </ul>
                             </div>
 
@@ -373,10 +373,10 @@ const ITASCASoftwareCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="solution-paragraph-1">
-                        EmployEase addresses the pain points job seekers face by creating a platform that prioritizes by offering a unified, streamlined platform that minimizes time and energy spent on the job search process.
+                        ITASCA Software’s website redesign addresses key user pain points by offering a streamlined, user-centered experience that simplifies product discovery, enhances user flow, and optimizes the purchasing process.
                     </p>
                     <div className="solution-link solution-section">
-                        <a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a>
+                        <a href="https://itascasoftware.com/" target="_blank">View Live</a>
                     </div>
 
                     <div className="context-item-container">
@@ -384,22 +384,22 @@ const ITASCASoftwareCaseStudy = () => {
                         <div id="end-result" className="context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>How EmployEase solves user problems</h4>
+                                <h4>How the redesign solves user problems</h4>
                             </div>
                             <p>
-                                EmployEase directly addresses the pain points job seekers face such as disorganization, fragmentation, and overwhelming complexity by:
+                                The redesign of ITASCA Software's website directly addresses the pain points users face in navigating technical content and completing purchases by:
                                 <ul>
                                     <li>
-                                        By consolidating job listings into one place, EmployEase eliminates the fragmented job search experience, providing real-time, relevant job data without the need to visit multiple platforms.
+                                        Product discovery was simplified, with reorganized with clear navigation, concise product descriptions, and intuitive categories. Making it easier for users to find the solutions they need without feeling overwhelmed by technical jargon.
                                     </li>
                                     <li>
-                                        Users can easily track and customize application statuses and deadlines within the app, eliminating the need for spreadsheets or manual note-taking.
+                                        The checkout experience was streamlined to eliminate friction and guide users through a seamless purchasing process, reducing the need for sales team intervention.
                                     </li>
                                     <li>
-                                        EmployEase eliminates the repetitive task of maintaining profiles on multiple platforms by offering a simplified sign-up process that doesn’t require constant updates.
+                                        The site was made fully mobile-responsive and offers multiple languages, ensuring users have a smooth experience across devices and locations, making the platform accessible to a global audience.
                                     </li>
                                     <li>
-                                        EmployEase offers a clean, distraction-free interface that keeps users focused on their primary goal of obtaining a job.
+                                        Data-driven decision making is at the forefront, with the site continuously tracks user behavior and optimizes the site’s content, layout, and features for improved engagement.
                                     </li>
                                 </ul>
                             </p>
@@ -408,24 +408,24 @@ const ITASCASoftwareCaseStudy = () => {
                         <div className="image-row-1">
                             <div className="image-column-left-1">
                                 <img
-                                    src={CaseStudyImage6}
-                                    alt="First description"
+                                    src={ITASCASoftwareImage2}
+                                    alt="This image depicts the new 'All Products' landing page, which centralizes all software offerings. This streamlined experience enhances product visibility, helping users quickly understand available solutions. Each product card displays essential details, guiding users toward informed purchasing decisions. This update directly supports the redesign’s goal of improving usability, reducing friction in the buying process, and increasing engagement with ITASCA’s product ecosystem."
                                     className="case-study-image"
                                 />
                             </div>
                             <div className="image-column-right-1">
-                                <p id="the-filter-bar-subtitle" className="image-subtitles">The Filter Bar empowers users to customize their job search by selecting desired locations (top U.S. city in each state), industries (15 popular options), and experience levels (Entry, Mid, Senior, Management, Internship). With a single click, real-time job data is retrieved via The Muse API, delivering tailored opportunities that match the user’s preferences.</p>
+                                <p id="the-filter-bar-subtitle" className="image-subtitles">This new 'All Products' landing page centralizes all software offerings. This streamlined experience enhances product visibility, helping users quickly understand available solutions. Each product card displays essential details, guiding users toward informed purchasing decisions. This update directly supports the redesign’s goal of improving usability, reducing friction in the buying process, and increasing engagement with ITASCA’s product ecosystem.</p>
                             </div>
                         </div>
 
                         <div className="image-row-2">
                             <div className="image-column">
-                                <p id="filter-bar-description" className="image-subtitles-left-2">Users can easily store job search results for later reference. After clicking 'See More' on a job listing, a detailed pop-up modal appears, showcasing the job title, company, location(s), experience level, posting date, and a link to the job posting. Logged-in users can save jobs to their 'Saved Jobs' page for future access.</p>
+                                <p id="filter-bar-description" className="image-subtitles-left-2">This section of the product page concisely highlights the key benefits and features of a software software, ensuring users quickly understand its value. The clean, structured layout makes it easy to scan, helping potential customers make informed decisions with confidence. Simplifying complex product details and improving clarity reduces friction in the buying process.</p>
                             </div>
                             <div className="image-column-right-2 left-align">
                                 <img
-                                    src={CaseStudyImage7}
-                                    alt="First description"
+                                    src={ITASCASoftwareImage5}
+                                    alt="This image depicts a section of the product page concisely highlights the key benefits and features of a software software, ensuring users quickly understand its value. The clean, structured layout makes it easy to scan, helping potential customers make informed decisions with confidence. Simplifying complex product details and improving clarity reduces friction in the buying process"
                                     className="case-study-image"
                                 />
                             </div>
@@ -434,14 +434,15 @@ const ITASCASoftwareCaseStudy = () => {
                         <div className="context-item beyond-the-challenge">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>What EmployEase improved beyond the Challenge</h4>
+                                <h4>What the redesign improved beyond the Challenge</h4>
                             </div>
                             <p>
-                                EmployEase creates a streamlined job search platform by incorporating additional features that enhance the user experience and empower job seekers:
+                                The redesign addresses core user problems by incorporating additional features that elevate the user experience and increase engagement:
                                 <ul>
-                                    <li>Integrated real-time job data ensures up-to-date opportunities in a streamlined centralized location.</li>
-                                    <li>Personalized job tracking options provide users with a tailored experience for managing applications, statuses, and deadlines.</li>
-                                    <li>Mobile responsiveness ensures seamless accessibility, enabling users to manage their job search wherever they are.</li>
+                                    <li>Improved information architecture helps users find relevant software solutions quickly from the user journey of discovery to purchase.</li>
+                                    <li>Actionable CTAs were integrated strategically throughout the site, making it easier for users to take action and saving them time.</li>
+                                    <li>Integration of Google Analytics and other data-driven tools allows for continuous refinement of user experience based on actionable insights.</li>
+                                    <li>Proper SEO implementation and performance tuning ensure better search engine visibility and faster load times for improved user engagement and traffic.</li>
                                 </ul>
                             </p>
                         </div>
@@ -449,33 +450,30 @@ const ITASCASoftwareCaseStudy = () => {
                         <div className="image-row-1">
                             <div className="image-column-left-1">
                                 <img
-                                    src={CaseStudyImage3}
-                                    alt="First description"
+                                    src={ITASCASoftwareImage4}
+                                    alt="This image depicts the checkout cart page, which provides users with a clear, organized view of their selected product and key details. By displaying all relevant information upfront, users can easily review and modify their selections before completing their purchase. Additionally, the page features intelligent product recommendations, suggesting complementary software or add-ons based on the user’s cart. This enhances product discovery and improves the user experience, reducing purchasing friction, and increasing cross-selling opportunities."
                                     className="case-study-image"
                                 />
                             </div>
                             <div className="image-column-right-1">
                                 <p className="image-subtitles">
-                                    The Add a Job feature empowers users to track all job opportunities in one place. It allows job seekers to manually add positions they find outside of the Muse API's real-time data.
+                                    The checkout cart page provides users with a clear, organized view of their selected product and key details. By displaying all relevant information upfront, users can easily review and modify their selections before completing their purchase.
                                 </p>
                                 <p className="image-subtitles">
-                                    This unique functionality sets EmployEase apart from platforms like LinkedIn or Indeed, ensuring users can manage all job listings on their personalized 'Saved Jobs' page, whether from the app or external sources.
-                                </p>
-                                <p id="add-a-job-subtitle-3" className="image-subtitles">
-                                    By offering this feature, EmployEase gives users the ability to track and organize their job search from multiple platforms, making it easier to stay on top of opportunities, applications, and interviews in one convenient location.
+                                    Additionally, the page features intelligent product recommendations, suggesting complementary software or add-ons based on the user’s cart. This enhances product discovery and improves the user experience, reducing purchasing friction, and increasing cross-selling opportunities.
                                 </p>
                             </div>
                         </div>
 
                         <div className="image-row-2">
                             <div className="image-column">
-                                <p id="filter-bar-description" className="image-subtitles-left-2">Users can update the status of their saved jobs, such as Interested, Applied, Interviewing, or Hired. The unique combination of manually adding external job listings and organizing their saved jobs allows users to stay organized and manage their job search with convenience.
+                                <p id="filter-bar-description" className="image-subtitles-left-2">The new product landing pages allows users to easily compare and select the right software license. Users can choose from multiple licensing options directly from the product page. The Add to Cart feature streamlines the purchasing process, while the Request a Demo option ensures users can explore the software before committing. Which aligns with the redesign’s goal of improving clarity, reducing friction in the buying process.
                                 </p>
                             </div>
                             <div className="image-column-right-2 left-align">
                                 <img
-                                    src={CaseStudyImage5}
-                                    alt="First description"
+                                    src={ITASCASoftwareImage3}
+                                    alt="This image depicts a part of the new product landing page that allows users to easily compare and select the right software license. Users can choose from multiple licensing options directly from the product page. The Add to Cart feature streamlines the purchasing process, while the Request a Demo option ensures users can explore the software before committing. Which aligns with the redesign’s goal of improving clarity, reducing friction in the buying process."
                                     className="case-study-image"
                                 />
                             </div>
@@ -487,16 +485,16 @@ const ITASCASoftwareCaseStudy = () => {
                                 <h4>End result</h4>
                             </div>
                             <p>
-                                The final product is a unified, user-friendly web platform that simplifies the job search process. EmployEase offers a dynamic job dashboard, real-time data integration, and intuitive design, all optimized for both desktop and mobile devices. Users can manage every aspect of their job search with ease, saving time and energy while navigating their journey with confidence.
+                                The final product is a user-friendly, mobile-optimized website that enhances both user experience and lead generation. The redesigned site has increased software sales by 25%, improved lead generation by 30%, and offers a seamless, data-driven user experience across all devices. Users can now navigate the site efficiently, making confident purchasing decisions while enjoying a streamlined journey from discovery to checkout.
                             </p>
                         </div>
 
-                        <img
+                        {/* <img
                             id="end-result-image"
                             src={CaseStudyImage8}
                             alt="First description"
                             className="case-study-image"
-                        />
+                        /> */}
 
                     </div>
                 </div>
@@ -509,10 +507,12 @@ const ITASCASoftwareCaseStudy = () => {
 
                 <div className="section-right">
                     <p>
-                        EmployEase revolutionized the job search process by providing a streamlined, user-focused platform. By addressing key challenges like fragmentation, disorganization, and overwhelming features, it empowered users to manage their job applications with confidence and clarity.</p>
-                    <p id="impact-paragraph-2">
-                        The intuitive design saved time and reduced frustration, making the platform a trusted tool for job seekers to stay organized and focused on their career goals.
+                        The ITASCA Software website redesign transformed the user experience by creating a seamless, intuitive platform that effectively addressed the challenges users faced.
                     </p>
+                    <p id="impact-paragraph-2">
+                        By streamlining product discovery, optimizing the purchasing process, and enhancing global accessibility, the redesign empowered users to navigate the site with ease and confidence. The improvements resulted in increased engagement, higher conversion rates, and greater user satisfaction.
+                    </p>
+
                     <br />
 
                     <div className="context-item-container">
@@ -524,10 +524,11 @@ const ITASCASoftwareCaseStudy = () => {
                             </div>
                             <p>
                                 <ul>
-                                    <li>The platform saw increased user engagement after integrating real-time job data and consolidating listings from multiple sources.</li>
-                                    <li>Users reported spending significantly less time managing their job applications, thanks to the intuitive design and centralized tracking system.</li>
-                                    <li>Mobile optimization efforts resulted in high usage rates across devices, ensuring accessibility and convenience for users on the go.</li>
-                                    <li>Feedback highlighted reduced frustration and greater clarity in navigating the job search process, demonstrating the platform's effectiveness in solving user pain points.</li>
+                                    <li>Improved navigation and CTAs increased software sales by 25%, proving the effectiveness of a user-centered design.</li>
+                                    <li>Streamlined product discovery and checkout reduced search time, enhancing the user experience.</li>
+                                    <li>Localization and mobile optimization expanded global reach, boosting engagement and traffic.</li>
+                                    <li>A refined user journey and CTAs drove higher conversion rates and a 30% increase in lead generation.</li>
+                                    <li>Faster load times and improved SEO enhanced visibility and organic traffic post-launch.</li>
                                 </ul>
                             </p>
                         </div>
@@ -552,7 +553,7 @@ const ITASCASoftwareCaseStudy = () => {
                                     <h4>Lessons learned</h4>
                                 </div>
                                 <p>
-                                    Through this project, I gained a deeper understanding of how to balance user needs with technical constraints. Managing real-time data integrations taught me how critical it is to prioritize seamless functionality while keeping the platform responsive. This project also reinforced the importance of mobile-first design and optimizing the user experience across multiple devices.
+                                    This project deepened my understanding of optimizing ecommerce platforms for both user experience and business objectives. I learned how to balance user needs with SEO, accessibility, and performance improvements to create a site that was both engaging and effective. Additionally, collaborating with third-party developers reinforced the importance of clear communication in executing a shared vision.
                                 </p>
                             </div>
 
@@ -562,11 +563,11 @@ const ITASCASoftwareCaseStudy = () => {
                                     <h4>Key challenges overcome</h4>
                                 </div>
                                 <p>
-                                    The most significant challenges was integrating real-time data from multiple sources while ensuring the platform remained responsive. By developing a robust backend system and implementing effective data syncing techniques, I was able to overcome this hurdle and deliver a streamlined user experience.
+                                    One of the biggest challenges was improving the site's information architecture while maintaining consistency across a vast product catalog. By implementing a more intuitive navigation system and refining the checkout process, I was able to simplify product discovery and enhance usability.
                                 </p>
                                 <br />
                                 <p>
-                                    Additionally, balancing simplicity with functionality required constant iteration and user feedback, helping me focus on solving core problems without adding unnecessary complexity.
+                                    Another key challenge was ensuring the site met global accessibility and localization standards. Through careful optimization and testing, I successfully made the platform more inclusive and user-friendly for an international audience.
                                 </p>
                             </div>
 
@@ -576,11 +577,11 @@ const ITASCASoftwareCaseStudy = () => {
                                     <h4>Personal reflections</h4>
                                 </div>
                                 <p>
-                                    This project was an opportunity to blend my design and development skills to tackle real-world challenges faced by job seekers. I was motivated by the chance to simplify a process that is often overwhelming and stressful.
+                                    This project was a rewarding opportunity to apply my UX expertise to a real-world ecommerce platform with measurable business impact. Seeing a direct increase in sales and engagement reinforced the power of user-centered design in driving conversions.
                                 </p>
                                 <br />
                                 <p>
-                                    The experience has been transformative, enhancing my ability to think critically about user needs and implement innovative yet practical solutions. I’m proud of the impact EmployEase can have on job seekers, and I look forward to applying these insights to future projects.
+                                    I’m proud of the improvements made and excited to bring these insights into future projects focused on accessibility, usability, and performance-driven design.
                                 </p>
                             </div>
                         </div>
@@ -597,47 +598,47 @@ const ITASCASoftwareCaseStudy = () => {
 
                     <div className="section-right">
 
-                        <p>EmployEase has the potential to evolve into an even more powerful tool for job seekers with the following enhancements:</p>
+                        <p>The ITASCA Software platform has the potential to further enhance user experience, streamline operations, and drive greater customer engagement through these future improvements:</p>
 
                         <div className="context-item-container">
 
                             <div className="context-item">
                                 <div className="context-item-header lessons-learned">
                                     <TrendingUpIcon className="trendingup-icon" />
-                                    <h4>Advanced search features</h4>
+                                    <h4>Personalized product recommendations</h4>
                                 </div>
                                 <p>
-                                    Introduce search filters such as distance from a desired location, salary range, and job type (remote, hybrid, in-person) to provide more tailored job recommendations. Expand beyond the current "top city in each state" model to include a broader range of locations, ensuring more comprehensive coverage across the U.S.
+                                    Integrate AI-driven product recommendations based on user behavior and previous purchases. This feature would guide customers toward relevant software solutions and increase cross-selling opportunities.
                                 </p>
                             </div>
 
                             <div className="context-item">
                                 <div className="context-item-header key-challenges-overcome">
                                     <TrendingUpIcon className="trendingup-icon" />
-                                    <h4>Kanban board for saved jobs</h4>
+                                    <h4>Virtual Assistant</h4>
                                 </div>
                                 <p>
-                                    Transform the "Saved Jobs" section into a fully interactive Kanban board. Users could categorize and track jobs through different stages (e.g., Interested, Applied, Interviewing, Offered) for a more visual and intuitive experience.
+                                    Implement an AI-driven virtual assistant to provide real-time support, answer product-related questions, and guide users through the purchasing process with contextual assistance.
                                 </p>
                             </div>
 
                             <div className="context-item">
                                 <div className="context-item-header key-challenges-overcome">
                                     <TrendingUpIcon className="trendingup-icon" />
-                                    <h4>Enhanced mobile experience</h4>
+                                    <h4>Advanced product filtering</h4>
                                 </div>
                                 <p>
-                                    Develop a dedicated mobile app with features like push notifications for application deadlines, one-click job saves, and offline tracking capabilities, ensuring seamless access for users on the go.
+                                    Expand the product discovery process with advanced filtering options, such as product compatibility, use case scenarios, and industry-specific applications, to help users find the most relevant solutions faster.
                                 </p>
                             </div>
 
                             <div className="context-item">
                                 <div className="context-item-header key-challenges-overcome">
                                     <TrendingUpIcon className="trendingup-icon" />
-                                    <h4>AI powered job recommendations</h4>
+                                    <h4>Interactive product demos</h4>
                                 </div>
                                 <p>
-                                    Leverage machine learning to provide personalized job recommendations based on user preferences, past applications, and engagement history.
+                                    Incorporate interactive demos or product simulations, allowing users to explore software features and functionality in real-time, boosting confidence in purchasing decisions.
                                 </p>
                             </div>
                         </div>
@@ -645,7 +646,7 @@ const ITASCASoftwareCaseStudy = () => {
                 </div>
             </section>
 
-            <section className="challenge-section-header">
+            {/* <section className="challenge-section-header">
                 <div className="section-left">
                     <h3>Credits</h3>
                 </div>
@@ -672,18 +673,18 @@ const ITASCASoftwareCaseStudy = () => {
                         </ul>
                     </p>
                 </div>
-            </section>
+            </section> */}
 
             <section class="cta-section">
 
                 <div class="cta-options">
 
                     <div class="cta-option">
-                        <p><a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a></p>
+                        <p><a href="https://itascasoftware.com/" target="_blank">View Live</a></p>
                     </div>
 
                     <div class="cta-option">
-                        <p><a href="https://employease-hubi.onrender.com/" target="_blank">View Github</a></p>
+                        <p><a href="https://github.com/RaeOfChey" target="_blank">View My Github</a></p>
                     </div>
 
                     <div class="cta-option">
@@ -692,7 +693,7 @@ const ITASCASoftwareCaseStudy = () => {
 
                 </div>
 
-            </section> */}
+            </section>
 
             <div class="see-more-button">
                 <p>
