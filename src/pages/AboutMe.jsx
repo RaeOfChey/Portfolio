@@ -78,44 +78,44 @@ const AboutMe = () => {
             </header>
 
             <section id="recent-work" className="homepage">
-  <div className="recent-work-items">
-    <div className="recent-work-item">
-      <a href="/itasca-software-case-study" target="_blank" rel="noopener noreferrer">
-        <div className="image-container">
-          <img src={ITASCASoftwareThumbnail} alt="ITASCA Software project thumbnail" />
-          <div className="overlay">Learn More</div>
-        </div>
-      </a>
-    </div>
+                <div className="recent-work-items">
+                    <div className="recent-work-item">
+                        <a href="/itasca-software-case-study" target="_blank" rel="noopener noreferrer">
+                            <div className="image-container">
+                                <img src={ITASCASoftwareThumbnail} alt="ITASCA Software project thumbnail" />
+                                <div className="overlay">Learn More</div>
+                            </div>
+                        </a>
+                    </div>
 
-    <div className="recent-work-item">
-      <Link to="/employease-case-study">
-        <div className="image-container">
-          <img src={EmployEaseThumbnail2} alt="EmployEase project thumbnail" />
-          <div className="overlay">Learn More</div>
-        </div>
-      </Link>
-    </div>
+                    <div className="recent-work-item">
+                        <Link to="/employease-case-study">
+                            <div className="image-container">
+                                <img src={EmployEaseThumbnail2} alt="EmployEase project thumbnail" />
+                                <div className="overlay">Learn More</div>
+                            </div>
+                        </Link>
+                    </div>
 
-    <div className="recent-work-item">
-      <a href="https://cheyennaraelynn.myportfolio.com/branding-norseman-nuptials" target="_blank" rel="noopener noreferrer">
-        <div className="image-container">
-          <img src={NorsemanNupitalsThumbnail} alt="Norseman Nupitals project thumbnail" />
-          <div className="overlay">Learn More</div>
-        </div>
-      </a>
-    </div>
+                    <div className="recent-work-item">
+                        <a href="https://cheyennaraelynn.myportfolio.com/branding-norseman-nuptials" target="_blank" rel="noopener noreferrer">
+                            <div className="image-container">
+                                <img src={NorsemanNupitalsThumbnail} alt="Norseman Nupitals project thumbnail" />
+                                <div className="overlay">Learn More</div>
+                            </div>
+                        </a>
+                    </div>
 
-    <div className="button-container">
-      <Link to="/portfolio">
-        <button className="see-my-work-button">
-          See More Projects
-          <ArrowRightIcon className="arrow-right-icon" />
-        </button>
-      </Link>
-    </div>
-  </div>
-</section>
+                    <div className="button-container">
+                        <Link to="/portfolio">
+                            <button className="see-my-work-button">
+                                See More Projects
+                                <ArrowRightIcon className="arrow-right-icon" />
+                            </button>
+                        </Link>
+                    </div>
+                </div>
+            </section>
 
 
             {/* Experience Section */}
@@ -129,7 +129,7 @@ const AboutMe = () => {
                                 <CircleCheckIcon className="circle-check-icon" />
                                 <h2>A creative with a technical edge</h2>
                             </div>
-                            <p>5 years of experience in design, expanded with development skills to create user-focused solutions for industries like marketing, education, and e-commerce.</p>
+                            <p>Over 5 years of experience in design, expanded with development skills to create user-focused solutions for industries like marketing, education, and e-commerce.</p>
                         </div>
 
                         <div className="experience-item">

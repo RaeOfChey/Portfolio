@@ -54,7 +54,7 @@ const projects = [
   {
     title: 'ITASCA Careers Page',
     link: 'https://www.itascacg.com/about/careers-main',
-    type: 'Developed a careers page to improve information architecture and user experience, resulting in a more efficient candidate journey.',
+    type: 'Developing a careers page to improve information architecture and user experience, resulting in a more efficient candidate journey.',
     category: ['Development', 'UX/UI Design'],
     cta: 'See More',
     image: ITASCACareersPageImg,
