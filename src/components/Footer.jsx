@@ -15,9 +15,9 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/cheyenna-raelynn/" target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>
-        {/* <a href="https://www.instagram.com/raeofchey/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/raeofchey/" target="_blank" rel="noopener noreferrer">
           Instagram
-        </a> */}
+        </a>
       </div>
     </footer>
   );

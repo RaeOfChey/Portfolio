@@ -22,6 +22,8 @@ import BookVaultImg from '../assets/BookVault Thumbnail Image.png';
 import EmployEaseImg from '../assets/EmployEase Thumbnail Image.png';
 import DotNetProductAPIImg from '../assets/DotNetProductAPI Thumbnail Image.png';
 import ITASCASoftwareImg from '../assets/ITASCA Software Thumbnail Image.png';
+import KelvixImg from '../assets/Kelvix Thumbnail Image.png';
+import ITASCACareersPageImg from '../assets/ITASCA Careers Page Thumbnail Image.png';
 
 const projects = [
   // Development Projects
@@ -40,6 +42,22 @@ const projects = [
     category: ['Development', 'UX/UI Design'],
     cta: 'See More',
     image: EmployEaseImg,
+  },
+  {
+    title: 'Kelvix',
+    link: 'https://www.kelvix.com/',
+    type: 'Redesigning a B2B eCommerce platform to enhance user experience and drive product sales growth by 15%.',
+    category: ['Development', 'UX/UI Design'],
+    cta: 'See More',
+    image: KelvixImg,
+  },
+  {
+    title: 'ITASCA Careers Page',
+    link: 'https://www.itascacg.com/about/careers-main',
+    type: 'Developed a careers page to improve information architecture and user experience, resulting in a more efficient candidate journey.',
+    category: ['Development', 'UX/UI Design'],
+    cta: 'See More',
+    image: ITASCACareersPageImg,
   },
   {
     title: 'Film Tracker',
@@ -195,7 +213,7 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <h1 className="portfolio-h2">Portfolio</h1>
-      <p>Look through my work, read through my case studies, have a look at final designs and try out prototypes I’ve built.</p>
+      <p>Look through my work, read through my case studies, have a look at final designs, and try out prototypes I’ve built.</p>
       <div className="filter-buttons">
         <button onClick={() => setFilter('All')} className={filter === 'All' ? 'active' : ''}>All</button>
         <button onClick={() => setFilter('UX/UI Design')} className={filter === 'UX/UI Design' ? 'active' : ''}>UX/UI Design</button>

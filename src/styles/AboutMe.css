@@ -89,7 +89,9 @@
 }
 
 .image-container:hover {
-  border-color: var(--color-blue);
+  transform: scale(1.03);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border: 2px solid var(--color-blue);
 }
 
 .image-container img {
@@ -310,10 +312,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
-}
-
-.career-left h2 {
-  
 }
 
 .career-right {
