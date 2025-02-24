@@ -146,7 +146,8 @@
   font-family: 'neulis-sans', 'Arial', sans-serif;
   cursor: pointer;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 27px;
+  line-height: 1.2;
   letter-spacing: 0.5px;
   text-align: center;
   border: none;
@@ -350,7 +351,7 @@
 
   .see-my-work-button,
   .overlay {
-    font-size: 21px;
+    font-size: 24px;
   }
 
   .title-column {
@@ -508,12 +509,12 @@
 
   .see-my-work-button,
   .overlay {
-    font-size: 17px;
+    font-size: 21px;
   }
 
   .who-am-i-title {
     margin: 0px 0px 20px 0px;
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .title-column .experience-item-container {
@@ -537,7 +538,7 @@
   }
 
   .toolkit-title {
-    font-size: 30px;
+    font-size: 35px;
     margin: 0px 0px 20px 0px;
   }
 
@@ -552,7 +553,7 @@
   }
 
   .education-title {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 20px;
   }
 
@@ -587,7 +588,11 @@
 }
 
 @media (max-width: 480px) {
-  
+  .who-am-i-title,
+  .toolkit-title,
+  .education-title {
+    font-size: 30px;
+  }
   .recent-work-items {
     grid-template-columns: repeat(1, 1fr);
   }

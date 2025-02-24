@@ -69,7 +69,7 @@ const EmployEaseCaseStudy = () => {
     return (
         <div className="case-study-container">
 
-            <h1 className="case-study-h1">EmployEase</h1>
+            <h1 className="case-study-h1">Case Study</h1>
             <h2 className="case-study-subtitle">Streamlining the job application process on a unified platform to reduce complexity and increase efficiency.</h2>
 
             <div className="links">

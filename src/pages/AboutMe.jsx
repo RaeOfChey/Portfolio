@@ -173,10 +173,10 @@ const AboutMe = () => {
                 >
                     <div className="carousel-container">
                         {[
-                            "Miro", "Adobe Illustrator", "Adobe Photoshop", "Figma", "Zeplin", "CodePen", "Bootstrap", "CSS3", "Sass/SCSS", "HTML5", "JavaScript", "TypeScript", "Webpack", "jQuery", "Jest", "PWA", "Insomnia", "React", "Slack", "Trello", "Jira", "Hotjar", "Usability Hub", "JSON", "OOP", "React", "WordPress", "Git/GitHub"
+                            "Miro", "Adobe Illustrator", "Adobe Photoshop", "Figma", "v0", "Bolt CMS", "Zeplin", "CodePen", "Bootstrap", "CSS3", "Sass/SCSS", "HTML5", "JavaScript", "TypeScript", "Webpack", "jQuery", "Jest", "PWA", "Insomnia", "React", "Slack", "Trello", "Jira", "Hotjar", "Usability Hub", "JSON", "OOP", "React", "WordPress", "Git/GitHub"
                         ]
                             .concat([
-                                "Miro", "Adobe Illustrator", "Adobe Photoshop", "Figma", "Zeplin", "CodePen", "Bootstrap", "CSS3", "Sass/SCSS", "HTML5", "JavaScript", "TypeScript", "Webpack", "jQuery", "Jest", "PWA", "Insomnia", "React", "Slack", "Trello", "Jira", "Hotjar", "Usability Hub", "JSON", "OOP", "React", "WordPress", "Git/GitHub"
+                                "Miro", "Adobe Illustrator", "Adobe Photoshop", "Figma", "v0", "Bolt CMS", "Zeplin", "CodePen", "Bootstrap", "CSS3", "Sass/SCSS", "HTML5", "JavaScript", "TypeScript", "Webpack", "jQuery", "Jest", "PWA", "Insomnia", "React", "Slack", "Trello", "Jira", "Hotjar", "Usability Hub", "JSON", "OOP", "React", "WordPress", "Git/GitHub"
                             ])
                             .map((tool, index) => (
                                 <div className="carousel-item" key={`${tool}-${index}`} title={tool}>

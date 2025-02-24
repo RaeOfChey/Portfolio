@@ -10,7 +10,7 @@
   background: none;
   border: none;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 27px;
   cursor: pointer;
   padding: 10px 15px;
   position: relative;
@@ -103,16 +103,19 @@
 }
 
 .project-card h2 {
-  font-size: 26px;
+  font-size: 18px;
+  line-height: 1.2;
   color: #000;
+  font-weight: 450;
+  padding: 10px 25px 0px 25px;
 }
 
 .project-card p:nth-of-type(1) {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #000;
   padding: 0px 25px 25px 25px;
   margin: 0px;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #000;
 }
 
 .project-card p:nth-of-type(2) {
@@ -160,20 +163,16 @@
   h1 {
     font-size: 45px;
   }
-  p {
-    font-size: 17px;
-  }
   .filter-buttons button {
-    font-size: 21px;
+    font-size: 24px !important;
   }
+  p,
+  .project-card p:nth-of-type(1),
   .project-card h2 {
-    font-size: 21px; 
-  }
-  .project-card p:nth-of-type(1) {
     font-size: 17px;
   }
   .project-card .project-info .overlay {
-    font-size: 27px;
+    font-size: 24px;
   }
 }
 
@@ -184,16 +183,14 @@
   .project-card a .project-cta {
     font-size: 21px; 
   }
-  p {
-    font-size: 17px; 
-  }
-  .project-card p:nth-of-type(1) {
-    font-size: 17px; 
+  p,
+  .project-card p:nth-of-type(1),
+  .project-card h2 {
+    font-size: 17px;
   }
   .filter-buttons button,
-  .project-card h2,
   .project-card .project-info .overlay {
-    font-size: 21px; 
+    font-size: 21px !important; 
   }
 }
 
@@ -215,25 +212,21 @@
   h1 {
     font-size: 30px;
   }
-  p {
+  p,
+  .project-card p:nth-of-type(1),
+  .project-card h2 {
     font-size: 16px;
   }
   .filter-buttons {
     margin: 30px 0px 30px 0px;
   }
   .filter-buttons button {
-    font-size: 20px;
-  }
-  .project-card h2 {
-    font-size: 20px;
-  }
-  .project-card p:nth-of-type(1) {
-    font-size: 16px;
+    font-size: 21px !important;
   }
   .project-card p:nth-of-type(2) {
     font-size: 17px;
   }
   .project-card .project-info .overlay {
-    font-size: 20px;
+    font-size: 21px;
   }
 }

@@ -68,7 +68,7 @@ const ITASCASoftwareCaseStudy = () => {
     return (
         <div className="case-study-container">
 
-            <h1 className="case-study-h1">ITASCA Software</h1>
+            <h1 className="case-study-h1">Case Study</h1>
             <h2 className="case-study-subtitle">Redesigning a B2B eCommerce SaaS platform to enhance user experience and drive software sales growth by 25%.</h2>
 
             <div className="links">

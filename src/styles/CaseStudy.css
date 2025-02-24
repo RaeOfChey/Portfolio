@@ -699,6 +699,12 @@ ul li {
   }
 }
 
+@media (max-width: 1024px) and (min-width: 767px) {
+  .case-study-container h1 {
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 766px) {
   .filter-buttons button,
   .solution-link a,
@@ -713,7 +719,7 @@ ul li {
     margin-bottom: 0px;
   }
   .case-study-container h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
   .case-study-container h2 {
     font-size: 16px;
@@ -809,6 +815,9 @@ ul li {
   .context-item-container {
     /* display: flex; */
     flex-direction: column;
+  }
+  .case-study-container h1 {
+    font-size: 30px;
   }
   .case-study-container h2 {
     text-align: center;

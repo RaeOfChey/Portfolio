@@ -1,15 +1,21 @@
-import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../assets/Cheyenna Logo (Nav).png';
 import '../styles/styles.css';
 import { MenuIcon } from '../components/MenuIcon';
 
 function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation(); // Track route changes
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  // Close menu when navigating to a new page
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location.pathname]); 
 
   return (
     <nav className="navbar">
@@ -21,15 +27,14 @@ function Navigation() {
         </NavLink>
       </div>
       
-      {/* The hamburger icon now directly reflects the isOpen state */}
       <div className="hamburger" onClick={toggleMenu}>
         <MenuIcon isOpen={isOpen} />
       </div>
       
       <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
-        <li><NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>About</NavLink></li>
-        <li><NavLink to="/portfolio" className={({ isActive }) => (isActive ? 'active' : '')}>Portfolio</NavLink></li>
-        <li><NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>Contact</NavLink></li>
+        <li><NavLink to="/about">About</NavLink></li>
+        <li><NavLink to="/portfolio">Portfolio</NavLink></li>
+        <li><NavLink to="/contact">Contact</NavLink></li>
       </ul>
     </nav>
   );

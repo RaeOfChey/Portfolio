@@ -213,6 +213,9 @@ main {
   main {
     margin: 0 125px;
   }
+  h1 {
+    font-size: 45px;
+  }
   .custom-cursor {
     display: none;
   }
@@ -296,6 +299,9 @@ main {
   main {
     margin: 0 75px;
   }
+  h1 {
+    font-size: 40px;
+  }
   .custom-cursor {
     display: none;
   }
@@ -373,6 +379,9 @@ main {
 @media (max-width: 766px) {
   main {
     margin: 0 15px;
+  }
+  h1 {
+    font-size: 35px;
   }
   .custom-cursor {
     display: none;
@@ -468,6 +477,9 @@ main {
 }
 
 @media (max-width: 480px) { 
+  h1 {
+    font-size: 30px;
+  }
   .scroll-button {
     bottom: 10px;
     right: 10px;
