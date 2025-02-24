@@ -71,7 +71,7 @@ const AboutMe = () => {
                         </span> */}
                     </h1>
                     <p className="subtitle">
-                    Hi, I’m Cheyenna Raelynn, a designer and developer specializing in <span class="highlight">UI/UX design</span>, <span class="highlight">front-end development</span>, and <span class="highlight">AI-driven experiences</span>. I create accessible, user-friendly web experiences that engage users, simplify journeys, and drive conversions in alignment with business goals.
+                    I’m Cheyenna Raelynn, a designer and developer specializing in UI/UX design, front-end development, and AI-driven experiences. I create intuitive, user-friendly web experiences that guide users smoothly, making interactions seamless and engaging. Thoughtful design communicates clearly, prioritizing accessibility and functionality to ensure users easily connect with and navigate products.
                     </p>
                 </div>
             </header>
@@ -120,7 +120,7 @@ const AboutMe = () => {
             {/* Experience Section */}
             <div className="experience-section">
                 <div className="title-column">
-                    <h1 className="who-am-i-title">Who am I?</h1>
+                    <h1 className="who-am-i-title">Design Philosophy</h1>
 
                     <div className="experience-item-container">
                         <div className="experience-item">
@@ -161,7 +161,7 @@ const AboutMe = () => {
 
             {/* My Toolkit Section */}
             <section className="toolkit-section">
-                <h1 className="toolkit-title">My Toolkit</h1>
+                <h1 className="toolkit-title">Toolkit</h1>
                 <div
                     className="carousel-wrapper"
                     ref={carouselContainerRef}

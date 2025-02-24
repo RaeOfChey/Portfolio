@@ -1,6 +1,6 @@
 /* Title + subtitle on homepage */
 .title {
-  font-size: 90px;
+  font-size: 94px;
   margin: 0;
   line-height: 1.2;
   text-align: center;
@@ -49,7 +49,7 @@
 }
 
 .subtitle {
-  font-size: 24px;
+  font-size: 18px;
   color: var(--color-black);
   font-family: 'neulis-sans', 'Arial', sans-serif;
   width: 100%;
