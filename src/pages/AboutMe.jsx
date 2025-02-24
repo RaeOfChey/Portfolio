@@ -71,7 +71,7 @@ const AboutMe = () => {
                         </span> */}
                     </h1>
                     <p className="subtitle">
-                    I’m Cheyenna Raelynn, a designer and developer specializing in UI/UX design, front-end development, and AI-driven experiences. I create intuitive, user-friendly web experiences that guide users smoothly, making interactions seamless and engaging. Thoughtful design communicates clearly, prioritizing accessibility and functionality to ensure users easily connect with and navigate products.
+                    Hello! I’m Cheyenna Raelynn, a designer and developer specializing in UI/UX design, front-end development, and AI-driven experiences. My work focuses on creating intuitive, user-friendly web experiences that guide users effortlessly and make every interaction seamless and engaging.
                     </p>
                 </div>
             </header>
@@ -108,7 +108,7 @@ const AboutMe = () => {
                     <div className="button-container">
                         <Link to="/portfolio">
                             <button className="see-my-work-button">
-                                See More Projects
+                                See My Work
                                 <ArrowRightIcon className="arrow-right-icon" />
                             </button>
                         </Link>
@@ -121,6 +121,8 @@ const AboutMe = () => {
             <div className="experience-section">
                 <div className="title-column">
                     <h1 className="who-am-i-title">Design Philosophy</h1>
+
+                    <p>My goal is to ensure each product is not only visually appealing but also accessible and highly functional, empowering users to connect with products easily and naturally. I accomplish this by following my design philosophy:</p>
 
                     <div className="experience-item-container">
                         <div className="experience-item">
