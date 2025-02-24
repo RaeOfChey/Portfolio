@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import '../styles/styles.css';
+// import '../styles/styles.css';
 import '../styles/AboutMe.css';
 import { CircleCheckIcon } from '../components/CircleCheckIcon';
 import ScrollButton from '../components/ScrollButton';
@@ -62,18 +62,17 @@ const AboutMe = () => {
             <header className="header-container">
                 <div className="hero-text">
                     <h1 className="title">
-                        Hello, I'm Cheyenna,
-                        <span className="animated-title">
+                    When <span class="title-highlight">design</span> speaks for itself, <span class="title-highlight">users</span> listen.
+                        {/* <span className="animated-title">
                             {typedText}
                             <span className={`sticky ${isTypingFinished ? 'cursor-finished' : ''}`}>
                                 <span className="cursor">|</span>
                             </span>
-                        </span>
+                        </span> */}
                     </h1>
                     <p className="subtitle">
-                        I design accessible, user-friendly web experiences that engage users, simplify journeys, and drive conversions aligned with business goals.
+                    Hi, I’m Cheyenna Raelynn, a designer and developer specializing in <span class="highlight">UI/UX design</span>, <span class="highlight">front-end development</span>, and <span class="highlight">AI-driven experiences</span>. I create accessible, user-friendly web experiences that engage users, simplify journeys, and drive conversions in alignment with business goals.
                     </p>
-
                 </div>
             </header>
 

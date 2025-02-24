@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-import Resume from './pages/Resume';
 
 import EmployEaseCaseStudy from './pages/EmployEaseCaseStudy';
 import ItascaSoftwareCaseStudy from './pages/ItascaSoftwareCaseStudy';
@@ -64,14 +63,12 @@ function App() {
     <Navigation />
     <main>
       <Routes>
-        {/* Change the default route to /about */}
         <Route path="/" element={<AboutMe />} /> 
-        <Route path="/about" element={<AboutMe />} /> {/* Optional: keeps the /about route */}
+        <Route path="/about" element={<AboutMe />} /> 
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/employease-case-study" element={<EmployEaseCaseStudy />} />
         <Route path="/itasca-software-case-study" element={<ItascaSoftwareCaseStudy />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
       </Routes>
     </main>
     <Footer />

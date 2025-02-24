@@ -4,6 +4,11 @@
   margin: 0;
   line-height: 1.2;
   text-align: center;
+  color: var(--color-darkblue);
+}
+
+.title-highlight {
+  color: #000;
 }
 
 .animated-title {
@@ -51,6 +56,10 @@
   line-height: 1.2;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.highlight {
+  color: #000;
 }
 
 .button-container {
