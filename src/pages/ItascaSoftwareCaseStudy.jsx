@@ -19,6 +19,7 @@ import ITASCASoftwareImage2 from '../assets/ITASCASoftware CaseStudy Image2.png'
 import ITASCASoftwareImage3 from '../assets/ITASCASoftware CaseStudy Image3.png';
 import ITASCASoftwareImage4 from '../assets/ITASCASoftware CaseStudy Image4.png';
 import ITASCASoftwareImage5 from '../assets/ITASCASoftware CaseStudy Image5.png';
+import ITASCASoftwareImage7 from '../assets/ITASCASoftware CaseStudy Image7.png';
 
 const ITASCASoftwareCaseStudy = () => {
 
@@ -488,12 +489,12 @@ const ITASCASoftwareCaseStudy = () => {
                             </p>
                         </div>
 
-                        {/* <img
-                            id="end-result-image"
-                            src={CaseStudyImage8}
+                        <img
+                            id="A glimpse of the final landing page design for the ITASCA Software website."
+                            src={ITASCASoftwareImage7}
                             alt="First description"
                             className="case-study-image"
-                        /> */}
+                        />
 
                     </div>
                 </div>
