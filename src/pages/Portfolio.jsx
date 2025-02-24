@@ -21,7 +21,7 @@ import CodexXImg from '../assets/CodexX Thumbnail Image.png';
 import BookVaultImg from '../assets/BookVault Thumbnail Image.png';
 import EmployEaseImg from '../assets/EmployEase Thumbnail Image.png';
 import DotNetProductAPIImg from '../assets/DotNetProductAPI Thumbnail Image.png';
-import ITASCASoftwareImage7 from '../assets/ITASCA Software Thumbnail Image.png';
+import ITASCASoftwareImage7 from '../assets/ITASCASoftware CaseStudy Image7.png';
 import KelvixImg from '../assets/Kelvix Thumbnail Image.png';
 import ITASCACareersPageImg from '../assets/ITASCA Careers Page Thumbnail Image.png';
 
