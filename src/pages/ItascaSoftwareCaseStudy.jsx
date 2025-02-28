@@ -79,10 +79,10 @@ const ITASCASoftwareCaseStudy = () => {
 
             <section className="section-title">
                 <div className="project-overview">
-                    <p><strong>Project<br /></strong> ITASCA Software</p>
-                    <p><strong>Duration<br /></strong> 4 months</p>
-                    <p><strong>Completed<br /></strong> December 2024</p>
-                    <p><strong>Role<br /></strong> UX/UI Designer, WordPress Developer, Front-End Developer</p>
+                    <p><strong>Project<br /></strong>ITASCA Software</p>
+                    <p><strong>Duration<br /></strong>4 months</p>
+                    <p><strong>Completed<br /></strong>December 2023</p>
+                    <p><strong>Role<br /></strong>UX/UI Designer, WordPress Developer, Front-End Developer</p>
                 </div>
             </section>
 
@@ -645,35 +645,6 @@ const ITASCASoftwareCaseStudy = () => {
                     </div>
                 </div>
             </section>
-
-            {/* <section className="challenge-section-header">
-                <div className="section-left">
-                    <h3>Credits</h3>
-                </div>
-
-                <div className="section-right">
-                    <p>
-                        <strong>I would like to thank the following for:</strong>
-                        <ul id="credits-ul">
-                            <li>TheMuse API for supplying real-time job data.</li>
-                            <li>Bootstrap for being an open-source front-end framework that streamlined development.</li>
-                            <li>pqoqubbw/icons for the beautifully crafted open-source animated icons.</li>
-                            <li>Render for offering a seamless and reliable deployment platform, making it easy to host, manage, and scale the application.</li>
-                            <li>Atlas for its scalable and developer-friendly database solution, supporting robust data storage and retrieval for MongoDB.</li>
-                            <li>University of Minnesota for providing foundational resources, guidance, and support throughout the development of this project.</li>
-                            <li>Users for providing feedback that guided the design process and helped refine the platform to better meet user needs.</li>
-                        </ul>
-
-                        <strong>Special thanks to my development team:</strong>
-                        <ul id="credits-ul">
-                            <li>Avery Jacobson</li>
-                            <li>Cheyenna Raelynn (myself)</li>
-                            <li>Chris Persaud-Cox</li>
-                            <li>Jayce Thoreson</li>
-                        </ul>
-                    </p>
-                </div>
-            </section> */}
 
             <section class="cta-section">
 

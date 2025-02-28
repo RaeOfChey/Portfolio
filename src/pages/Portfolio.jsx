@@ -52,8 +52,8 @@ const projects = [
     image: KelvixImg,
   },
   {
-    title: 'Developing a careers page to improve information architecture and user experience, resulting in a more efficient candidate journey.',
-    link: 'https://www.itascacg.com/about/careers-main',
+    title: 'Developing a careers landing page, to streamline the hiring process and candidate journey, increasing quality applicants.',
+    link: '/itasca-careers-page-case-study',
     type: '#UX/UI Design #Front-end Development',
     category: ['Development', 'UX/UI Design'],
     cta: 'See More',

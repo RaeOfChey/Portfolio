@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 
 import EmployEaseCaseStudy from './pages/EmployEaseCaseStudy';
 import ItascaSoftwareCaseStudy from './pages/ItascaSoftwareCaseStudy';
+import ItascaCareersPageCaseStudy from './pages/ItascaCareersPageCaseStudy';
 
 function App() {
     const cursorRef = useRef(null);
@@ -68,6 +69,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/employease-case-study" element={<EmployEaseCaseStudy />} />
         <Route path="/itasca-software-case-study" element={<ItascaSoftwareCaseStudy />} />
+        <Route path="/itasca-careers-page-case-study" element={<ItascaCareersPageCaseStudy />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </main>

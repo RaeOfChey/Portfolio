@@ -70,18 +70,18 @@ const EmployEaseCaseStudy = () => {
         <div className="case-study-container">
 
             <h1 className="case-study-h1">Case Study</h1>
-            <h2 className="case-study-subtitle">Streamlining the job application process on a unified platform to reduce complexity and increase efficiency.</h2>
+            <h2 className="case-study-subtitle">Developing a careers landing page, to streamline the hiring process and candidate journey, increasing quality applicants.</h2>
 
             <div className="links">
-                <a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a>
-                <a href="https://github.com/RaeOfChey/EmployEase" target="_blank">View GitHub</a>
+                <a href="https://www.itascacg.com/about/careers-main" target="_blank">View Live</a>
+                <a href="x" target="_blank">View Figma</a>
             </div>
 
             <section className="section-title">
                 <div className="project-overview">
-                    <p><strong>Project<br /></strong>EmployEase</p>
-                    <p><strong>Duration<br /></strong>1.5 weeks</p>
-                    <p><strong>Completed<br /></strong>December 2024</p>
+                    <p><strong>Project<br /></strong>Itasca Consulting Group Inc.</p>
+                    <p><strong>Duration<br /></strong>2 weeks</p>
+                    <p><strong>Completed<br /></strong>January 2024</p>
                     <p><strong>Role<br /></strong>UX/UI Designer, Front-End Developer</p>
                 </div>
             </section>
@@ -95,7 +95,7 @@ const EmployEaseCaseStudy = () => {
 
                     <div className="section-right">
                         <p>
-                            Job seekers face a variety of challenges in today’s fragmented and complex job search landscape. The process of applying for jobs quickly becomes exhausting, as users waste valuable time and energy dealing with pain points such as:
+                            A global company lacked a dedicated careers page, making it difficult for job seekers to find opportunities and learn about the company. Job listings were scattered across platforms, causing inconsistencies for applicants and inefficiencies for the hiring team. Key pain points included:
                         </p>
 
                         <div className="context-item-container">
@@ -103,40 +103,40 @@ const EmployEaseCaseStudy = () => {
                             <div className="context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
-                                    <h4>Fragmented job search process</h4>
+                                    <h4>No centralized job listings</h4>
                                 </div>
                                 <p>
-                                    Job seekers face the challenge of searching for jobs across multiple platforms, each with its own set of listings. This fragmented process leads to outdated or irrelevant results and requires users to juggle different sites.
+                                    Job seekers had no single place to browse available roles. Listings were only available through third-party platforms, making it harder for potential candidates to explore opportunities directly from the website.
                                 </p>
                             </div>
 
                             <div className="context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
-                                    <h4>Lack of organization and tracking</h4>
+                                    <h4>Lack of employer branding</h4>
                                 </div>
                                 <p>
-                                    Without a unified system, job seekers often rely on spreadsheets or manual note-taking to track applications. This not only results in confusion over application statuses, deadlines, and follow-up actions but also wastes valuable time and energy as users try to stay organized across multiple tools.
+                                    Job seekers had no way to learn about the company's mission, culture, and benefits before applying. The absence of an employer-branded careers page meant missed opportunities to engage and attract top talent.
                                 </p>
                             </div>
 
                             <div className="context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
-                                    <h4>High maintenance</h4>
+                                    <h4>Inconsistent job information</h4>
                                 </div>
                                 <p>
-                                    Job seekers often have to create and maintain detailed profiles on multiple job search platforms. This process is repetitive and time-consuming, requiring constant updates. It's a tedious task that doesn't add value for the user, especially when recruiters don't look at all these profiles.
+                                    With job postings contained outdated or incomplete details across different platforms. Candidates encountered discrepancies in role descriptions, requirements, and application processes.
                                 </p>
                             </div>
 
                             <div className="context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
-                                    <h4>Overwhelming features</h4>
+                                    <h4>Inefficient application process</h4>
                                 </div>
                                 <p>
-                                    Many job search platforms, like LinkedIn, offer a plethora of features that can overwhelm users and complicate the job search process. With so many options and distractions, users can easily feel lost or confused, making it difficult to focus on their primary goal: Getting a job.
+                                    Applicants had to rely on external job boards with limited customization options, creating a difficult hiring process. Without a direct application method on the website, candidates often had to navigate multiple steps, leading to drop-offs in quality applicants.
                                 </p>
                             </div>
                         </div>
@@ -152,7 +152,7 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="section-right">
                     <p>
-                        The challenge was to create a unified, user-friendly platform that streamlines the job search process, enhances organization, and minimizes unnecessary complexity, saving users valuable time and energy, and empowering them to navigate their job hunt with confidence and clarity.
+                        The challenge was to create a centralized, employer-branded careers landing page that streamlined the recruitment process for both candidates and the hiring team. The page had to address existing inefficiencies, ensure a seamless application experience, and provide accurate, up-to-date job listings to attract and engage top talent.
                     </p>
                 </div>
             </section>
@@ -635,41 +635,12 @@ const EmployEaseCaseStudy = () => {
                 </div>
             </section>
 
-            <section className="challenge-section-header">
-                <div className="section-left">
-                    <h3>Credits</h3>
-                </div>
-
-                <div className="section-right">
-                    <p>
-                        <strong>I would like to thank the following for:</strong>
-                        <ul id="credits-ul">
-                            <li>TheMuse API for supplying real-time job data.</li>
-                            <li>Bootstrap for being an open-source front-end framework that streamlined development.</li>
-                            <li>pqoqubbw/icons for the beautifully crafted open-source animated icons.</li>
-                            <li>Render for offering a seamless and reliable deployment platform, making it easy to host, manage, and scale the application.</li>
-                            <li>Atlas for its scalable and developer-friendly database solution, supporting robust data storage and retrieval for MongoDB.</li>
-                            <li>University of Minnesota for providing foundational resources, guidance, and support throughout the development of this project.</li>
-                            <li>Users for providing feedback that guided the design process and helped refine the platform to better meet user needs.</li>
-                        </ul>
-
-                        <strong>Special thanks to my development team:</strong>
-                        <ul id="credits-ul">
-                            <li>Avery Jacobson</li>
-                            <li>Cheyenna Raelynn (myself)</li>
-                            <li>Chris Persaud-Cox</li>
-                            <li>Jayce Thoreson</li>
-                        </ul>
-                    </p>
-                </div>
-            </section>
-
             <section class="cta-section">
 
                 <div class="cta-options">
 
                     <div class="cta-option">
-                        <p><a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a></p>
+                        <p><a href="https://www.itascacg.com/about/careers-main" target="_blank">View Live</a></p>
                     </div>
 
                     <div class="cta-option">
