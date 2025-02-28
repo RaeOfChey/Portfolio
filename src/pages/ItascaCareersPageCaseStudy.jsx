@@ -157,7 +157,7 @@ const EmployEaseCaseStudy = () => {
                 </div>
             </section>
 
-            <section className="approach-section-header">
+            {/* <section className="approach-section-header">
 
                 <div className="section-left">
                     <h3>Approach</h3>
@@ -633,7 +633,7 @@ const EmployEaseCaseStudy = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section class="cta-section">
 
