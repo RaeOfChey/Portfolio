@@ -14,7 +14,7 @@ import { TrendingUpIcon } from '../components/TrendingUpIcon';
 import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 
-import CaseStudyImage1 from '../assets/EmployEase CaseStudy Image1.png';
+import CaseStudyImage1 from '../assets/ITASCA Careers Page CaseStudy Image1.png';
 import CaseStudyImage3 from '../assets/EmployEase CaseStudy Image3.png';
 import CaseStudyImage5 from '../assets/EmployEase CaseStudy Image5.png';
 import CaseStudyImage6 from '../assets/EmployEase CaseStudy Image6.png';
@@ -182,45 +182,43 @@ const EmployEaseCaseStudy = () => {
                         </div>
 
                         <div className="context-item">
-                            <div className="context-item-header user-centered-efficiency">
-                                <UsersIcon className="user-icon" />
-                                <h4>Clear and intuitive job discovery</h4>
+                            <div className="context-item-header iteration-feedback">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>Strong employer branding</h4>
                             </div>
                             <p>
-                                The project is centered around reducing complexity for users, with a focus on integrating features that directly address their needs. Real-time job data and personalized tracking are prioritized to ensure the solution is efficient, streamlined, and reduces the time spent managing job applications.
-
-                                The new structure had to streamline the job process, consolidating listings into a single, well-organized page with clear filtering and navigation to improve job discovery and application efficiency.
+                                Branding, voice, and messaging are applied consistently, ensuring culture, mission, and values are clearly communicated. Candidates can quickly determine if they are a good fit for the company, leading to more informed applications. Attracting the right candidates and streamlining the hiring process.
                             </p>
                         </div>
 
                         <div className="context-item">
                             <div className="context-item-header iteration-feedback">
-                                <RefreshIcon className="refresh-icon" />
-                                <h4>Iteration based on user feedback</h4>
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>Seamless integration</h4>
                             </div>
                             <p>
-                                Continuous feedback from potential users is integrated throughout the development process to ensure the solution aligns with user needs and expectations. Regular testing and iteration help refine the interface and functionality, leading to a more intuitive and efficient user experience.
+                                The page is thoughtfully structured to integrate seamlessly within the larger website ecosystem. It maintains continuity in design and functionality while providing clear pathways for users to explore the company further or move directly into the application process.
                             </p>
                         </div>
 
-                        {/* <div className="image-row-2">
+                        <div className="image-row-2">
                             <div className="image-column">
-                                <p id="filter-bar-description" className="image-subtitles-left-2">The  design focuses on clarity and efficiency, with a user-friendly interface that simplifies job tracking and deadlines. Built on continuous user feedback, it prioritizes real-time job data and personalized tracking, creating a streamlined and efficient job search experience.</p>
+                                <p id="filter-bar-description" className="image-subtitles-left-2">The design focuses on driving engagement with a clear and compelling call to action, guiding job seekers to explore opportunities that align with their skills and aspirations, streamlining the application process for highly interested candidates.</p>
                             </div>
                             <div className="image-column-right-2 left-align">
                                 <img
                                     src={CaseStudyImage1}
-                                    alt="First description"
+                                    alt="This image shows the main CTA of the webpage, showcasing how the design focuses on driving engagement with a clear and compelling call to action, guiding job seekers to explore opportunities that align with their skills and aspirations, streamlining the application process for highly interested candidates."
                                     className="case-study-image"
                                 />
                             </div>
-                        </div> */}
+                        </div>
 
                     </div>
                 </div>
             </section>
 
-            {/* <section className="process-section-header">
+            <section className="process-section-header">
                 <div className="section-left">
                     <h3>Timelime & SDLC</h3>
                 </div>
@@ -228,52 +226,51 @@ const EmployEaseCaseStudy = () => {
                 <div className="section-right">
                     <div className="context-item">
                         <div className="context-item-header">
-                            <h4>Day 1–2<br />Planning</h4>
+                            <h4>Day 1–3<br />Planning</h4>
                         </div>
                         <ul>
-                            <li>Conducted user interviews and competitive analysis to identify pain points in existing job search tools.</li>
-                            <li>This research informed the development of core features, such as application tracking and real-time job updates.</li>
+                            <li>Conducted user research with hiring teams across global offices, including surveys and interviews, to understand key challenges in managing job applications.</li>
+                            <li>Analyzed competitors' features and gathered insights to inform the design of a seamless, user-friendly application tracking system.</li>
                         </ul>
                     </div>
 
                     <div className="context-item">
                         <div className="context-item-header">
-                            <h4>Day 3–4<br />Designing</h4>
+                            <h4>Day 4–6<br />Designing</h4>
                         </div>
                         <ul>
-                            <li>Developed user personas and journey maps to define the most critical features and workflows.</li>
-                            <li>Created wireframes and basic prototypes to visualize the user experience.</li>
+                            <li>Created wireframe and mockup in Figma that showcased branding, culture, and values with an easy to navigate layout to engage users.</li>
+                            <li>Designed the page layout to be visually appealing, with clear calls-to-action that would guide users seamlessly to individual job postings.</li>
                         </ul>
                     </div>
 
                     <div className="context-item">
                         <div className="context-item-header">
-                            <h4>Day 5–6<br />Implementing</h4>
+                            <h4>Day 7–9<br />Implementing</h4>
                         </div>
                         <ul>
-                            <li>Designed high-fidelity mockups and interactive prototypes in Figma.</li>
-                            <li>Developed the front-end using React.js, ensuring the app was responsive and user-friendly.</li>
-                            <li>Integrated APIs to pull real-time job data, enabling users to track their job applications directly within the tool.</li>
+                            <li>Developed the careers page using Craft CMS, focusing on a flexible layout that allowed easy updates while maintaining a streamlined design.</li>
+                            <li>Ensured the page was mobile-responsive, optimizing layout adjustments and accessibility to make it easy to navigate on both mobile and desktop devices.</li>
                         </ul>
                     </div>
 
                     <div className="context-item">
                         <div className="context-item-header">
-                            <h4>Day 7–10<br />Testing</h4>
+                            <h4>Day 10–12<br />Testing</h4>
                         </div>
                         <ul>
-                            <li>Conducted usability testing and made iterations based on feedback.</li>
-                            <li>Adjusted user interface for clarity, refined features, and ensured a seamless experience across devices.</li>
+                            <li>Conducted cross-browser and device testing to ensure consistency and a seamless user experience across different platforms.</li>
+                            <li>Gathered feedback from internal users to refine content hierarchy, page load times, and mobile responsiveness, making adjustments where needed.</li>
                         </ul>
                     </div>
 
                     <div className="context-item">
                         <div className="context-item-header">
-                            <h4>Day 11–12<br />Deploying & Maintaining</h4>
+                            <h4>Day 13–14<br />Deploying & Maintaining</h4>
                         </div>
                         <ul>
-                            <li>Prepared the app for deployment to a production environment, ensuring it was ready for end-users.</li>
-                            <li>Monitored post-launch performance and began gathering feedback for future updates and improvements.</li>
+                            <li>Deployed the page to the live website, ensuring everything was functional and aligned with the company's brand.</li>
+                            <li>Monitored the page post-launch, tracking user engagement and feedback, and made updates to keep the content fresh and aligned with evolving hiring needs.</li>
                         </ul>
                     </div>
                 </div>
@@ -296,12 +293,10 @@ const EmployEaseCaseStudy = () => {
                     >
                         <div className="carousel-container-casestudy">
                             {[
-                                "React", "TypeScript", "Apollo Server", "Express.js", "MongoDB Atlas", "Bootstrap",
-                                "GraphQL", "Responsive Design", "Real-Time Integration"
+                                "UserTesting", "Typeform", "Trello", "Miro", "Figma", "Photoshop", "Illustrator", "Craft CMS", "HTML5/CSS3", "JavaScript", "Google Chrome Dev", "WAVE"
                             ]
                                 .concat([
-                                    "React", "TypeScript", "Apollo Server", "Express.js", "MongoDB Atlas", "Bootstrap",
-                                    "GraphQL", "Responsive Design", "Real-Time Integration"
+                                    "UserTesting", "Typeform", "Trello", "Miro", "Figma", "Photoshop", "Illustrator", "Craft CMS", "HTML5/CSS3", "JavaScript", "Google Chrome Dev", "WAVE"
                                 ])
                                 .map((skill, index) => (
                                     <div className="carousel-item-casestudy" key={`${skill}-${index}`} title={skill}>
@@ -330,10 +325,8 @@ const EmployEaseCaseStudy = () => {
                                     <h4>Obstacles</h4>
                                 </div>
                                 <ul>
-                                    <li>Accommodating an increasing number of users and data volume.</li>
-                                    <li>Slow response times during peak usage.</li>
-                                    <li>Aggregating and displaying real-time job data from multiple sources.</li>
-                                    <li>Ensuring the platform handled user data securely and complied with relevant regulations.</li>
+                                    <li>Balancing the need for a unified design that represented the company's global brand while accommodating the individual identities of all offices.</li>
+                                    <li>Creating a design that could easily be updated or adapted to expand or evolve, without sacrificing the integrity of the global vision.</li>
                                 </ul>
                             </div>
 
@@ -343,10 +336,8 @@ const EmployEaseCaseStudy = () => {
                                     <h4>Milestones</h4>
                                 </div>
                                 <ul>
-                                    <li>User testing provided valuable feedback that helped refine the platform’s core features.</li>
-                                    <li>Optimizating backend efforts to enhance performance when handling real-time job data and high user activity.</li>
-                                    <li>Addition of critical features such as advanced job search filters were added.</li>
-                                    <li>Integration of real-time job listings from external sources.</li>
+                                    <li>Incorporated feedback from different offices to ensure the page not only represented the brand but also served the functional needs of potential applicants from varied locations.</li>
+                                    <li>Smoothly integrating the web page into existing digital infrastructure, ensuring a consistent user experience without disrupting the current structure.</li>
                                 </ul>
                             </div>
 
@@ -358,7 +349,7 @@ const EmployEaseCaseStudy = () => {
 
             </section>
 
-            <section className="challenge-section-header">
+            {/* <section className="challenge-section-header">
                 <div className="section-left">
                     <h3>Solution</h3>
                 </div>
