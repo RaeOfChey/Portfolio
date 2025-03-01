@@ -609,8 +609,16 @@ body.homepage .header-container {
 }
 
 @media (max-width: 480px) {
+  body {
+    padding: 0px 25px;
+  }
+
+  body.homepage .header-container {
+    padding: 50px 25px;
+  }
+
   .title {
-    font-size: 50px !important;
+    font-size: 54px !important;
   }
 
   .subtitle {
@@ -631,9 +639,14 @@ body.homepage .header-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .see-my-work-button {
+    padding-bottom: 0px;
+  }
+
   .experience-section {
     grid-template-columns: 1fr; 
     gap: 0px;
+    margin-bottom: 50px;
   }
 
   .experience-item-container {

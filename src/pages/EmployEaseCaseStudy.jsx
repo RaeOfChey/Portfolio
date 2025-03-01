@@ -359,7 +359,7 @@ const EmployEaseCaseStudy = () => {
             </section>
 
             <section className="challenge-section-header">
-                <div className="section-left">
+                <div className="solution-title-section-left">
                     <h3>Solution</h3>
                 </div>
 
@@ -495,7 +495,7 @@ const EmployEaseCaseStudy = () => {
             </section>
 
             <section className="challenge-section-header">
-                <div className="section-left">
+                <div className="impact-outcomes-header-section-left">
                     <h3>Impact & Outcomes</h3>
                 </div>
 
@@ -638,7 +638,7 @@ const EmployEaseCaseStudy = () => {
             </section>
 
             <section className="challenge-section-header">
-                <div className="section-left">
+                <div className="credits-header-section-left">
                     <h3>Credits</h3>
                 </div>
 
@@ -655,8 +655,8 @@ const EmployEaseCaseStudy = () => {
                             <li>Users for providing feedback that guided the design process and helped refine the platform to better meet user needs.</li>
                         </ul>
 
-                        <strong>Special thanks to my development team:</strong>
-                        <ul id="credits-ul">
+                        <strong >Special thanks to my development team:</strong>
+                        <ul id="credits-ul-names">
                             <li>Avery Jacobson</li>
                             <li>Cheyenna Raelynn (myself)</li>
                             <li>Chris Persaud-Cox</li>

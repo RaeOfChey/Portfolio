@@ -502,6 +502,12 @@ main {
 }
 
 @media (max-width: 480px) { 
+  .navbar {
+    padding: 15px 25px;
+  }
+  .navbar-links li {
+    margin: 0px;
+  }
   h1 {
     font-size: 40px !important;
   }

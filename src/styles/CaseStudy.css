@@ -543,6 +543,11 @@ ul li {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+#credits-ul-names {
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
 
 /* ----- CTAs Section----- */
 /* .case-study-container .cta-header {
@@ -834,9 +839,14 @@ ul li {
   p {
     font-size: 16px;
   }
+  .case-study-header {
+    padding: 0px 25px 50px 25px !important;
+  }
   .context-item-container {
-    /* display: flex; */
     flex-direction: column;
+  }
+  .context-item:last-child {
+    margin-bottom: 30px;
   }
   .case-study-container h1 {
     font-size: 40px;
@@ -862,6 +872,14 @@ ul li {
   .context-item {
     margin-bottom: 20px;
   }
+  .itasca-software-approach-title-section-left {
+    margin-top: 30px;
+  }
+  .itasca-software-solution-header-section-left,
+  .itasca-software-impact-outcome-section-left,
+  .itasca-software-challenge-header-section-left {
+    margin-top: 40px;
+  }
   #unique-section .section-right p {
     margin-bottom: 20px;
   }
@@ -870,13 +888,13 @@ ul li {
     margin-top: 40px;
   }
   .skills-carousel-section {
-    margin-bottom: 80px;
+    margin: 20px 0px 40px 0px;
   }
   .image-column-right-1 .image-subtitles {
     padding-bottom: 20px;
   }
   .image-column-right-2 .case-study-image {
-    margin-bottom: 0px;
+    margin: 20px 0px 0px 0px;
   }
   #the-filter-bar-subtitle {
     padding-bottom: 0px;
@@ -906,10 +924,12 @@ ul li {
   }
   .problem-section-header {
     grid-template-columns: 1fr;
+    margin-bottom: 0px;
   }
   .challenge-section-header {
     grid-template-columns: 1fr; 
-    margin-bottom: 40px;
+    margin-bottom: 0px;
+    margin-top: 10px;
   }
   .approach-section-header {
     grid-template-columns: 1fr; 
@@ -917,7 +937,8 @@ ul li {
   }
   .process-section-header {
     grid-template-columns: 1fr;
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
   }
   .process-section-header h4,
   .context-item-header {
@@ -935,6 +956,12 @@ ul li {
     grid-template-columns: 1fr;
   }
   /* Solution Section */
+  .solution-title-section-left {
+    margin-top: 40px;
+  }
+  .image-column-right-2 {
+    padding-left: 0px;
+  }
   .solution-link {
     text-align: center;
   }  
@@ -944,8 +971,20 @@ ul li {
   #add-a-job-subtitle-3 {
     padding-bottom: 0px;
   }
+  .impact-outcomes-header-section-left,
+  .credits-header-section-left {
+    margin-top: 40px;
+  }
   #end-result-image {
     margin-bottom: 0px;
+  }
+  .cta-section {
+    margin-top: 25px;
+    padding-bottom: 5px;
+  }
+  .cta-options {
+    margin-top: 25px;
+    padding-bottom: 5px;
   }
 }
 

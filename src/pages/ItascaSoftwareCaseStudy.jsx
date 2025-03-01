@@ -148,7 +148,7 @@ const ITASCASoftwareCaseStudy = () => {
             </section>
 
             <section class="challenge-section-header" id="unique-section">
-                <div className="section-left">
+                <div className="itasca-software-challenge-header-section-left">
                     <h3>Challenge</h3>
                 </div>
 
@@ -161,7 +161,7 @@ const ITASCASoftwareCaseStudy = () => {
 
             <section className="approach-section-header">
 
-                <div className="section-left">
+                <div className="itasca-software-approach-title-section-left">
                     <h3>Approach</h3>
                 </div>
 
@@ -369,7 +369,7 @@ const ITASCASoftwareCaseStudy = () => {
             </section>
 
             <section className="challenge-section-header">
-                <div className="section-left">
+                <div className="itasca-software-solution-header-section-left">
                     <h3>Solution</h3>
                 </div>
 
@@ -503,7 +503,7 @@ const ITASCASoftwareCaseStudy = () => {
             </section>
 
             <section className="challenge-section-header">
-                <div className="section-left">
+                <div className="itasca-software-impact-outcome-section-left">
                     <h3>Impact & Outcomes</h3>
                 </div>
 
