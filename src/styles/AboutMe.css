@@ -401,6 +401,10 @@
     font-size: 27px;
   }
 
+  .experience-item:last-child {
+    margin-bottom: 0px;
+  }
+
   .experience-item h2 {
     font-size: 17px;
   }
@@ -479,6 +483,10 @@
     font-size: 17px;
   }
 
+  .experience-item:last-child {
+    margin-bottom: 0px;
+  }
+
   .toolkit-section {
     margin-bottom: 55px;
   }
@@ -531,6 +539,10 @@
     font-size: 23px;
   }
 
+  .experience-item:last-child {
+    margin-bottom: 0px;
+  }
+
   .title-column .experience-item-container {
     grid-template-columns: 1fr;
   }
@@ -573,6 +585,10 @@
     font-size: 16px;
   } 
 
+  .experience-item:last-child {
+    margin-bottom: 0px;
+  }
+
   #education {
     margin-bottom: 40px;
   }
@@ -598,19 +614,24 @@
   .education-title {
     font-size: 20px;
   }
+
   #recent-work {
     margin-bottom: 0px;
   }
+
   .recent-work-items {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .experience-section {
     grid-template-columns: 1fr; 
     gap: 0px;
   }
+
   .experience-item-container {
     display: block; 
   }
+
   .education-section-wrapper,
   .design-philosophy-title {
     grid-template-columns: 1fr;
@@ -618,7 +639,13 @@
     gap: 0px;
     display: inline-block;
   }
+  
   .education-items {
     display: block;
   }
+
+  .experience-item:last-child {
+    margin-bottom: 0px;
+  }
+
 }

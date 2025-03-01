@@ -74,7 +74,7 @@ const EmployEaseCaseStudy = () => {
 
             <div className="links">
                 <a href="https://www.itascacg.com/about/careers-main" target="_blank">View Live</a>
-                <a href="https://www.figma.com/design/rcJE3VpdsP48ntnukwUonT/ITASCA-Careers-Page?node-id=0-1&t=Xuig1SLychBx79W2-1" target="_blank">View Figma</a>
+                {/* <a href="https://www.figma.com/design/rcJE3VpdsP48ntnukwUonT/ITASCA-Careers-Page?node-id=0-1&t=Xuig1SLychBx79W2-1" target="_blank">View Figma</a> */}
             </div>
 
             <section className="section-title">
@@ -203,7 +203,7 @@ const EmployEaseCaseStudy = () => {
                             </p>
                         </div>
 
-                        <div className="image-row-2">
+                        {/* <div className="image-row-2">
                             <div className="image-column">
                                 <p id="filter-bar-description" className="image-subtitles-left-2">The  design focuses on clarity and efficiency, with a user-friendly interface that simplifies job tracking and deadlines. Built on continuous user feedback, it prioritizes real-time job data and personalized tracking, creating a streamlined and efficient job search experience.</p>
                             </div>
@@ -214,13 +214,13 @@ const EmployEaseCaseStudy = () => {
                                     className="case-study-image"
                                 />
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>
             </section>
 
-            <section className="process-section-header">
+            {/* <section className="process-section-header">
                 <div className="section-left">
                     <h3>Timelime & SDLC</h3>
                 </div>
@@ -635,7 +635,7 @@ const EmployEaseCaseStudy = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section class="cta-section">
 
