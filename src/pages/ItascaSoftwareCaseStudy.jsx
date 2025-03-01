@@ -166,7 +166,7 @@ const ITASCASoftwareCaseStudy = () => {
                 <div className="section-right">
 
                     <p>
-                        To address the user problems and challenges, I took a user-centered approach focused on clarity, efficiency, and impact. The project centered around the following key principles:
+                        To address the user problems and challenges, a user-centered approach focused on clarity, efficiency, and impact was implemented. The project centered around the following key principles:
                     </p>
 
                     <div className="context-item-container">

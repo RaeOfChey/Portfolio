@@ -62,7 +62,7 @@ const AboutMe = () => {
             <header className="header-container">
                 <div className="hero-text">
                     <h1 className="title">
-                    When <span class="title-highlight">design</span> speaks for itself, <span class="title-highlight">users</span> listen.
+                        When <span class="title-highlight">design</span> speaks for itself, <span class="title-highlight">users</span> listen.
                         {/* <span className="animated-title">
                             {typedText}
                             <span className={`sticky ${isTypingFinished ? 'cursor-finished' : ''}`}>
@@ -71,7 +71,7 @@ const AboutMe = () => {
                         </span> */}
                     </h1>
                     <p className="subtitle">
-                    Hello! I’m Cheyenna Raelynn, a designer and developer specializing in UI/UX design, front-end development, and AI-driven experiences. My work focuses on creating intuitive, user-friendly web experiences that guide users effortlessly and make every interaction seamless and engaging.
+                        Hello! I’m Cheyenna Raelynn, a designer and developer specializing in UI/UX design, front-end development, and AI-driven experiences. My work focuses on creating intuitive, user-friendly web experiences that guide users effortlessly and make every interaction seamless and engaging.
                     </p>
                 </div>
             </header>
@@ -119,11 +119,13 @@ const AboutMe = () => {
 
             {/* Experience Section */}
             <div className="experience-section">
+
                 <div className="title-column">
-                    <h1 className="who-am-i-title">Design Philosophy</h1>
+                    <h1 className="design-philosophy-title">Design Philosophy</h1>
+                </div>
 
-                    <p>My goal is to ensure each product is not only visually appealing but also accessible and highly functional, empowering users to connect with products easily and naturally. I accomplish this by following my design philosophy:</p>
-
+                <div className="content-column">
+                    <p className="my-goal-paragraph">My goal is to ensure each product is not only visually appealing but also accessible and highly functional, empowering users to connect with products easily and naturally. I accomplish this by following my design philosophy:</p>
                     <div className="experience-item-container">
                         <div className="experience-item">
                             <div className="experience-item-header">
@@ -157,7 +159,6 @@ const AboutMe = () => {
                             <p>I prioritize the user in every project, leveraging my design expertise and technical skills to deliver engaging, accessible, and impactful digital experiences.</p>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -189,20 +190,29 @@ const AboutMe = () => {
             </section>
 
             <section id="education" class="education-section">
-                <h1 class="education-title">Education</h1>
-                <div class="education-items">
-                    <div class="education-item">
-                        <h2>University of Minnesota</h2>
-                        <p>Full-Stack Development Certificate</p>
-                        <p>Completed: December 2024</p>
+                <div class="education-section-wrapper">
+                    <div class="title-column">
+                        <h1 class="education-title">Education</h1>
                     </div>
-                    <div class="education-item">
-                        <h2>Minnesota State University</h2>
-                        <p>Bachelor of Fine Arts (BFA) in Graphic Design</p>
-                        <p>Completed: December 2019</p>
+
+                    <div class="content-column">
+                        <div class="education-items">
+                            <div class="education-item">
+                                <h2>University of Minnesota</h2>
+                                <p>Full-Stack Development Certificate</p>
+                                <p>Completed: December 2024</p>
+                            </div>
+
+                            <div class="education-item">
+                                <h2>Minnesota State University</h2>
+                                <p>Bachelor of Fine Arts (BFA) in Graphic Design</p>
+                                <p>Completed: December 2019</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
+
 
             {/* <section id="career" class="career-section">
                 <h1 class="career-title">My Career Path</h1>

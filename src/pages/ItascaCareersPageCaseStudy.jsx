@@ -74,7 +74,7 @@ const EmployEaseCaseStudy = () => {
 
             <div className="links">
                 <a href="https://www.itascacg.com/about/careers-main" target="_blank">View Live</a>
-                <a href="x" target="_blank">View Figma</a>
+                <a href="https://www.figma.com/design/rcJE3VpdsP48ntnukwUonT/ITASCA-Careers-Page?node-id=0-1&t=Xuig1SLychBx79W2-1" target="_blank">View Figma</a>
             </div>
 
             <section className="section-title">
@@ -157,7 +157,7 @@ const EmployEaseCaseStudy = () => {
                 </div>
             </section>
 
-            {/* <section className="approach-section-header">
+            <section className="approach-section-header">
 
                 <div className="section-left">
                     <h3>Approach</h3>
@@ -166,7 +166,7 @@ const EmployEaseCaseStudy = () => {
                 <div className="section-right">
 
                     <p>
-                        The design and development of EmployEase focused on these key principles to guide decisions and ensured the platform met user needs in a meaningful and effective way:
+                        The careers page was designed as a unified yet flexible solution to support a global presence while providing a seamless experience for job seekers. The project centered around the following key principles:
                     </p>
 
                     <div className="context-item-container">
@@ -174,20 +174,22 @@ const EmployEaseCaseStudy = () => {
                         <div className="context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>Clear and actionable design focus</h4>
+                                <h4>Global applicability</h4>
                             </div>
                             <p>
-                                The design focuses on creating a user-friendly interface that addresses key pain points in the job search process. Emphasis is placed on simplicity and usability, minimizing distractions while ensuring essential tasks, such as tracking applications and deadlines, are easily accessible and manageable.
+                                The design focuses on creating a concise, universally applicable, and reflective of the company’s global identity while still appealing to diverse candidates. For an international company, each location has unique hiring practices, benefits, and cultural expectations, and need to be accurately and consistantly represented.
                             </p>
                         </div>
 
                         <div className="context-item">
                             <div className="context-item-header user-centered-efficiency">
                                 <UsersIcon className="user-icon" />
-                                <h4>User centered efficiency</h4>
+                                <h4>Clear and intuitive job discovery</h4>
                             </div>
                             <p>
                                 The project is centered around reducing complexity for users, with a focus on integrating features that directly address their needs. Real-time job data and personalized tracking are prioritized to ensure the solution is efficient, streamlined, and reduces the time spent managing job applications.
+
+                                The new structure had to streamline the job process, consolidating listings into a single, well-organized page with clear filtering and navigation to improve job discovery and application efficiency.
                             </p>
                         </div>
 
@@ -633,7 +635,7 @@ const EmployEaseCaseStudy = () => {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
 
             <section class="cta-section">
 
