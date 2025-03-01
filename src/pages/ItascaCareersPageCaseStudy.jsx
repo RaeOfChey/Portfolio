@@ -95,7 +95,7 @@ const EmployEaseCaseStudy = () => {
 
                     <div className="section-right">
                         <p>
-                            A global company lacked a dedicated careers page, making it difficult for job seekers to find opportunities and learn about the company. Job listings were scattered across platforms, causing inconsistencies for applicants and inefficiencies for the hiring team. Key pain points included:
+                            A global company lacked a dedicated careers landing page, making it difficult for job seekers to learn about the company and find opportunities. This led to misalignment between candidates and the company, as well as a drop-off in desirable applicants, ultimately slowing down hiring teams and processes. Key pain points include:
                         </p>
 
                         <div className="context-item-container">
@@ -103,34 +103,34 @@ const EmployEaseCaseStudy = () => {
                             <div className="context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
-                                    <h4>No centralized job listings</h4>
+                                    <h4>Inconsistent key information</h4>
                                 </div>
                                 <p>
-                                    Job seekers had no single place to browse available roles. Listings were only available through third-party platforms, with outdated or incomplete details across different platforms.
+                                    Prospective candidates struggled to find high-level details about the company’s culture, values, benefits, and what makes the company an attractive place to work (EVP). This led to confusion or missed opportunities to present the company in the best light.
                                 </p>
                             </div>
 
                             <div className="context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
-                                    <h4>Lack of employer branding</h4>
+                                    <h4>Lack of branding</h4>
                                 </div>
                                 <p>
-                                    Job seekers had no way to learn about the company's mission, culture, and benefits before applying. The absence of an employer-branded careers page meant missed opportunities to engage and attract top talent.
+                                    Without proper branding, the company's identity and culture were not clearly communicated. Candidates were unable to connect emotionally with the company and were left with the impression that it was unprofessional, disorganized, or less appealing.
+                                </p>
+                            </div>
+
+                            <div className="context-item">
+                                <div className="context-item-header">
+                                    <DownvoteIcon className="downvote-icon" />
+                                    <h4>Inconsistent candidate engagement</h4>
+                                </div>
+                                <p>
+                                    Without engaging experience-showcasing videos, employee stories, or behind-the-scenes looks, potential candidates had no opportunity to connect deeply with the company’s culture. This resulted in a less memorable experience, leaving candidates struggling to envision themselves at the company.
                                 </p>
                             </div>
 
                             {/* <div className="context-item">
-                                <div className="context-item-header">
-                                    <DownvoteIcon className="downvote-icon" />
-                                    <h4>Inconsistent job information</h4>
-                                </div>
-                                <p>
-                                    With job postings contained outdated or incomplete details across different platforms. Candidates encountered discrepancies in role descriptions, requirements, and application processes.
-                                </p>
-                            </div> */}
-
-                            <div className="context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
                                     <h4>Inefficient application process</h4>
@@ -138,7 +138,7 @@ const EmployEaseCaseStudy = () => {
                                 <p>
                                     Applicants had to rely on external job boards with limited customization options, creating a difficult hiring process. Without a direct application method on the website, candidates often had to navigate multiple steps, leading to drop-offs in quality applicants.
                                 </p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="section-right">
                     <p>
-                        The challenge was to create a centralized, employer-branded careers landing page that streamlined the recruitment process for both candidates and the hiring team. The page had to address existing inefficiencies, ensure a seamless application experience, and provide accurate, up-to-date job listings to attract and engage top talent.
+                        The challenge was to create a centralized, employer-branded careers landing page that streamlined the recruitment process for both candidates and the hiring team. The page had to address effectively communicate the company's culture and values, resonate emotionally with candidates, and streamline the hiring process.
                     </p>
                 </div>
             </section>
@@ -166,7 +166,7 @@ const EmployEaseCaseStudy = () => {
                 <div className="section-right">
 
                     <p>
-                        The careers page was designed as a unified yet flexible solution to support a global presence while providing a seamless experience for job seekers. The project centered around the following key principles:
+                        The careers page was designed as a unified solution to support a global presence while providing a seamless and engaging experience for job seekers. The project centered around the following key principles:
                     </p>
 
                     <div className="context-item-container">
@@ -356,10 +356,10 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="solution-paragraph-1">
-                        EmployEase addresses the pain points job seekers face by creating a platform that prioritizes by offering a unified, streamlined platform that minimizes time and energy spent on the job search process.
+                        The careers landing page addresses the pain points faced by potential candidates globally by offering a unified, cohesive platform that maintains brand consistency and streamlines the recruitment process across all offices.
                     </p>
                     <div className="solution-link solution-section">
-                        <a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a>
+                        <a href="https://www.itascacg.com/about/careers-main" target="_blank">View Live</a>
                     </div>
 
                     <div className="context-item-container">
@@ -367,13 +367,18 @@ const EmployEaseCaseStudy = () => {
                         <div id="end-result" className="context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>How EmployEase solves user problems</h4>
+                                <h4>How the Careers Landing Page solves user problems</h4>
                             </div>
                             <p>
+                                The careers landing page directly addresses the pain points potential applicants face such as inconsistent details, clarity on recruitment,
+
+
+                                tackles the obstacles of balancing global consistency with standardized content by:
+
                                 EmployEase directly addresses the pain points job seekers face such as disorganization, fragmentation, and overwhelming complexity by:
                                 <ul>
                                     <li>
-                                        By consolidating job listings into one place, EmployEase eliminates the fragmented job search experience, providing real-time, relevant job data without the need to visit multiple platforms.
+                                        The design and layout were standardized globally to create a consistent visual identity, ensuring the careers page resonated with users worldwide while reinforcing the brand.
                                     </li>
                                     <li>
                                         Users can easily track and customize application statuses and deadlines within the app, eliminating the need for spreadsheets or manual note-taking.
