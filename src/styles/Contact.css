@@ -1,6 +1,7 @@
 .contact-container {
   display: flex;
   gap: 25px;
+  margin-top: 50px;
 }
 
 /* Contact Me side of the page */
@@ -25,7 +26,7 @@
   color: var(--color-blue);
 }
 
-/* Social media links */
+/* ----- Social media links styles ----- */
 .social-links {
   list-style: none !important;
   text-decoration: none;
@@ -33,6 +34,7 @@
   gap: 15px;
   padding: 0px;
   margin-top: 0px;
+  line-height: 1;
 }
 
 .social-link {
@@ -41,16 +43,18 @@
   text-decoration: none;
   position: relative;
   padding-right: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-link:hover {
   color: var(--color-blue);
 }
 
-/* Tooltip styles */
+/* Tooltip Style */
 .social-link::after {
   content: attr(title);
-  /* Displays the title as tooltip */
   position: absolute;
   background-color: #000000;
   color: #fff;
@@ -153,7 +157,7 @@
   border-radius: 50px;
   cursor: pointer;
   font-weight: 400;
-  margin: 20px auto;
+  margin: auto;
   font-size: 24px;
   letter-spacing: .5px;
 }
@@ -211,42 +215,30 @@
     margin-top: 15px;
     padding-bottom: 0px;
   }
-  .social-links {
-    margin-bottom: 0px;
-  }
   .contact-container {
     flex-direction: column;
-    gap: 20px;
+    gap: 0px;
   }
   .contact-left,
   .contact-right {
     flex: 100%;
   }
-  /* Social links remain on the same row */
   .social-links {
-    display: flex;
-    gap: 15px;
-    padding: 0px;
-    margin-top: 0px;
-    justify-content: flex-start;
+    margin-bottom: 10px;
   }
-  /* Ensure all form fields are in a single column */
   .contact-form {
     flex-direction: column;
     gap: 15px;
   }
-  /* Adjust labels for form fields */
   .contact-form label {
     padding-bottom: 15px;
     font-size: 16px;
   }
-  /* Stack First Name + Last Name input fields */
   .name-fields {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
-  /* Stack Country + Phone Number input fields */
   .country-number-fields {
     display: flex;
     flex-direction: column;
@@ -256,7 +248,7 @@
     width: auto;
     padding: 10px 20px;
     font-size: 17px;
-    margin: 20px auto;
+    margin: auto;
   }
   .required-note p {
     font-size: 16px;

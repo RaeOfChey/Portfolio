@@ -69,22 +69,24 @@ const ITASCASoftwareCaseStudy = () => {
     return (
         <div className="case-study-container">
 
-            <h1 className="case-study-h1">Case Study</h1>
-            <h2 className="case-study-subtitle">Redesigning a B2B eCommerce SaaS platform to enhance user experience and drive software sales growth by 25%.</h2>
+            <div className="case-study-header">
+                <h1 className="case-study-h1">Case Study</h1>
+                <h2 className="case-study-subtitle">Redesigning a B2B eCommerce SaaS platform to enhance user experience and drive software sales growth by 25%.</h2>
 
-            <div className="links">
-                <a href="https://itascasoftware.com/" target="_blank">View Live</a>
-                {/* <a href="https://github.com/RaeOfChey/EmployEase" target="_blank">View GitHub</a> */}
-            </div>
-
-            <section className="section-title">
-                <div className="project-overview">
-                    <p><strong>Project<br /></strong>ITASCA Software</p>
-                    <p><strong>Duration<br /></strong>4 months</p>
-                    <p><strong>Completed<br /></strong>December 2023</p>
-                    <p><strong>Role<br /></strong>UX/UI Designer, WordPress Developer, Front-End Developer</p>
+                <div className="links">
+                    <a href="https://itascasoftware.com/" target="_blank">View Live</a>
+                    {/* <a href="https://github.com/RaeOfChey/EmployEase" target="_blank">View GitHub</a> */}
                 </div>
-            </section>
+
+                <section className="section-title">
+                    <div className="project-overview">
+                        <p><strong>Project<br /></strong>ITASCA Software</p>
+                        <p><strong>Duration<br /></strong>4 months</p>
+                        <p><strong>Completed<br /></strong>December 2023</p>
+                        <p><strong>Role<br /></strong>UX/UI Designer, WordPress Developer, Front-End Developer</p>
+                    </div>
+                </section>
+            </div>
 
             <section className="section-title">
 
@@ -239,7 +241,7 @@ const ITASCASoftwareCaseStudy = () => {
                             <h4>Weeks 1–2<br />Planning</h4>
                         </div>
                         <ul>
-                            <li>CConducted user interviews with the sales team and analyzed website analytics to identify key pain points in the sales and user journey.</li>
+                            <li>Conducted user interviews with the sales team and analyzed website analytics to identify key pain points in the sales and user journey.</li>
                             <li>Evaluated competitor websites and performed a gap analysis to uncover areas of improvement.</li>
                             <li>Reviewed existing website content, architecture, and functionality.</li>
                         </ul>

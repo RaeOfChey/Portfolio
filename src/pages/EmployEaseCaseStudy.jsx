@@ -69,22 +69,24 @@ const EmployEaseCaseStudy = () => {
     return (
         <div className="case-study-container">
 
-            <h1 className="case-study-h1">Case Study</h1>
-            <h2 className="case-study-subtitle">Streamlining the job application process on a unified platform to reduce complexity and increase efficiency.</h2>
+            <div className="case-study-header">
+                <h1 className="case-study-h1">Case Study</h1>
+                <h2 className="case-study-subtitle">Streamlining the job application process on a unified platform to reduce complexity and increase efficiency.</h2>
 
-            <div className="links">
-                <a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a>
-                <a href="https://github.com/RaeOfChey/EmployEase" target="_blank">View GitHub</a>
-            </div>
-
-            <section className="section-title">
-                <div className="project-overview">
-                    <p><strong>Project<br /></strong>EmployEase</p>
-                    <p><strong>Duration<br /></strong>1.5 weeks</p>
-                    <p><strong>Completed<br /></strong>December 2024</p>
-                    <p><strong>Role<br /></strong>UX/UI Designer, Front-End Developer</p>
+                <div className="links">
+                    <a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a>
+                    <a href="https://github.com/RaeOfChey/EmployEase" target="_blank">View GitHub</a>
                 </div>
-            </section>
+
+                <section className="section-title">
+                    <div className="project-overview">
+                        <p><strong>Project<br /></strong>EmployEase</p>
+                        <p><strong>Duration<br /></strong>1.5 weeks</p>
+                        <p><strong>Completed<br /></strong>December 2024</p>
+                        <p><strong>Role<br /></strong>UX/UI Designer, Front-End Developer</p>
+                    </div>
+                </section>
+            </div>
 
             <section className="section-title">
 

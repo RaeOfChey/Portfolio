@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 // import '../styles/styles.css';
 import '../styles/AboutMe.css';
+
 import { CircleCheckIcon } from '../components/CircleCheckIcon';
 import ScrollButton from '../components/ScrollButton';
 import { Link } from 'react-router-dom';
@@ -59,7 +60,8 @@ const AboutMe = () => {
     return (
         <>
             {/* HomePage content */}
-            <header className="header-container">
+            <body className="homepage">
+            <header className="header-container" style={{ backgroundColor: "#f0f0f0" }}>
                 <div className="hero-text">
                     <h1 className="title">
                         When <span class="title-highlight">design</span> speaks for itself, <span class="title-highlight">users</span> listen.
@@ -75,6 +77,7 @@ const AboutMe = () => {
                     </p>
                 </div>
             </header>
+            </body>
 
             <section id="recent-work" className="homepage">
                 <div className="recent-work-items">

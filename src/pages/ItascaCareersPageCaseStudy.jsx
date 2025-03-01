@@ -69,22 +69,24 @@ const EmployEaseCaseStudy = () => {
     return (
         <div className="case-study-container">
 
-            <h1 className="case-study-h1">Case Study</h1>
-            <h2 className="case-study-subtitle">Developing a careers landing page, to streamline the hiring process and candidate journey, increasing quality applicants.</h2>
+            <div className="case-study-header">
+                <h1 className="case-study-h1">Case Study</h1>
+                <h2 className="case-study-subtitle">Developing a careers landing page, to streamline the hiring process and candidate journey, increasing quality applicants.</h2>
 
-            <div className="links">
-                <a href="https://www.itascacg.com/about/careers-main" target="_blank">View Live</a>
-                {/* <a href="https://www.figma.com/design/rcJE3VpdsP48ntnukwUonT/ITASCA-Careers-Page?node-id=0-1&t=Xuig1SLychBx79W2-1" target="_blank">View Figma</a> */}
-            </div>
-
-            <section className="section-title">
-                <div className="project-overview">
-                    <p><strong>Project<br /></strong>Itasca Consulting Group Inc.</p>
-                    <p><strong>Duration<br /></strong>2 weeks</p>
-                    <p><strong>Completed<br /></strong>January 2024</p>
-                    <p><strong>Role<br /></strong>UX/UI Designer, Front-End Developer</p>
+                <div className="links">
+                    <a href="https://www.itascacg.com/about/careers-main" target="_blank">View Live</a>
+                    {/* <a href="https://www.figma.com/design/rcJE3VpdsP48ntnukwUonT/ITASCA-Careers-Page?node-id=0-1&t=Xuig1SLychBx79W2-1" target="_blank">View Figma</a> */}
                 </div>
-            </section>
+
+                <section className="section-title">
+                    <div className="project-overview">
+                        <p><strong>Project<br /></strong>Itasca Consulting Group Inc.</p>
+                        <p><strong>Duration<br /></strong>2 weeks</p>
+                        <p><strong>Completed<br /></strong>January 2024</p>
+                        <p><strong>Role<br /></strong>UX/UI Designer, Front-End Developer</p>
+                    </div>
+                </section>
+            </div>
 
             <section className="section-title">
 

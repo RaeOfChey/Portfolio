@@ -9,22 +9,15 @@
   --color-black: #000000;
   --color-white: #ffffff;
 }
-
-main {
+body {
+  margin: 0px;
   font-family: 'neulis-sans', 'Arial', sans-serif;
-  margin: 0px 225px;
-  padding: 0;
+  padding: 0px 225px;
   box-sizing: border-box;
 }
 
 html {
   overflow-y: scroll; /* Always show the vertical scrollbar */
-}
-
-body {
-  margin: 0px;
-  font-family: 'neulis-sans', 'Arial', sans-serif;
-  font-size: 18px;
 }
 
 h1 {
@@ -48,27 +41,36 @@ li {
   margin-bottom: 5px;
 }
 
-/* Nav Bar Styles */
+/* ----- Nav Bar Styles ----- */
+/* Navbar container */
 .navbar {
-  display: flex;
+  background-color: var(--color-lightblue) !important;
+  width: 100vw;
+  position: relative;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw; 
+  margin-right: -50vw; 
+  padding: 15px 225px;
+  box-sizing: border-box; 
+  display: flex; 
+  justify-content: space-between; 
   align-items: center;
-  justify-content: space-between;
-  font-family: 'neulis-sans', 'Arial', sans-serif;
-  margin: 25px 225px 100px 225px;
-  font-size: 18px;
+  z-index: 1000;
 }
 
+/* Logo container */
 .logo {
   height: 70px;
   width: 70px;
-  background-color: var(--color-white);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .logo:hover {
-  transform: scale(1.05);
+  transform: scale(1.10);
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
@@ -78,24 +80,32 @@ li {
   object-fit: contain;
 }
 
+/* Navbar links container */
 .navbar-links {
-  position: relative;
+  display: flex;
+  gap: 15px;
+  list-style-type: none !important;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-links li {
-  display: inline-block;
   position: relative;
-  padding-left: 15px;
-  font-weight: 450;
+  list-style-type: none !important;
 }
 
+/* Navbar links styling */
 .navbar-links li a {
   color: var(--color-darkblue);
-  text-decoration: none;
+  text-decoration: none !important;
   transition: color 0.3s;
   position: relative;
   padding: 10px;
-  border: 2px solid #fff;
+  border: 2px solid var(--color-darkblue);
+  border-radius: 50px;
+  font-family: 'neulis-sans', 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .navbar-links li a:hover {
@@ -113,7 +123,7 @@ li {
   border: 2px solid var(--color-blue);
   color: var(--color-blue);
   border-radius: 50px;
-  position: relative
+  position: relative;
 }
 
 .navbar-links li a:not(:hover)::after {
@@ -139,6 +149,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 9999;
 }
 
 .scroll-button:hover {
@@ -147,33 +158,41 @@ li {
   border: 2px solid var(--color-blue);
 }
 
-/* Footer Styles */
+/* ----- Footer Styles ----- */
 footer {
-  display: flex;
-  justify-content: space-between;
+  background-color: var(--color-lightblue) !important;
+  width: 100vw;
+  position: relative;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw; 
+  margin-right: -50vw; 
+  padding: 0px 225px;
+  box-sizing: border-box; 
+  display: flex; 
+  justify-content: space-between; 
   align-items: center;
-  background-color: #fff;
-  font-family: 'neulis-sans', 'Arial', sans-serif;
-  font-weight: 100;
-  padding: 25px 0px 25px 0px;
+  z-index: 1000;
   margin-top: 50px;
-  border-top: 2px solid var(--color-lightblue);
 }
 
 footer p {
   color: var(--color-darkblue);
-  margin: 0px 0px 0px 225px;
   text-align: left;
   flex: 1;
   font-weight: 400;
   color: #000;
+  font-size: 18px;
+  justify-content: center;
+  padding-top: 5px;
 }
 
 .footer-links {
   display: flex;
   gap: 25px;
   justify-content: flex-end;
-  margin: 0px 225px;
+  font-size: 18px;
 }
 
 footer a {
@@ -211,18 +230,19 @@ main {
 /* 1281px - 1025px styles */
 @media (max-width: 1281px) and (min-width: 1025px) {
   main {
-    margin: 0 125px;
+    margin: 0 100px;
+  }
+  body {
+    padding: 0px 100px;
+  }
+  body.homepage .header-container {
+    padding: 50px 100px;
   }
   h1 {
     font-size: 45px;
   }
   .custom-cursor {
     display: none;
-  }
-  .navbar {
-    margin: 25px 125px;
-    font-size: 17px;
-    padding-bottom: 50px;
   }
   .logo {
     height: 60px;
@@ -252,7 +272,7 @@ main {
   }
   .navbar-links.open {
     display: flex;
-    margin-right: 125px;
+    margin-right: 225px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
@@ -281,23 +301,26 @@ main {
     width: 65px;
     height: 65px;
   }
+  footer {
+    padding: 15px 200px
+  }
   footer p {
-    margin: 0px 50px 0px 125px;
+    margin: 0px;
     text-align: left;
     font-size: 17px;
-    line-height:25px;
+    line-height: 25px;
   }
   footer a {
     font-size: 17px;
-  }
-  .footer-links {
-    margin: 0px 125px 0px 50px;
   }
 }
 
 @media (max-width: 1024px) and (min-width: 767px) {
   main {
     margin: 0 75px;
+  }
+  body {
+    padding: 0px;
   }
   h1 {
     font-size: 40px;
@@ -306,9 +329,7 @@ main {
     display: none;
   }
   .navbar {
-    margin: 25px 75px;
-    font-size: 17px;
-    padding-bottom: 25px;
+   padding: 15px 75px;
   }
   .logo {
     height: 60px;
@@ -364,12 +385,14 @@ main {
   .navbar-links li a:active {
     border: none;
   }
-  footer p {
-    margin: 0px 40px 0px 75px;
+  body.homepage .header-container {
+    padding: 50px 75px !important;
   }
-  .footer-links {
-    margin: 0px 75px 0px 40px;
+
+  footer {
+    padding: 5px 75px;
   }
+
   .scroll-button {
     width: 60px;
     height: 60px;
@@ -378,7 +401,10 @@ main {
 
 @media (max-width: 766px) {
   main {
-    margin: 0 15px;
+    margin: 0px;
+  }
+  body {
+    padding: 0px 50px;
   }
   h1 {
     font-size: 35px;
@@ -387,10 +413,8 @@ main {
     display: none;
   }
   .navbar {
-    margin: 15px 25px;
-    font-size: 17px;
-    padding-bottom: 25px;
-  }
+    padding: 15px 50px;
+   }
   .logo {
     height: 60px;
     width: 60px;
@@ -438,6 +462,7 @@ main {
   .navbar-links li a {
     padding: 0px;
     border: none;
+    font-size: 16px;
   }
   .navbar-links li a.active,
   .navbar-links li a:hover,
@@ -465,7 +490,7 @@ main {
     align-items: center;
   }
   footer a {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   .scroll-button {
     width: 50px;
@@ -478,7 +503,7 @@ main {
 
 @media (max-width: 480px) { 
   h1 {
-    font-size: 30px;
+    font-size: 40px !important;
   }
   .scroll-button {
     bottom: 10px;

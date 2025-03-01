@@ -1,7 +1,9 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaInstagram, FaBriefcase } from 'react-icons/fa';
 import '../styles/styles.css';
 import '../styles/Contact.css';
+import { GithubIcon } from '../components/GithubIcon2';
+import { LinkedinIcon } from '../components/LinkedinIcon';
+import { InstagramIcon } from '../components/InstagramIcon';
 
 const Contact = () => {
   const handleSubmit = event => {
@@ -31,6 +33,7 @@ const Contact = () => {
         </p>
         <h2 className="email-label">Social Links</h2>
         <ul className="social-links">
+
           <li>
             <a
               href="https://github.com/RaeOfChey"
@@ -39,9 +42,10 @@ const Contact = () => {
               className="social-link"
               title="GitHub"
             >
-              <FaGithub />
+              <GithubIcon className="github-icon" />
             </a>
           </li>
+
           <li>
             <a
               href="https://www.linkedin.com/in/cheyenna-raelynn/"
@@ -50,9 +54,22 @@ const Contact = () => {
               className="social-link"
               title="LinkedIn"
             >
-              <FaLinkedin />
+              <LinkedinIcon className="linkedin-icon" />
             </a>
           </li>
+
+          <li>
+            <a
+              href="https://www.instagram.com/raeofchey/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+              title="Instagram"
+            >
+              <InstagramIcon className="instagram-icon" />
+            </a>
+          </li>
+
         </ul>
       </div>
       <div className="contact-right">

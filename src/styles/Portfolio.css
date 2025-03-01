@@ -1,3 +1,12 @@
+/* body {
+  font-family: 'neulis-sans', 'Arial', sans-serif;
+  padding: 0px 225px;
+  box-sizing: border-box;
+} */
+ .portfolio-h2 {
+  margin-top: 50px;
+ }
+
 /* Filter Buttons Container */
 .filter-buttons {
   text-align: center;
@@ -202,6 +211,12 @@
   .project-card {
     width: calc(50% - 20px);
   }
+  .filter-buttons button {
+    font-size: 21px !important;
+  }
+  .case-study-header {
+    padding: 0px 50px 50px 50px !important;
+  }
 }
 
 /* 460px styles */
@@ -211,6 +226,9 @@
   }
   h1 {
     font-size: 30px;
+  }
+  .portfolio-h2 {
+    font-size: 40px;
   }
   p,
   .project-card p:nth-of-type(1),
@@ -222,6 +240,8 @@
   }
   .filter-buttons button {
     font-size: 21px !important;
+    margin-bottom: 10px;
+    padding: 10px;
   }
   .project-card p:nth-of-type(2) {
     font-size: 17px;
