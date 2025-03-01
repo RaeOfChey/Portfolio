@@ -106,7 +106,7 @@ const EmployEaseCaseStudy = () => {
                                     <h4>No centralized job listings</h4>
                                 </div>
                                 <p>
-                                    Job seekers had no single place to browse available roles. Listings were only available through third-party platforms, making it harder for potential candidates to explore opportunities directly from the website.
+                                    Job seekers had no single place to browse available roles. Listings were only available through third-party platforms, with outdated or incomplete details across different platforms.
                                 </p>
                             </div>
 
@@ -120,7 +120,7 @@ const EmployEaseCaseStudy = () => {
                                 </p>
                             </div>
 
-                            <div className="context-item">
+                            {/* <div className="context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
                                     <h4>Inconsistent job information</h4>
@@ -128,7 +128,7 @@ const EmployEaseCaseStudy = () => {
                                 <p>
                                     With job postings contained outdated or incomplete details across different platforms. Candidates encountered discrepancies in role descriptions, requirements, and application processes.
                                 </p>
-                            </div>
+                            </div> */}
 
                             <div className="context-item">
                                 <div className="context-item-header">
