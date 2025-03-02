@@ -203,10 +203,6 @@ body.homepage .header-container {
   margin-bottom: 30px;
 }
 
-.content-column {
-  
-}
-
 .experience-item {
   display: flex;
   flex-direction: column;
@@ -308,14 +304,6 @@ body.homepage .header-container {
   grid-template-columns: 1fr 3fr; /* 1/4 for title, 3/4 for content */
   gap: 20px;
   width: 100%;
-}
-
-.title-column {
-  /* Title column takes up 1/4 width */
-}
-
-.content-column {
-  /* Content column takes up 3/4 width */
 }
 
 .education-items {

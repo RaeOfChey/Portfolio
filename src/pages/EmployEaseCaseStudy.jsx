@@ -205,7 +205,7 @@ const EmployEaseCaseStudy = () => {
 
                         <div className="image-row-2">
                             <div className="image-column">
-                                <p id="filter-bar-description" className="image-subtitles-left-2">The  design focuses on clarity and efficiency, with a user-friendly interface that simplifies job tracking and deadlines. Built on continuous user feedback, it prioritizes real-time job data and personalized tracking, creating a streamlined and efficient job search experience.</p>
+                                <p id="filter-bar-description" className="image-subtitles-left-2">The design focuses on clarity and efficiency, with a user-friendly interface that simplifies job tracking and deadlines. Built on continuous user feedback, it prioritizes real-time job data and personalized tracking, creating a streamlined and efficient job search experience.</p>
                             </div>
                             <div className="image-column-right-2 left-align">
                                 <img
@@ -382,7 +382,7 @@ const EmployEaseCaseStudy = () => {
                                 EmployEase directly addresses the pain points job seekers face such as disorganization, fragmentation, and overwhelming complexity by:
                                 <ul>
                                     <li>
-                                        By consolidating job listings into one place, EmployEase eliminates the fragmented job search experience, providing real-time, relevant job data without the need to visit multiple platforms.
+                                        Consolidating job listings into one place, EmployEase eliminates the fragmented job search experience, providing real-time, relevant job data without the need to visit multiple platforms.
                                     </li>
                                     <li>
                                         Users can easily track and customize application statuses and deadlines within the app, eliminating the need for spreadsheets or manual note-taking.

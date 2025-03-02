@@ -65,12 +65,6 @@ const AboutMe = () => {
                 <div className="hero-text">
                     <h1 className="title">
                         When <span class="title-highlight">design</span> speaks for itself, <span class="title-highlight">users</span> listen.
-                        {/* <span className="animated-title">
-                            {typedText}
-                            <span className={`sticky ${isTypingFinished ? 'cursor-finished' : ''}`}>
-                                <span className="cursor">|</span>
-                            </span>
-                        </span> */}
                     </h1>
                     <p className="subtitle">
                         Hello! I’m Cheyenna Raelynn, a designer and developer specializing in UI/UX design, front-end development, and AI-driven experiences. My work focuses on creating intuitive, user-friendly web experiences that guide users effortlessly and make every interaction seamless and engaging.
@@ -215,86 +209,6 @@ const AboutMe = () => {
                     </div>
                 </div>
             </section>
-
-
-            {/* <section id="career" class="career-section">
-                <h1 class="career-title">My Career Path</h1>
-                <div class="career-items">
-
-                    <div class="career-item">
-                        <div class="career-item-row">
-                            <div class="career-left">
-                                <h2>Digital Marketing Specialist</h2>
-                                <p>ITASCA Minneapolis</p>
-                            </div>
-                            <div class="career-right">
-                                <p>July 2023 - August 2024</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="career-item">
-                        <div class="career-item-row">
-                            <div class="career-left">
-                                <h2>Graphic Designer</h2>
-                                <p>SecureWorld</p>
-                            </div>
-                            <div class="career-right">
-                                <p>May 2022 - July 2023</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="career-item">
-                        <div class="career-item-row">
-                            <div class="career-left">
-                                <h2>Graphic & UX Designer</h2>
-                                <p>Kelvix</p>
-                            </div>
-                            <div class="career-right">
-                                <p>September 2021 - May 2022</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="career-item">
-                        <div class="career-item-row">
-                            <div class="career-left">
-                                <h2>Graphic Designer</h2>
-                                <p>Catchafire</p>
-                            </div>
-                            <div class="career-right">
-                                <p>July 2020 - March 2021</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="career-item">
-                        <div class="career-item-row">
-                            <div class="career-left">
-                                <h2>Branch Designer</h2>
-                                <p>Aussie Peppers of MN</p>
-                            </div>
-                            <div class="career-right">
-                                <p>January 2020 - July 2020</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="career-item">
-                        <div class="career-item-row">
-                            <div class="career-left">
-                                <h2>Graphic Designer</h2>
-                                <p>Minnesota State University</p>
-                            </div>
-                            <div class="career-right">
-                                <p>January 2018 - May 2018</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section> */}
 
             <ScrollButton />
         </>

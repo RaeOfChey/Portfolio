@@ -45,7 +45,7 @@ const projects = [
   },
   {
     title: 'Redesigning a B2B eCommerce platform to enhance user experience and drive product sales growth by 15%.',
-    link: 'https://www.kelvix.com/',
+    link: '/kelvix-case-study',
     type: '#UX/UI Design #Front-end Development #Branding #Marketing #Advertising',
     category: ['Development', 'UX/UI Design'],
     cta: 'See More',
