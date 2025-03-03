@@ -834,13 +834,13 @@ margin: 0px !important;
     padding: 0px 125px 50px 125px;
   }
   .solution-link a {
-    font-size: 23px;
+    font-size: 21px;
   }
   .filter-buttons button {
     font-size: 27px; 
   }
   .cta-option a {
-    font-size: 23px;
+    font-size: 21px;
   }
   .solution-link {
     margin-bottom: 0px;
@@ -934,6 +934,12 @@ margin: 0px !important;
   .image-column-right-1 .image-subtitles,
   .image-row-2 .image-column p#approach.image-subtitles-left-2 {
     font-size: 15px;
+  }
+  .solution-link a {
+    font-size: 21px;
+  }
+  .cta-option a {
+    font-size: 21px;
   }
 }
 
