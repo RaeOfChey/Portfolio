@@ -265,13 +265,13 @@ main {
     top: 70px;
     right: 0;
     flex-direction: column;
-    width: 14%;
+    width: 150px;
     align-items: flex-end;
     transition: display 0.3s ease;
   }
   .navbar-links.open {
     display: flex;
-    margin-right: 225px;
+    margin-right: 120px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
@@ -283,7 +283,7 @@ main {
     text-align: right;
     padding: 5px;
     width: auto;
-    padding-right: 55px;
+    padding-right: 38px;
     padding-left: 50px;
     border: none;
   }
@@ -349,18 +349,18 @@ main {
     top: 70px;
     right: 0;
     flex-direction: column;
-    width: 14%;
+    width: 145px;
     align-items: flex-end;
     transition: display 0.3s ease;
   }
   .navbar-links.open {
     display: flex;
-    margin-right: 100px;
+    margin-right: 69px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
     padding-left: 0px;
-    padding-right: 23px;
+    padding-right: 0px;
     background-color: #fff;
     border: 2px solid var(--color-lightblue);
   }
@@ -368,7 +368,7 @@ main {
     text-align: right;
     padding: 5px;
     width: auto;
-    padding-right: 25px;
+    padding-right: 35px;
     padding-left: 25px;
     border: none;
   }
@@ -430,13 +430,13 @@ main {
     top: 70px;
     right: 0;
     flex-direction: column;
-    width: 14%;
+    width: 65px;
     align-items: flex-end;
     transition: display 0.3s ease;
   }
   .navbar-links.open {
     display: flex;
-    margin-right: 25px;
+    margin-right: 45px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
@@ -507,5 +507,15 @@ main {
   .scroll-button {
     bottom: 10px;
     right: 10px;
+  }
+  .navbar-links.open {
+    display: flex;
+    margin-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 50px;
+    background-color: #fff;
+    border: 2px solid var(--color-lightblue);
   }
 }
