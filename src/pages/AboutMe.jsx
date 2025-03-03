@@ -63,9 +63,9 @@ const AboutMe = () => {
             <body className="homepage">
             <header className="header-container" style={{ backgroundColor: "#f0f0f0" }}>
                 <div className="hero-text">
-                    <h1 className="title">
+                    <h5 className="biggest-title">
                         When <span class="title-highlight">design</span> speaks for itself, <span class="title-highlight">users</span> listen.
-                    </h1>
+                    </h5>
                     <p className="subtitle">
                         Hello! I’m Cheyenna Raelynn, a designer and developer specializing in UI/UX design, front-end development, and AI-driven experiences. My work focuses on creating intuitive, user-friendly web experiences that guide users effortlessly and make every interaction seamless and engaging.
                     </p>

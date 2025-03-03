@@ -11,12 +11,14 @@ body.homepage .header-container {
   box-sizing: border-box;  
 }
 
-.title {
+.biggest-title {
   font-size: 94px;
   margin: 0;
   line-height: 1.2;
   text-align: center;
   color: var(--color-darkblue);
+  font-weight: 700;
+  font-family: 'neulis-cursive', sans-serif;
 }
 
 .title-highlight {
@@ -369,7 +371,7 @@ body.homepage .header-container {
 /* Responsive Styles */
 /* 1281px - 1025px styles */
 @media (max-width: 1281px) and (min-width: 1025px) {
-  .title {
+  .biggest-title {
     font-size: 77px;
   }
 
@@ -436,7 +438,7 @@ body.homepage .header-container {
 }
 
 @media (max-width: 1024px) and (min-width: 767px) {
-  .title {
+  .biggest-title {
     font-size: 68px;
   }
 
@@ -501,7 +503,7 @@ body.homepage .header-container {
     padding: 50px;
   }
 
-  .title {
+  .biggest-title {
     font-size: 53px;
   }
 
@@ -605,7 +607,7 @@ body.homepage .header-container {
     padding: 50px 25px;
   }
 
-  .title {
+  .biggest-title {
     font-size: 54px !important;
   }
 

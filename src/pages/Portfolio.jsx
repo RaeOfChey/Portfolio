@@ -5,10 +5,7 @@ import ScrollButton from '../components/ScrollButton';
 
 import FilmTrackerImg from '../assets/Film Tracker Thumbnail Image.png';
 import AutoPipelineImg from '../assets/Auto Pipeline Thumbnail Image.png';
-import AutoBuilderImg from '../assets/Auto Builder Thumbnail Image.png';
-import EmployeeOrganizerImg from '../assets/Employee Organizer Pro Thumbnail Image.png';
 import FuncTasticImg from '../assets/FuncTastic Thumbnail Image.png';
-import ReadMeGenieImg from '../assets/ReadMe Genie Thumbnail Image.png';
 import SlugfolioImg from '../assets/Slugfolio Thumbnail Image.png';
 import NorsemanNuptialsImg from '../assets/Norseman Nupitals Thumbnail Cover.png';
 import OchaTeaHouseImg from '../assets/Ocha Tea House Regular Thumbnail Image.png';
@@ -20,7 +17,6 @@ import PolitosPizzaImg from '../assets/Politos Pizza Regular Thumbnail Image.png
 import CodexXImg from '../assets/CodexX Thumbnail Image.png';
 import BookVaultImg from '../assets/BookVault Thumbnail Image.png';
 import EmployEaseImg from '../assets/EmployEase Thumbnail Image.png';
-import DotNetProductAPIImg from '../assets/DotNetProductAPI Thumbnail Image.png';
 import ITASCASoftwareImage7 from '../assets/ITASCASoftware CaseStudy Image7.png';
 import KelvixImg from '../assets/Kelvix Thumbnail Image.png';
 import ITASCACareersPageImg from '../assets/ITASCA Careers Page Thumbnail Image.png';
@@ -67,14 +63,6 @@ const projects = [
     cta: 'See More',
     image: FilmTrackerImg,
   },
-  // {
-  //   title: 'Designing a CRUD API for E-Commerce Product Management with .NET Core.',
-  //   link: 'https://github.com/RaeOfChey/DotNetProductAPI',
-  //   type: '#Back-end Development',
-  //   category: 'Development',
-  //   cta: 'See More',
-  //   image: DotNetProductAPIImg,
-  // },
   {
     title: 'Automating continuous integration and deployment for MERN applications using GitHub Actions and Render.',
     link: 'https://autopipeline.onrender.com',
@@ -99,14 +87,6 @@ const projects = [
     cta: 'See More',
     image: CodexXImg,
   },
-  // {
-  //   title: 'Streamlining employee and department management with an intuitive command-line application for businesses to efficiently organize their workforce.',
-  //   link: 'https://github.com/RaeOfChey/EmployeeOrganizerPro',
-  //   type: '#Back-end Development',
-  //   category: 'Development',
-  //   cta: 'See More',
-  //   image: EmployeeOrganizerImg,
-  // },
   {
     title: 'JavaScript function checklist and tracker for developers to manage and monitor function details within a project.',
     link: 'https://github.com/RaeOfChey/function-checklist',
@@ -115,22 +95,6 @@ const projects = [
     cta: 'See More',
     image: FuncTasticImg,
   },
-  // {
-  //   title: 'A command-line tool to dynamically generate professional README.md files based on user input.',
-  //   link: 'https://github.com/RaeOfChey/ReadMeGenie',
-  //   type: '#Back-end Development',
-  //   category: 'Development',
-  //   cta: 'See More',
-  //   image: ReadMeGenieImg,
-  // },
-  // {
-  //   title: 'A command-line tool to create and manage vehicles with customized details and actions.',
-  //   link: 'https://github.com/RaeOfChey/Autobuilder',
-  //   type: '#Back-end Development',
-  //   category: 'Development',
-  //   cta: 'See More',
-  //   image: AutoBuilderImg,
-  // },
   {
     title: 'A command-line tool to generate a customizable portfolio with personal information and social links.',
     link: 'https://github.com/RaeOfChey/Slugfolio',
@@ -213,7 +177,7 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <h1 className="portfolio-h2">Portfolio</h1>
-      <p>Look through my work, read through my case studies, have a look at final designs, and try out prototypes I’ve built.</p>
+      <p className="portfolio-message">Look through my work, read through my case studies, have a look at final designs, and try out prototypes I’ve built.</p>
       <div className="filter-buttons">
         <button onClick={() => setFilter('All')} className={filter === 'All' ? 'active' : ''}>All</button>
         <button onClick={() => setFilter('UX/UI Design')} className={filter === 'UX/UI Design' ? 'active' : ''}>UX/UI Design</button>

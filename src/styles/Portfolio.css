@@ -73,7 +73,7 @@
   overflow: hidden;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   border: 2px solid var(--color-darkblue);
-  position: relative; /* Ensure overlay is positioned relative to the card */
+  position: relative;
 }
 
 .project-card:hover {
@@ -85,7 +85,7 @@
 .project-card img {
   width: 100%;
   height: auto;
-  transition: opacity 0.3s ease; /* Optional: for a smooth fade effect */
+  transition: opacity 0.3s ease;
 }
 
 /* To make the overlay appear on hover */
@@ -170,12 +170,12 @@
 /* Media Queries */
 @media (max-width: 1281px) and (min-width: 1025px) {
   h1 {
-    font-size: 45px;
+    font-size: 45px !important;
   }
   .filter-buttons button {
     font-size: 24px !important;
   }
-  p,
+  /* p, */
   .project-card p:nth-of-type(1),
   .project-card h2 {
     font-size: 17px;
@@ -187,12 +187,12 @@
 
 @media (max-width: 1024px) and (min-width: 767px) {
   h1 {
-    font-size: 40px;
+    font-size: 40px !important;
   }
   .project-card a .project-cta {
     font-size: 21px; 
   }
-  p,
+  /* p, */
   .project-card p:nth-of-type(1),
   .project-card h2 {
     font-size: 17px;
@@ -206,7 +206,7 @@
 /* 768px styles */
 @media (max-width: 766px) {
   h1 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
   .project-card {
     width: calc(50% - 20px);
@@ -217,6 +217,9 @@
   .case-study-header {
     padding: 0px 50px 50px 50px !important;
   }
+  .project-card h2 {
+    padding: 10px;
+  }
 }
 
 /* 460px styles */
@@ -225,12 +228,13 @@
     width: 100%;
   }
   h1 {
-    font-size: 30px;
+    font-size: 30px ;
   }
-  .portfolio-h2 {
-    font-size: 40px;
+  .portfolio-h2,
+  .contact-title {
+    font-size: 45px !important;
   }
-  p,
+  /* p, */
   .project-card p:nth-of-type(1),
   .project-card h2 {
     font-size: 16px;
@@ -248,5 +252,8 @@
   }
   .project-card .project-info .overlay {
     font-size: 21px;
+  }
+  .portfolio-message {
+    font-size: 16px;
   }
 }

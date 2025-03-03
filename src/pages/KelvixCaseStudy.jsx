@@ -14,12 +14,13 @@ import { TrendingUpIcon } from '../components/TrendingUpIcon';
 import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 
+import KelvixCaseStudyImage8 from '../assets/Kelvix Thumbnail Image.png';
+import KelvixHeaderImage from '../assets/Kelvix Header Image.png';
 import KelvixCaseStudyImage1 from '../assets/Kelvix CaseStudy Image1.png';
-import KelvixCaseStudyImage5 from '../assets/Kelvix CaseStudy Image5.png';
-import KelvixCaseStudyImage4 from '../assets/Kelvix CaseStudy Image4.png';
 import KelvixCaseStudyImage2 from '../assets/Kelvix CaseStudy Image2.png';
 import KelvixCaseStudyImage3 from '../assets/Kelvix CaseStudy Image3.png';
-import KelvixCaseStudyImage8 from '../assets/Kelvix Thumbnail Image.png';
+import KelvixCaseStudyImage4 from '../assets/Kelvix CaseStudy Image4.png';
+import KelvixCaseStudyImage5 from '../assets/Kelvix CaseStudy Image5.png';
 
 const KelvixCaseStudy = () => {
 
@@ -70,19 +71,33 @@ const KelvixCaseStudy = () => {
         <div className="case-study-container">
 
             <div className="case-study-header">
-                <h1 className="case-study-h1">Case Study</h1>
-                <h2 className="case-study-subtitle">Redesigning a B2B eCommerce platform to enhance user experience and drive product sales growth by 15%.</h2>
 
-                <div className="links">
-                    <a href="https://www.kelvix.com/" target="_blank">View Live</a>
+                <div className="case-study-header-columns">
+                    <div className="case-study-header-left">
+                        <h1 className="case-study-h1">Case Study</h1>
+                        <h2 className="case-study-subtitle">Redesigning a B2B eCommerce platform to enhance user experience and drive product sales growth by 15%.</h2>
+
+                        <div className="links">
+                            <a href="https://www.kelvix.com/" target="_blank">View Live</a>
+                        </div>
+                    </div>
+
+                    <div className="case-study-header-right">
+                        <img
+                            id="kelvix-header-image"
+                            src={KelvixHeaderImage}
+                            alt="This image depicts how users can seamlessly browse for products because of the intuitive layout that enables users to quickly find and explore LED lighting solutions. Enhanced search functionality, clear product categorization, and optimized load times create a frictionless shopping experience, reducing frustration and improving engagement."
+                            className="case-study-image"
+                        />
+                    </div>
                 </div>
 
                 <section className="section-title">
                     <div className="project-overview">
-                        <p><strong>Project<br /></strong>Kelvix</p>
+                        <p><strong>Client<br /></strong>Kelvix</p>
                         <p><strong>Duration<br /></strong>4 months</p>
                         <p><strong>Completed<br /></strong>December 2022</p>
-                        <p><strong>Role<br /></strong>UX/UI Designer, WordPress Developer</p>
+                        <p><strong>Roles<br /></strong>UX/UI Designer, WordPress Developer</p>
                     </div>
                 </section>
             </div>
@@ -95,13 +110,13 @@ const KelvixCaseStudy = () => {
                     </div>
 
                     <div className="section-right">
-                        <p>
+                        <p id="section-intro">
                             The Kelvix ecommerce website for LED lighting products presented several challenges for both customers and contractors. Users faced frustration at every step of their journey, the pain points they encountered included:
                         </p>
 
                         <div className="context-item-container">
 
-                            <div className="context-item">
+                            <div className="user-problems-context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
                                     <h4>Unintuitive user experience</h4>
@@ -111,7 +126,7 @@ const KelvixCaseStudy = () => {
                                 </p>
                             </div>
 
-                            <div className="context-item">
+                            <div className="user-problems-context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
                                     <h4>Limited access to order information</h4>
@@ -121,7 +136,7 @@ const KelvixCaseStudy = () => {
                                 </p>
                             </div>
 
-                            <div className="context-item">
+                            <div className="user-problems-context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
                                     <h4>Lack of visibility for extra services</h4>
@@ -131,7 +146,7 @@ const KelvixCaseStudy = () => {
                                 </p>
                             </div>
 
-                            <div className="context-item">
+                            <div className="user-problems-context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
                                     <h4>Fragmented customer support</h4>
@@ -147,12 +162,12 @@ const KelvixCaseStudy = () => {
             </section>
 
             <section class="challenge-section-header" id="unique-section">
-                <div className="section-left">
-                    <h3>Challenge</h3>
+                <div className="kelvix-challenge-header-section-left">
+                    <h3 className="challenge-header">Challenge</h3>
                 </div>
 
                 <div className="section-right">
-                    <p>
+                    <p id="section-intro">
                         The challenge was to create a seamless, intuitive, user-friendly platform that empowered customers and contractors that not only facilitates easy browsing and purchasing, but also provides clear visibility into product information, order status, and additional services.
                     </p>
                 </div>
@@ -160,19 +175,19 @@ const KelvixCaseStudy = () => {
 
             <section className="approach-section-header">
 
-                <div className="section-left">
-                    <h3>Approach</h3>
+                <div className="kelvix-approach-title-section-left">
+                    <h3 className="approach-header">Approach</h3>
                 </div>
 
                 <div className="section-right">
 
-                    <p>
+                    <p id="section-intro">
                         The design and development of the new Kelvix ecommerce website focused on key principles that would address user frustrations and create a more efficient, seamless shopping experience:
                     </p>
 
                     <div className="context-item-container">
 
-                        <div className="context-item">
+                        <div className="approach-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
                                 <h4>Streamline the user experience</h4>
@@ -182,9 +197,9 @@ const KelvixCaseStudy = () => {
                             </p>
                         </div>
 
-                        <div className="context-item">
+                        <div className="approach-context-item">
                             <div className="context-item-header user-centered-efficiency">
-                                <UsersIcon className="user-icon" />
+                                <CircleCheckIcon className="circle-check-icon" />
                                 <h4>Real-Time order rracking</h4>
                             </div>
                             <p>
@@ -192,9 +207,9 @@ const KelvixCaseStudy = () => {
                             </p>
                         </div>
 
-                        <div className="context-item">
+                        <div className="approach-context-item">
                             <div className="context-item-header iteration-feedback">
-                                <RefreshIcon className="refresh-icon" />
+                                <CircleCheckIcon className="circle-check-icon" />
                                 <h4>Clear communication of services</h4>
                             </div>
                             <p>
@@ -202,9 +217,9 @@ const KelvixCaseStudy = () => {
                             </p>
                         </div>
 
-                        <div className="context-item">
+                        <div className="approach-context-item">
                             <div className="context-item-header iteration-feedback">
-                                <RefreshIcon className="refresh-icon" />
+                                <CircleCheckIcon className="circle-check-icon" />
                                 <h4>Unified customer support system</h4>
                             </div>
                             <p>
@@ -214,12 +229,12 @@ const KelvixCaseStudy = () => {
 
                         <div className="image-row-2">
                             <div className="image-column">
-                                <p id="filter-bar-description" className="image-subtitles-left-2">The redesigne prioritizes a seamless, user-friendly experience, making product browsing, purchasing, and tracking effortless. With a clear layout and optimized features, the site provides real-time order updates and highlights valuable services, ensuring a smooth and efficient journey for both customers and contractors.</p>
+                                <p id="approach" className="image-subtitles-left-2">The redesign prioritizes a seamless, user-friendly experience, making product browsing, purchasing, and tracking effortless. With a clear layout and optimized features, the site provides real-time order updates and highlights valuable services, ensuring a smooth and efficient journey for both customers and contractors.</p>
                             </div>
                             <div className="image-column-right-2 left-align">
                                 <img
                                     src={KelvixCaseStudyImage1}
-                                    alt="This image depicts a LED lighting product page, demonstrating how the redesigne prioritizes a seamless, user-friendly experience, making product browsing, purchasing, and tracking effortless. With a clear layout and optimized features, the site provides real-time order updates and highlights valuable services, ensuring a smooth and efficient journey for both customers and contractors."
+                                    alt="This image depicts a LED lighting product page, demonstrating how the redesign prioritizes a seamless, user-friendly experience, making product browsing, purchasing, and tracking effortless. With a clear layout and optimized features, the site provides real-time order updates and highlights valuable services, ensuring a smooth and efficient journey for both customers and contractors."
                                     className="case-study-image"
                                 />
                             </div>
@@ -235,9 +250,9 @@ const KelvixCaseStudy = () => {
                 </div>
 
                 <div className="section-right">
-                    <div className="context-item">
+                    <div className="timeline-context-item">
                         <div className="context-item-header">
-                            <h4>Weeks 1–2<br />Planning</h4>
+                            <h4>Week 1–2 Planning</h4>
                         </div>
                         <ul>
                             <li>Conducted user research and interviews with customers and contractors to identify pain points and key features for improvement.
@@ -247,9 +262,9 @@ const KelvixCaseStudy = () => {
                         </ul>
                     </div>
 
-                    <div className="context-item">
+                    <div className="timeline-context-item">
                         <div className="context-item-header">
-                            <h4>Weeks 3-5<br />Designing</h4>
+                            <h4>Week 3-5 Designing</h4>
                         </div>
                         <ul>
                             <li>Developed user personas and journey maps to understand the user experience and pain points.</li>
@@ -259,9 +274,9 @@ const KelvixCaseStudy = () => {
                         </ul>
                     </div>
 
-                    <div className="context-item">
+                    <div className="timeline-context-item">
                         <div className="context-item-header">
-                            <h4>Weeks 6-9<br />Implementing</h4>
+                            <h4>Week 6-9 Implementing</h4>
                         </div>
                         <ul>
                             <li>Designed high-fidelity mockups and interactive prototypes to represent the final user interface and user experience in Figma.</li>
@@ -271,9 +286,9 @@ const KelvixCaseStudy = () => {
                         </ul>
                     </div>
 
-                    <div className="context-item">
+                    <div className="timeline-context-item">
                         <div className="context-item-header">
-                            <h4>Weeks 10–12<br />Testing</h4>
+                            <h4>Week 10–12 Testing</h4>
                         </div>
                         <ul>
                             <li>Conducted usability testing with both customers and contractors to identify usability issues and gather feedback.</li>
@@ -283,9 +298,9 @@ const KelvixCaseStudy = () => {
                         </ul>
                     </div>
 
-                    <div className="context-item">
+                    <div className="timeline-context-item">
                         <div className="context-item-header">
-                            <h4>Weeks 13–14<br />Deploying & Maintaining</h4>
+                            <h4>Week 13–14 Deploying & Maintaining</h4>
                         </div>
                         <ul>
                             <li>Prepared the website for launch by conducting final quality assurance checks and ensuring all features were functional.</li>
@@ -339,7 +354,7 @@ const KelvixCaseStudy = () => {
 
                         <div className="context-item-container">
 
-                            <div className="context-item">
+                            <div className="obstacles-context-item">
                                 <div className="context-item-header obstacles">
                                     <CogIcon className="cog-icon" />
                                     <h4>Obstacles</h4>
@@ -352,7 +367,7 @@ const KelvixCaseStudy = () => {
                                 </ul>
                             </div>
 
-                            <div className="context-item">
+                            <div className="obstacles-context-item">
                                 <div className="context-item-header milestones">
                                     <CircleCheckIcon className="circle-check-icon" />
                                     <h4>Milestones</h4>
@@ -373,12 +388,12 @@ const KelvixCaseStudy = () => {
             </section>
 
             <section className="challenge-section-header">
-                <div className="solution-title-section-left">
+            <div className="kelvix-solution-header-section-left">
                     <h3>Solution</h3>
                 </div>
 
                 <div className="section-right">
-                    <p id="solution-paragraph-1">
+                    <p id="section-intro">
                         The redesign of the ecommerce website addressed the pain points faced by customers and contractors by creating a seamless, intuitive experience that empowers users to navigate the website effortlessly, access relevant product and service information, and manage their orders more effectively.
                     </p>
                     <div className="solution-link solution-section">
@@ -387,12 +402,13 @@ const KelvixCaseStudy = () => {
 
                     <div className="context-item-container">
 
-                        <div id="end-result" className="context-item">
+                        <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
+                                <UsersIcon className="users-icon" />
                                 <h4>How the redesign solves user problems</h4>
                             </div>
-                            <p>
+
+                            <p id="intro-redesign" className="redesign-description">
                                 The redesign directly addresses the pain points users face such as unintuitive user experience, limited access to order information, lack of visibility for extra services, and fragmented customer support by:
                                 <ul>
                                     <li>
@@ -421,14 +437,14 @@ const KelvixCaseStudy = () => {
                             </div>
                             <div className="image-column-right-1">
                                 <p id="the-filter-bar-subtitle" className="image-subtitles">Services were integrated throughout the website for easy access and visibility. For example, the Project Management service highlights key offerings such as timeline and budget management, expert support, and troubleshooting.</p>
-                                <br />
                                 <p id="the-filter-bar-subtitle" className="image-subtitles">The site ensures that customers and contractors can quickly connect with the services they need at every stage of their project. This clear presentation fosters confidence and transparency, improving the overall customer experience and supporting smooth project execution from start to finish.</p>
                             </div>
                         </div>
-
+                        <br />
                         <div className="image-row-2">
                             <div className="image-column">
-                                <p id="filter-bar-description" className="image-subtitles-left-2">A contact form that was integrated to streamline customer service by offering easy access to various communication channels. Previously, customers could only contact Kelvix via email, but now they can quickly connect with the appropriate department directly through the site. This enhancement enhances convenience, improves responsiveness, and ensures a more efficient, accessible experience for users.</p>
+
+                                <p id="approach" className="image-subtitles-left-2">A contact form that was integrated to streamline customer service by offering easy access to various communication channels. Previously, customers could only contact Kelvix via email, but now they can quickly connect with the appropriate department directly through the site. This enhancement enhances convenience, improves responsiveness, and ensures a more efficient, accessible experience for users.</p>
                             </div>
                             <div className="image-column-right-2 left-align">
                                 <img
@@ -439,12 +455,12 @@ const KelvixCaseStudy = () => {
                             </div>
                         </div>
 
-                        <div className="context-item beyond-the-challenge">
+                        <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
                                 <h4>What the redesign improved beyond the Challenge</h4>
                             </div>
-                            <p>
+                            <p id="intro-redesign" className="redesign-description">
                                 The redesign not only addressed the core challenges but also enhanced the user experience in the following ways:
                                 <ul>
                                     <li>Mobile responsiveness, ensuring users seamless experience across all devices.
@@ -466,14 +482,14 @@ const KelvixCaseStudy = () => {
                             </div>
                             <div className="image-column-right-1">
                                 <p className="image-subtitles">
-                                The product spec sheet library is an essential feature that allows users to easily access detailed information about any Kelvix product. By centralizing all product documentation in one location, the website ensures that customers, contractors, and reps can quickly find specifications, technical details, and other important resources, streamlining the decision-making and project planning process.
+                                    The product spec sheet library is an essential feature that allows users to easily access detailed information about any Kelvix product. By centralizing all product documentation in one location, the website ensures that customers, contractors, and reps can quickly find specifications, technical details, and other important resources, streamlining the decision-making and project planning process.
                                 </p>
                             </div>
                         </div>
-
+                        <br />
                         <div className="image-row-2">
                             <div className="image-column">
-                                <p id="filter-bar-description" className="image-subtitles-left-2">Users can login or sign-up for the order management system for a personalized project management dashboard that contain a range of features, including the Interactive Project Builder and exclusive Rep Portal access.
+                                <p id="approach" className="image-subtitles-left-2">Users can login or sign-up for the order management system for a personalized project management dashboard that contain a range of features, including the Interactive Project Builder and exclusive Rep Portal access.
                                 </p>
                             </div>
                             <div className="image-column-right-2 left-align">
@@ -485,44 +501,45 @@ const KelvixCaseStudy = () => {
                             </div>
                         </div>
 
-                        <div id="end-result" className="context-item">
+                        <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
                                 <h4>End result</h4>
                             </div>
-                            <p>
+                            <p id="intro-redesign" className="redesign-description">
                                 The final product is a modern, user-friendly ecommerce website with an intuitive layout, improved order management, and seamless access to essential services. Performance optimizations, mobile responsiveness, and SEO improvements enhance accessibility and reach. The redesign boosts engagement, reduces abandoned carts, and supports business growth.
                             </p>
                         </div>
 
-                        <img
+                        {/* <img
                             id="end-result-image"
                             src={KelvixCaseStudyImage8}
                             alt="This image depicts how users can seamlessly browse for products because of the intuitive layout that enables users to quickly find and explore LED lighting solutions. Enhanced search functionality, clear product categorization, and optimized load times create a frictionless shopping experience, reducing frustration and improving engagement."
                             className="case-study-image"
-                        />
+                        /> */}
 
                     </div>
                 </div>
             </section>
 
             <section className="challenge-section-header">
-                <div className="impact-outcomes-header-section-left">
+                <div className="kelvix-impact-outcome-section-left">
                     <h3>Impact & Outcomes</h3>
                 </div>
 
                 <div className="section-right">
-                    <p>
-                        The company saw significant improvements in customer engagement, operational efficiency, and sales performance. The enhanced user experience led to increased customer satisfaction, while technical optimizations contributed to higher conversion rates and improved search visibility.</p>
+                    <p id="section-intro">
+                        The company saw significant improvements in customer engagement, operational efficiency, and sales performance. The enhanced user experience led to increased customer satisfaction, while technical optimizations contributed to higher conversion rates and improved search visibility.
+                    </p>
 
                     <div className="context-item-container">
 
-                        <div className="context-item">
+                        <div className="impact-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
                                 <h4>Outcomes</h4>
                             </div>
-                            <p>
+                            <p id="outcome-list" className="outcome-list">
                                 <ul>
                                     <li>15% increase in online sales due to a more intuitive shopping experience, faster load times, and improved product visibility.</li>
                                     <li>30% decrease in customer service inquiries as users could now easily access order details, product information, and support services directly on the site.</li>
@@ -538,16 +555,16 @@ const KelvixCaseStudy = () => {
 
             <section className="section-title">
 
-                <div className="problem-section-header">
-                    <div className="section-left">
-                        <h3>Takeaways</h3>
+            <div className="problem-section-header">
+                <div className="kelvix-takeaways-section-left">
+                    <h3 className="takeaways-header">Takeaways</h3>
                     </div>
 
                     <div className="section-right">
 
                         <div className="context-item-container">
 
-                            <div className="context-item">
+                            <div className="takeaways-context-item">
                                 <div className="context-item-header lessons-learned">
                                     <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Lessons learned</h4>
@@ -557,7 +574,7 @@ const KelvixCaseStudy = () => {
                                 </p>
                             </div>
 
-                            <div className="context-item">
+                            <div className="takeaways-context-item">
                                 <div className="context-item-header key-challenges-overcome">
                                     <CogIcon className="cog-icon" />
                                     <h4>Key challenges overcome</h4>
@@ -567,7 +584,7 @@ const KelvixCaseStudy = () => {
                                 </p>
                             </div>
 
-                            <div className="context-item">
+                            <div className="takeaways-context-item">
                                 <div className="context-item-header key-challenges-overcome">
                                     <SparklesIcon className="sparkles-icon" />
                                     <h4>Personal reflections</h4>
@@ -590,11 +607,13 @@ const KelvixCaseStudy = () => {
 
                     <div className="section-right">
 
-                        <p>There are opportunities to further enhance the user experience and drive business growth with strategic improvements such as:</p>
+                        <p id="section-intro">
+                            There are opportunities to further enhance the user experience and drive business growth with strategic improvements such as:
+                        </p>
 
                         <div className="context-item-container">
 
-                            <div className="context-item">
+                            <div className="growth-context-item">
                                 <div className="context-item-header lessons-learned">
                                     <TrendingUpIcon className="trendingup-icon" />
                                     <h4>Expanded customer portal features</h4>
@@ -604,7 +623,7 @@ const KelvixCaseStudy = () => {
                                 </p>
                             </div>
 
-                            <div className="context-item">
+                            <div className="growth-context-item">
                                 <div className="context-item-header key-challenges-overcome">
                                     <TrendingUpIcon className="trendingup-icon" />
                                     <h4>Enhanced product visualization & customization</h4>
@@ -614,7 +633,7 @@ const KelvixCaseStudy = () => {
                                 </p>
                             </div>
 
-                            <div className="context-item">
+                            <div className="growth-context-item">
                                 <div className="context-item-header key-challenges-overcome">
                                     <TrendingUpIcon className="trendingup-icon" />
                                     <h4>AI powered virtual assistant</h4>
