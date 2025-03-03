@@ -161,6 +161,10 @@ h5 {
   margin: 80px 0px 50px 0px;
 }
 
+.problem-section-header h3 {
+  font-size: 30;
+}
+
 .section-title h3 {
   font-size: 30px;
   margin-bottom: 20px;
@@ -331,31 +335,6 @@ h5 {
   color: #000;
   margin: 0px;
 }
-
-/* .process-section-header h4 {
-  font-size: 18px;
-  cursor: pointer;
-  position: relative;
-  transition: color 0.3s ease, transform 0.3s ease;
-  line-height: 1.2;
-  color: #000;
-  border: 2px solid var(--color-lightblue);
-  padding: 20px;
-  width: auto;
-  height: auto;
-  border-radius: 10px;
-  background-color: #fff;
- animation: pulse 2s infinite;
-} */
-
-/* @keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
-} */
 
 ul li {
   list-style-type: disc;
@@ -660,11 +639,6 @@ margin: 0px !important;
   margin-bottom: 20px;
 }
 
-.impacts-header {
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-
 .section-right #section-intro-2 {
   margin: 0px 0px 10px 0px;
 }
@@ -881,8 +855,7 @@ margin: 0px !important;
   }
   .section-title h3,
   .process-section-header h3,
-  .skills-carousel-section .skills-section-header,
-  .challenge-section-header h3 {
+  .skills-carousel-section .skills-section-header {
     font-size: 27px;
   }
   /* .section-right p, */
@@ -1035,7 +1008,9 @@ margin: 0px !important;
   /* Section Titles */
   .section-title h3,
   .process-section-header h3,
-  .skills-carousel-section .skills-section-header,
+  .skills-carousel-section .skills-section-header {
+    font-size: 24px;
+  }
   .challenge-section-header h3 {
     font-size: 24px;
   }
@@ -1053,6 +1028,9 @@ margin: 0px !important;
   }
   .problem-section-header {
     margin: 50px 0px 40px 0px;
+  }
+  .problem-section-header h3 {
+    font-size: 24;
   }
   .approach-section-header,
   .process-section-header {
@@ -1275,6 +1253,9 @@ margin: 0px !important;
   .takeaways-header {
     padding-bottom: 0px;
   }  
-
+  .impacts-header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
 }
 

@@ -539,7 +539,7 @@ body.homepage .header-container {
   .design-philosophy-title,
   .toolkit-title,
   .education-title {
-    font-size: 23px;
+    font-size: 24px;
   }
 
   .experience-item:last-child {
@@ -622,13 +622,6 @@ body.homepage .header-container {
   .subtitle {
     font-size: 16px;
   }
-
-  .design-philosophy-title,
-  .toolkit-title,
-  .education-title {
-    font-size: 23px !important;
-  }
-
   #recent-work {
     margin-bottom: 0px;
   }
@@ -658,5 +651,4 @@ body.homepage .header-container {
     gap: 0px;
     display: inline-block;
   }
-
 }
