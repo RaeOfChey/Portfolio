@@ -17,7 +17,7 @@ import PolitosPizzaImg from '../assets/Politos Pizza Regular Thumbnail Image.png
 import CodexXImg from '../assets/CodexX Thumbnail Image.png';
 import BookVaultImg from '../assets/BookVault Thumbnail Image.png';
 import EmployEaseImg from '../assets/EmployEase Thumbnail Image.png';
-import ITASCASoftwareImage7 from '../assets/ITASCASoftware CaseStudy Image7.png';
+import ITASCASoftwareThumbnail from '../assets/ITASCA Software Thumbnail Image.png';
 import KelvixImg from '../assets/Kelvix Thumbnail Image.png';
 import ITASCACareersPageImg from '../assets/ITASCA Careers Page Thumbnail Image.png';
 
@@ -29,7 +29,7 @@ const projects = [
     type: '#UX/UI Design #Front-end Development #Branding #Marketing #Advertising',
     category: ['Development', 'UX/UI Design'],
     cta: 'See More',
-    image: ITASCASoftwareImage7,
+    image: ITASCASoftwareThumbnail,
   },
   {
     title: 'Streamlining the job application process on a unified platform to reduce complexity and increase efficiency.',

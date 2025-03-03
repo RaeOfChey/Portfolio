@@ -7,7 +7,7 @@ import ScrollButton from '../components/ScrollButton';
 import { Link } from 'react-router-dom';
 import EmployEaseThumbnail2 from '../assets/EmployEase Thumbnail Image 2.png';
 import NorsemanNupitalsThumbnail from '../assets/Norseman Nupitals Thumbnail Cover.png';
-import ITASCASoftwareImage7 from '../assets/ITASCASoftware CaseStudy Image7.png';
+import ITASCASoftwareThumbnail from '../assets/ITASCA Software Thumbnail Image.png';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 
 const AboutMe = () => {
@@ -78,7 +78,7 @@ const AboutMe = () => {
                     <div className="recent-work-item">
                         <a href="/itasca-software-case-study" target="_blank" rel="noopener noreferrer">
                             <div className="image-container">
-                                <img src={ITASCASoftwareImage7} alt="ITASCA Software project thumbnail" />
+                                <img src={ITASCASoftwareThumbnail} alt="ITASCA Software project thumbnail" />
                                 <div className="overlay">Learn More</div>
                             </div>
                         </a>
