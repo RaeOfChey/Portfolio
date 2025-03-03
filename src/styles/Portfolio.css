@@ -5,6 +5,7 @@
 } */
  .portfolio-h2 {
   margin-top: 50px;
+  font-size: 50px;
  }
 
 /* Filter Buttons Container */
@@ -168,10 +169,10 @@
 }
 
 /* Media Queries */
-@media (max-width: 1281px) and (min-width: 1025px) {
-  h1 {
-    font-size: 45px !important;
-  }
+@media (max-width: 1281px) {
+  .portfolio-h2 {
+    font-size: 45px;
+   }
   .filter-buttons button {
     font-size: 24px !important;
   }
@@ -185,10 +186,10 @@
   }
 }
 
-@media (max-width: 1024px) and (min-width: 767px) {
-  h1 {
-    font-size: 40px !important;
-  }
+@media (max-width: 1024px) {
+  .portfolio-h2 {
+    font-size: 40px;
+   }
   .project-card a .project-cta {
     font-size: 21px; 
   }
@@ -204,18 +205,12 @@
 }
 
 /* 768px styles */
-@media (max-width: 766px) {
-  h1 {
-    font-size: 30px !important;
-  }
+@media (max-width: 767px) {
   .project-card {
     width: calc(50% - 20px);
   }
   .filter-buttons button {
     font-size: 21px !important;
-  }
-  .case-study-header {
-    padding: 0px 50px 50px 50px !important;
   }
   .project-card h2 {
     padding: 10px;
@@ -224,17 +219,12 @@
 
 /* 460px styles */
 @media (max-width: 480px) {
+  .portfolio-h2 {
+    font-size: 40px;
+   }
   .project-card {
     width: 100%;
   }
-  h1 {
-    font-size: 30px ;
-  }
-  .portfolio-h2,
-  .contact-title {
-    font-size: 45px !important;
-  }
-  /* p, */
   .project-card p:nth-of-type(1),
   .project-card h2 {
     font-size: 16px;

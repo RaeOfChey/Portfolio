@@ -371,6 +371,10 @@ body.homepage .header-container {
 /* Responsive Styles */
 /* 1281px - 1025px styles */
 @media (max-width: 1281px) and (min-width: 1025px) {
+  body.homepage .header-container {
+    padding: 50px 125px;
+  }
+
   .biggest-title {
     font-size: 77px;
   }
@@ -438,6 +442,10 @@ body.homepage .header-container {
 }
 
 @media (max-width: 1024px) and (min-width: 767px) {
+  body.homepage .header-container {
+    padding: 50px 75px;
+  }
+
   .biggest-title {
     font-size: 68px;
   }
@@ -604,7 +612,7 @@ body.homepage .header-container {
   }
 
   body.homepage .header-container {
-    padding: 50px 25px;
+    padding: 40px 25px;
   }
 
   .biggest-title {

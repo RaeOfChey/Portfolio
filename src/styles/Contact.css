@@ -4,6 +4,10 @@
   margin-top: 50px;
 }
 
+.contact-title {
+  font-size: 50px;
+}
+
 /* Contact Me side of the page */
 .contact-left {
   flex: 30%;
@@ -168,9 +172,9 @@
 }
 
 @media (max-width: 1281px) {
-  h1 {
-    font-size: 40px;
-  }
+.contact-title {
+  font-size: 45px;
+}
   .contact-container p {
     font-size: 17px;
   }
@@ -187,8 +191,8 @@
 }
 
 @media (max-width: 1024px) {
-  h1 {
-    font-size: 45px;
+  .contact-title {
+    font-size: 40px;
   }
   .contact-container p {
     font-size: 17px;
@@ -210,14 +214,17 @@
 }
 
 @media (max-width: 767px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .contact-title {
+    font-size: 40px;
+  }
   .contact-container p {
     font-size: 16px;
     margin-top: 15px;
     padding-bottom: 0px;
-  }
-  .contact-container {
-    flex-direction: column;
-    gap: 0px;
   }
   .contact-left,
   .contact-right {
@@ -259,5 +266,11 @@
   .name-fields label:nth-child(2),
   .country-number-fields label:nth-child(2) {
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-title {
+    font-size: 40px;
   }
 }
