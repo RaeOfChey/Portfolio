@@ -274,3 +274,26 @@
     font-size: 40px;
   }
 }
+
+@media (min-width: 2250px) {
+  .contact-container {
+    margin: 75px 0px 30px 0px;
+    gap: 30px;
+  }
+  .contact-title {
+    font-size: 60px;
+  }
+  .contact-container p,
+  .email-label,
+  .email-link,
+  .contact-form label {
+    font-size: 21px;
+  }
+  .name-fields label:nth-child(2),
+  .country-number-fields label:nth-child(2) {
+    margin-left: 30px;
+  }
+  .contact-form button {
+    font-size: 28px;
+  }
+}

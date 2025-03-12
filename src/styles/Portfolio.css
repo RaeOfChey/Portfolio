@@ -3,10 +3,10 @@
   padding: 0px 225px;
   box-sizing: border-box;
 } */
- .portfolio-h2 {
+.portfolio-h2 {
   margin-top: 50px;
   font-size: 50px;
- }
+}
 
 /* Filter Buttons Container */
 .filter-buttons {
@@ -172,7 +172,7 @@
 @media (max-width: 1281px) {
   .portfolio-h2 {
     font-size: 45px;
-   }
+  }
   .filter-buttons button {
     font-size: 24px !important;
   }
@@ -189,7 +189,7 @@
 @media (max-width: 1024px) {
   .portfolio-h2 {
     font-size: 40px;
-   }
+  }
   .project-card a .project-cta {
     font-size: 21px; 
   }
@@ -221,7 +221,7 @@
 @media (max-width: 480px) {
   .portfolio-h2 {
     font-size: 40px;
-   }
+  }
   .project-card {
     width: 100%;
   }
@@ -245,5 +245,30 @@
   }
   .portfolio-message {
     font-size: 16px;
+  }
+}
+
+@media (min-width: 2250px) {
+  .portfolio-h2  { 
+    font-size: 60px;
+    margin: 75px 0px 30px 0px;
+  }
+  .filter-buttons button,
+  .project-card .project-info .overlay {
+    font-size: 28px;
+  }
+  p {
+    font-size: 21px;
+  }
+  .project-card h2 {
+    font-size: 21px;
+    padding: 15px 30px;
+  }
+  .project-card p:nth-of-type(1) {
+    font-size: 21px;
+    padding: 0px 30px 30px 30px;
+  }
+  .project-cards {
+    gap: 30px;
   }
 }
