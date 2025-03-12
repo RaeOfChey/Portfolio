@@ -74,12 +74,12 @@ const ITASCASoftwareCaseStudy = () => {
 
                 <div className="case-study-header-columns">
                     <div className="case-study-header-left">
-                        <h1 className="case-study-h1">Case Study</h1>
+                        <h1 className="case-study-h1">Project:</h1>
                         <h2 className="case-study-subtitle">Redesigning a B2B eCommerce SaaS platform to enhance user experience and drive software sales growth by 25%.</h2>
 
-                        <div className="links">
+                        {/* <div className="links">
                             <a href="https://itascasoftware.com/" target="_blank">View Live</a>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="case-study-header-right">
@@ -173,6 +173,134 @@ const ITASCASoftwareCaseStudy = () => {
                 </div>
             </section>
 
+            <section className="challenge-section-header">
+                <div className="itasca-software-solution-header-section-left">
+                    <h3 className="solution-header">Solution</h3>
+                </div>
+
+                <div className="section-right">
+                    <p id="section-intro">
+                        ITASCA Software’s website redesign addresses key user pain points by offering a streamlined, user-centered experience that simplifies product discovery, enhances user flow, and optimizes the purchasing process.
+                    </p>
+                    <div className="solution-link solution-section">
+                        <a href="https://itascasoftware.com/" target="_blank">View Live</a>
+                    </div>
+
+                    <div className="context-item-container">
+
+                        <div id="end-result" className="solution-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <UsersIcon className="users-icon" />
+                                <h4>How the redesign solves user problems</h4>
+                            </div>
+
+                            <p id="intro-redesign" className="redesign-description">
+                                The redesign of ITASCA Software's website directly addresses the pain points users face in navigating technical content and completing purchases by:
+                                <ul>
+                                    <li>
+                                        Product discovery was simplified, with reorganized with clear navigation, concise product descriptions, and intuitive categories. Making it easier for users to find the solutions they need without feeling overwhelmed by technical jargon.
+                                    </li>
+                                    <li>
+                                        The checkout experience was streamlined to eliminate friction and guide users through a seamless purchasing process, reducing the need for sales team intervention.
+                                    </li>
+                                    <li>
+                                        The site was made fully mobile-responsive and offers multiple languages, ensuring users have a smooth experience across devices and locations, making the platform accessible to a global audience.
+                                    </li>
+                                    <li>
+                                        Data-driven decision making is at the forefront, with the site continuously tracks user behavior and optimizes the site’s content, layout, and features for improved engagement.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div className="image-row-1">
+                            <div className="image-column-left-1">
+                                <img
+                                    src={ITASCASoftwareImage2}
+                                    alt="This image depicts the new 'All Products' landing page, which centralizes all software offerings. This streamlined experience enhances product visibility, helping users quickly understand available solutions. Each product card displays essential details, guiding users toward informed purchasing decisions. This update directly supports the redesign’s goal of improving usability, reducing friction in the buying process, and increasing engagement with ITASCA’s product ecosystem."
+                                    className="case-study-image"
+                                />
+                            </div>
+                            <div className="image-column-right-1">
+                                <p id="the-filter-bar-subtitle" className="image-subtitles">This new 'All Products' landing page centralizes all software offerings. This streamlined experience enhances product visibility, helping users quickly understand available solutions. Each product card displays essential details, guiding users toward informed purchasing decisions. This update directly supports the redesign’s goal of improving usability, reducing friction in the buying process, and increasing engagement with ITASCA’s product ecosystem.</p>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="image-row-2">
+                            <div className="image-column">
+                                <p id="approach" className="image-subtitles-left-2">This section of a product page highlights the key benefits and features of a software license so users quickly understand its value. The clean, structured layout makes it easy to scan, helping customers make informed decisions with confidence. Simplified details and clarity reduces friction in the buying process.</p>
+                            </div>
+                            <div className="image-column-right-2 left-align">
+                                <img
+                                    src={ITASCASoftwareImage5}
+                                    alt="This image depicts a section of the product page concisely highlights the key benefits and features of a software software, ensuring users quickly understand its value. The clean, structured layout makes it easy to scan, helping potential customers make informed decisions with confidence. Simplifying complex product details and improving clarity reduces friction in the buying process"
+                                    className="case-study-image"
+                                />
+                            </div>
+                        </div>
+
+                        <div id="end-result" className="solution-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>What the redesign improved beyond the Challenge</h4>
+                            </div>
+                            <p id="intro-redesign" className="redesign-description">
+                                The redesign addresses core user problems by incorporating additional features that elevate the user experience and increase engagement:
+                                <ul>
+                                    <li>Improved information architecture helps users find relevant software solutions quickly from the user journey of discovery to purchase.</li>
+                                    <li>Actionable CTAs were integrated strategically throughout the site, making it easier for users to take action and saving them time.</li>
+                                    <li>Integration of Google Analytics and other data-driven tools allows for continuous refinement of user experience based on actionable insights.</li>
+                                    <li>Proper SEO implementation and performance tuning ensure better search engine visibility and faster load times for improved user engagement and traffic.</li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div className="image-row-1">
+                            <div className="image-column-left-1">
+                                <img
+                                    src={ITASCASoftwareImage4}
+                                    alt="This image depicts the checkout cart page, which provides users with a clear, organized view of their selected product and key details. By displaying all relevant information upfront, users can easily review and modify their selections before completing their purchase. Additionally, the page features intelligent product recommendations, suggesting complementary software or add-ons based on the user’s cart. This enhances product discovery and improves the user experience, reducing purchasing friction, and increasing cross-selling opportunities."
+                                    className="case-study-image"
+                                />
+                            </div>
+                            <div className="image-column-right-1">
+                                <p className="image-subtitles">
+                                    The checkout cart page provides users with a clear, organized view of their selected product and key details. By displaying all relevant information upfront, users can easily review and modify their selections before completing their purchase.
+                                </p>
+                                <p className="image-subtitles">
+                                    Additionally, the page features intelligent product recommendations, suggesting complementary software or add-ons based on the user’s cart. This enhances product discovery and improves the user experience, reducing purchasing friction, and increasing cross-selling opportunities.
+                                </p>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="image-row-2">
+                            <div className="image-column">
+                                <p id="approach" className="image-subtitles-left-2">The new product landing pages allows users to easily compare and select from multiple licensing options directly from the product page. The Add to Cart feature streamlines the purchasing process, while the Request a Demo option ensures users can explore the software before committing. Which aligns with the redesign’s goal of improving clarity, reducing friction in the buying process.
+                                </p>
+                            </div>
+                            <div className="image-column-right-2 left-align">
+                                <img
+                                    src={ITASCASoftwareImage3}
+                                    alt="This image depicts a part of the new product landing page that allows users to easily compare and select the right software license. Users can choose from multiple licensing options directly from the product page. The Add to Cart feature streamlines the purchasing process, while the Request a Demo option ensures users can explore the software before committing. Which aligns with the redesign’s goal of improving clarity, reducing friction in the buying process."
+                                    className="case-study-image"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="impact-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>End Result</h4>
+                            </div>
+                            <p id="intro-redesign" className="redesign-description">
+                                The final product is a user-friendly, mobile-optimized website that enhances both user experience and lead generation. The redesigned site has increased software sales by 25%, improved lead generation by 30%, and offers a seamless, data-driven user experience across all devices. Users can now navigate the site efficiently, making confident purchasing decisions while enjoying a streamlined journey from discovery to checkout.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
             <section className="approach-section-header">
 
                 <div className="itasca-software-approach-title-section-left">
@@ -246,7 +374,7 @@ const ITASCASoftwareCaseStudy = () => {
 
             <section className="process-section-header">
                 <div className="section-left">
-                    <h3>Timelime & SDLC</h3>
+                    <h3>Timeline & SDLC</h3>
                 </div>
 
                 <div className="section-right">
@@ -380,134 +508,6 @@ const ITASCASoftwareCaseStudy = () => {
 
                 </div>
 
-            </section>
-
-            <section className="challenge-section-header">
-                <div className="itasca-software-solution-header-section-left">
-                    <h3 className="solution-header">Solution</h3>
-                </div>
-
-                <div className="section-right">
-                    <p id="section-intro">
-                        ITASCA Software’s website redesign addresses key user pain points by offering a streamlined, user-centered experience that simplifies product discovery, enhances user flow, and optimizes the purchasing process.
-                    </p>
-                    <div className="solution-link solution-section">
-                        <a href="https://itascasoftware.com/" target="_blank">View Live</a>
-                    </div>
-
-                    <div className="context-item-container">
-
-                        <div id="end-result" className="solution-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <UsersIcon className="users-icon" />
-                                <h4>How the redesign solves user problems</h4>
-                            </div>
-
-                            <p id="intro-redesign" className="redesign-description">
-                                The redesign of ITASCA Software's website directly addresses the pain points users face in navigating technical content and completing purchases by:
-                                <ul>
-                                    <li>
-                                        Product discovery was simplified, with reorganized with clear navigation, concise product descriptions, and intuitive categories. Making it easier for users to find the solutions they need without feeling overwhelmed by technical jargon.
-                                    </li>
-                                    <li>
-                                        The checkout experience was streamlined to eliminate friction and guide users through a seamless purchasing process, reducing the need for sales team intervention.
-                                    </li>
-                                    <li>
-                                        The site was made fully mobile-responsive and offers multiple languages, ensuring users have a smooth experience across devices and locations, making the platform accessible to a global audience.
-                                    </li>
-                                    <li>
-                                        Data-driven decision making is at the forefront, with the site continuously tracks user behavior and optimizes the site’s content, layout, and features for improved engagement.
-                                    </li>
-                                </ul>
-                            </p>
-                        </div>
-
-                        <div className="image-row-1">
-                            <div className="image-column-left-1">
-                                <img
-                                    src={ITASCASoftwareImage2}
-                                    alt="This image depicts the new 'All Products' landing page, which centralizes all software offerings. This streamlined experience enhances product visibility, helping users quickly understand available solutions. Each product card displays essential details, guiding users toward informed purchasing decisions. This update directly supports the redesign’s goal of improving usability, reducing friction in the buying process, and increasing engagement with ITASCA’s product ecosystem."
-                                    className="case-study-image"
-                                />
-                            </div>
-                            <div className="image-column-right-1">
-                                <p id="the-filter-bar-subtitle" className="image-subtitles">This new 'All Products' landing page centralizes all software offerings. This streamlined experience enhances product visibility, helping users quickly understand available solutions. Each product card displays essential details, guiding users toward informed purchasing decisions. This update directly supports the redesign’s goal of improving usability, reducing friction in the buying process, and increasing engagement with ITASCA’s product ecosystem.</p>
-                            </div>
-                        </div>
-                        <br />
-                        <div className="image-row-2">
-                            <div className="image-column">
-                                <p id="approach" className="image-subtitles-left-2">This section of a product page highlights the key benefits and features of a software license so users quickly understand its value. The clean, structured layout makes it easy to scan, helping customers make informed decisions with confidence. Simplified details and clarity reduces friction in the buying process.</p>
-                            </div>
-                            <div className="image-column-right-2 left-align">
-                                <img
-                                    src={ITASCASoftwareImage5}
-                                    alt="This image depicts a section of the product page concisely highlights the key benefits and features of a software software, ensuring users quickly understand its value. The clean, structured layout makes it easy to scan, helping potential customers make informed decisions with confidence. Simplifying complex product details and improving clarity reduces friction in the buying process"
-                                    className="case-study-image"
-                                />
-                            </div>
-                        </div>
-
-                        <div id="end-result" className="solution-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
-                                <h4>What the redesign improved beyond the Challenge</h4>
-                            </div>
-                            <p id="intro-redesign" className="redesign-description">
-                                The redesign addresses core user problems by incorporating additional features that elevate the user experience and increase engagement:
-                                <ul>
-                                    <li>Improved information architecture helps users find relevant software solutions quickly from the user journey of discovery to purchase.</li>
-                                    <li>Actionable CTAs were integrated strategically throughout the site, making it easier for users to take action and saving them time.</li>
-                                    <li>Integration of Google Analytics and other data-driven tools allows for continuous refinement of user experience based on actionable insights.</li>
-                                    <li>Proper SEO implementation and performance tuning ensure better search engine visibility and faster load times for improved user engagement and traffic.</li>
-                                </ul>
-                            </p>
-                        </div>
-
-                        <div className="image-row-1">
-                            <div className="image-column-left-1">
-                                <img
-                                    src={ITASCASoftwareImage4}
-                                    alt="This image depicts the checkout cart page, which provides users with a clear, organized view of their selected product and key details. By displaying all relevant information upfront, users can easily review and modify their selections before completing their purchase. Additionally, the page features intelligent product recommendations, suggesting complementary software or add-ons based on the user’s cart. This enhances product discovery and improves the user experience, reducing purchasing friction, and increasing cross-selling opportunities."
-                                    className="case-study-image"
-                                />
-                            </div>
-                            <div className="image-column-right-1">
-                                <p className="image-subtitles">
-                                    The checkout cart page provides users with a clear, organized view of their selected product and key details. By displaying all relevant information upfront, users can easily review and modify their selections before completing their purchase.
-                                </p>
-                                <p className="image-subtitles">
-                                    Additionally, the page features intelligent product recommendations, suggesting complementary software or add-ons based on the user’s cart. This enhances product discovery and improves the user experience, reducing purchasing friction, and increasing cross-selling opportunities.
-                                </p>
-                            </div>
-                        </div>
-                        <br />
-                        <div className="image-row-2">
-                            <div className="image-column">
-                                <p id="approach" className="image-subtitles-left-2">The new product landing pages allows users to easily compare and select from multiple licensing options directly from the product page. The Add to Cart feature streamlines the purchasing process, while the Request a Demo option ensures users can explore the software before committing. Which aligns with the redesign’s goal of improving clarity, reducing friction in the buying process.
-                                </p>
-                            </div>
-                            <div className="image-column-right-2 left-align">
-                                <img
-                                    src={ITASCASoftwareImage3}
-                                    alt="This image depicts a part of the new product landing page that allows users to easily compare and select the right software license. Users can choose from multiple licensing options directly from the product page. The Add to Cart feature streamlines the purchasing process, while the Request a Demo option ensures users can explore the software before committing. Which aligns with the redesign’s goal of improving clarity, reducing friction in the buying process."
-                                    className="case-study-image"
-                                />
-                            </div>
-                        </div>
-
-                        <div className="impact-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
-                                <h4>End Result</h4>
-                            </div>
-                            <p id="intro-redesign" className="redesign-description">
-                                The final product is a user-friendly, mobile-optimized website that enhances both user experience and lead generation. The redesigned site has increased software sales by 25%, improved lead generation by 30%, and offers a seamless, data-driven user experience across all devices. Users can now navigate the site efficiently, making confident purchasing decisions while enjoying a streamlined journey from discovery to checkout.
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
             </section>
 
             <section className="challenge-section-header">

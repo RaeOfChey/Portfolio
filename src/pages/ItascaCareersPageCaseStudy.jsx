@@ -74,7 +74,7 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="case-study-header-columns">
                     <div className="case-study-header-left">
-                        <h1 className="case-study-h1">Case Study</h1>
+                        <h1 className="case-study-h1">Project:</h1>
                         <h2 className="case-study-subtitle">Developing a careers landing page, to streamline the hiring process and candidate journey, increasing quality applicants.</h2>
 
                         <div className="links">
@@ -163,6 +163,8 @@ const EmployEaseCaseStudy = () => {
                 </div>
             </section>
 
+
+
             <section className="approach-section-header">
 
                 <div className="itasca-careers-title-section-left">
@@ -226,7 +228,7 @@ const EmployEaseCaseStudy = () => {
 
             <section className="process-section-header">
                 <div className="section-left">
-                    <h3>Timelime & SDLC</h3>
+                    <h3>Timeline & SDLC</h3>
                 </div>
 
                 <div className="section-right">

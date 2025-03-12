@@ -74,7 +74,7 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="case-study-header-columns">
                     <div className="case-study-header-left">
-                        <h1 className="case-study-h1">Case Study</h1>
+                        <h1 className="case-study-h1">Project:</h1>
                         <h2 className="case-study-subtitle">Streamlining the job application process on a unified platform to reduce complexity and increase efficiency.</h2>
 
                         <div className="links">
@@ -173,6 +173,135 @@ const EmployEaseCaseStudy = () => {
                 </div>
             </section>
 
+            <section className="challenge-section-header">
+                <div className="employease-solution-header-section-left">
+                    <h3>Solution</h3>
+                </div>
+
+                <div className="section-right">
+                    <p id="section-intro">
+                        EmployEase addresses the pain points job seekers face by creating a platform that prioritizes by offering a unified, streamlined platform that minimizes time and energy spent on the job search process.
+                    </p>
+                    <div className="solution-link solution-section">
+                        <a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a>
+                    </div>
+
+                    <div className="context-item-container">
+
+                        <div id="end-result" className="solution-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <UsersIcon className="users-icon" />
+                                <h4>How EmployEase solves user problems</h4>
+                            </div>
+
+                            <p id="intro-redesign" className="redesign-description">
+                                EmployEase directly addresses the pain points job seekers face such as disorganization, fragmentation, and overwhelming complexity by:
+                                <ul>
+                                    <li>
+                                        Consolidating job listings into one place, EmployEase eliminates the fragmented job search experience, providing real-time, relevant job data without the need to visit multiple platforms.
+                                    </li>
+                                    <li>
+                                        Users can easily track and customize application statuses and deadlines within the app, eliminating the need for spreadsheets or manual note-taking.
+                                    </li>
+                                    <li>
+                                        EmployEase eliminates the repetitive task of maintaining profiles on multiple platforms by offering a simplified sign-up process that doesn’t require constant updates.
+                                    </li>
+                                    <li>
+                                        EmployEase offers a clean, distraction-free interface that keeps users focused on their primary goal of obtaining a job.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div className="image-row-1">
+                            <div className="image-column-left-1">
+                                <img
+                                    src={CaseStudyImage6}
+                                    alt="First description"
+                                    className="case-study-image"
+                                />
+                            </div>
+                            <div className="image-column-right-1">
+                                <p id="the-filter-bar-subtitle" className="image-subtitles">The Filter Bar empowers users to customize their job search by selecting desired locations (top U.S. city in each state), industries (15 popular options), and experience levels (Entry, Mid, Senior, Management, Internship). With a single click, real-time job data is retrieved via The Muse API, delivering tailored opportunities that match the user’s preferences.</p>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="image-row-2">
+                            <div className="image-column">
+                                <p id="approach" className="image-subtitles-left-2">Users can easily store job search results for later reference. After clicking 'See More' on a job listing, a detailed pop-up modal appears, showcasing the job title, company, location(s), experience level, posting date, and a link to the job posting. Logged-in users can save jobs to their 'Saved Jobs' page for future access.</p>
+                            </div>
+                            <div className="image-column-right-2 left-align">
+                                <img
+                                    src={CaseStudyImage7}
+                                    alt="First description"
+                                    className="case-study-image"
+                                />
+                            </div>
+                        </div>
+
+                        <div id="end-result" className="solution-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>What EmployEase improved beyond the Challenge</h4>
+                            </div>
+                            <p id="intro-redesign" className="redesign-description">
+                                EmployEase creates a streamlined job search platform by incorporating additional features that enhance the user experience and empower job seekers:
+                                <ul>
+                                    <li>Integrated real-time job data ensures up-to-date opportunities in a streamlined centralized location.</li>
+                                    <li>Personalized job tracking options provide users with a tailored experience for managing applications, statuses, and deadlines.</li>
+                                    <li>Mobile responsiveness ensures seamless accessibility, enabling users to manage their job search wherever they are.</li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div className="image-row-1">
+                            <div className="image-column-left-1">
+                                <img
+                                    src={CaseStudyImage3}
+                                    alt="First description"
+                                    className="case-study-image"
+                                />
+                            </div>
+                            <div className="image-column-right-1">
+                                <p className="image-subtitles">
+                                    The Add a Job feature empowers users to track all job opportunities in one place. It allows job seekers to manually add positions they find outside of the Muse API's real-time data.
+                                </p>
+                                <p className="image-subtitles">
+                                    This unique functionality sets EmployEase apart from platforms like LinkedIn or Indeed, ensuring users can manage all job listings on their personalized 'Saved Jobs' page, whether from the app or external sources.
+                                </p>
+                                <p id="add-a-job-subtitle-3" className="image-subtitles">
+                                    By offering this feature, EmployEase gives users the ability to track and organize their job search from multiple platforms, making it easier to stay on top of opportunities, applications, and interviews in one convenient location.
+                                </p>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="image-row-2">
+                            <div className="image-column">
+                                <p id="approach" className="image-subtitles-left-2">Users can update the status of their saved jobs, such as Interested, Applied, Interviewing, or Hired. The unique combination of manually adding external job listings and organizing their saved jobs allows users to stay organized and manage their job search with convenience.
+                                </p>
+                            </div>
+                            <div className="image-column-right-2 left-align">
+                                <img
+                                    src={CaseStudyImage5}
+                                    alt="First description"
+                                    className="case-study-image"
+                                />
+                            </div>
+                        </div>
+
+                        <div id="end-result" className="solution-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>End result</h4>
+                            </div>
+                            <p id="intro-redesign" className="redesign-description">
+                                The final product is a unified, user-friendly web platform that simplifies the job search process. EmployEase offers a dynamic job dashboard, real-time data integration, and intuitive design, all optimized for both desktop and mobile devices. Users can manage every aspect of their job search with ease, saving time and energy while navigating their journey with confidence.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="approach-section-header">
 
                 <div className="employease-approach-title-section-left">
@@ -236,7 +365,7 @@ const EmployEaseCaseStudy = () => {
 
             <section className="process-section-header">
                 <div className="section-left">
-                    <h3>Timelime & SDLC</h3>
+                    <h3>Timeline & SDLC</h3>
                 </div>
 
                 <div className="section-right">
@@ -372,143 +501,6 @@ const EmployEaseCaseStudy = () => {
 
                 </div>
 
-            </section>
-
-            <section className="challenge-section-header">
-                <div className="employease-solution-header-section-left">
-                    <h3>Solution</h3>
-                </div>
-
-                <div className="section-right">
-                    <p id="section-intro">
-                        EmployEase addresses the pain points job seekers face by creating a platform that prioritizes by offering a unified, streamlined platform that minimizes time and energy spent on the job search process.
-                    </p>
-                    <div className="solution-link solution-section">
-                        <a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a>
-                    </div>
-
-                    <div className="context-item-container">
-
-                        <div id="end-result" className="solution-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <UsersIcon className="users-icon" />
-                                <h4>How EmployEase solves user problems</h4>
-                            </div>
-
-                            <p id="intro-redesign" className="redesign-description">
-                                EmployEase directly addresses the pain points job seekers face such as disorganization, fragmentation, and overwhelming complexity by:
-                                <ul>
-                                    <li>
-                                        Consolidating job listings into one place, EmployEase eliminates the fragmented job search experience, providing real-time, relevant job data without the need to visit multiple platforms.
-                                    </li>
-                                    <li>
-                                        Users can easily track and customize application statuses and deadlines within the app, eliminating the need for spreadsheets or manual note-taking.
-                                    </li>
-                                    <li>
-                                        EmployEase eliminates the repetitive task of maintaining profiles on multiple platforms by offering a simplified sign-up process that doesn’t require constant updates.
-                                    </li>
-                                    <li>
-                                        EmployEase offers a clean, distraction-free interface that keeps users focused on their primary goal of obtaining a job.
-                                    </li>
-                                </ul>
-                            </p>
-                        </div>
-
-                        <div className="image-row-1">
-                            <div className="image-column-left-1">
-                                <img
-                                    src={CaseStudyImage6}
-                                    alt="First description"
-                                    className="case-study-image"
-                                />
-                            </div>
-                            <div className="image-column-right-1">
-                                <p id="the-filter-bar-subtitle" className="image-subtitles">The Filter Bar empowers users to customize their job search by selecting desired locations (top U.S. city in each state), industries (15 popular options), and experience levels (Entry, Mid, Senior, Management, Internship). With a single click, real-time job data is retrieved via The Muse API, delivering tailored opportunities that match the user’s preferences.</p>
-                            </div>
-                        </div>
-                        <br />
-                        <div className="image-row-2">
-                            <div className="image-column">
-                                <p id="approach" className="image-subtitles-left-2">Users can easily store job search results for later reference. After clicking 'See More' on a job listing, a detailed pop-up modal appears, showcasing the job title, company, location(s), experience level, posting date, and a link to the job posting. Logged-in users can save jobs to their 'Saved Jobs' page for future access.</p>
-                            </div>
-                            <div className="image-column-right-2 left-align">
-                                <img
-                                    src={CaseStudyImage7}
-                                    alt="First description"
-                                    className="case-study-image"
-                                />
-                            </div>
-                        </div>
-
-                        <div id="end-result" className="solution-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
-                                <h4>What EmployEase improved beyond the Challenge</h4>
-                            </div>
-                            <p id="intro-redesign" className="redesign-description">
-                                EmployEase creates a streamlined job search platform by incorporating additional features that enhance the user experience and empower job seekers:
-                                <ul>
-                                    <li>Integrated real-time job data ensures up-to-date opportunities in a streamlined centralized location.</li>
-                                    <li>Personalized job tracking options provide users with a tailored experience for managing applications, statuses, and deadlines.</li>
-                                    <li>Mobile responsiveness ensures seamless accessibility, enabling users to manage their job search wherever they are.</li>
-                                </ul>
-                            </p>
-                        </div>
-
-                        <div className="image-row-1">
-                            <div className="image-column-left-1">
-                                <img
-                                    src={CaseStudyImage3}
-                                    alt="First description"
-                                    className="case-study-image"
-                                />
-                            </div>
-                            <div className="image-column-right-1">
-                                <p className="image-subtitles">
-                                    The Add a Job feature empowers users to track all job opportunities in one place. It allows job seekers to manually add positions they find outside of the Muse API's real-time data.
-                                </p>
-                                <p className="image-subtitles">
-                                    This unique functionality sets EmployEase apart from platforms like LinkedIn or Indeed, ensuring users can manage all job listings on their personalized 'Saved Jobs' page, whether from the app or external sources.
-                                </p>
-                                <p id="add-a-job-subtitle-3" className="image-subtitles">
-                                    By offering this feature, EmployEase gives users the ability to track and organize their job search from multiple platforms, making it easier to stay on top of opportunities, applications, and interviews in one convenient location.
-                                </p>
-                            </div>
-                        </div>
-                        <br />
-                        <div className="image-row-2">
-                            <div className="image-column">
-                                <p id="approach" className="image-subtitles-left-2">Users can update the status of their saved jobs, such as Interested, Applied, Interviewing, or Hired. The unique combination of manually adding external job listings and organizing their saved jobs allows users to stay organized and manage their job search with convenience.
-                                </p>
-                            </div>
-                            <div className="image-column-right-2 left-align">
-                                <img
-                                    src={CaseStudyImage5}
-                                    alt="First description"
-                                    className="case-study-image"
-                                />
-                            </div>
-                        </div>
-
-                        <div id="end-result" className="solution-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
-                                <h4>End result</h4>
-                            </div>
-                            <p id="intro-redesign" className="redesign-description">
-                                The final product is a unified, user-friendly web platform that simplifies the job search process. EmployEase offers a dynamic job dashboard, real-time data integration, and intuitive design, all optimized for both desktop and mobile devices. Users can manage every aspect of their job search with ease, saving time and energy while navigating their journey with confidence.
-                            </p>
-                        </div>
-
-                        {/* <img
-                            id="end-result-image"
-                            src={CaseStudyImage8}
-                            alt="First description"
-                            className="case-study-image"
-                        /> */}
-
-                    </div>
-                </div>
             </section>
 
             <section className="challenge-section-header">
