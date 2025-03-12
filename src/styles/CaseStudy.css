@@ -1265,4 +1265,34 @@ margin: 0px !important;
   .case-study-header {
     padding: 0px 375px 75px 375px;
   }
+  .case-study-container h1 {
+    font-size: 60px;
+  }
+  .case-study-container h2 {
+    font-size: 21px;
+  }
+  .links a {
+    font-size: 28px;
+  }
+  .case-study-header-right {
+    margin: 0px 0px 30px 0px;
+  }
+  .project-overview {
+    gap: 30px;
+  }
+  .project-overview p {
+    font-size: 21px;
+  }
+  .section-title h3 {
+    font-size: 40px;
+  }
+  .section-right #section-intro,
+  .user-problems-context-item h4,
+  .user-problems-context-item p {
+    font-size: 21px;
+  }
+  .user-problems-context-item {
+    padding: 35px 30px 30px 30px;
+    margin-bottom: 30px;
+  }
 }
