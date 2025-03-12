@@ -519,3 +519,50 @@ main {
     border: 2px solid var(--color-lightblue);
   }
 }
+
+@media (min-width: 2250px) {
+  body {
+    padding: 0px 375px;
+  }
+  .navbar {
+    padding: 35px 375px;
+  }
+  .logo {
+    height: 90px;
+    width: 90px;
+  }
+  .logo:hover {
+    transform: scale(1.15);
+  }
+  .navbar-links {
+    gap: 18px;
+  }
+  .navbar-links li a,
+  .navbar-links li a:hover {
+    font-size: 21px;
+    padding: 12px;
+  }
+  footer {
+    top: 0;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw; 
+    margin-right: -50vw; 
+    padding: 10px 375px;
+    z-index: 1000;
+    margin-top: 75px;
+  }
+  footer p {
+    font-size: 19px;
+  }
+  .footer-links {
+    gap: 30px;
+  }
+  footer a {
+    font-size: 19px;
+  }
+  .scroll-button {
+    bottom: 35px;
+    right: 35px;
+  }
+}

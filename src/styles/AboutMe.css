@@ -25,43 +25,6 @@ body.homepage .header-container {
   color: #000;
 }
 
-.animated-title {
-  display: inline-block;
-  color: var(--color-darkblue);
-}
-
-.sticky {
-  white-space: nowrap;
-  /* Prevent breaking for the "designer" and cursor */
-}
-
-/* Make cursor visible only when typing is done */
-.cursor {
-  color: #000;
-  opacity: 0;
-  /* Initially hide the cursor */
-  animation: blink 1s infinite step-end;
-}
-
-/* Only show the cursor once typing is finished */
-.cursor-finished .cursor {
-  opacity: 1;
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
 .subtitle {
   font-size: 18px;
   color: var(--color-black);
@@ -178,7 +141,7 @@ body.homepage .header-container {
   font-family: 'neulis-sans', 'Arial', sans-serif;
   cursor: pointer;
   font-weight: 400;
-  font-size: 27px;
+  font-size: 24px;
   line-height: 1.2;
   letter-spacing: 0.5px;
   text-align: center;
@@ -341,30 +304,6 @@ body.homepage .header-container {
 
 .education-item strong {
   font-weight: 600;
-}
-
-/* ----- My Career Path Section Styles ----- */
-.career-title {
-  font-family: 'neulis-cursive', sans-serif;
-  font-size: 50px;
-  margin: 0px 0px 30px 0px;
-}
-
-.career-item-row {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-}
-
-.career-right {
-  text-align: right; 
-  white-space: nowrap; 
-}
-
-.career-item-row h2 {
-  font-size: 18px;
-  color: #000;
-  margin: 0px 0px 15px 0px;
 }
 
 /* Keyframes for Seamless Continuous Scrolling */
@@ -660,5 +599,94 @@ body.homepage .header-container {
     margin: 0px;
     gap: 0px;
     display: inline-block;
+  }
+}
+
+@media (min-width: 2250px) {
+  body.homepage .header-container {
+    padding: 75px 364px;
+  }
+  .biggest-title {
+    font-size: 110px;
+  }
+  .subtitle {
+    font-size: 24px;
+  }
+  .recent-work-items {
+    gap: 30px; 
+  }
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+  }
+  .image-container:hover {
+    transform: scale(1.05);
+  }
+  .overlay {
+    font-size: 28px;
+  }
+  .see-my-work-button {
+    padding: 12px 20px;
+    font-size: 28px;
+  }
+  .design-philosophy-title {
+    font-size: 40px;
+  }
+  .my-goal-paragraph {
+    font-size: 21px;
+  }
+  .experience-section {
+    gap: 30px;
+    margin-bottom: 75px;
+  }
+  .experience-item {
+    padding: 35px 30px 30px 30px;
+    margin-bottom: 30px;
+  }
+  .experience-item-header {
+    margin-bottom: 5px;
+  }
+  .experience-item-header h2 {
+    font-size: 21px;
+    padding-left: 15px;
+  }
+  .experience-item p {
+    font-size: 21px;
+    margin-top: 15px;
+  }
+  .experience-item-container {
+    grid-gap: 30px;
+  }
+  .toolkit-title {
+    font-size: 40px;
+  }
+  .carousel-container {
+    gap: 30px;
+  }
+  .carousel-item {
+    font-size: 21px;
+    height: 125px;
+    width: 125px;
+    padding: 10px;
+  }
+  .education-title {
+    font-size: 40px;
+  }
+  .education-section-wrapper {
+    gap: 30px;
+  }
+  .education-items {
+    gap: 30px;
+  }
+  .education-item h2 {
+    font-size: 21px;
+    margin: 0px 0px 20px 0px;
+  }
+  .education-item p {
+    font-size: 21px;
   }
 }

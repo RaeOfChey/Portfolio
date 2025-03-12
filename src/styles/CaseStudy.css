@@ -1261,3 +1261,8 @@ margin: 0px !important;
   }
 }
 
+@media (min-width: 2250px) {
+  .case-study-header {
+    padding: 0px 375px 75px 375px;
+  }
+
