@@ -72,17 +72,17 @@ const KelvixCaseStudy = () => {
       <div className="case-study-header">
         <div className="case-study-header-columns">
           <div className="case-study-header-left">
-            <h1 className="case-study-h1">Project:</h1>
+            <h1 className="case-study-h1">Project</h1>
             <h2 className="case-study-subtitle">
               Redesigning a B2B eCommerce platform to enhance user experience
               and drive product sales growth by 15%.
             </h2>
 
-            <div className="links">
+            {/* <div className="links">
               <a href="https://www.kelvix.com/" target="_blank">
                 View Live
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div className="case-study-header-right">

@@ -74,7 +74,7 @@ const ITASCASoftwareCaseStudy = () => {
 
                 <div className="case-study-header-columns">
                     <div className="case-study-header-left">
-                        <h1 className="case-study-h1">Project:</h1>
+                        <h1 className="case-study-h1">Project</h1>
                         <h2 className="case-study-subtitle">Redesigning a B2B eCommerce SaaS platform to enhance user experience and drive software sales growth by 25%.</h2>
 
                         {/* <div className="links">

@@ -74,12 +74,12 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="case-study-header-columns">
                     <div className="case-study-header-left">
-                        <h1 className="case-study-h1">Project:</h1>
+                        <h1 className="case-study-h1">Project</h1>
                         <h2 className="case-study-subtitle">Streamlining the job application process on a unified platform to reduce complexity and increase efficiency.</h2>
 
-                        <div className="links">
+                        {/* <div className="links">
                             <a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="case-study-header-right">

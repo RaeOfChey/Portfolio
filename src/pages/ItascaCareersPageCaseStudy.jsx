@@ -74,12 +74,12 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="case-study-header-columns">
                     <div className="case-study-header-left">
-                        <h1 className="case-study-h1">Project:</h1>
+                        <h1 className="case-study-h1">Project</h1>
                         <h2 className="case-study-subtitle">Developing a careers landing page, to streamline the hiring process and candidate journey, increasing quality applicants.</h2>
 
-                        <div className="links">
+                        {/* <div className="links">
                             <a href="https://www.itascacg.com/about/careers-main" target="_blank">View Live</a>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="case-study-header-right">
