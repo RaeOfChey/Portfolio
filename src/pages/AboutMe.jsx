@@ -186,7 +186,7 @@ const AboutMe = () => {
                 </div>
             </section>
 
-            <section id="education" class="education-section">
+            {/* <section id="education" class="education-section">
                 <div class="education-section-wrapper">
                     <div class="title-column">
                         <h1 class="education-title">Education</h1>
@@ -208,7 +208,7 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <ScrollButton />
         </>
