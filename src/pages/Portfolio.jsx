@@ -20,6 +20,7 @@ import EmployEaseImg from '../assets/EmployEase Thumbnail Image.png';
 import ITASCASoftwareThumbnail from '../assets/ITASCA Software Thumbnail Image.png';
 import KelvixImg from '../assets/Kelvix Thumbnail Image.png';
 import ITASCACareersPageImg from '../assets/ITASCA Careers Page Thumbnail Image.png';
+import HealthfulliImg from '../assets/Healthfulli Thumbnail Image.png';
 
 const projects = [
   // Development Projects
@@ -160,6 +161,14 @@ const projects = [
     category: 'Graphic Design',
     cta: 'See More',
     image: PolitosPizzaImg,
+  },
+  {
+    title: 'Designing a personalized fitness and nutrition app that educates users and encourages healthy balanced habits.',
+    link: 'https://cheyennaraelynn.myportfolio.com/app-design-healthfulli',
+    type: '#Branding #Web Design #App Design',
+    category: 'Graphic Design',
+    cta: 'See More',
+    image: HealthfulliImg,
   },
 ];
 
