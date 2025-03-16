@@ -16,11 +16,9 @@ import { ArrowRightIcon } from '../components/ArrowRightIcon';
 
 import ItascaCareersHeaderImage from '../assets/ITASCA Careers Page Header Image.png';
 import CaseStudyImage1 from '../assets/ITASCA Careers Page CaseStudy Image1.png';
-import CaseStudyImage3 from '../assets/EmployEase CaseStudy Image3.png';
-import CaseStudyImage5 from '../assets/EmployEase CaseStudy Image5.png';
-import CaseStudyImage6 from '../assets/EmployEase CaseStudy Image6.png';
-import CaseStudyImage7 from '../assets/EmployEase CaseStudy Image7.png';
-import CaseStudyImage8 from '../assets/EmployEase CaseStudy Image8.png';
+import CaseStudyImage2 from '../assets/ITASCA Careers Page CaseStudy Image2.png';
+import CaseStudyImage3 from '../assets/ITASCA Careers Page CaseStudy Image3.png';
+import CaseStudyImage4 from '../assets/ITASCA Careers Page CaseStudy Image4.png';
 
 const EmployEaseCaseStudy = () => {
 
@@ -163,7 +161,150 @@ const EmployEaseCaseStudy = () => {
                 </div>
             </section>
 
+            <section className="challenge-section-header">
+                <div className="kelvix-solution-header-section-left">
+                    <h3>Solution</h3>
+                </div>
 
+                <div className="section-right">
+                    <p id="section-intro">
+                        The redesign of the ecommerce website addressed the pain points
+                        faced by customers and contractors by creating a seamless, intuitive
+                        experience that empowers users to navigate the website effortlessly,
+                        access relevant product and service information, and manage their
+                        orders more effectively.
+                    </p>
+                    <div className="solution-link solution-section">
+                        <a href="https://www.itascacg.com/about/careers-main" target="_blank">
+                            View Live
+                        </a>
+                    </div>
+
+                    <div className="context-item-container">
+                        <div id="end-result" className="solution-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <UsersIcon className="users-icon" />
+                                <h4>How the redesign solves user problems</h4>
+                            </div>
+
+                            <p id="intro-redesign" className="redesign-description">
+                                The redesign directly addresses the challenges users faced, such as difficulty navigating job listings, unclear company information, and a lengthy application process by:
+                                <ul>
+                                    <li>
+                                        Streamlining the layout and navigation, making it easier for candidates to browse job opportunities and find key company information without confusion.
+                                    </li>
+                                    <li>
+                                        Simplifying the application process with a clear, accessible application form that reduces friction and enhances user experience.
+                                    </li>
+                                    <li>
+                                        Highlighting the company’s values and culture through prominent sections that provide potential candidates with a better understanding of the company's mission and work environment.
+                                    </li>
+                                    <li>
+                                        Centralizing important links and resources, like Open Positions and contact information, to ensure candidates can easily find the support they need during their job search.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div className="image-row-1">
+                            <div className="image-column-left-1">
+                                <img
+                                    src={CaseStudyImage3}
+                                    alt="This image showcases the career opportunities section, detailing job categories available within the company. It highlights possible roles, providing a clear overview of the diverse career paths the company offers. Additionally, a 'Connect' button encourages job seekers to submit their resumes for future opportunities, ensuring accessibility for those who may not find a current opening that matches their expertise."
+                                    className="case-study-image"
+                                />
+                            </div>
+                            <div className="image-column-right-1">
+                                <p id="the-filter-bar-subtitle" className="image-subtitles">
+                                    The Opportunities section presents a comprehensive overview of the company's diverse career opportunities, showcasing roles across multiple departments. It highlights the company’s commitment to fostering a collaborative and innovative culture, ensuring that job seekers can find a position aligned with their skills and interests.
+                                </p>
+                                <p id="the-filter-bar-subtitle" className="image-subtitles">
+                                    The inclusion of an internship program demonstrates company's investment in nurturing future professionals, while the "Connect" button provides an accessible way for candidates to submit their resumes, reinforcing a forward-thinking approach to talent acquisition and global hiring.
+                                </p>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="image-row-2">
+                            <div className="image-column">
+                                <p id="approach" className="image-subtitles-left-2">
+                                    The Opportunities section also showcases all its office locations, which spans across multiple continents. This provides clear, accessible information about the company’s international operations, making it easy for job seekers to identify potential opportunities in their region. Emphasizing the company's global reach reinforces its stability, influence, and appeal to candidates seeking careers in an internationally connected organization.
+                                </p>
+                            </div>
+                            <div className="image-column-right-2 left-align">
+                                <img
+                                    src={CaseStudyImage4}
+                                    alt="This image features a list and world map image highlighting company's global office locations. Alongside the map, a list of office locations specifies cities. The visual representation reinforces the company's extensive international presence and the opportunities available within its global network."
+                                    className="case-study-image"
+                                />
+                            </div>
+                        </div>
+
+                        <div id="end-result" className="solution-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>What the redesign improved beyond the Challenge</h4>
+                            </div>
+                            <p id="intro-redesign" className="redesign-description">
+                                The redesign not only solved the core issues but also improved the user experience in the following ways:
+                                <ul>
+                                    <li>
+                                        Enhanced mobile responsiveness, ensuring a smooth and consistent experience for users across all devices.
+                                    </li>
+                                    <li>
+                                        Complied with global accessibility standards, making the site more inclusive for all potential candidates.
+                                    </li>
+                                    <li>
+                                        Strengthened brand alignment with a polished design that reflects ITASCA’s professional values and culture.
+                                    </li>
+                                    <li>
+                                        Optimized the page for SEO, improving visibility and making it easier for job seekers to find the company's career opportunities online.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div className="image-row-1">
+                            <div className="image-column-left-1">
+                                <img
+                                    src={CaseStudyImage2}
+                                    alt="This image displays Perks section, which showcases employee benefits, highlighting key perks such as career growth opportunities, flexible work options, a collaborative global company culture, employee feedback integration, a structured mentorship program, and employee recognition initiatives. The text emphasizes the company's dedication to professional development, work-life balance, and fostering an inclusive, supportive work environment."
+                                    className="case-study-image"
+                                />
+                            </div>
+                            <div className="image-column-right-1">
+                                <p className="image-subtitles">
+                                    The Perks section showcases the company's commitment to creating a supportive and enriching work environment by showcasing key employee benefits. It emphasizes career growth opportunities, flexible work options, a collaborative global culture, employee feedback integration, a structured mentorship program, and employee recognition initiatives. By presenting these perks, the company appeals to a diverse range of job seekers who value professional development, work-life balance, and being part of an inclusive, globally connected team.
+                                </p>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="image-row-2">
+                            <div className="image-column">
+                                <p id="approach" className="image-subtitles-left-2">
+                                    The redesigned careers page header immediately highlights the company's employee-owned structure and commitment to professional growth, collaboration, and inclusivity. The prominent "View Open Positions" button provides a clear, direct path for job seekers, ensuring a seamless experience for both new and returning candidates.
+                                </p>
+                            </div>
+                            <div className="image-column-right-2 left-align">
+                                <img
+                                    src={ItascaCareersHeaderImage}
+                                    alt="This image depicts the ITASCA careers page header, which features a dynamic collage of engineers in the field, reinforcing the company’s commitment to employee ownership, professional growth, and a collaborative work environment. Additionally, there is a prominent 'View Open Positions' button provides a clear, direct path for job seekers, ensuring a seamless experience for both new and returning candidates."
+                                    className="case-study-image"
+                                />
+                            </div>
+                        </div>
+
+                        <div id="end-result" className="solution-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>End result</h4>
+                            </div>
+                            <p id="intro-redesign" className="redesign-description">
+                                The final product is a modern, user-friendly careers page with a clear layout, intuitive navigation, and streamlined application process. Improved accessibility, mobile responsiveness, and SEO optimization enhance usability and visibility. The redesign increases candidate engagement, simplifies job applications, and strengthens the employer brand.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section className="approach-section-header">
 

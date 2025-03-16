@@ -77,12 +77,6 @@ const KelvixCaseStudy = () => {
               Redesigning a B2B eCommerce platform to enhance user experience
               and drive product sales growth by 15%.
             </h2>
-
-            {/* <div className="links">
-              <a href="https://www.kelvix.com/" target="_blank">
-                View Live
-              </a>
-            </div> */}
           </div>
 
           <div className="case-study-header-right">
@@ -226,11 +220,7 @@ const KelvixCaseStudy = () => {
 
         <div className="section-right">
           <p id="section-intro">
-            The redesign of the ecommerce website addressed the pain points
-            faced by customers and contractors by creating a seamless, intuitive
-            experience that empowers users to navigate the website effortlessly,
-            access relevant product and service information, and manage their
-            orders more effectively.
+            The redesign improved user experience by enhancing information architecture, streamlining the application process, and increasing content accessibility. With clear navigation, an intuitive layout, and user-friendly design, the new page enables candidates to easily explore job opportunities, learn about the company, and submit applications.
           </p>
           <div className="solution-link solution-section">
             <a href="https://www.kelvix.com/" target="_blank">
