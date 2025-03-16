@@ -510,7 +510,7 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        EmployEase revolutionized the job search process by providing a streamlined, user-focused platform. By addressing key challenges like fragmentation, disorganization, and overwhelming features, it empowered users to manage their job applications with confidence and clarity.
+                        EmployEase improved the job search process by providing a streamlined, user-focused platform. By addressing key challenges like fragmentation, disorganization, and overwhelming features, it empowered users to manage their job applications with confidence and clarity.
                     </p>
 
                     <p id="section-intro-2">

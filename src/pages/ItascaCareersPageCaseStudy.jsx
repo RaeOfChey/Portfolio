@@ -86,7 +86,7 @@ const EmployEaseCaseStudy = () => {
                         <img
                             id="itasca-careers-header-image"
                             src={ItascaCareersHeaderImage}
-                            alt="x"
+                            alt="A preview of the final ITASCA Careers landing page design."
                             className="case-study-image"
                         />
                     </div>
@@ -357,6 +357,140 @@ const EmployEaseCaseStudy = () => {
 
             </section>
 
+            <section className="challenge-section-header">
+                <div className="itasca-software-impact-outcome-section-left">
+                    <h3 className="impacts-header">Impact & Outcomes</h3>
+                </div>
+
+                <div className="section-right">
+                    <p id="section-intro">
+                        The new landing page design created a more engaging and informative experience for job seekers, leading to increased alignment between candidates and the company.
+                    </p>
+
+                    <p id="section-intro-2">
+                        By providing a clear and compelling overview of the company culture, values, and opportunities, the page attracted more qualified applicants, streamlined the hiring process, and reinforced the company as an employer of choice.
+                    </p>
+
+                    <br />
+
+                    <div className="context-item-container">
+
+                        <div className="impact-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>Outcomes</h4>
+                            </div>
+                            <p id="outcome-list" className="outcome-list">
+                                <ul>
+                                    <li>Improved branding and clear messaging attracted candidates who aligned with the company's values, reducing time spent filtering unqualified applicants.</li>
+                                    <li>Employee stories, company videos, and value-driven content helped candidates form a deeper connection with the company.</li>
+                                    <li>A clear structure and intuitive navigation made it easier for candidates to find job listings and apply, increasing application completion rates.</li>
+                                    <li>A cohesive, well-branded careers page strengthened the company’s presence in a competitive job market and reinforced its reputation as a desirable employer.</li>
+                                    <li>By attracting the right candidates upfront, hiring teams spent less time filtering applicants, streamlining the recruitment process.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section-title">
+
+                <div className="problem-section-header">
+                    <div className="itasca-software-takeaways-section-left">
+                        <h3 className="takeaways-header">Takeaways</h3>
+                    </div>
+
+                    <div className="section-right">
+
+                        <div className="context-item-container">
+
+                            <div className="takeaways-context-item">
+                                <div className="context-item-header lessons-learned">
+                                    <FilePenLineIcon className="filepenline-icon" />
+                                    <h4>Lessons learned</h4>
+                                </div>
+                                <p>
+                                    This project reinforced the importance of designing for both user engagement and business impact. I learned how to craft a compelling employer brand through thoughtful UX, ensuring that candidates could easily connect with the company’s culture and values. Additionally, I gained deeper insight into structuring career pages to balance storytelling with functionality, making job opportunities more discoverable and appealing.
+                                </p>
+                            </div>
+
+                            <div className="takeaways-context-item">
+                                <div className="context-item-header key-challenges-overcome">
+                                    <CogIcon className="cog-icon" />
+                                    <h4>Key challenges overcome</h4>
+                                </div>
+                                <p>
+                                    One of the biggest challenges was creating a careers page that represented the company as a whole while maintaining consistency across international offices, each with its own values and practices. Without localizing content, I had to find a way to present a unified employer brand that still felt relevant to a diverse global workforce.
+                                </p>
+                                <br />
+                                <p>
+                                    Another challenge was integrating the new careers page into an already established website. Building a site from scratch allows for full creative control, but working within existing constraints required careful design choices to ensure the page fit seamlessly while still enhancing the overall user experience.
+                                </p>
+                            </div>
+
+                            <div className="takeaways-context-item">
+                                <div className="context-item-header key-challenges-overcome">
+                                    <SparklesIcon className="sparkles-icon" />
+                                    <h4>Personal reflections</h4>
+                                </div>
+                                <p>
+                                    This project reinforced how thoughtful design can enhance a company’s reputation and attract top talent. I’m proud of the improvements made and look forward to applying these insights to future branding and engagement-focused projects.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section-title">
+
+                <div className="problem-section-header">
+                    <div className="section-left">
+                        <h3>Growth & Future Development</h3>
+                    </div>
+
+                    <div className="section-right">
+
+                        <p id="section-intro">
+                            There are opportunities to further enhance the careers page and improve candidate engagement with strategic updates such as:
+                        </p>
+
+                        <div className="context-item-container">
+
+                            <div className="growth-context-item">
+                                <div className="context-item-header lessons-learned">
+                                    <TrendingUpIcon className="trendingup-icon" />
+                                    <h4>More interactive content</h4>
+                                </div>
+                                <p>
+                                    Adding interactive elements such as behind-the-scenes videos, virtual office tours, or employee Q&A sections to provide candidates with a deeper connection to the company. This helps candidates better understand the work environment before applying.
+                                </p>
+                            </div>
+
+                            <div className="growth-context-item">
+                                <div className="context-item-header key-challenges-overcome">
+                                    <TrendingUpIcon className="trendingup-icon" />
+                                    <h4>Add application tracking</h4>
+                                </div>
+                                <p>
+                                    Optimizing the job application experience by integrating a more intuitive application tracking system. Enhancements like saved job searches, job alerts, and application status would reduce friction and improve conversion rates.
+                                </p>
+                            </div>
+
+                            <div className="growth-context-item">
+                                <div className="context-item-header key-challenges-overcome">
+                                    <TrendingUpIcon className="trendingup-icon" />
+                                    <h4>Leverage analytic tools</h4>
+                                </div>
+                                <p>
+                                    Leveraging newly integrated analytic tools to track user engagement, identify drop-off points, and refine content based on candidate behavior. Continuous data-driven improvements would ensure the careers page remains effective in attracting and converting top talent.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section class="cta-section">
 
