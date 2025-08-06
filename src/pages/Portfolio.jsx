@@ -108,7 +108,7 @@ const projects = [
   // Graphic Design Projects
   {
     title: 'Creating a brand identity and collateral for couples seeking non-traditional wedding experiences that increased engagement and bookings.',
-    link: 'https://cheyennaraelynn.myportfolio.com/branding-norseman-nuptials',
+    link: '/norseman-nuptials',
     type: '#Branding #Marketing #Advertising #Print #Social Media',
     category: 'Graphic Design',
     cta: 'See More',

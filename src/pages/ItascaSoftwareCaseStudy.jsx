@@ -69,9 +69,7 @@ const ITASCASoftwareCaseStudy = () => {
 
     return (
         <div className="case-study-container">
-
             <div className="case-study-header">
-
                 <div className="case-study-header-columns">
                     <div className="case-study-header-left">
                         <h1 className="case-study-h1">Project</h1>
@@ -84,9 +82,9 @@ const ITASCASoftwareCaseStudy = () => {
 
                     <div className="case-study-header-right">
                         <img
-                            id="A glimpse of the final landing page design for the ITASCA Software website."
+                            id="itasca-software-header-image"
                             src={ITASCASoftwareHeaderImage}
-                            alt="First description"
+                            alt="A glimpse of the final landing page design for the ITASCA Software website."
                             className="case-study-image"
                         />
                     </div>

@@ -14,7 +14,7 @@ import { TrendingUpIcon } from "../components/TrendingUpIcon";
 import { SparklesIcon } from "../components/SparklesIcon";
 import { ArrowRightIcon } from "../components/ArrowRightIcon";
 
-import KelvixCaseStudyImage8 from "../assets/Kelvix Thumbnail Image.png";
+// import KelvixCaseStudyImage8 from "../assets/Kelvix Thumbnail Image.png";
 import KelvixHeaderImage from "../assets/Kelvix Header Image.png";
 import KelvixCaseStudyImage1 from "../assets/Kelvix CaseStudy Image1.png";
 import KelvixCaseStudyImage2 from "../assets/Kelvix CaseStudy Image2.png";
@@ -73,9 +73,7 @@ const KelvixCaseStudy = () => {
         <div className="case-study-header-columns">
           <div className="case-study-header-left">
             <h1 className="case-study-h1">Project</h1>
-            <h2 className="case-study-subtitle">
-              Redesigning a B2B eCommerce platform to enhance user experience
-              and drive product sales growth by 15%.
+            <h2 className="case-study-subtitle"> Redesigning a B2B eCommerce platform to enhance user experience and drive product sales growth by 15%.
             </h2>
           </div>
 

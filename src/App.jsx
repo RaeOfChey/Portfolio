@@ -14,6 +14,7 @@ import EmployEaseCaseStudy from './pages/EmployEaseCaseStudy';
 import ItascaSoftwareCaseStudy from './pages/ItascaSoftwareCaseStudy';
 import KelvixCaseStudy from './pages/KelvixCaseStudy';
 import ItascaCareersPageCaseStudy from './pages/ItascaCareersPageCaseStudy';
+import NorsemanNuptials from './pages/NorsemanNuptials';
 
 function App() {
     const cursorRef = useRef(null);
@@ -72,6 +73,7 @@ function App() {
         <Route path="/itasca-software-case-study" element={<ItascaSoftwareCaseStudy />} />
         <Route path="/kelvix-case-study" element={<KelvixCaseStudy />} />
         <Route path="/itasca-careers-page-case-study" element={<ItascaCareersPageCaseStudy />} />
+        <Route path="/norseman-nuptials" element={<NorsemanNuptials />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </main>

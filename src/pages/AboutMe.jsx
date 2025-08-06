@@ -75,6 +75,7 @@ const AboutMe = () => {
 
             <section id="recent-work" className="homepage">
                 <div className="recent-work-items">
+
                     <div className="recent-work-item">
                         <a href="/itasca-software-case-study" target="_blank" rel="noopener noreferrer">
                             <div className="image-container">
@@ -94,7 +95,7 @@ const AboutMe = () => {
                     </div>
 
                     <div className="recent-work-item">
-                        <a href="https://cheyennaraelynn.myportfolio.com/branding-norseman-nuptials" target="_blank" rel="noopener noreferrer">
+                        <a href="/norseman-nuptials" target="_blank" rel="noopener noreferrer">
                             <div className="image-container">
                                 <img src={NorsemanNupitalsThumbnail} alt="Norseman Nupitals project thumbnail" />
                                 <div className="overlay">Learn More</div>
