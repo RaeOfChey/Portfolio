@@ -320,7 +320,13 @@ h5 {
   margin: 0px;
   font-size: 16px;
   text-align: left;
-  padding-right: 20px;
+  /* padding-right: 20px; */
+}
+.image-row-2-gg .image-column p#approach.image-subtitles-left-2 {
+  margin: 0px;
+  font-size: 16px;
+  text-align: left;
+  /* padding-right: 20px; */
 }
 
 /* ----- Timeline & SDLC Section ----- */
@@ -446,7 +452,7 @@ ul li {
 }
 
 /* ----- Obstacles & Milestones Section----- */
-/* CContext Items Styling */
+/* Context Items Styling */
 .obstacles-context-item {
   display: flex;
   flex-direction: column;
@@ -601,6 +607,11 @@ margin: 0px !important;
 
 /* 2nd Iamge Row */
 .image-row-2 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 20px 0px 50px 0px;
+}
+.image-row-2-gg {
   display: grid;
   grid-template-columns: 30% 70%;
   margin: 20px 0px 50px 0px;
@@ -1142,6 +1153,9 @@ margin: 0px !important;
   .image-row-2 .image-column p#approach.image-subtitles-left-2 {
     padding-bottom: 20px;
   }
+   .image-row-2-gg .image-column p#approach.image-subtitles-left-2 {
+    padding-bottom: 20px;
+  }
   .user-problems-context-item h4,
   .approach-context-item h4,
   .process-section-header h4,
@@ -1151,6 +1165,24 @@ margin: 0px !important;
   .takeaways-context-item h4,
   .growth-context-item h4 {
     line-height: 1.3;
+  }
+  .image-row-1,
+  .image-row-2,
+  .imge-row-2-gg {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-column-left-1,
+  .image-column-right-1,
+  .image-column,
+  .image-column-right-2 {
+    order: 2; 
+  }
+  .image-column-right-1,
+  .image-column, 
+  .image-column-left-1 p,
+  .image-column-right-2 p {
+    order: 1;
   }
 }
 
@@ -1171,7 +1203,8 @@ margin: 0px !important;
     margin: 50px 0px 40px 0px;
   }
   .image-column-right-1 .image-subtitles,
-  .image-row-2 .image-column p#approach.image-subtitles-left-2 {
+  .image-row-2 .image-column p#approach.image-subtitles-left-2,
+  .image-row-2-gg .image-column p#approach.image-subtitles-left-2 {
     font-size: 15px;
   }
   .solution-link a {
@@ -1326,7 +1359,8 @@ margin: 0px !important;
     font-size: 16px;
   }
   .image-column-right-1 .image-subtitles,
-  .image-row-2 .image-column p#approach.image-subtitles-left-2 {
+  .image-row-2 .image-column p#approach.image-subtitles-left-2,
+  .image-row-2-gg .image-column p#approach.image-subtitles-left-2 {
   font-size: 14px;
   }
   .problem-section-header {
@@ -1367,7 +1401,8 @@ margin: 0px !important;
   .cta-option {
     margin-bottom: 20px;
   }
-  .image-row-2 {
+  .image-row-2,
+  .image-row-2-gg{
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     margin: 0px 0px 40px 0px;
@@ -1395,7 +1430,6 @@ margin: 0px !important;
   #credits-paragraph {
     font-size: 16px;
   }
-
   .user-problems-context-item h4,
   .approach-context-item h4,
   .process-section-header h4,
@@ -1539,7 +1573,6 @@ margin: 0px !important;
   .itasca-careers-title-section-left {
     margin-top: 40px;
   }
-
   .employease-solution-header-section-left,
   .kelvix-solution-header-section-left,
   .employease-impact-outcome-section-left,
@@ -1547,19 +1580,21 @@ margin: 0px !important;
     margin-top: 40px;
     padding-bottom: 20px;
   }
-
   .itasca-software-takeaways-section-left,
   .employease-takeaways-section-left,
   .kelvix-takeaways-section-left {
     padding-top: 10px;
   }
-
   #unique-section .section-right p {
     margin-bottom: 20px;
   }
   .image-row-2 {
     margin-bottom: 40px;
     margin-top: 40px;
+  }
+   .image-row-2-gg {
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
   .skills-carousel-section {
     margin: 20px 0px 40px 0px;
@@ -1698,7 +1733,8 @@ margin: 0px !important;
     padding-top: 5px;
   }
   .image-column-right-1 .image-subtitles,
-  .image-row-2 .image-column p#approach.image-subtitles-left-2 {
+  .image-row-2 .image-column p#approach.image-subtitles-left-2,
+  .image-row-2-gg .image-column p#approach.image-subtitles-left-2  {
     font-size: 19px;
     padding-bottom: 30px;
   }

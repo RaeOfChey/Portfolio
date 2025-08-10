@@ -6,7 +6,7 @@ import { CircleCheckIcon } from '../components/CircleCheckIcon';
 import ScrollButton from '../components/ScrollButton';
 import { Link } from 'react-router-dom';
 import EmployEaseThumbnail2 from '../assets/EmployEase Thumbnail Image 2.png';
-import NorsemanNupitalsThumbnail from '../assets/Norseman Nupitals Thumbnail Cover.png';
+import NorsemanNupitalsThumbnail from '../assets/norseman-nuptials/Norseman Nupitals Thumbnail Cover.png';
 import ITASCASoftwareThumbnail from '../assets/ITASCA Software Thumbnail Image.png';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 

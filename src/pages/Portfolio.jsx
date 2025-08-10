@@ -7,7 +7,7 @@ import FilmTrackerImg from '../assets/Film Tracker Thumbnail Image.png';
 import AutoPipelineImg from '../assets/Auto Pipeline Thumbnail Image.png';
 import FuncTasticImg from '../assets/FuncTastic Thumbnail Image.png';
 import SlugfolioImg from '../assets/Slugfolio Thumbnail Image.png';
-import NorsemanNuptialsImg from '../assets/Norseman Nupitals Thumbnail Cover.png';
+import NorsemanNuptialsImg from '../assets/norseman-nuptials/Norseman Nupitals Thumbnail Cover.png';
 import OchaTeaHouseImg from '../assets/Ocha Tea House Regular Thumbnail Image.png';
 import NorthWoodsImg from '../assets/North Woods Cold Brew Thumbnail Image.png';
 import SecureWorldSignageImg from '../assets/SecureWorld Conference Signage Thumbnail Image.png';

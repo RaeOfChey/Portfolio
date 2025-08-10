@@ -4,9 +4,7 @@ import ScrollButton from '../components/ScrollButton';
 import '../styles/styles.css';
 import '../styles/CaseStudy.css';
 
-import { DownvoteIcon } from '../components/DownvoteIcon';
 import { CircleCheckIcon } from '../components/CircleCheckIcon';
-import { RefreshIcon } from '../components/RefreshIcon';
 import { UsersIcon } from '../components/UsersIcon';
 import { FilePenLineIcon } from '../components/FilePenLineIcon';
 import { CogIcon } from '../components/CogIcon';
@@ -14,32 +12,32 @@ import { TrendingUpIcon } from '../components/TrendingUpIcon';
 import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 
-import NorsemanNuptialsHeaderImage from '../assets/Norseman Nuptials Header Image.png';
-import CaseStudyImage1 from '../assets/Norseman Nuptials Case Study Image1.png';
-import CaseStudyImage2 from '../assets/Norseman Nuptials Case Study Image2.png';
-import CaseStudyImage3 from '../assets/Norseman Nuptials Case Study Image3.png';
-import CaseStudyImage4 from '../assets/Norseman Nuptials Case Study Image4.png';
-import CaseStudyImage5 from '../assets/Norseman Nuptials Case Study Image5.png';
-import CaseStudyImage6 from '../assets/Norseman Nuptials Case Study Image6.png';
-import CaseStudyImage7 from '../assets/Norseman Nuptials Case Study Image7.png';
-import CaseStudyImage8 from '../assets/Norseman Nuptials Case Study Image8.png';
-import CaseStudyImage9 from '../assets/Norseman Nuptials Case Study Image9.png';
-import CaseStudyImage10 from '../assets/Norseman Nuptials Case Study Image10.png';
-import CaseStudyImage11 from '../assets/Norseman Nuptials Case Study Image11.png';
-import CaseStudyImage12 from '../assets/Norseman Nuptials Case Study Image12.png';
-import CaseStudyImage13 from '../assets/Norseman Nuptials Case Study Image13.png';
-import CaseStudyImage14 from '../assets/Norseman Nuptials Case Study Image14.png';
-import CaseStudyImage15 from '../assets/Norseman Nuptials Case Study Image15.png';
-import CaseStudyImage16 from '../assets/Norseman Nuptials Case Study Image16.png';
-import CaseStudyImage17 from '../assets/Norseman Nuptials Case Study Image17.png';
-import CaseStudyImage18 from '../assets/Norseman Nuptials Case Study Image18.png';
-import CaseStudyImage19 from '../assets/Norseman Nuptials Case Study Image19.png';
-import CaseStudyImage20 from '../assets/Norseman Nuptials Case Study Image20.png';
-import CaseStudyImage21 from '../assets/Norseman Nuptials Case Study Image21.png';
-import CaseStudyImage22 from '../assets/Norseman Nuptials Case Study Image22.png';
-import CaseStudyImage23 from '../assets/Norseman Nuptials Case Study Image23.png';
-import CaseStudyImage24 from '../assets/Norseman Nuptials Case Study Image24.png';
-import CaseStudyImage25 from '../assets/Norseman Nuptials Case Study Image25.png';
+import NorsemanNuptialsHeaderImage from '../assets/norseman-nuptials/Norseman Nuptials Header Image.png';
+import CaseStudyImage1 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image1.png';
+import CaseStudyImage2 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image2.png';
+import CaseStudyImage3 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image3.png';
+import CaseStudyImage4 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image4.png';
+import CaseStudyImage5 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image5.png';
+import CaseStudyImage6 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image6.png';
+import CaseStudyImage7 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image7.png';
+import CaseStudyImage8 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image8.png';
+import CaseStudyImage9 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image9.png';
+import CaseStudyImage10 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image10.png';
+import CaseStudyImage11 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image11.png';
+import CaseStudyImage12 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image12.png';
+import CaseStudyImage13 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image13.png';
+import CaseStudyImage14 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image14.png';
+import CaseStudyImage15 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image15.png';
+import CaseStudyImage16 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image16.png';
+import CaseStudyImage17 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image17.png';
+import CaseStudyImage18 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image18.png';
+import CaseStudyImage19 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image19.png';
+import CaseStudyImage20 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image20.png';
+import CaseStudyImage21 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image21.png';
+import CaseStudyImage22 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image22.png';
+import CaseStudyImage23 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image23.png';
+import CaseStudyImage24 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image24.png';
+import CaseStudyImage25 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image25.png';
 
 const NorsemanNuptialsCaseStudy = () => {
 
@@ -618,10 +616,6 @@ const NorsemanNuptialsCaseStudy = () => {
                                 </ul>
                             </p>
                         </div>
-
-                        {/* <p className="section-label">Branded Collateral</p> */}
-                        {/* <br />
-                        <p id="section-intro">These mockups illustrate how the visual identity translates across key physical and digital touchpoints.</p> */}
                         
                         <p className="section-label">Business Cards</p>
                         <div className="image-row-1">
@@ -640,7 +634,7 @@ const NorsemanNuptialsCaseStudy = () => {
                         <br />
 
                         <p className="section-label">Social Media</p>
-                        <div className="image-row-2">
+                        <div className="image-row-2-gg">
                             <div className="image-column">
                                 <p id="approach" className="image-subtitles-left-2">A preview of the new social media presence designed to align with the updated brand identity, a key role in boosting visibility and brand recognition.</p>
                             </div>
@@ -672,7 +666,7 @@ const NorsemanNuptialsCaseStudy = () => {
                         <br />
 
                         <p className="section-label">Digital Billboard</p>
-                        <div className="image-row-2">
+                        <div className="image-row-2-gg">
                             <div className="image-column">
                                 <p id="approach" className="image-subtitles-left-2">A high-impact concept for a digital billboard highlights the power and adaptability of the brand system when scaled to large formats.</p>
                             </div>
