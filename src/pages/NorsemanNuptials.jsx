@@ -36,6 +36,10 @@ import CaseStudyImage18 from '../assets/Norseman Nuptials Case Study Image18.png
 import CaseStudyImage19 from '../assets/Norseman Nuptials Case Study Image19.png';
 import CaseStudyImage20 from '../assets/Norseman Nuptials Case Study Image20.png';
 import CaseStudyImage21 from '../assets/Norseman Nuptials Case Study Image21.png';
+import CaseStudyImage22 from '../assets/Norseman Nuptials Case Study Image22.png';
+import CaseStudyImage23 from '../assets/Norseman Nuptials Case Study Image23.png';
+import CaseStudyImage24 from '../assets/Norseman Nuptials Case Study Image24.png';
+import CaseStudyImage25 from '../assets/Norseman Nuptials Case Study Image25.png';
 
 const NorsemanNuptialsCaseStudy = () => {
 
@@ -395,9 +399,6 @@ const NorsemanNuptialsCaseStudy = () => {
                             />
                         </div>
 
-
-                        
-
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
@@ -618,6 +619,27 @@ const NorsemanNuptialsCaseStudy = () => {
                             </p>
                         </div>
 
+                        {/* <p className="section-label">Branded Collateral</p> */}
+                        {/* <br />
+                        <p id="section-intro">These mockups illustrate how the visual identity translates across key physical and digital touchpoints.</p> */}
+                        
+                        <p className="section-label">Business Cards</p>
+                        <div className="image-row-1">
+                            <div className="image-column-left-1">
+                                <img
+                                    src={CaseStudyImage22}
+                                    alt="This image depicts the front and back of the business card mockup. Which features bold typography and a minimal, elegant layout. Reinforcing brand recognition during vendor and client interactions."
+                                    className="case-study-image"
+                                />
+                            </div>
+                            <div className="image-column-right-1">
+                                <p id="the-filter-bar-subtitle" className="image-subtitles">The front and back of the business card features bold typography and a minimal, elegant layout. Reinforcing brand recognition during vendor and client interactions.</p>
+                            </div>
+                        </div>
+
+                        <br />
+
+                        <p className="section-label">Social Media</p>
                         <div className="image-row-2">
                             <div className="image-column">
                                 <p id="approach" className="image-subtitles-left-2">A preview of the new social media presence designed to align with the updated brand identity, a key role in boosting visibility and brand recognition.</p>
@@ -630,6 +652,55 @@ const NorsemanNuptialsCaseStudy = () => {
                                 />
                             </div>
                         </div>
+
+                        <br />
+
+                        <p className="section-label">Tri-Fold Brochure</p>
+                        <div className="image-row-1">
+                            <div className="image-column-left-1">
+                                <img
+                                    src={CaseStudyImage23}
+                                    alt="This image depicts the promotional trifold brochure that highlights key services and visual identity elements in a structured, brand-forward layout designed for venue handouts and open houses."
+                                    className="case-study-image"
+                                />
+                            </div>
+                            <div className="image-column-right-1">
+                                <p id="the-filter-bar-subtitle" className="image-subtitles">The promotional trifold brochure highlights key services and visual identity elements in a structured, brand-forward layout designed for venue handouts and open houses.</p>
+                            </div>
+                        </div>
+
+                        <br />
+
+                        <p className="section-label">Digital Billboard</p>
+                        <div className="image-row-2">
+                            <div className="image-column">
+                                <p id="approach" className="image-subtitles-left-2">A high-impact concept for a digital billboard highlights the power and adaptability of the brand system when scaled to large formats.</p>
+                            </div>
+                            <div className="image-column-right-2 left-align">
+                                <img
+                                    src={CaseStudyImage25}
+                                    alt="This image shows a high-impact concept for a digital billboard highlights the power and adaptability of the brand system when scaled to large formats."
+                                    className="case-study-image"
+                                />
+                            </div>
+                        </div>
+
+                        <br />
+
+                        <p className="section-label">Planning Journal</p>
+                        <div className="image-row-1">
+                            <div className="image-column-left-1">
+                                <img
+                                    src={CaseStudyImage24}
+                                    alt="This image depicts a custom-designed journal meant to accompany couples throughout their wedding planning journey. With planning space and brand-aligned visuals, it reinforces the all-in-one, stress-free promise while adding a personal touch."
+                                    className="case-study-image"
+                                />
+                            </div>
+                            <div className="image-column-right-1">
+                                <p id="the-filter-bar-subtitle" className="image-subtitles">A custom-designed journal meant to accompany couples throughout their wedding planning journey. With planning space and brand-aligned visuals, it reinforces the all-in-one, stress-free promise while adding a personal touch.</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>

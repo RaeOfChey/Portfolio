@@ -681,6 +681,40 @@ margin: 0px !important;
   line-height: 1.5;
 }
 
+.obstacles-context-item-collateral {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 20px 20px 20px;
+  border-radius: 10px;
+  border: 2px solid var(--color-lightblue);
+  margin: 20px 0px;
+}
+
+.obstacles-context-item-collateral .context-item-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.obstacles-context-item-collateral h4 {
+  font-size: 18px;
+  color: #000;
+  margin: 0px;
+  padding-left: 10px;
+}
+
+.obstacles-context-item-collateral ul {
+  padding: 0px 0px 0px 20px;
+  margin: 0;
+  list-style-type: disc;
+}
+
+.obstacles-context-item-collateral li {
+  font-size: 18px;
+  color: #000;
+  line-height: 1.5;
+}
+
 /* ----- Project Takeaways Section----- */
 .lessons-learned,
 .key-challenges-overcome,
