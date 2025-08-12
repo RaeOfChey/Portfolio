@@ -138,7 +138,7 @@ const NorsemanNuptialsCaseStudy = () => {
                                     <h4>Celebrate all love</h4>
                                 </div>
                                 <p>
-                                    Create a brand that welcomed couples who don’t see themselves in traditional wedding culture. Signal from the very first impression that every kind of love is valid, beautiful, and celebrated.
+                                    Create a brand that welcomes couples who don’t see themselves in traditional wedding culture. Signal from the very first impression that every kind of love is valid, beautiful, and celebrated.
                                 </p>
                             </div>
 
@@ -813,11 +813,11 @@ const NorsemanNuptialsCaseStudy = () => {
                 <div class="cta-options">
 
                     <div class="cta-option">
-                        <p><a href="https://www.itascacg.com/about/careers-main" target="_blank">View Live</a></p>
+                        <p><a href="https://www.linkedin.com/in/cheyenna-raelynn/" target="_blank">View LinkedIn</a></p>
                     </div>
 
                     <div class="cta-option">
-                        <p><a href="https://employease-hubi.onrender.com/" target="_blank">View Github</a></p>
+                        <p><a href="https://www.instagram.com/raeofchey/" target="_blank">View Instagram</a></p>
                     </div>
 
                     <div class="cta-option">
