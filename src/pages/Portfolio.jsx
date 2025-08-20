@@ -116,7 +116,7 @@ const projects = [
   },
   {
     title: 'Developing a unique brand identity and collateral for a Japanese tea house that increased foot traffic and sales by blending tradition with modern appeal.',
-    link: 'https://cheyennaraelynn.myportfolio.com/branding-ocha-tea-house',
+    link: '/ocha-tea-house',
     type: '#Branding #Marketing #Packaging #Print',
     category: 'Graphic Design',
     cta: 'See More',

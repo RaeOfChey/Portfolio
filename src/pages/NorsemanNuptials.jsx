@@ -101,7 +101,7 @@ const NorsemanNuptialsCaseStudy = () => {
                         <img
                             id="norseman-nuptials-header-image"
                             src={NorsemanNuptialsHeaderImage}
-                            alt="A preview of the final ITASCA Careers landing page design."
+                            alt="A preview of Norseman Nuptials branding on stationanry."
                             className="case-study-image"
                         />
                     </div>
@@ -112,7 +112,7 @@ const NorsemanNuptialsCaseStudy = () => {
                         <p><strong>Client<br /></strong>Norseman Nuptials</p>
                         <p><strong>Duration<br /></strong>3 months</p>
                         <p><strong>Completed<br /></strong>March 2023</p>
-                        <p><strong>Roles<br /></strong>Graphic Designer</p>
+                        <p><strong>Roles<br /></strong>Lead Graphic Designer</p>
                     </div>
                 </section>
             </div>
@@ -200,11 +200,6 @@ const NorsemanNuptialsCaseStudy = () => {
                     <p id="section-intro">
                         The final visual identity for Norseman Nuptials brings their all-in-one, Nordic-inspired wedding experience to life with bold clarity and emotional depth. It positions them as a refreshing alternative in the wedding space that is modern, inclusive, and beautifully untamed.
                     </p>
-                    {/* <div className="solution-link solution-section">
-                        <a href="https://www.itascacg.com/about/careers-main" target="_blank">
-                            View Live
-                        </a>
-                    </div> */}
 
                     <div className="context-item-container">
                         <div id="end-result" className="solution-context-item">
@@ -646,8 +641,6 @@ const NorsemanNuptialsCaseStudy = () => {
                                 />
                             </div>
                         </div>
-
-                        <br />
 
                         <p className="section-label">Tri-Fold Brochure</p>
                         <div className="image-row-1">
