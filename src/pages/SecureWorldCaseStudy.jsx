@@ -12,32 +12,20 @@ import { TrendingUpIcon } from '../components/TrendingUpIcon';
 import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 
-import NorsemanNuptialsHeaderImage from '../assets/norseman-nuptials/Norseman Nuptials Header Image.png';
-import CaseStudyImage1 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image1.png';
-import CaseStudyImage2 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image2.png';
-import CaseStudyImage3 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image3.png';
-import CaseStudyImage4 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image4.png';
-import CaseStudyImage5 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image5.png';
-import CaseStudyImage6 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image6.png';
-import CaseStudyImage7 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image7.png';
-import CaseStudyImage8 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image8.png';
-import CaseStudyImage9 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image9.png';
-import CaseStudyImage10 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image10.png';
-import CaseStudyImage11 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image11.png';
-import CaseStudyImage12 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image12.png';
-import CaseStudyImage13 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image13.png';
-import CaseStudyImage14 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image14.png';
-import CaseStudyImage15 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image15.png';
-import CaseStudyImage16 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image16.png';
-import CaseStudyImage17 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image17.png';
-import CaseStudyImage18 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image18.png';
-import CaseStudyImage19 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image19.png';
-import CaseStudyImage20 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image20.png';
-import CaseStudyImage21 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image21.png';
-import CaseStudyImage22 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image22.png';
-import CaseStudyImage23 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image23.png';
-import CaseStudyImage24 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image24.png';
-import CaseStudyImage25 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image25.png';
+import SecureWorldHeaderImage from '../assets/secureworld-branding/SecureWorld Marketing Collateral Thumbnail Image.png';
+import CaseStudyImage1 from '../assets/secureworld-branding/SW Marketing Case Study Image1.png';
+import CaseStudyImage2 from '../assets/secureworld-branding/SW Marketing Case Study Image2.png';
+import CaseStudyImage3 from '../assets/secureworld-branding/SW Marketing Case Study Image3.png';
+import CaseStudyImage4 from '../assets/secureworld-branding/SW Marketing Case Study Image4.png';
+import CaseStudyImage5 from '../assets/secureworld-branding/SW Marketing Case Study Image5.png';
+import CaseStudyImage6 from '../assets/secureworld-branding/SW Marketing Case Study Image6.png';
+import CaseStudyImage7 from '../assets/secureworld-branding/SW Marketing Case Study Image7.png';
+import CaseStudyImage8 from '../assets/secureworld-branding/SW Marketing Case Study Image8.png';
+import CaseStudyImage9 from '../assets/secureworld-branding/SW Marketing Case Study Image9.png';
+import CaseStudyImage10 from '../assets/secureworld-branding/SW Marketing Case Study Image10.png';
+import CaseStudyImage11 from '../assets/secureworld-branding/SW Marketing Case Study Image11.png';
+import CaseStudyImage12 from '../assets/secureworld-branding/SW Marketing Case Study Image12.png';
+
 
 const SecureworldCaseStudy = () => {
 
@@ -100,7 +88,7 @@ const SecureworldCaseStudy = () => {
                     <div className="case-study-header-right">
                         <img
                             id="norseman-nuptials-header-image"
-                            src={NorsemanNuptialsHeaderImage}
+                            src={SecureWorldHeaderImage}
                             alt="A preview of Norseman Nuptials branding on stationanry."
                             className="case-study-image"
                         />
@@ -188,7 +176,7 @@ const SecureworldCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                       Take the organization’s latest branding, refine and expand it into a comprehensive, flexible system, and implement it in a way that empowered internal teams, engaged audiences effectively, and reinforced SecureWorld’s position as a trusted cybersecurity leader.
+                        Take the organization’s latest branding, refine and expand it into a comprehensive, flexible system, and implement it in a way that empowered internal teams, engaged audiences effectively, and reinforced SecureWorld’s position as a trusted cybersecurity leader.
                     </p>
                 </div>
             </section>
@@ -218,7 +206,7 @@ const SecureworldCaseStudy = () => {
                                         Modular templates, grid systems, and layout standards ensure consistency across brochures, social media, presentations, and multimedia assets, reducing fragmentation and confusion.
                                     </li>
                                     <li>
-                                        A refreshed color palette, clean typography, and professional photography communicate authority and trust, reinforcing SecureWorld’s thought leadership in cybersecurity.
+                                        A consolidated color palette, clean typography, and professional photography communicate authority and trust, reinforcing SecureWorld’s thought leadership in cybersecurity.
                                     </li>
                                     <li>
                                         Flexible templates, brand documentation, and scalable design tools allow marketing and other departments to produce on-brand content efficiently without relying on ad-hoc design decisions.
@@ -229,172 +217,164 @@ const SecureworldCaseStudy = () => {
                                 </ul>
                             </p>
                         </div>
-{/* 
-                        <div className="logo-section">
 
-                            <p className="section-label">Primary Logo</p>
-
-                            <div className="primary-logo-row full-color-row">
-                                <div className="primary-logo-single">
-                                    <img
-                                        src={CaseStudyImage9}
-                                        alt="Norseman Nuptials Primary Logo Full Color"
-                                        className="primary-logo-img"
-                                    />
-                                </div>
-                            </div>
-
-                            <div className="primary-logo-row bw-row">
-                                <div className="primary-logo-half bg-black">
-                                    <img
-                                        src={CaseStudyImage10}
-                                        alt="Norseman Nuptials Primary Logo Black"
-                                        className="logo-img"
-                                    />
-                                </div>
-                                <div className="primary-logo-half bg-white">
-                                    <img
-                                        src={CaseStudyImage11}
-                                        alt="Norseman Nuptials Primary Logo White"
-                                        className="logo-img"
-                                    />
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <p className="section-label">Alternative Logos</p>
+                        <p className="section-label">Digital Collateral</p>
 
                         <p className="sub-section-label">Lettermark</p>
 
-                        <div className="alt-logo-row">
-                            <div className="alt-logo-box bg-white-alt">
+
+
+
+                        <p className="section-label">Print Collateral</p>
+
+                        <p className="sub-section-label">Sponsorship Prospectus</p>
+
+                        <div className="image-section">
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage1}
+                                    alt="SecureWorld 2023 Sponsorship Prospectus title page"
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage2}
+                                    alt="SecureWorld 2023 Sponsorship Prospectus in-person conference event schedule and pricing"
+                                    className="logo-img"
+                                />
+                            </div>
+
+                                <p id="image-caption">
+                                    A preview of the SecureWorld sponsorship prospectus, designed to clearly communicate opportunities, highlight brand credibility, and engage potential partners with a cohesive, visually compelling layout.
+                                </p>
+
+                            <div className="links">
+                                <a href="/assets/SecureWorld 2023 Marketing Sponsorhsip Prospectus.pdf" target="_blank" rel="noopener noreferrer">
+                                    View Full PDF
+                                </a>
+                            </div>
+                        </div>
+
+
+                         <p className="sub-section-label">Sponsorship Flyer</p>
+
+                        <div className="image-section">
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage3}
+                                    alt="A preview of the front and back designs of the sponsorship flyer, that clearly communicate the event’s purpose, audience reach data, schedule, and contact information. Designed for in-person distribution, the layout highlights opportunities for engagement and reinforces brand credibility."
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage4}
+                                    alt="A preview of the front and back designs of the sponsorship flyer, that clearly communicate the event’s purpose, audience reach data, schedule, and contact information. Designed for in-person distribution, the layout highlights opportunities for engagement and reinforces brand credibility."
+                                    className="logo-img"
+                                />
+                            </div>
+
+                                <p id="image-caption">
+                                    A preview of the front and back designs of the sponsorship flyer, that clearly communicate the event’s purpose, audience reach data, schedule, and contact information. Designed for in-person distribution, the layout highlights opportunities for engagement and reinforces brand credibility.
+                                </p>
+                        </div>
+
+                        <p className="sub-section-label">More Flyers</p>
+
+                        <div className="image-section">
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage5}
+                                    alt="A preview of the SecureWorld Advisory Council flyer, designed to highlight the council’s mission, membership benefits, and opportunities for industry engagement. The layout communicates credibility, thought leadership, and ways for professionals to get involved."
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage6}
+                                    alt="A preview of the SecureWorld '10 Top Reasons to Attend' flyer, visually presenting key benefits of participating in SecureWorld events. The design emphasizes networking, education, and professional growth, while maintaining a clear, brand-forward layout for easy readability at in-person events."
+                                    className="logo-img"
+                                />
+                            </div>
+
+                                <p id="image-caption">
+                                    Previews of marketing flyers for the 'Advisory Council' and '10 Top Reasons to Attend' designs. Each layout communicates brand credibility, event purpose, audience reach, and opportunities for engagement, optimized for in-person distribution.
+                                </p>
+                        </div>
+
+                        <p className="sub-section-label">Signage</p>
+
+                        <div className="image-section">
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage7}
+                                    alt="Printed signage displaying SecureWorld in-person conference registration pass types, comparing benefits and features for attendees."
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage8}
+                                    alt="Printed signage highlighting SecureWorld Executive Roundtable events and showcasing the featured cybersecurity sponsor."
+                                    className="logo-img"
+                                />
+                            </div>
+
+                                <p id="image-caption">
+                                    Previews of printed signage, including registration pass comparisons and Executive Roundtable sponsor highlights. Designed for in-person events, the signs clearly communicate event options, benefits, and sponsor recognition.
+                                </p>
+                        </div>
+
+                        <p className="sub-section-label">Handouts</p>
+
+                        <div className="image-section">
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage9}
+                                    alt="Printed handout for SecureWorld conference exhibitors with setup timeline, logistics, and step-by-step instructions for booth preparation."
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage10}
+                                    alt="Printed handout for SecureWorld sponsors explaining participation in the Dash for Prizes contest, including rules and engagement details."
+                                    className="logo-img"
+                                />
+                            </div>
+
+                                <p id="image-caption">
+                                    Previews of printed handouts created for exhibitors and sponsors. These resources provide clear setup instructions and event participation guidelines to ensure smooth logistics and strong engagement.
+                                </p>
+                        </div>
+
+                        <p className="sub-section-label">Business Card</p>
+
+                        <div className="image-section">
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage11}
+                                    alt="Front business card design"
+                                    className="logo-img"
+                                />
                                 <img
                                     src={CaseStudyImage12}
-                                    alt="Norseman Nuptials Alternative Logo Lettermark Full Color"
-                                    className="alt-logo-img"
+                                    alt="Back business card design"
+                                    className="logo-img"
                                 />
                             </div>
 
-                            <div className="alt-logo-box bg-white-alt">
-                                <img
-                                    src={CaseStudyImage13}
-                                    alt="Norseman Nuptials Alternative Logo Lettermark Black"
-                                    className="alt-logo-img"
-                                />
-                            </div>
-
-                            <div className="alt-logo-box bg-black-alt">
-                                <img
-                                    src={CaseStudyImage14}
-                                    alt="Norseman Nuptials Alternative Logo Lettermark White"
-                                    className="alt-logo-img"
-                                />
-                            </div>
+                                <p id="image-caption">
+                                    Previews of the business card design, created to provide a professional and consistent brand presence when connecting with industry leaders, partners, and attendees.
+                                </p>
                         </div>
 
-                        <p className="sub-section-label">Wordmark</p>
+                        
 
-                        <div className="alt-logo-row">
-                            <div className="alt-logo-box bg-white-alt">
-                                <img
-                                    src={CaseStudyImage15}
-                                    alt="Norseman Nuptials Alternative Logo Lettermark Full Color"
-                                    className="alt-logo-img"
-                                />
-                            </div>
 
-                            <div className="alt-logo-box bg-white-alt">
-                                <img
-                                    src={CaseStudyImage16}
-                                    alt="Norseman Nuptials Alternative Logo Lettermark Black"
-                                    className="alt-logo-img"
-                                />
-                            </div>
 
-                            <div className="alt-logo-box bg-black-alt">
-                                <img
-                                    src={CaseStudyImage17}
-                                    alt="Norseman Nuptials Alternative Logo Lettermark White"
-                                    className="alt-logo-img"
-                                />
-                            </div>
-                        </div>
 
-                        <p className="section-label">Color Palette</p>
 
-                        <div className="color-palette-row">
-                            <div className="swatch-container">
-                                <p className="swatch-label">Nótt</p>
-                                <img src={CaseStudyImage2} alt="Nótt color swatch" className="color-swatch" />
-                            </div>
-                            <div className="swatch-container">
-                                <p className="swatch-label">Freya’s Veil</p>
-                                <img src={CaseStudyImage3} alt="Freya’s Veil color swatch" className="color-swatch" />
-                            </div>
-                            <div className="swatch-container">
-                                <p className="swatch-label">Aurora</p>
-                                <img src={CaseStudyImage4} alt="Aurora’s Breath color swatch" className="color-swatch" />
-                            </div>
-                            <div className="swatch-container">
-                                <p className="swatch-label">Skadi Sky</p>
-                                <img src={CaseStudyImage5} alt="Skadi Sky color swatch" className="color-swatch" />
-                            </div>
-                            <div className="swatch-container">
-                                <p className="swatch-label">Fjord</p>
-                                <img src={CaseStudyImage6} alt="Midnight Fjord color swatch" className="color-swatch" />
-                            </div>
-                        </div>
 
-                        <p className="section-label">Typography</p>
 
-                        <div className="font-row">
-                            <div className="font-container">
-                                <p className="swatch-label">North Typeface</p>
-                                <img src={CaseStudyImage7} alt="North Typeface" className="font" />
-                            </div>
-                            <div className="font-container">
-                                <p className="swatch-label">Custom Typeface</p>
-                                <img src={CaseStudyImage8} alt="Custom Typeface" className="font" />
-                            </div>
-                        </div>
 
-                        <p className="section-label">Illustrations</p>
 
-                        <div className="illustration-row">
-                            <div className="illustration-box">
-                                <img
-                                    src={CaseStudyImage18}
-                                    alt="Norseman Nuptials Illustration Set 1"
-                                    className="illustration-img"
-                                />
-                            </div>
-                            <div className="illustration-box">
-                                <img
-                                    src={CaseStudyImage19}
-                                    alt="Norseman Nuptials Illustration Set 2"
-                                    className="illustration-img"
-                                />
-                            </div>
-                            <div className="illustration-box">
-                                <img
-                                    src={CaseStudyImage20}
-                                    alt="Norseman Nuptials Illustration Set 3"
-                                    className="illustration-img"
-                                />
-                            </div>
-                        </div>
 
-                        <p className="section-label">Photography</p>
 
-                        <div className="photo-row">
-                            <img
-                                src={CaseStudyImage21}
-                                alt="Norseman Nuptials Photography"
-                                className="photography-img"
-                            />
-                        </div> */}
 
+
+                      
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
@@ -422,7 +402,7 @@ const SecureworldCaseStudy = () => {
                                 <h4>End result</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                               SecureWorld now has a brand system that is unified, professional, and scalable. It immediately elevates the organization’s credibility in the cybersecurity space, streamlines internal workflows, and engages audiences with clarity and impact. The final visual identity ensures consistency across every touchpoint while remaining adaptable for evolving digital and event experiences, giving SecureWorld a sustainable, future-proof brand presence.
+                                SecureWorld now has a brand system that is unified, professional, and scalable. It immediately elevates the organization’s credibility in the cybersecurity space, streamlines internal workflows, and engages audiences with clarity and impact. The final visual identity ensures consistency across every touchpoint while remaining adaptable for evolving digital and event experiences, giving SecureWorld a sustainable, future-proof brand presence.
                             </p>
                         </div>
                     </div>
