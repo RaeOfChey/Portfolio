@@ -25,7 +25,29 @@ import CaseStudyImage9 from '../assets/secureworld-branding/SW Marketing Case St
 import CaseStudyImage10 from '../assets/secureworld-branding/SW Marketing Case Study Image10.png';
 import CaseStudyImage11 from '../assets/secureworld-branding/SW Marketing Case Study Image11.png';
 import CaseStudyImage12 from '../assets/secureworld-branding/SW Marketing Case Study Image12.png';
-
+import CaseStudyImage13 from '../assets/secureworld-branding/SW Marketing Case Study Image13.png';
+import CaseStudyImage14 from '../assets/secureworld-branding/SW Marketing Case Study Image14.png';
+import CaseStudyImage15 from '../assets/secureworld-branding/SW Marketing Case Study Image15.png';
+import CaseStudyImage16 from '../assets/secureworld-branding/SW Marketing Case Study Image16.png';
+import CaseStudyImage22 from '../assets/secureworld-branding/SW Marketing Case Study Image22.png';
+import CaseStudyImage23 from '../assets/secureworld-branding/SW Marketing Case Study Image23.png';
+import CaseStudyImage24 from '../assets/secureworld-branding/SW Marketing Case Study Image24.png';
+import CaseStudyImage25 from '../assets/secureworld-branding/SW Marketing Case Study Image25.png';
+import CaseStudyImage26 from '../assets/secureworld-branding/SW Marketing Case Study Image26.png';
+import CaseStudyImage27 from '../assets/secureworld-branding/SW Marketing Case Study Image27.png';
+import CaseStudyImage28 from '../assets/secureworld-branding/SW Marketing Case Study Image28.png';
+import CaseStudyImage29 from '../assets/secureworld-branding/SW Marketing Case Study Image29.png';
+import CaseStudyImage30 from '../assets/secureworld-branding/SW Marketing Case Study Image30.png';
+import CaseStudyImage31 from '../assets/secureworld-branding/SW Marketing Case Study Image31.png';
+import CaseStudyImage32 from '../assets/secureworld-branding/SW Marketing Case Study Image32.png';
+import CaseStudyImage33 from '../assets/secureworld-branding/SW Marketing Case Study Image33.png';
+import CaseStudyImage34 from '../assets/secureworld-branding/SW Marketing Case Study Image34.png';
+import CaseStudyImage35 from '../assets/secureworld-branding/SW Marketing Case Study Image35.png';
+import CaseStudyImage36 from '../assets/secureworld-branding/SW Marketing Case Study Image36.png';
+import CaseStudyImage37 from '../assets/secureworld-branding/SW Marketing Case Study Image37.png';
+import CaseStudyImage38 from '../assets/secureworld-branding/SW Marketing Case Study Image38.png';
+import CaseStudyImage39 from '../assets/secureworld-branding/SW Marketing Case Study Image39.png';
+import CaseStudyVideo40 from '../assets/secureworld-branding/SW Marketing Case Study Image40.mp4';
 
 const SecureworldCaseStudy = () => {
 
@@ -220,8 +242,218 @@ const SecureworldCaseStudy = () => {
 
                         <p className="section-label">Digital Collateral</p>
 
-                        <p className="sub-section-label">Lettermark</p>
+                        <p className="sub-section-label">Slide Deck Templates</p>
 
+                        <div className="image-section">
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage13}
+                                    alt="Editable slide deck template design"
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage14}
+                                    alt="Editable slide deck template design"
+                                    className="logo-img"
+                                />
+                            </div>
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage15}
+                                    alt="Editable slide deck template design"
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage16}
+                                    alt="Editable slide deck template design"
+                                    className="logo-img"
+                                />
+                            </div>
+
+                            <p id="image-caption">
+                                Editable slide deck templates designed for other departments. Easy to customize while staying cohesive, branded, and visually engaging, ensuring every team presentation looks polished and professional.
+                            </p>
+                        </div>
+
+                        <p className="sub-section-label">Google Ads</p>
+
+                        <div className="image-section">
+                            <div className="one-image-row">
+                                <img
+                                    src={CaseStudyImage22}
+                                    alt="The image shows a set of Google display ad designs: large rectangle, medium rectangle, wide skyscraper, half page, and leaderboard, created to deliver a consistent, visually compelling brand presence across multiple formats and placements."
+                                />
+
+                                <p id="image-caption">
+                                    A set of Google display ad designs: large rectangle, medium rectangle, wide skyscraper, half page, and leaderboard, created to deliver a consistent, visually compelling brand presence across multiple formats and placements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <p className="sub-section-label">Social Media</p>
+
+                        <div className="image-section">
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage23}
+                                    alt=" Social media graphics designed to promote upcoming events and engage audiences."
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage24}
+                                    alt=" Social media graphics designed to promote upcoming events and engage audiences."
+                                    className="logo-img"
+                                />
+                            </div>
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage25}
+                                    alt=" Social media graphics designed to promote upcoming events and engage audiences."
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage26}
+                                    alt=" Social media graphics designed to promote upcoming events and engage audiences."
+                                    className="logo-img"
+                                />
+                            </div>
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage27}
+                                    alt=" Social media graphics designed to promote upcoming events and engage audiences."
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage28}
+                                    alt=" Social media graphics designed to promote upcoming events and engage audiences."
+                                    className="logo-img"
+                                />
+                            </div>
+
+                            <p id="image-caption">
+                                Social media graphics designed to promote upcoming events and engage audiences, including quarterly agendas, remote session promos, executive roundtable dinners, speaker highlights, quotes, and in-person conference promotions.
+                            </p>
+                        </div>
+
+                        <p className="sub-section-label">Infographics</p>
+
+                        <div className="image-section">
+                            <div className="one-image-row">
+                                <img
+                                    src={CaseStudyImage29}
+                                    alt="Infographic designs highlighting key event metrics such as number of conferences, sessions, speakers, locations, attendees, vendors, and sponsors—making complex data clear and visually engaging."
+                                />
+                            </div>
+                            <div className="one-image-row">
+                                <img
+                                    src={CaseStudyImage30}
+                                    alt="Infographic designs highlighting key event metrics such as number of conferences, sessions, speakers, locations, attendees, vendors, and sponsors—making complex data clear and visually engaging."
+                                />
+                            </div>
+                            <p id="image-caption" className="left">
+                                Infographic designs highlighting key event metrics such as number of conferences, sessions, speakers, locations, attendees, vendors, and sponsors, making complex data clear and visually engaging.
+                            </p>
+                        </div>
+
+                        <p className="sub-section-label">Website Banners</p>
+
+                        <div className="image-section">
+                            <div className="one-image-row">
+                                <img
+                                    src={CaseStudyImage31}
+                                    alt="Website banners created to promote conferences and events, ensuring consistent branding and strong visual impact across digital touchpoints."
+                                />
+                            </div>
+                            <div className="one-image-row">
+                                <img
+                                    src={CaseStudyImage32}
+                                    alt="Website banners created to promote conferences and events, ensuring consistent branding and strong visual impact across digital touchpoints."
+                                />
+
+                            </div>
+                            <div className="one-image-row">
+                                <img
+                                    src={CaseStudyImage33}
+                                    alt="Website banners created to promote conferences and events, ensuring consistent branding and strong visual impact across digital touchpoints."
+                                />
+                            </div>
+                            <p id="image-caption" className="left">
+                                Website banners created to promote conferences and events, ensuring consistent branding and strong visual impact across digital touchpoints.
+                            </p>
+
+                        </div>
+
+                        <p className="sub-section-label">Signage</p>
+
+                        <div className="image-section">
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage34}
+                                    alt="Digital signage designs for in-person events, featuring live conference schedules and sponsor recognition to guide and inform attendees onsite."
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage35}
+                                    alt="Digital signage designs for in-person events, featuring live conference schedules and sponsor recognition to guide and inform attendees onsite."
+                                    className="logo-img"
+                                />
+                            </div>
+                            <p id="image-caption" className="left">
+                                Digital signage designs for in-person events, featuring live conference schedules and sponsor recognition to guide and inform attendees onsite.
+                            </p>
+                        </div>
+
+                        <p className="sub-section-label">Email Templates</p>
+
+                        <div className="image-section">
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage37}
+                                    alt="Email templates designed for a variety of needs—virtual conferences, remote webcasts, in-person events, and newsletters—each optimized for clarity, branding, and engagement."
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage38}
+                                    alt="Email templates designed for a variety of needs—virtual conferences, remote webcasts, in-person events, and newsletters—each optimized for clarity, branding, and engagement."
+                                    className="logo-img"
+                                />
+                            </div>
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage36}
+                                    alt="Email templates designed for a variety of needs—virtual conferences, remote webcasts, in-person events, and newsletters—each optimized for clarity, branding, and engagement."
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage39}
+                                    alt="Email templates designed for a variety of needs—virtual conferences, remote webcasts, in-person events, and newsletters—each optimized for clarity, branding, and engagement."
+                                    className="logo-img"
+                                />
+                            </div>
+                            <p id="image-caption" className="left">
+                                Email templates designed for a variety of needs. virtual conferences, remote webcasts, in-person events, and newsletters, each optimized for clarity, branding, and engagement.
+                            </p>
+                        </div>
+
+                        <p className="sub-section-label">Videography</p>
+
+                        <div className="image-section">
+                            <div className="one-image-row">
+                                <video
+                                    src={CaseStudyVideo40}
+                                    alt="Promotional video showcasing conference highlights, including the location, featured speakers, and sessions—designed to build excitement and drive attendance."
+                                    controls
+                                    autoPlay
+                                    loop
+                                    muted
+                                    style={{ width: "100%", height: "auto" }}
+                                />
+
+                                <p id="image-caption">
+                                    Promotional video showcasing conference highlights, including the location, featured speakers, and sessions, designed to build excitement and drive attendance.
+                                </p>
+                            </div>
+                        </div>
 
 
 
@@ -243,9 +475,9 @@ const SecureworldCaseStudy = () => {
                                 />
                             </div>
 
-                                <p id="image-caption">
-                                    A preview of the SecureWorld sponsorship prospectus, designed to clearly communicate opportunities, highlight brand credibility, and engage potential partners with a cohesive, visually compelling layout.
-                                </p>
+                            <p id="image-caption">
+                                A preview of the SecureWorld sponsorship prospectus, designed to clearly communicate opportunities, highlight brand credibility, and engage potential partners with a cohesive, visually compelling layout.
+                            </p>
 
                             <div className="links">
                                 <a href="/assets/SecureWorld 2023 Marketing Sponsorhsip Prospectus.pdf" target="_blank" rel="noopener noreferrer">
@@ -255,7 +487,7 @@ const SecureworldCaseStudy = () => {
                         </div>
 
 
-                         <p className="sub-section-label">Sponsorship Flyer</p>
+                        <p className="sub-section-label">Sponsorship Flyer</p>
 
                         <div className="image-section">
                             <div className="two-image-row">
@@ -271,9 +503,9 @@ const SecureworldCaseStudy = () => {
                                 />
                             </div>
 
-                                <p id="image-caption">
-                                    A preview of the front and back designs of the sponsorship flyer, that clearly communicate the event’s purpose, audience reach data, schedule, and contact information. Designed for in-person distribution, the layout highlights opportunities for engagement and reinforces brand credibility.
-                                </p>
+                            <p id="image-caption">
+                                A preview of the front and back designs of the sponsorship flyer, that clearly communicate the event’s purpose, audience reach data, schedule, and contact information. Designed for in-person distribution, the layout highlights opportunities for engagement and reinforces brand credibility.
+                            </p>
                         </div>
 
                         <p className="sub-section-label">More Flyers</p>
@@ -292,9 +524,9 @@ const SecureworldCaseStudy = () => {
                                 />
                             </div>
 
-                                <p id="image-caption">
-                                    Previews of marketing flyers for the 'Advisory Council' and '10 Top Reasons to Attend' designs. Each layout communicates brand credibility, event purpose, audience reach, and opportunities for engagement, optimized for in-person distribution.
-                                </p>
+                            <p id="image-caption">
+                                Previews of marketing flyers for the 'Advisory Council' and '10 Top Reasons to Attend' designs. Each layout communicates brand credibility, event purpose, audience reach, and opportunities for engagement, optimized for in-person distribution.
+                            </p>
                         </div>
 
                         <p className="sub-section-label">Signage</p>
@@ -313,9 +545,9 @@ const SecureworldCaseStudy = () => {
                                 />
                             </div>
 
-                                <p id="image-caption">
-                                    Previews of printed signage, including registration pass comparisons and Executive Roundtable sponsor highlights. Designed for in-person events, the signs clearly communicate event options, benefits, and sponsor recognition.
-                                </p>
+                            <p id="image-caption">
+                                Previews of printed signage, including registration pass comparisons and Executive Roundtable sponsor highlights. Designed for in-person events, the signs clearly communicate event options, benefits, and sponsor recognition.
+                            </p>
                         </div>
 
                         <p className="sub-section-label">Handouts</p>
@@ -334,9 +566,9 @@ const SecureworldCaseStudy = () => {
                                 />
                             </div>
 
-                                <p id="image-caption">
-                                    Previews of printed handouts created for exhibitors and sponsors. These resources provide clear setup instructions and event participation guidelines to ensure smooth logistics and strong engagement.
-                                </p>
+                            <p id="image-caption">
+                                Previews of printed handouts created for exhibitors and sponsors. These resources provide clear setup instructions and event participation guidelines to ensure smooth logistics and strong engagement.
+                            </p>
                         </div>
 
                         <p className="sub-section-label">Business Card</p>
@@ -355,26 +587,11 @@ const SecureworldCaseStudy = () => {
                                 />
                             </div>
 
-                                <p id="image-caption">
-                                    Previews of the business card design, created to provide a professional and consistent brand presence when connecting with industry leaders, partners, and attendees.
-                                </p>
+                            <p id="image-caption">
+                                Previews of the business card design, created to provide a professional and consistent brand presence when connecting with industry leaders, partners, and attendees.
+                            </p>
                         </div>
 
-                        
-
-
-
-
-
-
-
-
-
-
-
-
-
-                      
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />

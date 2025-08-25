@@ -1090,12 +1090,35 @@ margin: 0px !important;
 }
 .two-image-row img.logo-img {
   width: 50%;
-  height: auto;
+  height: 50%;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 #image-caption {
   font-size: 16px;
+  text-align: left;
 }
+.image-section {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.one-image-row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.one-image-row img {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+#image-caption.left {
+  text-align: left;
+}
+
 
 @media (max-width: 1281px) {
   .case-study-header {
