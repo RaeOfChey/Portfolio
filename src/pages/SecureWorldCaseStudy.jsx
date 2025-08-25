@@ -138,7 +138,7 @@ const SecureworldCaseStudy = () => {
                         <p id="section-intro">
                             SecureWorld is a recognized leader in the cybersecurity industry, best known for its nationwide conference series that brings professionals together to share knowledge and stay ahead of emerging threats.
                         </p>
-                        <p>
+                        <p id="section-intro">
                             The organization had undergone several rebrandings in the past, but none had fully taken hold, and there was no system in place to maintain consistency across channels or departments. They wanted a brand that could finally be implemented effectively, reflect their authority in the cybersecurity space, and engage audiences across multiple touchpoints. Their vision was to:
                         </p>
 
