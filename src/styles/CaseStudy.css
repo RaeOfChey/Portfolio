@@ -1453,7 +1453,8 @@ margin: 0px !important;
     margin: 50px 0px 40px 0px;
   }
   .problem-section-header h3 {
-    font-size: 24;
+    font-size: 24px;
+    padding-right: 0px;
   }
   .approach-section-header,
   .process-section-header {

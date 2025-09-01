@@ -131,8 +131,8 @@ const projects = [
     image: SecureWorldCollateralImg,
   },
   {
-    title: 'Designing an EDM-inspired conference theme that increased attendee engagement by 50% and enhanced the event experience.',
-    link: 'https://cheyennaraelynn.myportfolio.com/2023-themed-conference-signage-secureworld',
+    title: 'Developing a cohesive, high-energy conference brand system that energized the return of events, boosting attendee engagement and sponsorship.',
+    link: '/brand-system-conference-secureworld',
     type: '#Branding #Marketing #Packaging #Print',
     category: 'Graphic Design',
     cta: 'See More',

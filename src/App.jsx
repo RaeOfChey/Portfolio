@@ -17,6 +17,7 @@ import ItascaCareersPageCaseStudy from './pages/ItascaCareersPageCaseStudy';
 import NorsemanNuptials from './pages/NorsemanNuptials';
 import OchaTeaHouse from './pages/OchaTeaHouse';
 import SecureworldCaseStudy from './pages/SecureWorldCaseStudy';
+import SecureWorldConferenceThemeCaseStudy from './pages/SecureWorldConferenceThemeCaseStudy';
 
 function App() {
     const cursorRef = useRef(null);
@@ -79,6 +80,7 @@ function App() {
         <Route path="/ocha-tea-house" element={<OchaTeaHouse />} />
         <Route path="/ocha-tea-house" element={<OchaTeaHouse />} />
         <Route path="/branding-marketing-secureworld" element={<SecureworldCaseStudy />} />
+        <Route path="/brand-system-conference-secureworld" element={<SecureWorldConferenceThemeCaseStudy />} />
       </Routes>
     </main>
     <Footer />

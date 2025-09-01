@@ -745,7 +745,7 @@ const NorsemanNuptialsCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Growth & Future Development</h3>
+                        <h3>Growth & Future Direction</h3>
                     </div>
 
                     <div className="section-right">
