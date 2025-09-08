@@ -139,8 +139,8 @@ const projects = [
     image: SecureWorldSignageImg,
   },
   {
-    title: 'Increasing engagement through targeted social media outreach email blasts and rebranding technical documents for improved community connection.',
-    link: 'https://cheyennaraelynn.myportfolio.com/branding-marketing-swanky',
+    title: 'Refining a brand identity across marketing and product materials for cohesive, professional, and visually engaging communications that strengthened brand recognition.',
+    link: '/branding-marketing-swanky',
     type: '#Branding #Marketing #Advertising #Print #Social Media',
     category: 'Graphic Design',
     cta: 'See More',
