@@ -5,7 +5,7 @@ import '../styles/AboutMe.css';
 import { CircleCheckIcon } from '../components/CircleCheckIcon';
 import ScrollButton from '../components/ScrollButton';
 import { Link } from 'react-router-dom';
-import EmployEaseThumbnail2 from '../assets/EmployEase Thumbnail Image 2.png';
+import KelvixThumbnail from '../assets/Kelvix Header Image.png';
 import NorsemanNupitalsThumbnail from '../assets/norseman-nuptials/Norseman Nupitals Thumbnail Cover.png';
 import ITASCASoftwareThumbnail from '../assets/ITASCA Software Thumbnail Image.png';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
@@ -64,7 +64,7 @@ const AboutMe = () => {
                 <header className="header-container" style={{ backgroundColor: "#f0f0f0" }}>
                     <div className="hero-text">
                         <h5 className="biggest-title">
-                            When <span class="title-highlight">design</span> speaks for itself, <span class="title-highlight">users</span> listen.
+                            When <span className="title-highlight">design</span> speaks for itself, <span className="title-highlight">users</span> listen.
                         </h5>
                         <p className="subtitle">
                             Hello, I’m Cheyenna!  I design and build intuitive, high-performing eCommerce and SaaS web experiences that drive engagement, increase conversions, and seamlessly bridge the gap between design and development.
@@ -80,42 +80,40 @@ const AboutMe = () => {
                         <a href="/itasca-software-case-study" target="_blank" rel="noopener noreferrer">
                             <div className="image-container">
                                 <img src={ITASCASoftwareThumbnail} alt="ITASCA Software project thumbnail" />
-                                <div className="overlay">Learn More</div>
+                                <div className="overlay">See Case Study</div>
                             </div>
                         </a>
                     </div>
 
                     <div className="recent-work-item">
-                        <Link to="/employease-case-study">
+                        <a href="/kelvix-case-study" target="_blank" rel="noopener noreferrer">
                             <div className="image-container">
-                                <img src={EmployEaseThumbnail2} alt="EmployEase project thumbnail" />
-                                <div className="overlay">Learn More</div>
+                                <img src={KelvixThumbnail} alt="Kelvix project thumbnail" />
+                                <div className="overlay">See Case Study</div>
                             </div>
-                        </Link>
+                        </a>
                     </div>
 
                     <div className="recent-work-item">
                         <a href="/norseman-nuptials" target="_blank" rel="noopener noreferrer">
                             <div className="image-container">
                                 <img src={NorsemanNupitalsThumbnail} alt="Norseman Nupitals project thumbnail" />
-                                <div className="overlay">Learn More</div>
+                                <div className="overlay">See Case Study</div>
                             </div>
                         </a>
                     </div>
 
                     <div className="button-container">
-                        <Link to="/portfolio">
+                        <a href="/portfolio" target="_blank" rel="noopener noreferrer">
                             <button className="see-my-work-button">
                                 See My Work
                                 <ArrowRightIcon className="arrow-right-icon" />
                             </button>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>
 
-
-            {/* Experience Section */}
             <div className="experience-section">
 
                 <div className="title-column">
@@ -186,30 +184,6 @@ const AboutMe = () => {
                     </div>
                 </div>
             </section>
-
-            {/* <section id="education" class="education-section">
-                <div class="education-section-wrapper">
-                    <div class="title-column">
-                        <h1 class="education-title">Education</h1>
-                    </div>
-
-                    <div class="content-column">
-                        <div class="education-items">
-                            <div class="education-item">
-                                <h2>University of Minnesota</h2>
-                                <p>Full-Stack Development Certificate</p>
-                                <p>Completed: December 2024</p>
-                            </div>
-
-                            <div class="education-item">
-                                <h2>Minnesota State University</h2>
-                                <p>Bachelor of Fine Arts (BFA) in Graphic Design</p>
-                                <p>Completed: December 2019</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
 
             <ScrollButton />
         </>

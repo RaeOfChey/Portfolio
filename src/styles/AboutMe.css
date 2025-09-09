@@ -76,7 +76,8 @@ body.homepage .header-container {
 .image-container {
   position: relative;
   display: inline-block;
-  width: 100%;
+  max-width: 350px;
+  aspect-ratio: 16 / 10;
   border-radius: 7px;
   overflow: hidden;
   border: 2px solid var(--color-darkblue);
@@ -91,10 +92,12 @@ body.homepage .header-container {
 
 .image-container img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block; 
   transition: transform 0.3s ease;
   border-radius: 5px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .image-container img:hover {

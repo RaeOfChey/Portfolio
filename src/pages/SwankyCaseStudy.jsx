@@ -13,44 +13,28 @@ import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 
 import SwankyHeaderImage from "../assets/swanky/Swanky Marketing Collateral Thumbnail Image.png";
-
-
-// C:\Users\Cheyenna\Portfolio\src\assets\secureworld-conference-theme\SecureWorld Conference Signage Thumbnail Image.png
-
-import CaseStudyImage1 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image1.png';
-import CaseStudyImage2 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image2.png';
-import CaseStudyImage3 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image3.png';
-import CaseStudyImage4 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image4.png';
-import CaseStudyImage5 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image5.png';
-import CaseStudyImage6 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image6.png';
-import CaseStudyImage7 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image7.png';
-import CaseStudyImage8 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image8.png';
-import CaseStudyImage9 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image9.png';
-import CaseStudyImage10 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image10.png';
-import CaseStudyImage11 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image11.png';
-import CaseStudyImage12 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image12.png';
-import CaseStudyImage13 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image13.png';
-import CaseStudyImage14 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image14.png';
-import CaseStudyImage15 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image15.png';
-import CaseStudyImage16 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image16.png';
-import CaseStudyImage17 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image17.png';
-import CaseStudyImage18 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image18.png';
-import CaseStudyImage19 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image19.png';
-import CaseStudyImage20 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image20.png';
-import CaseStudyImage21 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image21.png';
-import CaseStudyImage22 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image22.png';
-import CaseStudyImage23 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image23.png';
-import CaseStudyImage24 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image24.png';
-import CaseStudyImage25 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image25.png';
-import CaseStudyImage26 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image26.png';
-import CaseStudyImage27 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image27.png';
-import CaseStudyImage28 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image28.png';
-import CaseStudyImage29 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image29.png';
-import CaseStudyImage30 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image30.png';
-import CaseStudyImage31 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image31.png';
-import CaseStudyImage32 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image32.png';
-import CaseStudyImage33 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image33.png';
-import CaseStudyImage34 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image34.png';
+import CaseStudyImage1 from '../assets/swanky/Swanky Case Study Image1.png';
+import CaseStudyImage2 from '../assets/swanky/Swanky Case Study Image2.gif';
+import CaseStudyImage3 from '../assets/swanky/Swanky Case Study Image3.png';
+import CaseStudyImage4 from '../assets/swanky/Swanky Case Study Image4.png';
+import CaseStudyImage5 from '../assets/swanky/Swanky Case Study Image5.png';
+import CaseStudyImage6 from '../assets/swanky/Swanky Case Study Image6.png';
+import CaseStudyImage7 from '../assets/swanky/Swanky Case Study Image7.png';
+import CaseStudyImage8 from '../assets/swanky/Swanky Case Study Image8.png';
+import CaseStudyImage9 from '../assets/swanky/Swanky Case Study Image9.gif';
+import CaseStudyImage10 from '../assets/swanky/Swanky Case Study Image10.png';
+import CaseStudyImage11 from '../assets/swanky/Swanky Case Study Image11.png';
+import CaseStudyImage12 from '../assets/swanky/Swanky Case Study Image12.png';
+import CaseStudyImage13 from '../assets/swanky/Swanky Case Study Image13.png';
+import CaseStudyImage14 from '../assets/swanky/Swanky Case Study Image14.png';
+import CaseStudyImage15 from '../assets/swanky/Swanky Case Study Image15.gif';
+import CaseStudyImage16 from '../assets/swanky/Swanky Case Study Image16.gif';
+import CaseStudyImage17 from '../assets/swanky/Swanky Case Study Image17.gif';
+import CaseStudyVideo18 from '../assets/swanky/Swanky Case Study Image18.mp4';
+import CaseStudyImage19 from '../assets/swanky/Swanky Case Study Image19.gif';
+import CaseStudyImage20 from '../assets/swanky/Swanky Case Study Image20.png';
+import CaseStudyImage21 from '../assets/swanky/Swanky Case Study Image21.png';
+import CaseStudyImage22 from '../assets/swanky/Swanky Case Study Image22.png';
 
 const SecureWorldConferenceThemeCaseStudy = () => {
 
@@ -230,7 +214,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                         Developed polished, consistent product specification documents that not only explained technical details but also functioned as a persuasive sales tool, bridging accuracy with accessibility.
                                     </li>
                                     <li>
-                                        Unified all visual touchpoints—social media, email, documentation, and collateral, all under a cohesive and contemporary design system that signaled innovation and professionalism.
+                                        Unified all visual touchpoints, including social media, email, documentation, and collateral, all under a cohesive and contemporary design system that signaled innovation and professionalism.
                                     </li>
                                     <li>
                                         Launched branded social media and email campaigns that transformed Swanky from an almost invisible company into a visible, approachable presence with a scalable system for future campaigns.
@@ -239,23 +223,35 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                             </p>
                         </div>
 
-                        {/* <p className="section-label">Digital Collateral</p>
+                        <p className="section-label">Product Marketing Campaigns</p>
 
-                        <p className="sub-section-label">Slide Deck Templates</p>
+                        <p className="sub-section-label">Uniform Tape Assets</p>
+
+                        <p id="image-caption">
+                                A cohesive marketing campaign was built around the launch of Uniform Tape, spanning digital and print channels. Social media graphics, email promotions, product spec sheets, and installation guides all worked together to introduce the product, highlight its features, and support customers through adoption.
+                            </p>
 
                         <div className="image-section">
-                            <div className="two-image-row">
+                            <div className="one-image-row">
                                 <img
                                     src={CaseStudyImage1}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
+                                    alt="The image shows x."
                                 />
+
+                            </div>
+                        </div>
+
+                        <div className="image-section">
+                            <div className="one-image-row">
                                 <img
                                     src={CaseStudyImage2}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
+                                    alt="The image shows x."
                                 />
+
                             </div>
+                        </div>
+
+                        <div className="image-section">
                             <div className="two-image-row">
                                 <img
                                     src={CaseStudyImage3}
@@ -268,94 +264,17 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     className="logo-img"
                                 />
                             </div>
-
-                            <p id="image-caption">
-                                Editable slide deck templates designed extend the SecureWorld Conference theme across presentations. Built for easy customization while keeping the look cohesive, branded, and visually engaging, so every department could represent the event with consistency and polish.
-                            </p>
-                        </div>
-
-                        <p className="sub-section-label">Signage</p>
-
-                        <div className="image-section">
                             <div className="two-image-row">
-                                <img
-                                    src={CaseStudyImage22}
-                                    alt="Digital signage designs for in-person events, featuring live conference schedules and sponsor recognition to guide and inform attendees onsite."
-                                    className="logo-img"
-                                />
-                                <img
-                                    src={CaseStudyImage23}
-                                    alt="Digital signage designs for in-person events, featuring live conference schedules and sponsor recognition to guide and inform attendees onsite."
-                                    className="logo-img"
-                                />
-                            </div>
-                            <p id="image-caption" className="left">
-                                Digital signage designs for showcasing live session schedules, sponsor highlights, and wayfinding to keep attendees informed and engaged throughout the event.
-                            </p>
-                        </div>
-
-                        <p className="sub-section-label">Email Templates</p>
-
-                        <div className="image-section">
-                            <div className="two-image-row">
-                                <img
-                                    src={CaseStudyImage24}
-                                    alt="Custom-themed email templates"
-                                    className="logo-img"
-                                />
-                                <img
-                                    src={CaseStudyImage25}
-                                    alt="Custom-themed email templates"
-                                    className="logo-img"
-                                />
-                            </div>
-                            <div className="two-image-row">
-                                <img
-                                    src={CaseStudyImage26}
-                                    alt="Custom-themed email templates"
-                                    className="logo-img"
-                                />
-                                <img
-                                    src={CaseStudyImage27}
-                                    alt="Custom-themed email templates"
-                                    className="logo-img"
-                                />
-                            </div>
-                            <p id="image-caption" className="left">
-                                Custom-themed email templates, with branded headers and footers that reinforced the high-energy visual identity and ensured every communication felt cohesive and engaging.
-                            </p>
-                        </div>
-
-
-                        <p className="section-label">Print Collateral</p>
-
-                        <p className="sub-section-label">Large Banner</p>
-
-                        <div className="image-section">
-                            <div className="one-image-row">
-                                <img
-                                    src={CaseStudyImage18}
-                                    alt="The image shows a large-scale banner that set the tone for the event’s design system, serving as both a striking visual centerpiece and a popular photo backdrop for attendees, tying all brand elements together in one cohesive statement."
-                                />
-
-                                <p id="image-caption">
-                                    A large-scale banner that set the tone for the event’s design system, serving as both a striking visual centerpiece and a popular photo backdrop for attendees, tying all brand elements together in one cohesive statement.
-                                </p>
-                            </div>
-                        </div>
-
-                        <p className="sub-section-label">Coasters</p>
-
-                        <div className="image-section">
-                            <div className="one-image-row">
                                 <img
                                     src={CaseStudyImage5}
-                                    alt="The image shows a set of Google display ad designs: large rectangle, medium rectangle, wide skyscraper, half page, and leaderboard, created to deliver a consistent, visually compelling brand presence across multiple formats and placements."
+                                    alt="Editable slide deck template design"
+                                    className="logo-img"
                                 />
-
-                                <p id="image-caption">
-                                    A set of Google display ad designs: large rectangle, medium rectangle, wide skyscraper, half page, and leaderboard, created to deliver a consistent, visually compelling brand presence across multiple formats and placements.
-                                </p>
+                                <img
+                                    src={CaseStudyImage22}
+                                    alt="Editable slide deck template design"
+                                    className="logo-img"
+                                />
                             </div>
                         </div>
 
@@ -363,176 +282,168 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                             <div className="two-image-row">
                                 <img
                                     src={CaseStudyImage6}
-                                    alt="Printed coaster design"
+                                    alt="Editable slide deck template design"
                                     className="logo-img"
                                 />
                                 <img
                                     src={CaseStudyImage7}
-                                    alt="Printed coaster design"
+                                    alt="Editable slide deck template design"
+                                    className="logo-img"
+                                />
+                            </div>
+
+                        </div>
+
+                        <p className="sub-section-label">CH-3000 Channel Assets</p>
+
+                        <p id="image-caption">
+                                    The CH-3000 Channel launch was supported with a complete suite of marketing assets, including social media graphics, email campaigns, product spec sheets, and installation guides. Together, these materials created a consistent, informative campaign that introduced the product, educated customers, and streamlined adoption.
+                                </p>
+
+                        <div className="image-section">
+                            <div className="one-image-row">
+                                <img
+                                    src={CaseStudyImage8}
+                                    alt="The image shows x."
+                                />
+                            </div>
+                        </div>
+
+                        <div className="image-section">
+                            <div className="one-image-row">
+                                <img
+                                    src={CaseStudyImage9}
+                                    alt="The image shows x."
+                                />
+                            </div>
+                        </div>
+
+                        <div className="image-section">
+                            <div className="two-image-row">
+                                <img
+                                    src={CaseStudyImage10}
+                                    alt="Editable slide deck template design"
+                                    className="logo-img"
+                                />
+                                <img
+                                    src={CaseStudyImage11}
+                                    alt="Editable slide deck template design"
                                     className="logo-img"
                                 />
                             </div>
                             <div className="two-image-row">
                                 <img
-                                    src={CaseStudyImage8}
-                                    alt="Printed coaster design"
-                                    className="logo-img"
-                                />
-                                <img
-                                    src={CaseStudyImage9}
-                                    alt="Printed coaster design"
+                                    src={CaseStudyImage12}
+                                    alt="Editable slide deck template design"
                                     className="logo-img"
                                 />
                             </div>
-
-                            <p id="image-caption">
-                                Collectible coasters and sleeves that blend music and cybersecurity, pairing bold visuals with fun facts to fuse tech and EDM culture into a memorable event keepsake.
-                            </p>
                         </div>
-
-                        <p className="sub-section-label">Banners</p>
 
                         <div className="image-section">
                             <div className="two-image-row">
                                 <img
                                     src={CaseStudyImage13}
-                                    alt="This image depicts pop-up banners featuring pun-filled titles, iconic musicians, and storytelling that connects their legacy to the conference theme, sparking curiosity, drawing attention, and reinforcing the music-meets-tech experience throughout the event."
+                                    alt="Editable slide deck template design"
                                     className="logo-img"
                                 />
                                 <img
                                     src={CaseStudyImage14}
-                                    alt="This image depicts pop-up banners featuring pun-filled titles, iconic musicians, and storytelling that connects their legacy to the conference theme, sparking curiosity, drawing attention, and reinforcing the music-meets-tech experience throughout the event."
+                                    alt="Editable slide deck template design"
                                     className="logo-img"
                                 />
                             </div>
+                        </div>
+
+                        <p className="sub-section-label">Luxium</p>
+
+                        <div className="image-section">
+                            <div className="one-image-row">
+                                <img
+                                    src={CaseStudyImage17}
+                                    alt="The image shows x."
+                                />
+                            </div>
+                        </div>
+
+                        <div className="image-section">
+                            <video
+                                src={CaseStudyVideo18}
+                                alt="x"
+                                controls
+                                autoPlay
+                                loop
+                                muted
+                                style={{ width: "100%", height: "auto" }}
+                            />
+                        </div>
+
+                        <p id="image-caption" className="left">
+                                The Luxium campaign was introduced through an email announcement and a video sneak peek, building anticipation ahead of the full product launch. These assets were designed to spark curiosity, highlight key product benefits, and generate early engagement with customers.
+                            </p>
+
+                        <p className="section-label">Services Marketing Campaigns</p>
+
+                        <p className="sub-section-label">Rep Portal Assets</p>
+
+                        <div className="image-section">
                             <div className="two-image-row">
                                 <img
                                     src={CaseStudyImage15}
-                                    alt="This image depicts pop-up banners featuring pun-filled titles, iconic musicians, and storytelling that connects their legacy to the conference theme, sparking curiosity, drawing attention, and reinforcing the music-meets-tech experience throughout the event."
+                                    alt="Editable slide deck template design"
                                     className="logo-img"
                                 />
                                 <img
                                     src={CaseStudyImage16}
-                                    alt="This image depicts pop-up banners featuring pun-filled titles, iconic musicians, and storytelling that connects their legacy to the conference theme, sparking curiosity, drawing attention, and reinforcing the music-meets-tech experience throughout the event."
-                                    className="logo-img"
-                                />
-                            </div>
-                            <div className="two-image-row">
-                                <img
-                                    src={CaseStudyImage17}
-                                    alt="This image depicts pop-up banners featuring pun-filled titles, iconic musicians, and storytelling that connects their legacy to the conference theme—sparking curiosity, drawing attention, and reinforcing the music-meets-tech experience throughout the event."
+                                    alt="Editable slide deck template design"
                                     className="logo-img"
                                 />
                             </div>
 
                             <p id="image-caption">
-                                Pop-up banners featuring pun-filled titles, iconic musicians, and storytelling that connects their legacy to the conference theme, sparking curiosity, drawing attention, and reinforcing the music-meets-tech experience throughout the event.
+                                The Rep Portal campaign launched with an email announcement and coordinated social media posts, highlighting the new platform and its benefits for customers. These assets introduced the tool, encouraged adoption, and reinforced the value of a streamlined digital experience.
                             </p>
                         </div>
 
-                        <p className="sub-section-label">Registration Desk</p>
+                        <p className="sub-section-label">Newsletter Sign Up Email</p>
 
-                        <div className="image-section">
+                         <div className="image-section">
                             <div className="one-image-row">
                                 <img
                                     src={CaseStudyImage19}
-                                    alt="This image shows custom registration signage and footboards designed for each event and city, creating a cohesive first impression while guiding attendees efficiently into the conference experience."
-                                />
-                            </div>
-                            <div className="one-image-row">
-                                <img
-                                    src={CaseStudyImage20}
-                                    alt="This image shows custom registration signage and footboards designed for each event and city, creating a cohesive first impression while guiding attendees efficiently into the conference experience."
+                                    alt="The image shows x."
                                 />
 
+                                <p id="image-caption">
+                                    The newsletter sign-up email was designed to promote ongoing engagement by encouraging users to subscribe for updates, product news, and exclusive insights. It provided a clear call-to-action and emphasized the value of staying connected with the brand.
+                                </p>
                             </div>
-                            <div className="one-image-row">
-                                <img
-                                    src={CaseStudyImage21}
-                                    alt="This image shows custom registration signage and footboards designed for each event and city, creating a cohesive first impression while guiding attendees efficiently into the conference experience."
-                                />
-                            </div>
-                            <p id="image-caption" className="left">
-                                Custom registration signage and footboards designed for each event and city, creating a cohesive first impression while guiding attendees efficiently into the conference experience.
-                            </p>
                         </div>
 
-                        <p className="sub-section-label">Tent Cards</p>
+                        <p className="section-label">Documentation</p>
 
-                        <div className="image-section">
-                            <div className="one-image-row">
-                                <img
-                                    src={CaseStudyImage10}
-                                    alt="This image shows printed theme tent cards designed for reserved seating, advisory council recognition, and InfoSec leader sponsor tables, bringing consistency, professionalism, and branded visibility to every touchpoint of the event."
-                                />
-                            </div>
-                            <div className="one-image-row">
-                                <img
-                                    src={CaseStudyImage11}
-                                    alt="This image shows printed theme tent cards designed for reserved seating, advisory council recognition, and InfoSec leader sponsor tables, bringing consistency, professionalism, and branded visibility to every touchpoint of the event."
-                                />
-                            </div>
-                            <div className="one-image-row">
-                                <img
-                                    src={CaseStudyImage12}
-                                    alt="This image shows printed theme tent cards designed for reserved seating, advisory council recognition, and InfoSec leader sponsor tables, bringing consistency, professionalism, and branded visibility to every touchpoint of the event."
-                                />
-                            </div>
-                            <p id="image-caption" className="left">
-                                Printed theme tent cards designed for reserved seating, advisory council recognition, and InfoSec leader sponsor tables, bringing consistency, professionalism, and branded visibility to every touchpoint of the event.
-                            </p>
-                        </div>
-
-                        <p className="sub-section-label">Signage</p>
+                        <p className="sub-section-label">Warranty</p>
 
                         <div className="image-section">
                             <div className="two-image-row">
                                 <img
-                                    src={CaseStudyImage28}
-                                    alt="Printed signage displaying SecureWorld in-person conference registration pass types, comparing benefits and features for attendees."
+                                    src={CaseStudyImage20}
+                                    alt="Editable slide deck template design"
                                     className="logo-img"
                                 />
                                 <img
-                                    src={CaseStudyImage29}
-                                    alt="Printed signage highlighting SecureWorld Executive Roundtable events and showcasing the featured cybersecurity sponsor."
+                                    src={CaseStudyImage21}
+                                    alt="Editable slide deck template design"
                                     className="logo-img"
                                 />
                             </div>
 
                             <p id="image-caption">
-                                Printed signage previews including registration area designs and Executive Roundtable sponsor highlights. Created to clearly communicate event details, attendee options, and sponsor recognition while reflecting the immersive, high-energy conference theme.
+                                Key company documents including warranties were updated to reflect the unified brand identity. Consistent layouts, typography, and visual cues ensured professionalism, clarity, and a cohesive experience across all customer-facing materials.
                             </p>
                         </div>
 
-                        <p className="sub-section-label">Podium</p>
 
-                        <div className="image-section">
-                            <div className="one-image-row">
-                                <img
-                                    src={CaseStudyImage30}
-                                    alt="The image shows a custom podium design, featuring the immersive conference theme with bold colors, patterns, and textures. Designed to reinforce the event identity on stage while providing a visually engaging focal point for speakers and presentations."
-                                />
-
-                                <p id="image-caption">
-                                    Custom podium design, featuring the immersive conference theme with bold colors, patterns, and textures. Designed to reinforce the event identity on stage while providing a visually engaging focal point for speakers and presentations.
-                                </p>
-                            </div>
-                        </div>
-
-                        <p className="sub-section-label">Lunch Ticket</p>
-
-                        <div className="image-section">
-                            <div className="one-image-row">
-                                <img
-                                    src={CaseStudyImage31}
-                                    alt="The image shows themed lunch tickets, designed to match the high-energy visual identity. Each ticket features bold patterns and cohesive branding, turning even small event details into an engaging, on-theme experience for attendees."
-                                />
-
-                                <p id="image-caption">
-                                    Themed lunch tickets, designed to match the high-energy visual identity. Each ticket features bold patterns and cohesive branding, turning even small event details into an engaging, on-theme experience for attendees.
-                                </p>
-                            </div>
-                        </div> */}
 
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">

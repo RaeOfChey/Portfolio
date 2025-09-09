@@ -182,9 +182,9 @@ const EmployEaseCaseStudy = () => {
                     <p id="section-intro">
                         EmployEase addresses the pain points job seekers face by creating a platform that prioritizes by offering a unified, streamlined platform that minimizes time and energy spent on the job search process.
                     </p>
-                    <div className="solution-link solution-section">
+                    {/* <div className="solution-link solution-section">
                         <a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a>
-                    </div>
+                    </div> */}
 
                     <div className="context-item-container">
 
@@ -684,9 +684,9 @@ const EmployEaseCaseStudy = () => {
 
                 <div class="cta-options">
 
-                    <div class="cta-option">
+                    {/* <div class="cta-option">
                         <p><a href="https://employease-hubi.onrender.com/" target="_blank">View Live</a></p>
-                    </div>
+                    </div> */}
 
                     <div class="cta-option">
                         <p><a href="https://employease-hubi.onrender.com/" target="_blank">View Github</a></p>
