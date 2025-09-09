@@ -246,6 +246,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                 <img
                                     src={CaseStudyImage2}
                                     alt="The image shows x."
+                                    style={{ boxShadow: "none" }}
                                 />
 
                             </div>
@@ -314,6 +315,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                 <img
                                     src={CaseStudyImage9}
                                     alt="The image shows x."
+                                    style={{ boxShadow: "none" }}
                                 />
                             </div>
                         </div>
@@ -362,6 +364,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                 <img
                                     src={CaseStudyImage17}
                                     alt="The image shows x."
+                                    style={{ boxShadow: "none" }}
                                 />
                             </div>
                         </div>
@@ -392,11 +395,13 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     src={CaseStudyImage15}
                                     alt="Editable slide deck template design"
                                     className="logo-img"
+                                    style={{ boxShadow: "none" }}
                                 />
                                 <img
                                     src={CaseStudyImage16}
                                     alt="Editable slide deck template design"
                                     className="logo-img"
+                                    style={{ boxShadow: "none" }}
                                 />
                             </div>
 
@@ -412,6 +417,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                 <img
                                     src={CaseStudyImage19}
                                     alt="The image shows x."
+                                    style={{ boxShadow: "none" }}
                                 />
 
                                 <p id="image-caption">
@@ -442,8 +448,6 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                 Key company documents including warranties were updated to reflect the unified brand identity. Consistent layouts, typography, and visual cues ensured professionalism, clarity, and a cohesive experience across all customer-facing materials.
                             </p>
                         </div>
-
-
 
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
