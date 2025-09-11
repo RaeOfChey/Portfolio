@@ -67,7 +67,7 @@ const AboutMe = () => {
                             When <span className="title-highlight">design</span> speaks for itself, <span className="title-highlight">users</span> listen.
                         </h5>
                         <p className="subtitle">
-                            Hello, I’m Cheyenna!  I design and build intuitive, high-performing eCommerce and SaaS web experiences that drive engagement, increase conversions, and seamlessly bridge the gap between design and development.
+                            Hello, I’m Cheyenna! I design for impact, creating digital experiences that draw users in and move them to act, from eCommerce sites that increase sales to SaaS platforms that boost adoption. With expertise in Graphic Design, UX/UI, and Development, I combine creativity with strategy to make every interaction effortless, intuitive, and impossible to ignore.
                         </p>
                     </div>
                 </header>
@@ -171,10 +171,10 @@ const AboutMe = () => {
                 >
                     <div className="carousel-container">
                         {[
-                            "Miro", "Adobe Illustrator", "Adobe Photoshop", "Figma", "v0", "Bolt CMS", "Zeplin", "CodePen", "Bootstrap", "CSS3", "Sass/SCSS", "HTML5", "JavaScript", "TypeScript", "Webpack", "jQuery", "Jest", "PWA", "Insomnia", "React", "Slack", "Trello", "Jira", "Hotjar", "Usability Hub", "JSON", "OOP", "React", "WordPress", "Git/GitHub"
+                            "Adobe Creative Cloud", "Figma", "FigJam", "Canva", "LottieFiles", "Hotjar", "UserTesting", "Maze", "WordPress", "Google Analytics", "HubSpot", "Git/GitHub", "JavaScript", "TypeScript", "MERN Stack", "REST APIs", "GraphQL", "Bootstrap", "Monday.com", "Micro", "ChatGPT"
                         ]
                             .concat([
-                                "Miro", "Adobe Illustrator", "Adobe Photoshop", "Figma", "v0", "Bolt CMS", "Zeplin", "CodePen", "Bootstrap", "CSS3", "Sass/SCSS", "HTML5", "JavaScript", "TypeScript", "Webpack", "jQuery", "Jest", "PWA", "Insomnia", "React", "Slack", "Trello", "Jira", "Hotjar", "Usability Hub", "JSON", "OOP", "React", "WordPress", "Git/GitHub"
+                                "Adobe Creative Cloud", "Figma", "FigJam", "Canva", "LottieFiles", "Hotjar", "UserTesting", "Maze", "WordPress", "Google Analytics", "HubSpot", "Git/GitHub", "JavaScript", "TypeScript", "MERN Stack", "REST APIs", "GraphQL", "Bootstrap", "Monday.com", "Micro", "ChatGPT"
                             ])
                             .map((tool, index) => (
                                 <div className="carousel-item" key={`${tool}-${index}`} title={tool}>

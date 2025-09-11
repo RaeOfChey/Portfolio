@@ -33,14 +33,6 @@ const projects = [
     image: ITASCASoftwareThumbnail,
   },
   {
-    title: 'Streamlining the job application process on a unified platform to reduce complexity and increase efficiency.',
-    link: '/employease-case-study',
-    type: '#UX/UI Design #Front-end Development',
-    category: ['Development', 'UX/UI Design'],
-    cta: 'See More',
-    image: EmployEaseImg,
-  },
-  {
     title: 'Redesigning a B2B eCommerce platform to enhance user experience and drive product sales growth by 15%.',
     link: '/kelvix-case-study',
     type: '#UX/UI Design #Front-end Development #Branding #Marketing #Advertising',
@@ -55,6 +47,14 @@ const projects = [
     category: ['Development', 'UX/UI Design'],
     cta: 'See More',
     image: ITASCACareersPageImg,
+  },
+  {
+    title: 'Streamlining the job application process on a unified platform to reduce complexity and increase efficiency.',
+    link: '/employease-case-study',
+    type: '#UX/UI Design #Front-end Development',
+    category: ['Development', 'UX/UI Design'],
+    cta: 'See More',
+    image: EmployEaseImg,
   },
   {
     title: 'Designing a seamless film-tracking experience to help movie lovers organize their watchlists effortlessly.',
@@ -123,7 +123,7 @@ const projects = [
     image: OchaTeaHouseImg,
   },
   {
-    title: 'Modernizing a brand identity across print digital and multimedia platforms resulting in a 60% increase in engagement.',
+    title: 'Building a cohesive brand system that unified fragmented touchpoints, strengthened credibility, and increased digital engagement.',
     link: '/branding-marketing-secureworld',
     type: '#Web #Branding #Marketing #Advertising #Print #Social Media #Motion #Infographics',
     category: 'Graphic Design',
@@ -149,7 +149,7 @@ const projects = [
   {
     title: 'Creating seasonal label designs that captured the adventurous spirit of cold brew coffee and increased sales by 25%.',
     link: 'https://cheyennaraelynn.myportfolio.com/branding-north-woods-cold-brew',
-    type: '#Branding, #Packaging',
+    type: '#Branding #Packaging',
     category: 'Graphic Design',
     cta: 'See More',
     image: NorthWoodsImg,
@@ -189,9 +189,9 @@ function Portfolio() {
       <p className="portfolio-message">Look through my work, read through my case studies, have a look at final designs, and try out prototypes I’ve built.</p>
       <div className="filter-buttons">
         <button onClick={() => setFilter('All')} className={filter === 'All' ? 'active' : ''}>All</button>
+        <button onClick={() => setFilter('Graphic Design')} className={filter === 'Graphic Design' ? 'active' : ''}>Graphic Design</button>
         <button onClick={() => setFilter('UX/UI Design')} className={filter === 'UX/UI Design' ? 'active' : ''}>UX/UI Design</button>
         <button onClick={() => setFilter('Development')} className={filter === 'Development' ? 'active' : ''}>Development</button>
-        <button onClick={() => setFilter('Graphic Design')} className={filter === 'Graphic Design' ? 'active' : ''}>Graphic Design</button>
       </div>
 
       <div className="project-cards">

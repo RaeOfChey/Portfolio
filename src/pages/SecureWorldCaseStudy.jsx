@@ -100,7 +100,7 @@ const SecureworldCaseStudy = () => {
                 <div className="case-study-header-columns">
                     <div className="case-study-header-left">
                         <h1 className="case-study-h1">Project</h1>
-                        <h2 className="case-study-subtitle">Modernizing a cybersecurity brand to boost engagement by 60% and unify experiences across print, digital, and multimedia.</h2>
+                        <h2 className="case-study-subtitle">Building a cohesive brand system that unified fragmented touchpoints, strengthened credibility, and increased digital engagement.</h2>
 
                         {/* <div className="links">
                             <a href="https://www.itascacg.com/about/careers-main" target="_blank">View Live</a>
