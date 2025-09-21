@@ -1119,6 +1119,52 @@ margin: 0px !important;
   text-align: left;
 }
 
+/* ----- Hyperlink Styles ----- */
+/* Static link color */
+.custom-link {
+    color: #313647;
+    text-decoration: underline;
+}
+
+/* Hover state */
+.custom-link:hover {
+    color: #acbddc;
+    cursor: pointer; 
+}
+
+/* Active/clicked state */
+.custom-link:active {
+    color: #313647;
+}
+
+/* ----- Tooltip Styles ----- */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 220px;
+    background-color: #ddeaff;
+    color: #000;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    /* Positioning */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position above the link */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Fade in */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+/* Show tooltip on hover */
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
 
 @media (max-width: 1281px) {
   .case-study-header {

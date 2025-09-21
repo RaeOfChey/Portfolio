@@ -41,7 +41,7 @@ const projects = [
     image: KelvixImg,
   },
   {
-    title: 'Developing a careers landing page, to streamline the hiring process and candidate journey, increasing quality applicants.',
+    title: 'Developing a global careers landing page to streamline the hiring process, improve candidate experience, and attract top-tier talent.',
     link: '/itasca-careers-page-case-study',
     type: '#UX/UI Design #Front-end Development',
     category: ['Development', 'UX/UI Design'],
