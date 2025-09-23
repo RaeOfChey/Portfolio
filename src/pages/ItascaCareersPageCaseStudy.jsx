@@ -116,7 +116,7 @@ const EmployEaseCaseStudy = () => {
 
                             <div className="user-problems-context-item">
                                 <div className="context-item-header">
-                                    <DownvoteIcon className="downvote-icon" />
+                                    <CircleCheckIcon className="circle-check-icon" />
                                     <h4>Secure top talent proactively</h4>
                                 </div>
                                 <p>
@@ -126,7 +126,7 @@ const EmployEaseCaseStudy = () => {
 
                             <div className="user-problems-context-item">
                                 <div className="context-item-header">
-                                    <DownvoteIcon className="downvote-icon" />
+                                    <CircleCheckIcon className="circle-check-icon" />
                                     <h4>Streamline HR processes</h4>
                                 </div>
                                 <p>
@@ -136,7 +136,7 @@ const EmployEaseCaseStudy = () => {
 
                             <div className="user-problems-context-item">
                                 <div className="context-item-header">
-                                    <DownvoteIcon className="downvote-icon" />
+                                    <CircleCheckIcon className="circle-check-icon" />
                                     <h4>Strengthen employer brand</h4>
                                 </div>
                                 <p>
@@ -146,7 +146,7 @@ const EmployEaseCaseStudy = () => {
 
                             <div className="user-problems-context-item">
                                 <div className="context-item-header">
-                                    <DownvoteIcon className="downvote-icon" />
+                                    <CircleCheckIcon className="circle-check-icon" />
                                     <h4>Enhance candidate experience</h4>
                                 </div>
                                 <p>
