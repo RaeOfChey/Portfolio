@@ -73,7 +73,7 @@ const ITASCASoftwareCaseStudy = () => {
                 <div className="case-study-header-columns">
                     <div className="case-study-header-left">
                         <h1 className="case-study-h1">Project</h1>
-                        <h2 className="case-study-subtitle">Redesigning a B2B eCommerce SaaS platform to enhance user experience and drive software sales growth by 25%.</h2>
+                        <h2 className="case-study-subtitle">Designing a B2B eCommerce SaaS platform to enhance user experience and drive software sales growth by 25%.</h2>
 
                         {/* <div className="links">
                             <a href="https://itascasoftware.com/" target="_blank">View Live</a>
@@ -100,6 +100,102 @@ const ITASCASoftwareCaseStudy = () => {
                 </section>
             </div>
 
+            <section className="challenge-section-header">
+                <div className="itasca-software-impact-outcome-section-left">
+                    <h3 className="impacts-header">Impact & Outcomes</h3>
+                </div>
+
+                <div className="section-right">
+                    <p id="section-intro">
+                        The ITASCA Software website design transformed the user experience by creating a seamless, intuitive platform that effectively addressed the challenges users faced.
+                    </p>
+
+                    <p id="section-intro-2">
+                        By streamlining product discovery, optimizing the purchasing process, and enhancing global accessibility, the design empowered users to navigate the site with ease and confidence. The improvements resulted in increased engagement, higher conversion rates, and greater user satisfaction.
+                    </p>
+
+                    <br />
+
+                    <div className="context-item-container">
+
+                        <div className="impact-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>Outcomes</h4>
+                            </div>
+                            <p id="outcome-list" className="outcome-list">
+                                <ul>
+                                    <li>Improved navigation and CTAs increased software sales by 25%, proving the effectiveness of a user-centered design.</li>
+                                    <li>Streamlined product discovery and checkout reduced search time, enhancing the user experience.</li>
+                                    <li>Localization and mobile optimization expanded global reach, boosting engagement and traffic.</li>
+                                    <li>A refined user journey and CTAs drove higher conversion rates and a 30% increase in lead generation.</li>
+                                    <li>Faster load times and improved SEO enhanced visibility and organic traffic post-launch.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <section className="section-title">
+
+                <div className="problem-section-header">
+                    <div className="section-left">
+                        <h3 className="user-problems-header">Impact & Outcomes</h3>
+                    </div>
+
+                    <div className="section-right">
+                        <p id="section-intro">
+                            As a global provider of geo-engineering software solutions, ITASCA Software sought to establish its first ecommerce platform to support long-term business growth and strengthen customer trust. The platform needed to be a seamless, professional, and globally accessible digital storefront that reflected the company’s innovation and authority in the industry. Key goals included:
+                        </p>
+
+                        <div className="context-item-container">
+
+                            <div className="user-problems-context-item">
+                                <div className="context-item-header">
+                                    <DownvoteIcon className="downvote-icon" />
+                                    <h4>Communicate product value clearly</h4>
+                                </div>
+                                <p>
+                                    Translate complex software offerings into content that highlights both technical detail and business impact, enabling prospects to understand benefits and make confident purchasing decisions.
+                                </p>
+                            </div>
+
+                            <div className="user-problems-context-item">
+                                <div className="context-item-header">
+                                    <DownvoteIcon className="downvote-icon" />
+                                    <h4>Create a direct purchasing channel</h4>
+                                </div>
+                                <p>
+                                    Build an intuitive ecommerce experience where customers can independently explore, evaluate, and purchase software, reducing reliance on manual follow-ups and freeing the sales team to focus on high-value relationships.
+                                </p>
+                            </div>
+
+                            <div className="user-problems-context-item">
+                                <div className="context-item-header">
+                                    <DownvoteIcon className="downvote-icon" />
+                                    <h4>Expand global accessibility</h4>
+                                </div>
+                                <p>
+                                    Ensure the platform serves ITASCA’s international audience with localization, responsive design, and accessibility compliance. Establishing trust with diverse users and aligning with global business standards.
+                                </p>
+                            </div>
+
+                            <div className="user-problems-context-item">
+                                <div className="context-item-header">
+                                    <DownvoteIcon className="downvote-icon" />
+                                    <h4>Strengthen brand credibility</h4>
+                                </div>
+                                <p>
+                                    Elevate digital presence to match the company’s reputation for engineering excellence, making the website a trusted first point of contact for new and existing customers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
             <section className="section-title">
 
                 <div className="problem-section-header">
@@ -109,7 +205,7 @@ const ITASCASoftwareCaseStudy = () => {
 
                     <div className="section-right">
                         <p id="section-intro">
-                            In the rapidly evolving world of technology, software companies, like ITASCA Software, often face significant challenges in managing product information and generating leads. ITASCA Software, a provider of software solutions for the geo-engineering industry, had several pain points:
+                            Prior to this project, ITASCA did not have an ecommerce platform, forcing customers to rely on fragmented processes and manual interactions. This created significant barriers across the user journey:
                         </p>
 
                         <div className="context-item-container">
@@ -117,40 +213,40 @@ const ITASCASoftwareCaseStudy = () => {
                             <div className="user-problems-context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
-                                    <h4>Content overload</h4>
+                                    <h4>Overwhelming content</h4>
                                 </div>
                                 <p>
-                                    The site was overcrowded with technical information, which made it difficult for potential customers to understand the core benefits of the products and find the solutions they needed. Especially new customers.
+                                    Technical-heavt product information made it difficult for potential customers to understand the core benefits of the products and find the solutions they needed. Especially new customers.
                                 </p>
                             </div>
 
                             <div className="user-problems-context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
-                                    <h4>Many user experience challenges</h4>
+                                    <h4>Inefficient purchasing process</h4>
                                 </div>
                                 <p>
-                                    Barriers hindered both user experience and visibility. The site was not mobile-friendly, lacked language localization (despite being a global company), and had accessibility challenges. These factors, combined with poor SEO optimization, limited the site's potential to engage a broader, diverse audience.
+                                    With no ecommerce functionality, customers had to contact ITASCA directly to request information and complete transactions. This created a slow, fragmented experience that delayed purchases and added workload for both customers and the sales team.
                                 </p>
                             </div>
 
                             <div className="user-problems-context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
-                                    <h4>Cumbersome checkout process</h4>
+                                    <h4>No centralized product hub</h4>
                                 </div>
                                 <p>
-                                    Users found it difficult to checkout on their own, often following up for assistance. Even then, the site did not process payments. This led to a frustrating back-and-forth process between companies, resulting in wasted time for both customers and the sales team.
+                                    Users lacked a single, organized space to explore the full product catalog. Information was scattered, making it difficult to find relevant solutions quickly and creating friction early in the buyer journey.
                                 </p>
                             </div>
 
                             <div className="user-problems-context-item">
                                 <div className="context-item-header">
                                     <DownvoteIcon className="downvote-icon" />
-                                    <h4>Unclear communication</h4>
+                                    <h4>Limited accessibility for a global audience</h4>
                                 </div>
                                 <p>
-                                    Users could not make confident purchasing decisions. Major details about the software products were not clearly communicated, leaving users unsure about the core benefits of the products. The lack of clarity in both technical and value-driven content resulted in confusion and hindered the effectiveness of the sales process.
+                                    Customers worldwide needed localized, mobile-friendly, and accessible touchpoints to evaluate software solutions. Without these, the company's reach was limited, and many users were excluded from engaging effectively with the company’s offerings.
                                 </p>
                             </div>
                         </div>
@@ -166,7 +262,7 @@ const ITASCASoftwareCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        The challenge was to design a B2B SaaS eCommerce website that clearly communicates product value, enhances user experience, and streamlines the purchasing process to drive greater engagement and lead generation.
+                        Design ITASCA’s first B2B SaaS ecommerce website that clearly communicates product value, provides an intuitive user experience, and streamlines the purchasing process. The platform needed to help customers easily discover products, make confident purchasing decisions, and access the site globally through responsive design, localization, and accessibility. All while supporting the company's broader business goals of engagement, lead generation, and sales growth.
                     </p>
                 </div>
             </section>
@@ -178,7 +274,7 @@ const ITASCASoftwareCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        ITASCA Software’s website redesign addresses key user pain points by offering a streamlined, user-centered experience that simplifies product discovery, enhances user flow, and optimizes the purchasing process.
+                        The design of ITASCA Software’s new eCommerce website created a centralized, user-centered platform. The site simplifies product discovery, enhances user flow, and optimizes the purchasing process while balancing global accessibility and multilingual support.
                     </p>
                     <div className="solution-link solution-section">
                         <a href="https://itascasoftware.com/" target="_blank">View Live</a>
@@ -189,23 +285,23 @@ const ITASCASoftwareCaseStudy = () => {
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <UsersIcon className="users-icon" />
-                                <h4>How the redesign solves user problems</h4>
+                                <h4>How the redesign solves the Challenge</h4>
                             </div>
 
                             <p id="intro-redesign" className="redesign-description">
-                                The redesign of ITASCA Software's website directly addresses the pain points users face in navigating technical content and completing purchases by:
+                                The new website directly tackled the project’s business and user challenges by:
                                 <ul>
                                     <li>
-                                        Product discovery was simplified, with reorganized with clear navigation, concise product descriptions, and intuitive categories. Making it easier for users to find the solutions they need without feeling overwhelmed by technical jargon.
+                                        Designing product discovery with clear navigation, concise product descriptions, and intuitive categories, making it easier for users to find solutions without being overwhelmed by technical details.
                                     </li>
                                     <li>
-                                        The checkout experience was streamlined to eliminate friction and guide users through a seamless purchasing process, reducing the need for sales team intervention.
+                                        Streamlining the checkout experience to guide users through a seamless purchasing process, reducing the need for sales team intervention.
                                     </li>
                                     <li>
-                                        The site was made fully mobile-responsive and offers multiple languages, ensuring users have a smooth experience across devices and locations, making the platform accessible to a global audience.
+                                        Ensuring full mobile responsiveness and multiple language options, providing a smooth experience across devices and locations, making the platform accessible to a global audience.
                                     </li>
                                     <li>
-                                        Data-driven decision making is at the forefront, with the site continuously tracks user behavior and optimizes the site’s content, layout, and features for improved engagement.
+                                        Leveraging data-driven decision making, continuously tracking user behavior to optimize content, layout, and features for improved engagement.
                                     </li>
                                 </ul>
                             </p>
@@ -215,23 +311,23 @@ const ITASCASoftwareCaseStudy = () => {
                             <div className="image-column-left-1">
                                 <img
                                     src={ITASCASoftwareImage2}
-                                    alt="This image depicts the new 'All Products' landing page, which centralizes all software offerings. This streamlined experience enhances product visibility, helping users quickly understand available solutions. Each product card displays essential details, guiding users toward informed purchasing decisions. This update directly supports the redesign’s goal of improving usability, reducing friction in the buying process, and increasing engagement with ITASCA’s product ecosystem."
+                                    alt="This image depicts the new 'All Products' landing page, which centralizes all software offerings. This designed experience enhances product visibility, helping users quickly understand available solutions. Each product card displays essential details, guiding users toward informed purchasing decisions. This update directly supports the platform’s goal of improving usability, reducing friction in the buying process, and increasing engagement with ITASCA’s product ecosystem."
                                     className="case-study-image"
                                 />
                             </div>
                             <div className="image-column-right-1">
-                                <p id="the-filter-bar-subtitle" className="image-subtitles">This new 'All Products' landing page centralizes all software offerings. This streamlined experience enhances product visibility, helping users quickly understand available solutions. Each product card displays essential details, guiding users toward informed purchasing decisions. This update directly supports the redesign’s goal of improving usability, reducing friction in the buying process, and increasing engagement with ITASCA’s product ecosystem.</p>
+                                <p id="the-filter-bar-subtitle" className="image-subtitles">This image depicts the new 'All Products' landing page, which centralizes all software offerings. This designed experience enhances product visibility, helping users quickly understand available solutions. Each product card displays essential details, guiding users toward informed purchasing decisions. This update directly supports the platform’s goal of improving usability, reducing friction in the buying process, and increasing engagement with ITASCA’s product ecosystem.</p>
                             </div>
                         </div>
                         <br />
                         <div className="image-row-2">
                             <div className="image-column">
-                                <p id="approach" className="image-subtitles-left-2">This section of a product page highlights the key benefits and features of a software license so users quickly understand its value. The clean, structured layout makes it easy to scan, helping customers make informed decisions with confidence. Simplified details and clarity reduces friction in the buying process.</p>
+                                <p id="approach" className="image-subtitles-left-2">This section of a product page highlights the key benefits and features of a software license so users quickly understand its value. The clean, structured layout makes it easy to scan, helping customers make informed decisions with confidence. Simplifying details and improving clarity reduces friction in the buying process.</p>
                             </div>
                             <div className="image-column-right-2 left-align">
                                 <img
                                     src={ITASCASoftwareImage5}
-                                    alt="This image depicts a section of the product page concisely highlights the key benefits and features of a software software, ensuring users quickly understand its value. The clean, structured layout makes it easy to scan, helping potential customers make informed decisions with confidence. Simplifying complex product details and improving clarity reduces friction in the buying process"
+                                    alt="This image depicts a section of a product page highlights the key benefits and features of a software license so users quickly understand its value. The clean, structured layout makes it easy to scan, helping customers make informed decisions with confidence. Simplifying details and improving clarity reduces friction in the buying process."
                                     className="case-study-image"
                                 />
                             </div>
@@ -240,15 +336,16 @@ const ITASCASoftwareCaseStudy = () => {
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>What the redesign improved beyond the Challenge</h4>
+                                <h4>What the design improved beyond the Challenge</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                                The redesign addresses core user problems by incorporating additional features that elevate the user experience and increase engagement:
+                                TThe new website addresses core user problems and elevates the experience in the following ways:
                                 <ul>
-                                    <li>Improved information architecture helps users find relevant software solutions quickly from the user journey of discovery to purchase.</li>
-                                    <li>Actionable CTAs were integrated strategically throughout the site, making it easier for users to take action and saving them time.</li>
-                                    <li>Integration of Google Analytics and other data-driven tools allows for continuous refinement of user experience based on actionable insights.</li>
-                                    <li>Proper SEO implementation and performance tuning ensure better search engine visibility and faster load times for improved user engagement and traffic.</li>
+                                    <li>Improved information architecture allows users to find relevant software solutions quickly, supporting the entire journey from discovery to purchase.</li>
+                                    <li>Strategic placement of actionable CTAs simplifies user actions and saves time, encouraging engagement with the product ecosystem.</li>
+                                    <li>Integration of Google Analytics, Hotjar, and Optimizely enables continuous refinement of the user experience based on actionable insights.</li>
+                                    <li>Proper SEO implementation and performance tuning improve search engine visibility, page load times, and overall traffic.</li>
+                                    <li>Features like intelligent product recommendations, multiple licensing options, and Request a Demo functionality enhance product discovery and support confident purchasing decisions.</li>
                                 </ul>
                             </p>
                         </div>
@@ -257,7 +354,7 @@ const ITASCASoftwareCaseStudy = () => {
                             <div className="image-column-left-1">
                                 <img
                                     src={ITASCASoftwareImage4}
-                                    alt="This image depicts the checkout cart page, which provides users with a clear, organized view of their selected product and key details. By displaying all relevant information upfront, users can easily review and modify their selections before completing their purchase. Additionally, the page features intelligent product recommendations, suggesting complementary software or add-ons based on the user’s cart. This enhances product discovery and improves the user experience, reducing purchasing friction, and increasing cross-selling opportunities."
+                                    alt="This image depicts the checkout cart page provides users with a clear, organized view of their selected product and key details. By displaying all relevant information upfront, users can easily review and modify their selections before completing their purchase. Additionally, the page features intelligent product recommendations, suggesting complementary software or add-ons based on the user’s cart. This enhances product discovery and improves the user experience, reducing purchasing friction, and increasing cross-selling opportunities."
                                     className="case-study-image"
                                 />
                             </div>
@@ -273,13 +370,13 @@ const ITASCASoftwareCaseStudy = () => {
                         <br />
                         <div className="image-row-2">
                             <div className="image-column">
-                                <p id="approach" className="image-subtitles-left-2">The new product landing pages allows users to easily compare and select from multiple licensing options directly from the product page. The Add to Cart feature streamlines the purchasing process, while the Request a Demo option ensures users can explore the software before committing. Which aligns with the redesign’s goal of improving clarity, reducing friction in the buying process.
+                                <p id="approach" className="image-subtitles-left-2">The new product landing pages allow users to easily compare and select from multiple licensing options directly from the product page. The Add to Cart feature streamlines the purchasing process, while the Request a Demo option ensures users can explore the software before committing. This aligns with the platform’s goal of improving clarity and reducing friction in the buying process.
                                 </p>
                             </div>
                             <div className="image-column-right-2 left-align">
                                 <img
                                     src={ITASCASoftwareImage3}
-                                    alt="This image depicts a part of the new product landing page that allows users to easily compare and select the right software license. Users can choose from multiple licensing options directly from the product page. The Add to Cart feature streamlines the purchasing process, while the Request a Demo option ensures users can explore the software before committing. Which aligns with the redesign’s goal of improving clarity, reducing friction in the buying process."
+                                    alt="This image depicts a part of the new product landing page that allows users to easily compare and select from multiple licensing options directly from the product page. The Add to Cart feature streamlines the purchasing process, while the Request a Demo option ensures users can explore the software before committing. This aligns with the platform’s goal of improving clarity and reducing friction in the buying process."
                                     className="case-study-image"
                                 />
                             </div>
@@ -291,7 +388,7 @@ const ITASCASoftwareCaseStudy = () => {
                                 <h4>End Result</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                                The final product is a user-friendly, mobile-optimized website that enhances both user experience and lead generation. The redesigned site has increased software sales by 25%, improved lead generation by 30%, and offers a seamless, data-driven user experience across all devices. Users can now navigate the site efficiently, making confident purchasing decisions while enjoying a streamlined journey from discovery to checkout.
+                                The final product is a user-friendly, mobile-optimized eCommerce platform that enhances both user experience and lead generation. The website has increased software sales by 25%, improved lead generation by 30%, and offers a seamless, data-driven experience across all devices. Users can now navigate the site efficiently, make confident purchasing decisions, and enjoy a streamlined journey from discovery to checkout.
                             </p>
                         </div>
 
@@ -319,8 +416,8 @@ const ITASCASoftwareCaseStudy = () => {
                                 <h4>UI overhaul</h4>
                             </div>
                             <p>
-                                Prioritized user-friendliness by updating the website's branding and simplifying the content. Reduced technical jargon, applied ample white space, and broke up information into digestible sections, all while maintaining clarity and accuracy.
-                            </p>
+                                Prioritized user-friendliness by designing the website’s branding and simplifying the content. Reduced technical jargon, applied ample white space, and broke up information into digestible sections, all while maintaining clarity and accuracy.
+                                </p>
                         </div>
 
                         <div className="approach-context-item">
@@ -329,7 +426,7 @@ const ITASCASoftwareCaseStudy = () => {
                                 <h4>User flow optimization</h4>
                             </div>
                             <p>
-                                Redesigned the navigation and layout to ensure easy access to key information, with a particular focus on simplifying the checkout process. Integrated action-driven CTAs across critical touchpoints, such as product pages, and streamlined the checkout experience to guide visitors smoothly toward conversion.
+                                Designed the navigation and layout to ensure easy access to key information, with a particular focus on simplifying the checkout process. Integrated action-driven CTAs across critical touchpoints, such as product pages, guiding visitors smoothly toward conversion.
                             </p>
                         </div>
 
@@ -339,7 +436,7 @@ const ITASCASoftwareCaseStudy = () => {
                                 <h4>Data-driven insights</h4>
                             </div>
                             <p>
-                                Leveraged tools like Google Analytics, Hotjar, and Optimizely to track user behavior, enabling continuous improvement of the website’s performance. Data-driven decisions were made to refine both the UI and overall user experience.
+                                Leveraged tools like Google Analytics, Hotjar, and Optimizely to track user behavior, enabling continuous improvement of the website’s performance. Data-driven decisions refined both the UI and overall user experience.
                             </p>
                         </div>
 
@@ -349,7 +446,7 @@ const ITASCASoftwareCaseStudy = () => {
                                 <h4>Modernization</h4>
                             </div>
                             <p>
-                                Made the website mobile-responsive, implemented eCommerce capabilities, optimized for SEO, and adhered to WCAG best practices for accessibility. Added language localization to better serve global users across different regions.
+                                The website was built to be mobile-responsive, with eCommerce capabilities, SEO optimization, WCAG-compliant accessibility, and language localization to serve global users effectively.
                             </p>
                         </div>
 
@@ -372,7 +469,7 @@ const ITASCASoftwareCaseStudy = () => {
 
             <section className="process-section-header">
                 <div className="section-left">
-                    <h3>Timeline & SDLC</h3>
+                    <h3>Timeline</h3>
                 </div>
 
                 <div className="section-right">
@@ -381,9 +478,9 @@ const ITASCASoftwareCaseStudy = () => {
                             <h4>Week 1–2 Planning</h4>
                         </div>
                         <ul>
-                            <li>Conducted user interviews with the sales team and analyzed website analytics to identify key pain points in the sales and user journey.</li>
-                            <li>Evaluated competitor websites and performed a gap analysis to uncover areas of improvement.</li>
-                            <li>Reviewed existing website content, architecture, and functionality.</li>
+                            <li>Conducted user interviews with the sales team and analyzed market insights to identify key pain points in the sales and user journey.</li>
+                            <li>Evaluated competitor websites and performed a gap analysis to uncover opportunities for improvement.</li>
+                            <li>Outlined website content, architecture, and required functionality for a new platform.</li>
                         </ul>
                     </div>
 
@@ -392,8 +489,8 @@ const ITASCASoftwareCaseStudy = () => {
                             <h4>Week 3–5 Designing</h4>
                         </div>
                         <ul>
-                            <li>Developed wireframes for the new site layout, focusing on simplicity, clarity, and ease of navigation.</li>
-                            <li>Created high-fidelity mockups incorporating updated branding, CTAs, and key elements for better user flow.</li>
+                            <li>Developed wireframes for the new site layout, emphasizing simplicity, clarity, and intuitive navigation.</li>
+                            <li>Created high-fidelity mockups incorporating updated branding, CTAs, and key elements for a seamless user flow.</li>
                             <li>Collaborated with stakeholders to refine design concepts, ensuring alignment with brand goals.</li>
                         </ul>
                     </div>
@@ -403,9 +500,9 @@ const ITASCASoftwareCaseStudy = () => {
                             <h4>Week 6–9 Implementing</h4>
                         </div>
                         <ul>
-                            <li>Developed the website's front-end using WordPress and a custom theme, incorporating the new design elements.</li>
-                            <li>Integrated necessary tools, such as Google Analytics, Hotjar, and Optimizely, to monitor user engagement and gather data.</li>
-                            <li>Focused on optimizing the site for mobile responsiveness and accessibility (WCAG compliance).</li>
+                            <li>Built the website’s front-end using WordPress and a custom theme, incorporating all new design elements.</li>
+                            <li>Integrated tools like Google Analytics, Hotjar, and Optimizely to monitor engagement and gather data.</li>
+                            <li>Optimized the platform for mobile responsiveness and accessibility (WCAG compliance).</li>
                         </ul>
                     </div>
 
@@ -414,8 +511,8 @@ const ITASCASoftwareCaseStudy = () => {
                             <h4>Week 10–12 Testing</h4>
                         </div>
                         <ul>
-                            <li>Conducted usability testing and made iterations based on feedback.</li>
-                            <li>Adjusted user interface for clarity, refined features, and ensured a seamless experience across devices.</li>
+                            <li>Conducted usability testing and iterated based on feedback.</li>
+                            <li>Adjusted the interface for clarity, refined features, and ensured a smooth experience across devices.</li>
                         </ul>
                     </div>
 
@@ -424,8 +521,8 @@ const ITASCASoftwareCaseStudy = () => {
                             <h4>Week 11–12 Deploying & Maintaining</h4>
                         </div>
                         <ul>
-                            <li>Launched the site and began post-launch monitoring to address any immediate user concerns.</li>
-                            <li>Ongoing maintenance to ensure optimal performance, troubleshoot issues, and continuously improve the user experience based on feedback.</li>
+                            <li>Deployed the website and monitored post-launch to address any immediate concerns.</li>
+                            <li>Continued maintenance to ensure optimal performance and implement improvements based on user data.</li>
                         </ul>
                     </div>
                 </div>
@@ -508,43 +605,6 @@ const ITASCASoftwareCaseStudy = () => {
 
             </section>
 
-            <section className="challenge-section-header">
-                <div className="itasca-software-impact-outcome-section-left">
-                    <h3 className="impacts-header">Impact & Outcomes</h3>
-                </div>
-
-                <div className="section-right">
-                    <p id="section-intro">
-                        The ITASCA Software website redesign transformed the user experience by creating a seamless, intuitive platform that effectively addressed the challenges users faced.
-                    </p>
-
-                    <p id="section-intro-2">
-                        By streamlining product discovery, optimizing the purchasing process, and enhancing global accessibility, the redesign empowered users to navigate the site with ease and confidence. The improvements resulted in increased engagement, higher conversion rates, and greater user satisfaction.
-                    </p>
-
-                    <br />
-
-                    <div className="context-item-container">
-
-                        <div className="impact-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
-                                <h4>Outcomes</h4>
-                            </div>
-                            <p id="outcome-list" className="outcome-list">
-                                <ul>
-                                    <li>Improved navigation and CTAs increased software sales by 25%, proving the effectiveness of a user-centered design.</li>
-                                    <li>Streamlined product discovery and checkout reduced search time, enhancing the user experience.</li>
-                                    <li>Localization and mobile optimization expanded global reach, boosting engagement and traffic.</li>
-                                    <li>A refined user journey and CTAs drove higher conversion rates and a 30% increase in lead generation.</li>
-                                    <li>Faster load times and improved SEO enhanced visibility and organic traffic post-launch.</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <section className="section-title">
 
                 <div className="problem-section-header">
@@ -562,7 +622,7 @@ const ITASCASoftwareCaseStudy = () => {
                                     <h4>Lessons learned</h4>
                                 </div>
                                 <p>
-                                    This project deepened my understanding of optimizing ecommerce platforms for both user experience and business objectives. I learned how to balance user needs with SEO, accessibility, and performance improvements to create a site that was both engaging and effective. Additionally, collaborating with third-party developers reinforced the importance of clear communication in executing a shared vision.
+                                    This project deepened my understanding of building eCommerce platforms that balance user experience with business objectives. I learned to combine accessibility, performance, and SEO with clear, engaging content. Collaborating with third-party developers reinforced the importance of clear communication in executing a shared vision.
                                 </p>
                             </div>
 
@@ -572,7 +632,7 @@ const ITASCASoftwareCaseStudy = () => {
                                     <h4>Key challenges overcome</h4>
                                 </div>
                                 <p>
-                                    One of the biggest challenges was improving the site's information architecture while maintaining consistency across a vast product catalog. By implementing a more intuitive navigation system and refining the checkout process, I was able to simplify product discovery and enhance usability.
+                                    One of the biggest challenges was designing an intuitive information architecture across a vast product catalog. The structured navigation and streamlined checkout simplified product discovery and enhanced usability.
                                 </p>
                                 <br />
                                 <p>

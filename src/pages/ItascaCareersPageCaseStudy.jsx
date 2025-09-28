@@ -100,6 +100,44 @@ const EmployEaseCaseStudy = () => {
                 </section>
             </div>
 
+            <section className="challenge-section-header">
+                <div className="itasca-software-impact-outcome-section-left">
+                    <h3 className="impacts-header">Impact & Outcomes</h3>
+                </div>
+
+                <div className="section-right">
+                    <p id="section-intro">
+                        The new careers page transformed a fragmented hiring experience into a unified, branded, and accessible platform that directly supported the company’s talent acquisition strategy.
+                    </p>
+
+                    <p id="section-intro-2">
+                        By elevating the employer brand and streamlining the application process, the page became a critical tool for attracting top-tier candidates in a competitive market.
+                    </p>
+
+                    <br />
+
+                    <div className="context-item-container">
+
+                        <div className="impact-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>Outcomes</h4>
+                            </div>
+                            <p id="outcome-list" className="outcome-list">
+                                <ul>
+                                    <li>Clear messaging, consistent design, and values-driven content positioned the company as an employer of choice, aligning candidate perception with leadership’s vision.</li>
+                                    <li>By providing culture, EVP, and benefits information upfront, the page attracted candidates better aligned with the company’s standards, reducing misaligned applications and saving hiring teams significant time.</li>
+                                    <li>Centralized, easy-to-navigate job listings and clear CTAs improved application completion rates and reduced applicant drop-off.</li>
+                                    <li>Localized content and translations allowed each regional office to connect with candidates in their own language, while still maintaining a unified global brand identity.</li>
+                                    <li>WCAG-compliant structure and responsive design ensured an inclusive experience across devices, critical for a diverse global audience.</li>
+                                    <li>By delivering on a board-level KPI under tight deadlines, the project built leadership trust in design’s role in achieving strategic growth goals.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="section-title">
 
                 <div className="problem-section-header">
@@ -442,7 +480,7 @@ const EmployEaseCaseStudy = () => {
 
             <section className="process-section-header">
                 <div className="section-left">
-                    <h3>Timeline & SDLC</h3>
+                    <h3>Timeline</h3>
                 </div>
 
                 <div className="section-right">
@@ -578,44 +616,6 @@ const EmployEaseCaseStudy = () => {
 
                 </div>
 
-            </section>
-
-            <section className="challenge-section-header">
-                <div className="itasca-software-impact-outcome-section-left">
-                    <h3 className="impacts-header">Impact & Outcomes</h3>
-                </div>
-
-                <div className="section-right">
-                    <p id="section-intro">
-                        The new careers page transformed a fragmented hiring experience into a unified, branded, and accessible platform that directly supported the company’s talent acquisition strategy.
-                    </p>
-
-                    <p id="section-intro-2">
-                        By elevating the employer brand and streamlining the application process, the page became a critical tool for attracting top-tier candidates in a competitive market.
-                    </p>
-
-                    <br />
-
-                    <div className="context-item-container">
-
-                        <div className="impact-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
-                                <h4>Outcomes</h4>
-                            </div>
-                            <p id="outcome-list" className="outcome-list">
-                                <ul>
-                                    <li>Clear messaging, consistent design, and values-driven content positioned the company as an employer of choice, aligning candidate perception with leadership’s vision.</li>
-                                    <li>By providing culture, EVP, and benefits information upfront, the page attracted candidates better aligned with the company’s standards, reducing misaligned applications and saving hiring teams significant time.</li>
-                                    <li>Centralized, easy-to-navigate job listings and clear CTAs improved application completion rates and reduced applicant drop-off.</li>
-                                    <li>Localized content and translations allowed each regional office to connect with candidates in their own language, while still maintaining a unified global brand identity.</li>
-                                    <li>WCAG-compliant structure and responsive design ensured an inclusive experience across devices, critical for a diverse global audience.</li>
-                                    <li>By delivering on a board-level KPI under tight deadlines, the project built leadership trust in design’s role in achieving strategic growth goals.</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </section>
 
             <section className="section-title">
