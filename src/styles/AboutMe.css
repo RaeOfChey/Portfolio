@@ -309,6 +309,30 @@ body.homepage .header-container {
   font-weight: 600;
 }
 
+.skeleton-hero .skeleton-title {
+  width: 60%;
+  height: 2.5rem;
+  background-color: #ccc;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.skeleton-hero .skeleton-subtitle {
+  width: 80%;
+  height: 1.2rem;
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.skeleton-card {
+  width: 300px;
+  height: 200px;
+  background-color: #ddd;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+
 /* Keyframes for Seamless Continuous Scrolling */
 @keyframes scroll-carousel {
   0% {
