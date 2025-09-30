@@ -141,7 +141,7 @@ const ITASCASoftwareCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3 className="user-problems-header">Impact & Outcomes</h3>
+                        <h3 className="user-problems-header">Client Vision & Goals</h3>
                     </div>
 
                     <div className="section-right">
