@@ -331,7 +331,7 @@ h5 {
   padding-right: 20px;
 }
 
-/* ----- Timeline & SDLC Section ----- */
+/* ----- Timeline Section ----- */
 .process-section-header {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -342,6 +342,7 @@ h5 {
   font-size: 30px;
   color: #000;
   margin: 0px;
+  padding-right: 10px;
 }
 
 ul li {
@@ -368,12 +369,9 @@ ul li {
   font-size: 18px;
   color: #000;
   margin: 0px;
-  border: 2px solid var(--color-lightblue);
-  padding: 20px;
   width: auto;
   height: auto;
   border-radius: 10px;
-  background-color: #fff;
 }
 
 .timeline-context-item ul {
@@ -386,6 +384,33 @@ ul li {
   font-size: 18px;
   color: #000;
   line-height: 1.5;
+}
+
+/* Scope only inside timeline */
+.timeline-context-item .timeline-context-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid var(--color-darkblue);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #DDEAFF;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Title inside stays clean */
+.timeline-context-item .timeline-context-item-header h4 {
+  font-size: 18px;
+  color: #000;
+  margin: 0;
+}
+
+/* Hover effect */
+.timeline-context-item .timeline-context-item-header:hover {
+  background-color: var(--color-lightblue);
+  color: #ACBDDC;
+  border: 2px solid #ACBDDC;
 }
 
 /* ----- Skill Section ----- */
@@ -510,7 +535,7 @@ ul li {
   margin-bottom: 20px;
 }
 
-/* CContext Items Styling */
+/* Context Items Styling */
 .solution-context-item .context-item-header {
   display: flex;
   align-items: top;
@@ -1574,6 +1599,10 @@ margin: 0px !important;
     font-size: 17px;
     line-height: 1.2;
   }
+  .timeline-context-item .timeline-context-item-header h4 {
+    font-size: 17px;
+    padding: 0px;
+  }
   .color-palette-row {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1893,7 +1922,8 @@ margin: 0px !important;
   .process-section-header h3 {
     font-size: 40px;
   }
-  .timeline-context-item h4 {
+  .timeline-context-item h4,
+  .timeline-context-item .timeline-context-item-header h4 {
     font-size: 21px;
     padding: 30px;
   }
