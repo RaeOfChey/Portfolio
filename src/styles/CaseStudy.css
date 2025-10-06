@@ -34,6 +34,7 @@
   font-size: 50px;
   margin: 50px 0px 0px 0px;
   line-height: 1.15;
+  padding-right: 10px;
 }
 
 .section-title {
@@ -322,7 +323,7 @@ h5 {
   margin: 0px;
   font-size: 16px;
   text-align: left;
-  /* padding-right: 20px; */
+  padding-right: 10px;
 }
 .image-row-2-gg .image-column p#approach.image-subtitles-left-2 {
   margin: 0px;
@@ -533,6 +534,7 @@ ul li {
   flex-direction: column;
   border-radius: 10px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /* Context Items Styling */
@@ -682,6 +684,7 @@ margin: 0px !important;
 }
 
 .impact-context-item {
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   padding: 25px 20px 20px 20px;
