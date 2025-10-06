@@ -483,8 +483,6 @@ const ITASCASoftwareCaseStudy = () => {
                             </p>
                         </div>
 
-                       
-
                     </div>
                 </div>
             </section>
@@ -617,7 +615,6 @@ const ITASCASoftwareCaseStudy = () => {
             </section>
 
             <section className="section-title">
-
                 <div className="problem-section-header">
                     <div className="itasca-software-takeaways-section-left">
                         <h3 className="takeaways-header">Design Lessons That Stick</h3>
@@ -626,10 +623,6 @@ const ITASCASoftwareCaseStudy = () => {
                     <div className="section-right">
 
                         <div className="context-item-container">
-
-                            <p id="section-intro">
-                                No large-scale project comes without hurdles, but overcoming them created clear milestones that drove impact.
-                            </p>
 
                             <div className="obstacles-context-item">
                                 <div className="context-item-header obstacles">

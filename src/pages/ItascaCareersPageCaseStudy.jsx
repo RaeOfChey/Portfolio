@@ -13,6 +13,7 @@ import { CogIcon } from '../components/CogIcon';
 import { TrendingUpIcon } from '../components/TrendingUpIcon';
 import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
+import TimelineItem from "../components/Timeline";
 
 import ItascaCareersHeaderImage from '../assets/ITASCA Careers Page Header Image.png';
 import CaseStudyImage1 from '../assets/ITASCA Careers Page CaseStudy Image1.png';
@@ -102,7 +103,7 @@ const EmployEaseCaseStudy = () => {
 
             <section className="challenge-section-header">
                 <div className="itasca-software-impact-outcome-section-left">
-                    <h3 className="impacts-header">Impact & Outcomes</h3>
+                    <h3 className="impacts-header">Results That Moved The Needle</h3>
                 </div>
 
                 <div className="section-right">
@@ -142,7 +143,7 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Client Vision & Goals</h3>
+                        <h3>Vision For Growth</h3>
                     </div>
 
                     <div className="section-right">
@@ -201,7 +202,7 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>User Problems</h3>
+                        <h3>What Wasn’t Working for Users</h3>
                     </div>
 
                     <div className="section-right">
@@ -257,7 +258,7 @@ const EmployEaseCaseStudy = () => {
 
             <section class="challenge-section-header" id="unique-section">
                 <div className="itasca-software-challenge-header-section-left">
-                    <h3 className="challenge-header">Challenge</h3>
+                    <h3 className="challenge-header">The Challenge To Solve</h3>
                 </div>
 
                 <div className="section-right">
@@ -269,7 +270,7 @@ const EmployEaseCaseStudy = () => {
 
             <section className="challenge-section-header">
                 <div className="kelvix-solution-header-section-left">
-                    <h3>Solution</h3>
+                    <h3>How The Hiring Experience Transformed</h3>
                 </div>
 
                 <div className="section-right">
@@ -420,7 +421,7 @@ const EmployEaseCaseStudy = () => {
             <section className="approach-section-header">
 
                 <div className="itasca-careers-title-section-left">
-                    <h3 className="approach-header">Approach</h3>
+                    <h3 className="approach-header">My Process To Bring The Vision To Life</h3>
                 </div>
 
                 <div className="section-right">
@@ -480,70 +481,55 @@ const EmployEaseCaseStudy = () => {
 
             <section className="process-section-header">
                 <div className="section-left">
-                    <h3>Timeline</h3>
+                    <h3>From Concept To Launch</h3>
                 </div>
 
                 <div className="section-right">
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Day 1–3 Planning &Alignment</h4>
-                        </div>
+                    <TimelineItem title="Day 1–3 Planning & Alignment">
                         <ul>
                             <li>Conducted user research with hiring teams across global offices, including surveys and interviews, to understand challenges in managing job applications.</li>
                             <li>Gathered requirements and aligned expectations with stakeholders, including HR, regional managers, and leadership.</li>
                             <li>Mapped out regional differences (benefits, office culture, hybrid vs. on-site policies) to ensure the design would accommodate international needs.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Day 4–6 Designing</h4>
-                        </div>
+                     <TimelineItem title="Week 4-6 Designing">
                         <ul>
                             <li>Created wireframes and mockups in Figma that balanced global brand consistency with localization flexibility.</li>
                             <li>Developed clear calls-to-action guiding users through company info, culture, benefits, and open positions.</li>
                             <li>Incorporated accessibility (WCAG) and mobile-first principles from the start.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Day 7–9 Implementation</h4>
-                        </div>
+                    <TimelineItem title="Week 7–9 Implementing">
                         <ul>
                             <li>Built the careers page in Craft CMS, overcoming limitations such as multi-office page splits and rigid templates.</li>
                             <li>Designed a system that allowed HR to update content easily while maintaining a consistent user experience.</li>
                             <li>Coordinated content translations and regional variations to support a global audience.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Day 10–12 Testing & Refinement</h4>
-                        </div>
+                    <TimelineItem title="Day 10–12 Testing & Refinement">
                         <ul>
                             <li>Conducted cross-browser and device testing for consistency across platforms.</li>
                             <li>Collected internal feedback from leadership and global offices; grouped comments by theme (copy tone, visuals, benefits info) to implement efficiently.</li>
                             <li>Adjusted navigation, layout, and content hierarchy to ensure clarity and reduce friction for candidates.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Day 13–14 Launch & Maintaining</h4>
-                        </div>
+                    <TimelineItem title="Day 13–14 Launch & Maintaining">
                         <ul>
                             <li>Deployed the page live, confirming alignment with the company’s branding and UX standards.</li>
                             <li>Monitored user engagement, candidate submissions, and feedback post-launch; made iterative updates to maintain relevance and effectiveness.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
                 </div>
             </section>
 
             <section className="skills-carousel-section">
 
                 <div className="section-left">
-                    <h4 className="skills-section-header">Skills & Technologies</h4>
+                    <h4 className="skills-section-header">Tools That Powered The Solution</h4>
                 </div>
 
                 <div className="section-right">
@@ -576,7 +562,7 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Obstacles & Milestones</h3>
+                        <h3>Overcoming Challenges</h3>
                     </div>
 
                     <div className="section-right">
@@ -622,7 +608,7 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="itasca-software-takeaways-section-left">
-                        <h3 className="takeaways-header">Takeaways</h3>
+                        <h3 className="takeaways-header">Design Lessons That Stick</h3>
                     </div>
 
                     <div className="section-right">
@@ -671,7 +657,7 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Growth & Future Direction</h3>
+                        <h3>Where To Go Next</h3>
                     </div>
 
                     <div className="section-right">

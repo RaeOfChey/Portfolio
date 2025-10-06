@@ -13,6 +13,7 @@ import { CogIcon } from "../components/CogIcon";
 import { TrendingUpIcon } from "../components/TrendingUpIcon";
 import { SparklesIcon } from "../components/SparklesIcon";
 import { ArrowRightIcon } from "../components/ArrowRightIcon";
+import TimelineItem from "../components/Timeline";
 
 // import KelvixCaseStudyImage8 from "../assets/Kelvix Thumbnail Image.png";
 import KelvixHeaderImage from "../assets/Kelvix Header Image.png";
@@ -73,7 +74,7 @@ const KelvixCaseStudy = () => {
         <div className="case-study-header-columns">
           <div className="case-study-header-left">
             <h1 className="case-study-h1">Project</h1>
-            <h2 className="case-study-subtitle"> Redesigning a B2B eCommerce platform to enhance user experience and drive product sales growth by 15%.
+            <h2 className="case-study-subtitle">Designing a B2B eCommerce platform to enhance user experience and drive LED product sales growth by 15%.
             </h2>
           </div>
 
@@ -121,18 +122,115 @@ const KelvixCaseStudy = () => {
         </section>
       </div>
 
+      <section className="challenge-section-header">
+        <div className="kelvix-impact-outcome-section-left">
+          <h3>Results That Moved The Needle</h3>
+        </div>
+
+        <div className="section-right">
+          <p id="section-intro">
+            Kelvix is a B2B company that designs and distributes professional LED lighting solutions for commercial, industrial, and residential projects. Its ecommerce platform for LED lighting products was transformed with a modern, intuitive website that directly addressed user pain points.
+          </p>
+
+          <div className="context-item-container">
+            <div className="impact-context-item">
+              <div className="context-item-header clear-actionable-design">
+                <CircleCheckIcon className="circle-check-icon" />
+                <h4>Outcomes</h4>
+              </div>
+              <p id="outcome-list" className="outcome-list">
+                <ul>
+                  <li>
+                    Improved navigation and clear CTAs increased online sales by 15%.
+                  </li>
+                  <li>
+                    Streamlined product discovery and order management reduced user search time.
+                  </li>
+                  <li>
+                    Mobile optimization and accessibility improvements increased engagement by 18%.
+                  </li>
+                  <li>
+                    Refined user flows and clear CTAs boosted conversions.
+                  </li>
+                  <li>
+                    Faster load times and SEO upgrades increased organic traffic by 20%.
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section-title">
+
         <div className="problem-section-header">
           <div className="section-left">
-            <h3>User Problems</h3>
+            <h3 className="user-problems-header">Vision For Growth</h3>
           </div>
 
           <div className="section-right">
             <p id="section-intro">
-              The Kelvix ecommerce website for LED lighting products presented
-              several challenges for both customers and contractors. Users faced
-              frustration at every step of their journey, the pain points they
-              encountered included:
+              The organization lacked a streamlined ecommerce platform. Customers and contractors faced slow, confusing, and fragmented product browsing and purchasing experiences. The company needed a platform that:
+            </p>
+
+            <div className="context-item-container">
+
+              <div className="user-problems-context-item">
+                <div className="context-item-header">
+                  <CircleCheckIcon className="circle-check-icon" />
+                  <h4>Communicate product value clearly</h4>
+                </div>
+                <p>
+                  Overly technical product info made it difficult to understand benefits and solutions.
+                </p>
+              </div>
+
+              <div className="user-problems-context-item">
+                <div className="context-item-header">
+                  <CircleCheckIcon className="circle-check-icon" />
+                  <h4>Create a direct purchasing channel</h4>
+                </div>
+                <p>
+                  Users couldn’t easily browse, explore, or buy independently.
+                </p>
+              </div>
+
+              <div className="user-problems-context-item">
+                <div className="context-item-header">
+                  <CircleCheckIcon className="circle-check-icon" />
+                  <h4>Enhance order visibility</h4>
+                </div>
+                <p>
+                  Lack of order tracking and project management caused uncertainty and delays.
+                </p>
+              </div>
+
+              <div className="user-problems-context-item">
+                <div className="context-item-header">
+                  <CircleCheckIcon className="circle-check-icon" />
+                  <h4>Strengthen brand credibility</h4>
+                </div>
+                <p>
+                  Outdated interface and inconsistent branding did not reflect the organization's expertise.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section className="section-title">
+        <div className="problem-section-header">
+          <div className="section-left">
+            <h3>What Wasn’t Working for Users</h3>
+          </div>
+
+          <div className="section-right">
+            <p id="section-intro">
+              Prior to this project, these issues presented several challenges for both customers and contractors:
             </p>
 
             <div className="context-item-container">
@@ -142,11 +240,7 @@ const KelvixCaseStudy = () => {
                   <h4>Unintuitive user experience</h4>
                 </div>
                 <p>
-                  The layout made it challenging for customers to find relevant
-                  information about products and services. Slow load times,
-                  cumbersome interactions, and clunky user flows made the
-                  shopping experience frustrating, leading to abandoned carts
-                  and lost sales.
+                  Slow load times, complex flows, and unclear navigation caused frustration.
                 </p>
               </div>
 
@@ -156,11 +250,7 @@ const KelvixCaseStudy = () => {
                   <h4>Limited access to order information</h4>
                 </div>
                 <p>
-                  There was no way for customers to track their orders in real
-                  time, including delivery status and product details. Without a
-                  streamlined way to access their order information, contractors
-                  faced delays and uncertainty, leading to dissatisfaction with
-                  the company’s service.
+                  Users had no real-time order tracking or visibility into delivery, installation, or product details.
                 </p>
               </div>
 
@@ -170,11 +260,7 @@ const KelvixCaseStudy = () => {
                   <h4>Lack of visibility for extra services</h4>
                 </div>
                 <p>
-                  The range of valuable services—such as installation and
-                  product support—that were not clearly communicated to
-                  customers. Customers were unaware of these services, missing
-                  out on opportunities to increase revenue for the company and
-                  enhance the customer experience.
+                  Services like installation and support were hidden, reducing revenue opportunities.
                 </p>
               </div>
 
@@ -184,10 +270,7 @@ const KelvixCaseStudy = () => {
                   <h4>Fragmented customer support</h4>
                 </div>
                 <p>
-                  Fragmented communication across multiple channels without a
-                  unified support system caused delays in customers getting the
-                  help they needed. Whether The lack of a seamless support
-                  experience led to frustration and longer resolution times.
+                  Multiple disconnected channels caused delays in problem resolution.
                 </p>
               </div>
             </div>
@@ -197,28 +280,24 @@ const KelvixCaseStudy = () => {
 
       <section class="challenge-section-header" id="unique-section">
         <div className="kelvix-challenge-header-section-left">
-          <h3 className="challenge-header">Challenge</h3>
+          <h3 className="challenge-header">The Challenge To Solve</h3>
         </div>
 
         <div className="section-right">
           <p id="section-intro">
-            The challenge was to create a seamless, intuitive, user-friendly
-            platform that empowered customers and contractors that not only
-            facilitates easy browsing and purchasing, but also provides clear
-            visibility into product information, order status, and additional
-            services.
+            Create a seamless, intuitive B2B ecommerce platform that simplifies product discovery, centralizes product information and additional services, provides real-time order visibility, and ensures a smooth, accessible experience across all devices for both customers and contractors.
           </p>
         </div>
       </section>
 
       <section className="challenge-section-header">
         <div className="kelvix-solution-header-section-left">
-          <h3>Solution</h3>
+          <h3>How The Buying Experience Transformed</h3>
         </div>
 
         <div className="section-right">
           <p id="section-intro">
-            The redesign improved user experience by enhancing information architecture, streamlining the application process, and increasing content accessibility. With clear navigation, an intuitive layout, and user-friendly design, the new page enables candidates to easily explore job opportunities, learn about the company, and submit applications.
+            The new Kelvix ecommerce platform unifies all products and services in a clear, user-centered experience. It simplifies browsing, enhances navigation, and streamlines order management while supporting mobile responsiveness and accessibility.
           </p>
           <div className="solution-link solution-section">
             <a href="https://www.kelvix.com/" target="_blank">
@@ -230,36 +309,26 @@ const KelvixCaseStudy = () => {
             <div id="end-result" className="solution-context-item">
               <div className="context-item-header clear-actionable-design">
                 <UsersIcon className="users-icon" />
-                <h4>How the redesign solves user problems</h4>
+                <h4>Solving the Challenge</h4>
               </div>
 
               <p id="intro-redesign" className="redesign-description">
-                The redesign directly addresses the pain points users face such
-                as unintuitive user experience, limited access to order
-                information, lack of visibility for extra services, and
-                fragmented customer support by:
+                The redesign directly addressed user and business challenges by:
                 <ul>
                   <li>
-                    Providing an intuitive layout and streamlined navigation
-                    ensure that users can easily browse products, find essential
-                    information, and complete their purchases without
-                    frustration.
+                    Improving product discovery with intuitive navigation, categorized products, and scannable layouts to reduce cognitive load.
                   </li>
                   <li>
-                    Enhancing order visibility for contractors with the addition
-                    of a customer portal to track orders, view product details,
-                    check delivery and installation statuses, and access
-                    relevant documentation all in one place.
+                    Streamlining order management via a personalized customer portal showing order status, delivery tracking, and documentation.
                   </li>
                   <li>
-                    Increasing visibility for additional services like
-                    installation and product support with clear placement of
-                    within product pages and navigation.
+                    Increasing visibility of additional services like installation and project management throughout product pages.
                   </li>
                   <li>
-                    Unifying customer support with options like 'Find a Rep,'
-                    'Request Service,' and 'Contact' in a single, centralized
-                    location.
+                    Unifying support with central options like Find a Rep, Request Service, and Contact, reducing delays.
+                  </li>
+                  <li>
+                    Data-driven refinement through analytics tools to continuously optimize content, layout, and functionality.
                   </li>
                 </ul>
               </p>
@@ -314,29 +383,28 @@ const KelvixCaseStudy = () => {
             <div id="end-result" className="solution-context-item">
               <div className="context-item-header clear-actionable-design">
                 <CircleCheckIcon className="circle-check-icon" />
-                <h4>What the redesign improved beyond the Challenge</h4>
+                <h4>Elevating the experience</h4>
               </div>
               <p id="intro-redesign" className="redesign-description">
-                The redesign not only addressed the core challenges but also
-                enhanced the user experience in the following ways:
+                The website goes beyond addressing pain points to elevate the overall experience:
                 <ul>
                   <li>
-                    Mobile responsiveness, ensuring users seamless experience
-                    across all devices.
+                    Mobile responsiveness for seamless cross-device use.
                   </li>
                   <li>
-                    Meeting global accessibility standards, ensuring inclusivity
-                    for all users.
+                    Accessibility improvements for inclusivity.
                   </li>
                   <li>
-                    Strengthening brand recognition with a polished,
-                    professional look that aligned with the company's brand
-                    values and visual identity.
+                    Professional visual identity to strengthen brand recognition.
                   </li>
                   <li>
-                    Implementing SEO best practices to boost the site's search
-                    engine visibility, making it easier for potential customers
-                    to find Kelvix online.
+                    SEO best practices to increase visibility.
+                  </li>
+                  <li>
+                    Centralized product documentation via the spec sheet library for quick reference.
+                  </li>
+                  <li>
+                    Customer portal enhancements like the Interactive Project Builder and Rep Portal access.
                   </li>
                 </ul>
               </p>
@@ -384,15 +452,10 @@ const KelvixCaseStudy = () => {
             <div id="end-result" className="solution-context-item">
               <div className="context-item-header clear-actionable-design">
                 <CircleCheckIcon className="circle-check-icon" />
-                <h4>End result</h4>
+                <h4>Results</h4>
               </div>
               <p id="intro-redesign" className="redesign-description">
-                The final product is a modern, user-friendly ecommerce website
-                with an intuitive layout, improved order management, and
-                seamless access to essential services. Performance
-                optimizations, mobile responsiveness, and SEO improvements
-                enhance accessibility and reach. The redesign boosts engagement,
-                reduces abandoned carts, and supports business growth.
+                The final product improved product discovery, streamlined order management, and highlighted key services. Customers and contractors can now browse products effortlessly, track orders in real time, and access support easily, resulting in a 15% increase in sales, a 30% drop in service inquiries, and an 18% boost in mobile traffic.
               </p>
             </div>
           </div>
@@ -401,14 +464,12 @@ const KelvixCaseStudy = () => {
 
       <section className="approach-section-header">
         <div className="kelvix-approach-title-section-left">
-          <h3 className="approach-header">Approach</h3>
+          <h3 className="approach-header">My Process To Bring The Vision To Life</h3>
         </div>
 
         <div className="section-right">
           <p id="section-intro">
-            The design and development of the new Kelvix ecommerce website
-            focused on key principles that would address user frustrations and
-            create a more efficient, seamless shopping experience:
+            My process for this project was guided by the following key principles:
           </p>
 
           <div className="context-item-container">
@@ -418,11 +479,7 @@ const KelvixCaseStudy = () => {
                 <h4>Streamline the user experience</h4>
               </div>
               <p>
-                The design focuses on an intuitive, easy-to-navigate interface.
-                With product information organized in a clear and structured
-                manner, quick-loading pages, optimized interactions, and
-                improved the overall user flow. So customers can browse, select
-                products, and complete their purchases without frustration.
+                Created an intuitive, easy-to-navigate interface with organized product information, fast-loading pages, and optimized interactions.
               </p>
             </div>
 
@@ -432,12 +489,7 @@ const KelvixCaseStudy = () => {
                 <h4>Real-Time order rracking</h4>
               </div>
               <p>
-                Implement a customer portal that allos users to track orders in
-                real time and gain access to detailed order information such as
-                delivery status, product details, and shipment progress. This
-                streamlined access reduced uncertainty and increased
-                satisfaction by empowering users to manage their orders
-                independently.
+                Implemented a customer portal that provides live access to order status, product details, and shipment progress, so users can manage their orders independently.
               </p>
             </div>
 
@@ -447,11 +499,7 @@ const KelvixCaseStudy = () => {
                 <h4>Clear communication of services</h4>
               </div>
               <p>
-                Improve visibility for additional services with clear
-                calls-to-actions and integration throuhgout the product pages
-                and checkout process to ensure users can easily learn about and
-                access these services. Maximizing revenue potential while
-                improving the customer experience.
+                Highlighted additional services with prominent CTAs and integrated them throughout the site for discoverability.
               </p>
             </div>
 
@@ -461,10 +509,7 @@ const KelvixCaseStudy = () => {
                 <h4>Unified customer support system</h4>
               </div>
               <p>
-                Integrate clear communication channels to provide a cohesive
-                support system. Ensure users can easily find and connect with
-                the right resources for their needs to minimize delays in
-                resolution and improve overall customer service efficiency.
+                Centralized communication channels to provide an easy cohesive support experience.
               </p>
             </div>
 
@@ -493,131 +538,56 @@ const KelvixCaseStudy = () => {
 
       <section className="process-section-header">
         <div className="section-left">
-          <h3>Timeline & SDLC</h3>
+          <h3>From Concept To Launch</h3>
         </div>
 
         <div className="section-right">
-          <div className="timeline-context-item">
-            <div className="context-item-header">
-              <h4>Week 1–2 Planning</h4>
-            </div>
-            <ul>
-              <li>
-                Conducted user research and interviews with customers and
-                contractors to identify pain points and key features for
-                improvement.
-              </li>
-              <li>
-                Analyzed the current website and competitive products to
-                determine areas for improvement, including user flows,
-                functionality, and site speed.
-              </li>
-              <li>
-                Collaborated with stakeholders to define business goals, target
-                audience, and essential features, such as real-time order
-                tracking and service visibility.
-              </li>
-            </ul>
-          </div>
 
-          <div className="timeline-context-item">
-            <div className="context-item-header">
-              <h4>Week 3-5 Designing</h4>
-            </div>
+          <TimelineItem title="Week 1–2 Planning">
             <ul>
-              <li>
-                Developed user personas and journey maps to understand the user
-                experience and pain points.
-              </li>
-              <li>
-                Created wireframes and low-fidelity prototypes to visualize site
-                layout and core features.
-              </li>
-              <li>
-                Designed the information architecture to improve product
-                discoverability and streamline order management.
-              </li>
-              <li>
-                Conducted feedback sessions with stakeholders to refine design
-                concepts.
-              </li>
+              <li>User research and interviews to identify pain points and key features.</li>
+              <li>Competitor analysis to find opportunities.</li>
+              <li>Defined business goals, target audience, and essential features.</li>
             </ul>
-          </div>
+          </TimelineItem>
 
-          <div className="timeline-context-item">
-            <div className="context-item-header">
-              <h4>Week 6-9 Implementing</h4>
-            </div>
+          <TimelineItem title="Week 3-5 Designing">
             <ul>
-              <li>
-                Designed high-fidelity mockups and interactive prototypes to
-                represent the final user interface and user experience in Figma.
-              </li>
-              <li>
-                Developed the front-end using WordPress, ensuring responsive
-                design for mobile and desktop devices.
-              </li>
-              <li>
-                Integrated Shopify into the site for seamless ecommerce
-                functionality and real-time product availability.
-              </li>
-              <li>
-                Built out the customer portal for real-time order tracking,
-                including delivery status, product details, and additional
-                service options like installation.
-              </li>
+              <li>Developed user personas and journey maps.</li>
+              <li>Wireframes and low-fidelity prototypes.</li>
+              <li>Refined IA for improved product discovery and order management.</li>
+              <li>Conducted feedback sessions with stakeholders to refine design concepts.</li>
             </ul>
-          </div>
+          </TimelineItem>
 
-          <div className="timeline-context-item">
-            <div className="context-item-header">
-              <h4>Week 10–12 Testing</h4>
-            </div>
+          <TimelineItem title="Week 6-9 Implementing">
             <ul>
-              <li>
-                Conducted usability testing with both customers and contractors
-                to identify usability issues and gather feedback.
-              </li>
-              <li>
-                Refined the user interface based on feedback, ensuring intuitive
-                navigation and improving load times.
-              </li>
-              <li>
-                Tested the website across various devices and browsers to ensure
-                compatibility and responsiveness.
-              </li>
-              <li>
-                Iterated on the design and functionality to ensure a smooth,
-                error-free user experience.
-              </li>
+              <li>High-fidelity mockups in Figma</li>
+              <li>Front-end development with WordPress and Shopify integration.</li>
+              <li>Customer portal built for real-time order tracking and service access.</li>
             </ul>
-          </div>
+          </TimelineItem>
 
-          <div className="timeline-context-item">
-            <div className="context-item-header">
-              <h4>Week 13–14 Deploying & Maintaining</h4>
-            </div>
+          <TimelineItem title="Week 10–12 Testing">
             <ul>
-              <li>
-                Prepared the website for launch by conducting final quality
-                assurance checks and ensuring all features were functional.
-              </li>
-              <li>
-                Monitored website performance post-launch, analyzing user
-                behavior and gathering feedback for future improvements.
-              </li>
-              <li>
-                Provided ongoing maintenance and updates to fix any bugs and
-                enhance features based on user needs.
-              </li>
+              <li>Usability testing with customers and contractors.</li>
+              <li>Refined UI and interactions across devices.</li>
+              <li>Optimized load times and performance.</li>
             </ul>
-          </div>
+          </TimelineItem>
+
+          <TimelineItem title="Week 13–14 Deploying & Maintaining">
+            <ul>
+              <li>QA and final testing before launch.</li>
+              <li>Post-launch monitoring and ongoing maintenance.</li>
+            </ul>
+          </TimelineItem>
         </div>
       </section>
 
       <section className="skills-carousel-section">
         <div className="section-left">
-          <h4 className="skills-section-header">Skills & Technologies</h4>
+          <h4 className="skills-section-header">Tools That Powered The Solution</h4>
         </div>
 
         <div className="section-right">
@@ -677,11 +647,16 @@ const KelvixCaseStudy = () => {
       <section className="section-title">
         <div className="problem-section-header">
           <div className="section-left">
-            <h3>Obstacles & Milestones</h3>
+            <h3>Overcoming Challenges</h3>
           </div>
 
           <div className="section-right">
             <div className="context-item-container">
+
+              <p id="section-intro">
+                No large-scale project comes without hurdles, but overcoming them created clear milestones that drove impact.
+              </p>
+
               <div className="obstacles-context-item">
                 <div className="context-item-header obstacles">
                   <CogIcon className="cog-icon" />
@@ -689,20 +664,16 @@ const KelvixCaseStudy = () => {
                 </div>
                 <ul>
                   <li>
-                    Existing severely outdated site performance and speed
-                    issues.
+                    Existing severely outdated site performance and speed issues.
                   </li>
                   <li>
-                    Integration of Shopify ecommerce capabilities into
-                    WordPress.
+                    Integration of Shopify ecommerce capabilities into WordPress.
                   </li>
                   <li>
-                    Creating a comprehensive order management system from
-                    scratch.
+                    Creating a comprehensive order management system from scratch.
                   </li>
                   <li>
-                    Ensuring the platform handled user data securely and
-                    complied with relevant regulations.
+                    Ensuring the platform handled user data securely and complied with relevant regulations.
                   </li>
                 </ul>
               </div>
@@ -714,73 +685,16 @@ const KelvixCaseStudy = () => {
                 </div>
                 <ul>
                   <li>
-                    Early testing provided insights that led to key design
-                    improvements and streamlined user flows.
+                    Early testing provided insights that led to key design improvements and streamlined user flows.
                   </li>
                   <li>
-                    Full integration of Shopify into product catalog management
-                    and checkout process.
+                    Full integration of Shopify into product catalog management and checkout process.
                   </li>
                   <li>
-                    Addition of fully intuitive of a custom order management
-                    system.
+                    Custom order management system implemented successfully
                   </li>
                 </ul>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="challenge-section-header">
-        <div className="kelvix-impact-outcome-section-left">
-          <h3>Impact & Outcomes</h3>
-        </div>
-
-        <div className="section-right">
-          <p id="section-intro">
-            The company saw significant improvements in customer engagement,
-            operational efficiency, and sales performance. The enhanced user
-            experience led to increased customer satisfaction, while technical
-            optimizations contributed to higher conversion rates and improved
-            search visibility.
-          </p>
-
-          <div className="context-item-container">
-            <div className="impact-context-item">
-              <div className="context-item-header clear-actionable-design">
-                <CircleCheckIcon className="circle-check-icon" />
-                <h4>Outcomes</h4>
-              </div>
-              <p id="outcome-list" className="outcome-list">
-                <ul>
-                  <li>
-                    15% increase in online sales due to a more intuitive
-                    shopping experience, faster load times, and improved product
-                    visibility.
-                  </li>
-                  <li>
-                    30% decrease in customer service inquiries as users could
-                    now easily access order details, product information, and
-                    support services directly on the site.
-                  </li>
-                  <li>
-                    18% increase in mobile traffic after optimizing for mobile
-                    responsiveness, making it easier for users to browse and
-                    complete purchases on any device.
-                  </li>
-                  <li>
-                    SEO improvements led to a 20% boost in organic traffic, with
-                    higher search rankings driving more potential customers to
-                    the site.
-                  </li>
-                  <li>
-                    Faster website performance reduced bounce rates and improved
-                    user retention, leading to longer session durations and
-                    increased engagement with products and services.
-                  </li>
-                </ul>
-              </p>
             </div>
           </div>
         </div>
@@ -789,59 +703,47 @@ const KelvixCaseStudy = () => {
       <section className="section-title">
         <div className="problem-section-header">
           <div className="kelvix-takeaways-section-left">
-            <h3 className="takeaways-header">Takeaways</h3>
+            <h3 className="takeaways-header">Design Lessons That Stick</h3>
           </div>
 
           <div className="section-right">
+
             <div className="context-item-container">
-              <div className="takeaways-context-item">
-                <div className="context-item-header lessons-learned">
+
+              <div className="obstacles-context-item">
+                <div className="context-item-header obstacles">
                   <FilePenLineIcon className="filepenline-icon" />
                   <h4>Lessons learned</h4>
                 </div>
-                <p>
-                  This project reinforced the importance of balancing aesthetics
-                  with functionality in ecommerce design. A visually appealing
-                  website is crucial, but ensuring a seamless and
-                  frustration-free user experience is what ultimately drives
-                  engagement and conversions. Additionally, early collaboration
-                  between designers, developers, and stakeholders proved
-                  essential in aligning goals and avoiding costly revisions
-                  later in the process.
-                </p>
+                <ul>
+                  <li>Balancing aesthetics with functionality drives engagement and conversions.</li>
+                  <li>Early collaboration between designers, developers, and stakeholders avoids costly revisions.</li>
+                </ul>
               </div>
 
-              <div className="takeaways-context-item">
-                <div className="context-item-header key-challenges-overcome">
-                  <CogIcon className="cog-icon" />
+              <div className="obstacles-context-item">
+                <div className="context-item-header obstacles">
+                  <FilePenLineIcon className="filepenline-icon" />
                   <h4>Key challenges overcome</h4>
                 </div>
-                <p>
-                  One of the biggest challenges was improving the site's
-                  structure while maintaining existing business operations.
-                  Transitioning to a more intuitive layout without disrupting
-                  the company’s workflow or overwhelming returning customers
-                  required careful planning. Another challenge was optimizing
-                  performance to reduce load times and ensure smooth navigation
-                  across devices, a critical role in increasing user retention
-                  and sales.
-                </p>
+                <ul>
+                  <li>Optimizing the site structure while maintaining business operations.</li>
+                  <li>Reducing load times for smooth navigation across devices.</li>
+                </ul>
               </div>
 
-              <div className="takeaways-context-item">
-                <div className="context-item-header key-challenges-overcome">
-                  <SparklesIcon className="sparkles-icon" />
+              <div className="obstacles-context-item">
+                <div className="context-item-header obstacles">
+                  <FilePenLineIcon className="filepenline-icon" />
                   <h4>Personal reflections</h4>
                 </div>
-                <p>
-                  This project highlighted the value of user-centered design and
-                  how small, thoughtful improvements can lead to measurable
-                  business success. Seeing the tangible impact of these updates
-                  reinforced my passion for creating digital experiences that
-                  are not only visually compelling but also deeply functional
-                  and user-friendly.
-                </p>
+                <ul>
+                  <li>Small, thoughtful UX improvements can produce measurable business impact.</li>
+                  <li>Reinforced passion for creating experiences that are both visually compelling and highly functional.</li>
+                  <li>Excited to apply these lessons to future projects focused on usability and performance.</li>
+                </ul>
               </div>
+
             </div>
           </div>
         </div>
@@ -850,13 +752,12 @@ const KelvixCaseStudy = () => {
       <section className="section-title">
         <div className="problem-section-header">
           <div className="section-left">
-            <h3>Growth & Future Direction</h3>
+            <h3>Where To Go Next</h3>
           </div>
 
           <div className="section-right">
             <p id="section-intro">
-              There are opportunities to further enhance the user experience and
-              drive business growth with strategic improvements such as:
+              The platform launched successfully, but the vision didn’t stop there. Several opportunities remain to enhance personalization, interactivity, and scalability for long-term growth.
             </p>
 
             <div className="context-item-container">
@@ -866,12 +767,7 @@ const KelvixCaseStudy = () => {
                   <h4>Expanded customer portal features</h4>
                 </div>
                 <p>
-                  Enhancing the customer portal with more interactive features,
-                  such as personalized product recommendations, project tracking
-                  tools, and order history insights. Thhis could streamline
-                  repeat purchases and improve customer retention by making it
-                  easier for contractors and designers to manage ongoing
-                  projects.
+                  Personalized product recommendations, project tracking, and order history insights.
                 </p>
               </div>
 
@@ -881,11 +777,7 @@ const KelvixCaseStudy = () => {
                   <h4>Enhanced product visualization & customization</h4>
                 </div>
                 <p>
-                  Introducing 3D product previews, interactive configurators, or
-                  augmented reality (AR) tools to help customers visualize how
-                  different lighting solutions will fit into their projects
-                  before purchasing. This would reduce uncertainty, minimize
-                  returns, and create a more engaging shopping experience.
+                  3D previews, interactive configurators, or AR tools to visualize lighting solutions.
                 </p>
               </div>
 
@@ -895,12 +787,7 @@ const KelvixCaseStudy = () => {
                   <h4>AI powered virtual assistant</h4>
                 </div>
                 <p>
-                  Implementing an AI-powered virtual assistant to offer instant
-                  support and personalized recommendations. The assistant could
-                  guide users through product selection, provide real-time order
-                  updates, help troubleshoot issues, and answer common queries.
-                  This AI-driven tool could help improve customer satisfaction,
-                  reduce friction, and free up resources for more complex tasks.
+                  Instant support, real-time order updates, and personalized guidance to improve satisfaction and reduce friction.
                 </p>
               </div>
             </div>
