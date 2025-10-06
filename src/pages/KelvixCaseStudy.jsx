@@ -22,6 +22,7 @@ import KelvixCaseStudyImage2 from "../assets/Kelvix CaseStudy Image2.png";
 import KelvixCaseStudyImage3 from "../assets/Kelvix CaseStudy Image3.png";
 import KelvixCaseStudyImage4 from "../assets/Kelvix CaseStudy Image4.png";
 import KelvixCaseStudyImage5 from "../assets/Kelvix CaseStudy Image5.png";
+import KelvixCaseStudyImage6 from "../assets/Kelvix CaseStudy Image6.jpg";
 
 const KelvixCaseStudy = () => {
   const carouselContainerRef = useRef(null);
@@ -337,46 +338,44 @@ const KelvixCaseStudy = () => {
             <div className="image-row-1">
               <div className="image-column-left-1">
                 <img
-                  src={KelvixCaseStudyImage2}
-                  alt="This image depicts how services were integrated throughout the website for easy access and visibility. For example in this image, Project Management service highlights key offerings such as timeline and budget management, expert support, and troubleshooting. The site ensures that customers and contractors can quickly connect with the services they need at every stage of their project. This clear presentation fosters confidence and transparency, improving the overall customer experience and supporting smooth project execution from start to finish."
+                  src={KelvixCaseStudyImage6}
+                  alt="This image depicts the information architecture layout, which illustrates the intuitive structure of the Kelvix ecommerce platform. Categories, product flows, and services are organized to minimize friction, enabling users to quickly find products, access order information, and explore additional services."
                   className="case-study-image"
                 />
               </div>
               <div className="image-column-right-1">
-                <p id="the-filter-bar-subtitle" className="image-subtitles">
-                  Services were integrated throughout the website for easy
-                  access and visibility. For example, the Project Management
-                  service highlights key offerings such as timeline and budget
-                  management, expert support, and troubleshooting.
-                </p>
-                <p id="the-filter-bar-subtitle" className="image-subtitles">
-                  The site ensures that customers and contractors can quickly
-                  connect with the services they need at every stage of their
-                  project. This clear presentation fosters confidence and
-                  transparency, improving the overall customer experience and
-                  supporting smooth project execution from start to finish.
-                </p>
+                <p id="the-filter-bar-subtitle" className="image-subtitles">The information architecture layout illustrates the intuitive structure of the Kelvix ecommerce platform. Categories, product flows, and services are organized to minimize friction, enabling users to quickly find products, access order information, and explore additional services.</p>
               </div>
             </div>
+
             <br />
             <div className="image-row-2">
               <div className="image-column">
                 <p id="approach" className="image-subtitles-left-2">
-                  A contact form that was integrated to streamline customer
-                  service by offering easy access to various communication
-                  channels. Previously, customers could only contact Kelvix via
-                  email, but now they can quickly connect with the appropriate
-                  department directly through the site. This enhancement
-                  enhances convenience, improves responsiveness, and ensures a
-                  more efficient, accessible experience for users.
+                  A new contact form centralizes communication, letting users reach the right department instantly. No more email delays, support is faster, easier, and more responsive.
                 </p>
               </div>
               <div className="image-column-right-2 left-align">
                 <img
                   src={KelvixCaseStudyImage3}
-                  alt="This image shows a contact form that was integrated to streamline customer service by offering easy access to various communication channels. Previously, customers could only contact Kelvix via email, but now they can quickly connect with the appropriate department directly through the site. This enhancement enhances convenience, improves responsiveness, and ensures a more efficient, accessible experience for users."
+                  alt="This image shows a new contact form that centralizes communication, letting users reach the right department instantly. No more email delays, support is faster, easier, and more responsive."
                   className="case-study-image"
                 />
+              </div>
+            </div>
+            <br />
+            <div className="image-row-1">
+              <div className="image-column-left-1">
+                <img
+                  src={KelvixCaseStudyImage2}
+                  alt="This image depicts integrated key services throughout the site so customers and contractors can quickly find what they need—like Project Management support for timelines, budgets, and troubleshooting—building confidence and streamlining projects."
+                  className="case-study-image"
+                />
+              </div>
+              <div className="image-column-right-1">
+                <p id="the-filter-bar-subtitle" className="image-subtitles">
+                  Integrated key services throughout the site so customers and contractors can quickly find what they need like Project Management support for timelines, budgets, and troubleshooting, building confidence and streamlining projects.
+                </p>
               </div>
             </div>
 
@@ -414,22 +413,17 @@ const KelvixCaseStudy = () => {
               <div className="image-column-left-1">
                 <img
                   src={KelvixCaseStudyImage5}
-                  alt="This image shows the product spec sheet library, an essential feature that allows users to easily access detailed information about any Kelvix product. By centralizing all product documentation in one location, the website ensures that customers, contractors, and reps can quickly find specifications, technical details, and other important resources, streamlining the decision-making and project planning process."
+                  alt="This image shows the product spec sheet library, where all product documentation is now in one place. Customers, contractors, and reps can quickly find specs, technical details, and resources, simplifying decision-making and project planning."
                   className="case-study-image"
                 />
               </div>
               <div className="image-column-right-1">
                 <p className="image-subtitles">
-                  The product spec sheet library is an essential feature that
-                  allows users to easily access detailed information about any
-                  Kelvix product. By centralizing all product documentation in
-                  one location, the website ensures that customers, contractors,
-                  and reps can quickly find specifications, technical details,
-                  and other important resources, streamlining the
-                  decision-making and project planning process.
+                  All product documentation is now in one place. Customers, contractors, and reps can quickly find specs, technical details, and resources, simplifying decision-making and project planning.
                 </p>
               </div>
             </div>
+            <br />
             <br />
             <div className="image-row-2">
               <div className="image-column">
@@ -446,6 +440,20 @@ const KelvixCaseStudy = () => {
                   alt="This image showcases the login and sign-up page for the order management system feature, designed to provide users with a personalized project management dashboard. Users can access their accounts to access a range of features, including the Interactive Project Builder and exclusive Rep Portal access. This integration ensures a seamless experience for managing projects, accessing product specifications, and staying updated with the latest offerings."
                   className="case-study-image"
                 />
+              </div>
+            </div>
+            <div className="image-row-1">
+              <div className="image-column-left-1">
+                <img
+                  src={KelvixCaseStudyImage1}
+                  alt="This image shows how the design makes browsing, purchasing, and tracking effortless. Real-time updates, clear layouts, and visible services ensure smooth, confident journeys for both customers and contractors."
+                  className="case-study-image"
+                />
+              </div>
+              <div className="image-column-right-1">
+                <p className="image-subtitles">
+                  The design makes browsing, purchasing, and tracking effortless. Real-time updates, clear layouts, and visible services ensure smooth, confident journeys for both customers and contractors.
+                </p>
               </div>
             </div>
 
@@ -511,26 +519,6 @@ const KelvixCaseStudy = () => {
               <p>
                 Centralized communication channels to provide an easy cohesive support experience.
               </p>
-            </div>
-
-            <div className="image-row-2">
-              <div className="image-column">
-                <p id="approach" className="image-subtitles-left-2">
-                  The redesign prioritizes a seamless, user-friendly experience,
-                  making product browsing, purchasing, and tracking effortless.
-                  With a clear layout and optimized features, the site provides
-                  real-time order updates and highlights valuable services,
-                  ensuring a smooth and efficient journey for both customers and
-                  contractors.
-                </p>
-              </div>
-              <div className="image-column-right-2 left-align">
-                <img
-                  src={KelvixCaseStudyImage1}
-                  alt="This image depicts a LED lighting product page, demonstrating how the redesign prioritizes a seamless, user-friendly experience, making product browsing, purchasing, and tracking effortless. With a clear layout and optimized features, the site provides real-time order updates and highlights valuable services, ensuring a smooth and efficient journey for both customers and contractors."
-                  className="case-study-image"
-                />
-              </div>
             </div>
           </div>
         </div>
