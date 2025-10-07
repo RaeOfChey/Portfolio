@@ -689,6 +689,7 @@ margin: 0px !important;
   padding: 25px 20px 20px 20px;
   border-radius: 10px;
   border: 2px solid var(--color-lightblue);
+  margin-top: 20px;
 }
 
 .impact-context-item .context-item-header {

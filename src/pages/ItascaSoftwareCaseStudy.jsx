@@ -112,9 +112,6 @@ const ITASCASoftwareCaseStudy = () => {
                     <p id="section-intro">
                         As a global provider of geo-engineering software solutions, ITASCA Software transformed its user experience with a seamless, intuitive website that directly addressed user challenges.
                     </p>
-
-                    <br />
-
                     <div className="context-item-container">
 
                         <div className="impact-context-item">
@@ -288,7 +285,7 @@ const ITASCASoftwareCaseStudy = () => {
                                 <h4>Solving the Challenge</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                                The redesign directly addressed user and business challenges by:
+                                The design directly addressed user and business challenges by:
                                 <ul>
                                     <li>Improving product discovery through clear navigation, concise product descriptions, and intuitive categories, helping users find solutions without technical overwhelm.</li>
                                     <li>Streamlining checkout for a faster, frictionless purchasing flow that reduces dependence on sales intervention.</li>

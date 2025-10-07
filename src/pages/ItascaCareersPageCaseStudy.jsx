@@ -20,6 +20,9 @@ import CaseStudyImage1 from '../assets/ITASCA Careers Page CaseStudy Image1.png'
 import CaseStudyImage2 from '../assets/ITASCA Careers Page CaseStudy Image2.png';
 import CaseStudyImage3 from '../assets/ITASCA Careers Page CaseStudy Image3.png';
 import CaseStudyImage4 from '../assets/ITASCA Careers Page CaseStudy Image4.png';
+import CaseStudyImage5 from '../assets/ITASCA Careers Page CaseStudy Image5.jpg';
+import CaseStudyImage6 from '../assets/ITASCA Careers Page CaseStudy Image6.png';
+import CaseStudyImage7 from '../assets/ITASCA Careers Page CaseStudy Image7.png';
 
 const EmployEaseCaseStudy = () => {
 
@@ -108,15 +111,8 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        The new careers page transformed a fragmented hiring experience into a unified, branded, and accessible platform that directly supported the company’s talent acquisition strategy.
+                        A global provider of geo-engineering consulting and software solutions, Itasca Consulting Group Inc., transformed its fragmented hiring experience into a unified, branded, and accessible platform that directly supported the company’s talent acquisition strategy.
                     </p>
-
-                    <p id="section-intro-2">
-                        By elevating the employer brand and streamlining the application process, the page became a critical tool for attracting top-tier candidates in a competitive market.
-                    </p>
-
-                    <br />
-
                     <div className="context-item-container">
 
                         <div className="impact-context-item">
@@ -126,12 +122,12 @@ const EmployEaseCaseStudy = () => {
                             </div>
                             <p id="outcome-list" className="outcome-list">
                                 <ul>
-                                    <li>Clear messaging, consistent design, and values-driven content positioned the company as an employer of choice, aligning candidate perception with leadership’s vision.</li>
-                                    <li>By providing culture, EVP, and benefits information upfront, the page attracted candidates better aligned with the company’s standards, reducing misaligned applications and saving hiring teams significant time.</li>
-                                    <li>Centralized, easy-to-navigate job listings and clear CTAs improved application completion rates and reduced applicant drop-off.</li>
-                                    <li>Localized content and translations allowed each regional office to connect with candidates in their own language, while still maintaining a unified global brand identity.</li>
-                                    <li>WCAG-compliant structure and responsive design ensured an inclusive experience across devices, critical for a diverse global audience.</li>
-                                    <li>By delivering on a board-level KPI under tight deadlines, the project built leadership trust in design’s role in achieving strategic growth goals.</li>
+                                    <li>Clear messaging and cohesive design strengthened brand perception and positioned the company as an employer of choice.</li>
+                                    <li>Culture, EVP, and benefits upfront attracted stronger applicants and cut misfit submissions.</li>
+                                    <li>Simplified listings and CTAs improved application completion rates and reduced drop-off.</li>
+                                    <li>Localized content maintained global consistency while connecting with regional audiences.</li>
+                                    <li>WCAG-compliant, responsive design ensured accessibility across devices and markets.</li>
+                                    <li>Delivering under tight deadlines built leadership trust in design’s impact on business goals.</li>
                                 </ul>
                             </p>
                         </div>
@@ -148,7 +144,7 @@ const EmployEaseCaseStudy = () => {
 
                     <div className="section-right">
                         <p id="section-intro">
-                            A global, employee-owned company needed to attract and retain top-tier talent while ensuring HR processes were efficient and aligned with future growth. The careers page was critical for building a strong talent pipeline, supporting succession planning, and presenting the company as a professional, desirable employer. Key goals included:
+                            The organization needed to attract and retain high-performing talent while ensuring HR processes supported scalability to building a strong talent pipeline and support succession planning. The company needed a dedicated careers page that:
                         </p>
 
                         <div className="context-item-container">
@@ -159,7 +155,7 @@ const EmployEaseCaseStudy = () => {
                                     <h4>Secure top talent proactively</h4>
                                 </div>
                                 <p>
-                                    Engage exceptional candidates even when roles aren’t immediately open, ensuring continuity in leadership and critical skills for future growth. By connecting with top talent early, the company can maintain a competitive hiring advantage and build a strong talent pipeline.
+                                    Engage exceptional candidates before openings arise to maintain a leadership-ready pipeline.
                                 </p>
                             </div>
 
@@ -169,7 +165,7 @@ const EmployEaseCaseStudy = () => {
                                     <h4>Streamline HR processes</h4>
                                 </div>
                                 <p>
-                                    Centralize career information in one accessible location to reduce repetitive inquiries and administrative strain across its global offices. Thereby freeing HR teams to focus on higher-value tasks, while improving the overall candidate experience through clarity and efficiency.
+                                    Centralize information to reduce inquiries and free HR to focus on higher-value initiatives.
                                 </p>
                             </div>
 
@@ -179,7 +175,7 @@ const EmployEaseCaseStudy = () => {
                                     <h4>Strengthen employer brand</h4>
                                 </div>
                                 <p>
-                                    Communicate culture, values, and employee benefits consistently across all regions through polished visuals and messaging. This ensures candidates perceive ITASCA as professional, trustworthy, and a desirable employer, increasing alignment between applicant expectations and company values.
+                                    Communicate culture, values, and benefits consistently across all offices.
                                 </p>
                             </div>
 
@@ -189,7 +185,7 @@ const EmployEaseCaseStudy = () => {
                                     <h4>Enhance candidate experience</h4>
                                 </div>
                                 <p>
-                                    Provide intuitive navigation, accessible content across devices, and straightforward pathways to explore opportunities and submit applications. This creates a seamless, engaging experience that supports candidate engagement and higher application completion rates.
+                                    Provide intuitive navigation, accessible content, and a seamless application process.
                                 </p>
                             </div>
                         </div>
@@ -207,7 +203,7 @@ const EmployEaseCaseStudy = () => {
 
                     <div className="section-right">
                         <p id="section-intro">
-                            A global company lacked a dedicated careers landing page, making it difficult for job seekers to learn about the company and find opportunities. This led to misalignment between candidates and the company, as well as a drop-off in desirable applicants, ultimately slowing down hiring teams and processes. Key pain points include:
+                            Prior to this project, these issues slowed hiring processes and leading to misaligned applications, creating friction for both applicants and HR teams:
                         </p>
 
                         <div className="context-item-container">
@@ -218,7 +214,7 @@ const EmployEaseCaseStudy = () => {
                                     <h4>Inconsistent key information</h4>
                                 </div>
                                 <p>
-                                    Prospective candidates struggled to find high-level details about the company’s culture, values, benefits, and what makes the company an attractive place to work (EVP). This led to confusion or missed opportunities to present the company in the best light.
+                                    Culture, benefits, and values weren’t clearly presented or easy to find.
                                 </p>
                             </div>
 
@@ -228,7 +224,7 @@ const EmployEaseCaseStudy = () => {
                                     <h4>Trust and professionalism</h4>
                                 </div>
                                 <p>
-                                    Without a centralized, branded careers page, job seekers struggled to assess the company’s credibility and quality. A professional, polished page signals reliability, sets clear expectations, and encourages candidates to engage confidently with the application process.
+                                    A lack of professional design hurt trust and employer reputation.
                                 </p>
                             </div>
 
@@ -238,7 +234,7 @@ const EmployEaseCaseStudy = () => {
                                     <h4>Accessibility and inclusivity</h4>
                                 </div>
                                 <p>
-                                    Candidates across different regions and devices need equal access to careers information. A mobile-friendly, WCAG-compliant page ensures all users can navigate and interact with content effectively, creating an inclusive experience that respects diverse abilities and contexts.
+                                    No centralized, mobile-friendly experience across global regions.
                                 </p>
                             </div>
 
@@ -248,7 +244,7 @@ const EmployEaseCaseStudy = () => {
                                     <h4>Clear pathways to opportunities</h4>
                                 </div>
                                 <p>
-                                    Job seekers require intuitive navigation and straightforward ways to explore openings or submit applications. Reducing friction in the candidate journey helps ensure more complete applications and a smoother process for both users and HR teams.
+                                    No intuitive way to browse roles or submit applications efficiently.
                                 </p>
                             </div>
                         </div>
@@ -263,7 +259,7 @@ const EmployEaseCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        Create a centralized, branded careers page that aligns with the company’s global identity, supports HR and leadership in securing top talent, and provides job seekers with a clear, trustworthy, and accessible way to explore opportunities. The page needed to balance regional flexibility, cultural considerations, and varied benefits while maintaining a cohesive user experience.
+                        Create a unified global careers experience that reflects the company’s culture, attracts the right candidates, and simplifies the application process while ensuring accessibility, localization, and brand consistency.
                     </p>
                 </div>
             </section>
@@ -287,29 +283,26 @@ const EmployEaseCaseStudy = () => {
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <UsersIcon className="users-icon" />
-                                <h4>How the redesign solves the Challenge</h4>
+                                <h4>Solving the Challenge</h4>
                             </div>
 
                             <p id="intro-redesign" className="redesign-description">
-                                The redesign directly tackled the project’s business and user challenges by:
+                                The design directly addressed user and business challenges by:
                                 <ul>
                                     <li>
-                                        Building a centralized location of career information for all global offices while allowing localized information and languages, ensuring clarity and relevance for all candidates.
+                                        Centralizing careers information for all offices while allowing localized updates and translations.
                                     </li>
                                     <li>
-                                        Aligning with brand identity by maintaining visual and messaging consistency with the company’s new <span class="tooltip"> <a href="URL_OF_YOUR_CASE_STUDY" target="_blank" class="custom-link">SaaS ecommerce website</a><span class="tooltip-text">Opens the SaaS ecommerce website case study in a new tab</span></span>, reinforcing a professional and approachable image.
+                                        Aligning visuals and messaging with the brand's new <span class="tooltip"> <a href="URL_OF_YOUR_CASE_STUDY" target="_blank" class="custom-link">SaaS ecommerce website</a><span class="tooltip-text">Opens the SaaS ecommerce website case study in a new tab</span></span> to reinforce credibility and consistency.
                                     </li>
                                     <li>
-                                        Simplifying navigation and applications through intuitive layouts and clear calls-to-action, allowing candidates to easily explore opportunities and submit their information with minimal friction.
+                                        Simplifying navigation with intuitive layouts and clear CTAs guiding users through roles and applications.
                                     </li>
                                     <li>
-                                        Adapting copy for global audiences by adjusting tone to be professional, culturally appropriate, and engaging, while incorporating executive and regional feedback.
+                                        Adapting copy for international audiences, incorporating executive and regional input for tone and clarity.
                                     </li>
                                     <li>
-                                        Adapting copy and content for a global audience by adjusting tone to be professional, culturally appropriate, and engaging, while incorporating executive and regional feedback.
-                                    </li>
-                                    <li>
-                                        Ensuring accessibility and mobile readiness through a WCAG-compliant, responsive design that provided a seamless experience across all devices.
+                                        Ensuring WCAG compliance and mobile readiness for accessibility across all devices and contexts.
                                     </li>
                                 </ul>
                             </p>
@@ -318,100 +311,127 @@ const EmployEaseCaseStudy = () => {
                         <div className="image-row-1">
                             <div className="image-column-left-1">
                                 <img
-                                    src={CaseStudyImage3}
-                                    alt="This image showcases the career opportunities section, detailing job categories available within the company. It highlights possible roles, providing a clear overview of the diverse career paths the company offers. Additionally, a 'Connect' button encourages job seekers to submit their resumes for future opportunities, ensuring accessibility for those who may not find a current opening that matches their expertise."
+                                    src={CaseStudyImage5}
+                                    alt="This image depicts the information architecture, which organizes global content into clear, intuitive pathways, balancing local office needs with a cohesive global structure to reduce friction in candidate navigation."
                                     className="case-study-image"
                                 />
                             </div>
                             <div className="image-column-right-1">
-                                <p id="the-filter-bar-subtitle" className="image-subtitles">
-                                    The Opportunities section presents a comprehensive overview of the company's diverse career opportunities, showcasing roles across multiple departments. It highlights the company’s commitment to fostering a collaborative and innovative culture, ensuring that job seekers can find a position aligned with their skills and interests.
-                                </p>
-                                <p id="the-filter-bar-subtitle" className="image-subtitles">
-                                    The inclusion of an internship program demonstrates company's investment in nurturing future professionals, while the "Connect" button provides an accessible way for candidates to submit their resumes, reinforcing a forward-thinking approach to talent acquisition and global hiring.
-                                </p>
+                                <p id="the-filter-bar-subtitle" className="image-subtitles">The information architecture organizes global content into clear, intuitive pathways, balancing local office needs with a cohesive global structure to reduce friction in candidate navigation.</p>
                             </div>
                         </div>
                         <br />
+                        <br />
+
                         <div className="image-row-2">
                             <div className="image-column">
                                 <p id="approach" className="image-subtitles-left-2">
-                                    The Opportunities section also showcases all its office locations, which spans across multiple continents. This provides clear, accessible information about the company’s international operations, making it easy for job seekers to identify potential opportunities in their region. Emphasizing the company's global reach reinforces its stability, influence, and appeal to candidates seeking careers in an internationally connected organization.
+                                    The Opportunities section highlights diverse roles and internship programs, connecting candidates with positions that match their skills and career goals while showing the company’s commitment to professional growth.
                                 </p>
                             </div>
                             <div className="image-column-right-2 left-align">
                                 <img
-                                    src={CaseStudyImage4}
-                                    alt="This image features a list and world map image highlighting company's global office locations. Alongside the map, a list of office locations specifies cities. The visual representation reinforces the company's extensive international presence and the opportunities available within its global network."
+                                    src={CaseStudyImage3}
+                                    alt="This image showcases the Opportunities section, which highlights diverse roles and internship programs, connecting candidates with positions that match their skills and career goals while showing the company’s commitment to professional growth."
                                     className="case-study-image"
                                 />
+                            </div>
+                        </div>
+
+                        <div className="image-row-1">
+                            <div className="image-column-left-1">
+                                <img
+                                    src={CaseStudyImage4}
+                                    alt="This image features a list and world map image clearly presented, helping candidates identify opportunities nearby while emphasizing the company’s international reach and credibility as a globally connected employer."
+                                    className="case-study-image"
+                                />
+                            </div>
+                            <div className="image-column-right-1">
+                                <p id="the-filter-bar-subtitle" className="image-subtitles">Global office locations are clearly presented, helping candidates identify opportunities nearby while emphasizing the company’s international reach and credibility as a globally connected employer.</p>
                             </div>
                         </div>
 
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>What the redesign improved beyond the Challenge</h4>
+                                <h4>Elevating the experience</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                                The design even more in the following ways:
+                                The careers page goes beyond addressing pain points to elevate the overall experience:
                                 <ul>
                                     <li>
-                                        Reduced HR workload by centralizing careers information and providing clear, accessible details on benefits, culture, and application processes, thereby decreasing repetitive candidate inquiries and freeing HR teams to focus on higher-value tasks.
+                                        Centralizing FAQs and structured career information reduced repetitive inquiries and lightened the HR workload.
                                     </li>
                                     <li>
-                                        Strengthened employer branding by presenting a polished, consistent visual identity and messaging that signaled credibility and helped attract top-tier talent.
+                                        A unified visual identity strengthened the employer brand and signaled professionalism to candidates.
                                     </li>
                                     <li>
-                                        Enabled a scalable system that allows ongoing updates and content adjustments across global offices without requiring developer intervention, ensuring long-term maintainability.
+                                        HR teams can update content independently, enabling a scalable and maintainable careers page.
                                     </li>
                                     <li>
-                                        Improved SEO and global visibility by optimizing the page structure and content, making it easier for candidates worldwide to discover and access relevant opportunities.
+                                        Optimized content and page structure improved global SEO and increased candidate discoverability.
                                     </li>
                                     <li>
-                                        Increased alignment between candidates and the company by clearly communicating culture, values, and expectations, supporting succession planning and long-term talent acquisition.
+                                        Clear communication of culture, values, and benefits enhanced candidate alignment and trust.
                                     </li>
                                 </ul>
                             </p>
+                        </div>
+
+                        <div className="image-row-1">
+                            <div className="image-column-left-1">
+                                <img
+                                    src={CaseStudyImage6}
+                                    alt="This image displays the brand system, which ensures consistent visuals, messaging, and tone across regions, strengthening employer branding and creating a polished, professional impression for prospective candidates."
+                                    className="case-study-image"
+                                />
+                            </div>
+                            <div className="image-column-right-1">
+                                <p className="image-subtitles">
+                                    The brand system ensures consistent visuals, messaging, and tone across regions, strengthening employer branding and creating a polished, professional impression for prospective candidates.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="image-row-2">
+                            <div className="image-column">
+                                <p id="approach" className="image-subtitles-left-2">
+                                    The careers page header immediately highlights the company's employee-owned structure, inclusive culture, and career growth opportunities, with a clear “View Open Positions” CTA guiding candidates to act.
+                                </p>
+                            </div>
+                            <div className="image-column-right-2 left-align">
+                                <img
+                                    src={ItascaCareersHeaderImage}
+                                    alt="This image depicts the company's employee-owned structure, inclusive culture, and career growth opportunities, with a clear “View Open Positions” CTA guiding candidates to act."
+                                    className="case-study-image"
+                                />
+                            </div>
                         </div>
 
                         <div className="image-row-1">
                             <div className="image-column-left-1">
                                 <img
                                     src={CaseStudyImage2}
-                                    alt="This image displays Perks section, which showcases employee benefits, highlighting key perks such as career growth opportunities, flexible work options, a collaborative global company culture, employee feedback integration, a structured mentorship program, and employee recognition initiatives. The text emphasizes the company's dedication to professional development, work-life balance, and fostering an inclusive, supportive work environment."
+                                    alt="This image displays the Perks section, which showcases employee benefits, flexible work options, mentorship programs, and a collaborative culture, making the company appealing to candidates seeking growth, balance, and inclusion."
                                     className="case-study-image"
                                 />
                             </div>
                             <div className="image-column-right-1">
                                 <p className="image-subtitles">
-                                    The Perks section showcases the company's commitment to creating a supportive and enriching work environment by showcasing key employee benefits. It emphasizes career growth opportunities, flexible work options, a collaborative global culture, employee feedback integration, a structured mentorship program, and employee recognition initiatives. By presenting these perks, the company appeals to a diverse range of job seekers who value professional development, work-life balance, and being part of an inclusive, globally connected team.
+                                    The Perks section showcases employee benefits, flexible work options, mentorship programs, and a collaborative culture, making the company appealing to candidates seeking growth, balance, and inclusion.
                                 </p>
                             </div>
                         </div>
                         <br />
-                        <div className="image-row-2">
-                            <div className="image-column">
-                                <p id="approach" className="image-subtitles-left-2">
-                                    The redesigned careers page header immediately highlights the company's employee-owned structure and commitment to professional growth, collaboration, and inclusivity. The prominent "View Open Positions" button provides a clear, direct path for job seekers, ensuring a seamless experience for both new and returning candidates.
-                                </p>
-                            </div>
-                            <div className="image-column-right-2 left-align">
-                                <img
-                                    src={ItascaCareersHeaderImage}
-                                    alt="This image depicts the ITASCA careers page header, which features a dynamic collage of engineers in the field, reinforcing the company’s commitment to employee ownership, professional growth, and a collaborative work environment. Additionally, there is a prominent 'View Open Positions' button provides a clear, direct path for job seekers, ensuring a seamless experience for both new and returning candidates."
-                                    className="case-study-image"
-                                />
-                            </div>
-                        </div>
+                        
 
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>End result</h4>
+                                <h4>Results</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                                The redesigned careers page provides a clear, accessible, and engaging experience for candidates, balancing global consistency with local relevance. Intuitive navigation and a streamlined application process strengthen the employer brand, improve candidate alignment, and simplify HR workflows, while accessibility and SEO enhancements boost overall visibility and engagement.
+                                The careers page design strengthened the employer brand, improved candidate alignment, and streamlined the application process. Job seekers can now easily explore opportunities, understand culture and benefits, and submit applications seamlessly, creating an inclusive, globally consistent experience that supports HR efficiency and talent acquisition goals.
                             </p>
                         </div>
                     </div>
@@ -427,7 +447,7 @@ const EmployEaseCaseStudy = () => {
                 <div className="section-right">
 
                     <p id="section-intro">
-                        The careers page was designed as a unified solution to support a global presence, streamline the hiring process, and provide a seamless, engaging experience for job seekers. The project centered around the following key principles:
+                        My process for this project was guided by the following key principles:
                     </p>
 
                     <div className="context-item-container">
@@ -438,7 +458,7 @@ const EmployEaseCaseStudy = () => {
                                 <h4>Global applicability</h4>
                             </div>
                             <p>
-                                The design focuses on creating a concise, universally applicable, and reflective of the company’s global identity while still appealing to diverse candidates. For an international company, each location has unique hiring practices, benefits, and cultural expectations, and need to be accurately and consistantly represented.
+                                Ensure design and content resonate across international offices.
                             </p>
                         </div>
 
@@ -448,7 +468,7 @@ const EmployEaseCaseStudy = () => {
                                 <h4>Strong employer branding</h4>
                             </div>
                             <p>
-                                Branding, voice, and messaging are applied consistently, ensuring culture, mission, and values are clearly communicated. Candidates can quickly determine if they are a good fit for the company, leading to more informed applications. Attracting the right candidates and streamlining the hiring process.
+                                Apply a consistent voice and visual identity that communicates values.
                             </p>
                         </div>
 
@@ -458,23 +478,19 @@ const EmployEaseCaseStudy = () => {
                                 <h4>Seamless integration</h4>
                             </div>
                             <p>
-                                The page is thoughtfully structured to integrate seamlessly within the larger website ecosystem. It maintains continuity in design and functionality while providing clear pathways for users to explore the company further or move directly into the application process.
+                                Maintain continuity within the broader website ecosystem and brand framework.
                             </p>
                         </div>
 
-                        <div className="image-row-2">
-                            <div className="image-column">
-                                <p id="approach" className="image-subtitles-left-2">The design focuses on driving engagement with a clear and compelling call to action, guiding job seekers to explore opportunities that align with their skills and aspirations, streamlining the application process for highly interested candidates.</p>
+                        <div className="approach-context-item">
+                            <div className="context-item-header iteration-feedback">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>Conversion-focused UX</h4>
                             </div>
-                            <div className="image-column-right-2 left-align">
-                                <img
-                                    src={CaseStudyImage1}
-                                    alt="This image shows the main CTA of the webpage, showcasing how the design focuses on driving engagement with a clear and compelling call to action, guiding job seekers to explore opportunities that align with their skills and aspirations, streamlining the application process for highly interested candidates."
-                                    className="case-study-image"
-                                />
-                            </div>
+                            <p>
+                                Use clear CTAs and visual hierarchy to guide candidates efficiently.
+                            </p>
                         </div>
-
                     </div>
                 </div>
             </section>
@@ -487,40 +503,40 @@ const EmployEaseCaseStudy = () => {
                 <div className="section-right">
                     <TimelineItem title="Day 1–3 Planning & Alignment">
                         <ul>
-                            <li>Conducted user research with hiring teams across global offices, including surveys and interviews, to understand challenges in managing job applications.</li>
-                            <li>Gathered requirements and aligned expectations with stakeholders, including HR, regional managers, and leadership.</li>
-                            <li>Mapped out regional differences (benefits, office culture, hybrid vs. on-site policies) to ensure the design would accommodate international needs.</li>
+                            <li>Conducted user research with hiring teams across global offices to identify pain points.</li>
+                            <li>Gathered requirements from HR, regional managers, and leadership.</li>
+                            <li>Documented regional differences in benefits, culture, and policies.</li>
                         </ul>
                     </TimelineItem>
 
-                     <TimelineItem title="Week 4-6 Designing">
+                    <TimelineItem title="Day 4-6 Designing">
                         <ul>
-                            <li>Created wireframes and mockups in Figma that balanced global brand consistency with localization flexibility.</li>
-                            <li>Developed clear calls-to-action guiding users through company info, culture, benefits, and open positions.</li>
-                            <li>Incorporated accessibility (WCAG) and mobile-first principles from the start.</li>
+                            <li>Created Figma wireframes balancing global consistency with local flexibility.</li>
+                            <li>Designed clear navigation and application pathways.</li>
+                            <li>Applied WCAG standards and mobile-first principles.</li>
                         </ul>
                     </TimelineItem>
 
-                    <TimelineItem title="Week 7–9 Implementing">
+                    <TimelineItem title="Day 7–9 Implementing">
                         <ul>
-                            <li>Built the careers page in Craft CMS, overcoming limitations such as multi-office page splits and rigid templates.</li>
-                            <li>Designed a system that allowed HR to update content easily while maintaining a consistent user experience.</li>
-                            <li>Coordinated content translations and regional variations to support a global audience.</li>
+                            <li>Built within Craft CMS, designing for content scalability despite structural limitations.</li>
+                            <li>Integrated easy HR editing capabilities and regional variations.</li>
+                            <li>Coordinated translations and localization for global use.</li>
                         </ul>
                     </TimelineItem>
 
                     <TimelineItem title="Day 10–12 Testing & Refinement">
                         <ul>
-                            <li>Conducted cross-browser and device testing for consistency across platforms.</li>
-                            <li>Collected internal feedback from leadership and global offices; grouped comments by theme (copy tone, visuals, benefits info) to implement efficiently.</li>
-                            <li>Adjusted navigation, layout, and content hierarchy to ensure clarity and reduce friction for candidates.</li>
+                            <li>Conducted browser and device testing to ensure consistency.</li>
+                            <li>Gathered feedback from leadership and regional offices.</li>
+                            <li>Refined layout and copy for clarity and accessibility.</li>
                         </ul>
                     </TimelineItem>
 
                     <TimelineItem title="Day 13–14 Launch & Maintaining">
                         <ul>
-                            <li>Deployed the page live, confirming alignment with the company’s branding and UX standards.</li>
-                            <li>Monitored user engagement, candidate submissions, and feedback post-launch; made iterative updates to maintain relevance and effectiveness.</li>
+                            <li>Deployed live, verifying brand alignment and performance.</li>
+                            <li>Monitored engagement and submission data post-launch for iterative updates.</li>
                         </ul>
                     </TimelineItem>
                 </div>
@@ -569,16 +585,20 @@ const EmployEaseCaseStudy = () => {
 
                         <div className="context-item-container">
 
+                            <p id="section-intro">
+                                No global-scale project comes without hurdles, but overcoming them created clear milestones that drove impact.
+                            </p>
+
                             <div className="obstacles-context-item">
                                 <div className="context-item-header obstacles">
                                     <CogIcon className="cog-icon" />
                                     <h4>Obstacles</h4>
                                 </div>
                                 <ul>
-                                    <li>Designing a brand-new careers page that had to integrate seamlessly into the existing website architecture without disrupting established structures.</li>
-                                    <li>Aligning stakeholders across global hiring teams, each with different priorities and cultural perspectives, while creating a unified employer brand.</li>
-                                    <li>Working within the technical limits of Craft CMS, which provided flexibility but also introduced constraints that shaped layout options and update processes.</li>
-                                    <li>Delivering under a tight deadline, balancing competing inputs while ensuring quality and usability weren’t compromised.</li>
+                                    <li>Integrating a new page seamlessly within an existing CMS and architecture.</li>
+                                    <li>Aligning global stakeholders with varying cultural and hiring priorities.</li>
+                                    <li>Managing technical limitations of Craft CMS while maintaining usability.</li>
+                                    <li>Delivering a high-quality, accessible result under strict deadlines.</li>
                                 </ul>
                             </div>
 
@@ -588,11 +608,10 @@ const EmployEaseCaseStudy = () => {
                                     <h4>Milestones</h4>
                                 </div>
                                 <ul>
-                                    <li>Successfully integrated the careers page into the existing website ecosystem while maintaining continuity in design and navigation.</li>
-                                    <li>Translated and localized content across all required languages, ensuring accessibility and cultural inclusivity for a global audience.</li>
-                                    <li>Ensured compliance with international accessibility standards, strengthening equity and usability across regions.</li>
-                                    <li>Incorporated feedback from global offices and hiring teams, validating alignment between local needs and the company’s overarching brand.</li>
-                                    <li>Achieved early adoption post-launch, with hiring teams actively using the page to streamline processes and attract stronger candidates.</li>
+                                    <li>Achieved full global localization and translation.</li>
+                                    <li>Ensured WCAG compliance and mobile responsiveness.</li>
+                                    <li>Unified global brand presence through consistent design and tone.</li>
+                                    <li>Achieved early adoption across regional HR teams post-launch.</li>
                                 </ul>
                             </div>
 
@@ -615,38 +634,40 @@ const EmployEaseCaseStudy = () => {
 
                         <div className="context-item-container">
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header lessons-learned">
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
                                     <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Lessons learned</h4>
                                 </div>
-                                <p>
-                                    This project highlighted the need to design for both user needs and long-term business strategy. I learned how to translate executive-level goals into tangible design outcomes that made the company more competitive in attracting top-tier candidates. I also gained valuable experience adapting design vision to the realities of a limiting CMS while still delivering an accessible, user-friendly, and globally relevant solution.
-                                </p>
+                                <ul>
+                                    <li>Translating executive-level goals into tangible design outcomes for talent acquisition.</li>
+                                    <li>Designing globally while balancing local cultural and operational differences.</li>
+                                    <li>Applying accessibility (WCAG) and mobile-first principles to a real-world CMS.</li>
+                                </ul>
                             </div>
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header key-challenges-overcome">
-                                    <CogIcon className="cog-icon" />
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
+                                    <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Key challenges overcome</h4>
                                 </div>
-                                <p>
-                                    The project required balancing input from multiple international offices, navigating competing priorities while maintaining a unified global brand presence. Working within Craft CMS imposed technical limitations that demanded creative problem-solving to preserve flexibility and consistency.
-                                </p>
-                                <br />
-                                <p>
-                                    Tight deadlines tied to executive KPIs taught me how to manage high-pressure demands without sacrificing quality. Ensuring WCAG compliance and mobile responsiveness was not only a best practice but a critical milestone, marking one of the project’s biggest successes for a company with global reach.
-                                </p>
+                                <ul>
+                                    <li>Aligning multiple international offices with varying priorities while maintaining a cohesive brand.</li>
+                                    <li>Working within Craft CMS limitations to ensure flexibility, consistency, and scalability.</li>
+                                    <li>Delivering a high-quality design under tight deadlines tied to executive KPIs.</li>
+                                </ul>
                             </div>
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header key-challenges-overcome">
-                                    <SparklesIcon className="sparkles-icon" />
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
+                                    <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Personal reflections</h4>
                                 </div>
-                                <p>
-                                    This project reinforced how design can directly support business-critical outcomes. It taught me the value of designing with scalability in mind: the careers page wasn’t just a quick fix, but a foundation the company could build on. I’m proud of how the page elevated the employer brand, supported hiring teams, and ultimately strengthened leadership’s trust in design as a driver of strategic growth.
-                                </p>
+                                <ul>
+                                    <li>Design can directly support strategic business goals and build leadership trust.</li>
+                                    <li>Scalable, accessible design foundations enable long-term usability and growth.</li>
+                                    <li>Proud of improving candidate experience while strengthening employer branding globally.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -671,30 +692,30 @@ const EmployEaseCaseStudy = () => {
                             <div className="growth-context-item">
                                 <div className="context-item-header lessons-learned">
                                     <TrendingUpIcon className="trendingup-icon" />
-                                    <h4>More interactive content</h4>
+                                    <h4>Interactive storytelling</h4>
                                 </div>
                                 <p>
-                                    Adding interactive elements such as behind-the-scenes videos, virtual office tours, or employee Q&A sections to provide candidates with a deeper connection to the company. This helps candidates better understand the work environment before applying.
+                                    Add dynamic features like virtual office tours or employee Q&A to foster deeper candidate connection.
                                 </p>
                             </div>
 
                             <div className="growth-context-item">
                                 <div className="context-item-header key-challenges-overcome">
                                     <TrendingUpIcon className="trendingup-icon" />
-                                    <h4>Add application tracking</h4>
+                                    <h4>Application tracking</h4>
                                 </div>
                                 <p>
-                                    Optimizing the job application experience by integrating a more intuitive application tracking system. Enhancements like saved job searches, job alerts, and application status would reduce friction and improve conversion rates.
+                                    Integrate saved searches, alerts, and status updates for a smoother application experience.
                                 </p>
                             </div>
 
                             <div className="growth-context-item">
                                 <div className="context-item-header key-challenges-overcome">
                                     <TrendingUpIcon className="trendingup-icon" />
-                                    <h4>Leverage analytic tools</h4>
+                                    <h4>Data-driven refinement</h4>
                                 </div>
                                 <p>
-                                    Leveraging newly integrated analytic tools to track user engagement, identify drop-off points, and refine content based on candidate behavior. Continuous data-driven improvements would ensure the careers page remains effective in attracting and converting top talent.
+                                    Use analytics to measure engagement, identify drop-off points, and refine the experience continuously.
                                 </p>
                             </div>
                         </div>
