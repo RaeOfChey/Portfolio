@@ -142,7 +142,7 @@ li {
   font-weight: 800;
   color: var(--color-darkblue);
   border: 2px solid var(--color-darkblue);
-  background-color: #fff;
+  background-color: #DDEAFF;
   border-radius: 50px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
@@ -153,7 +153,7 @@ li {
 }
 
 .scroll-button:hover {
-  background-color: #fff;
+  background-color: #DDEAFF;
   color: var(--color-blue);
   border: 2px solid var(--color-blue);
 }

@@ -13,6 +13,7 @@ import { TrendingUpIcon } from '../components/TrendingUpIcon';
 import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 import TimelineItem from "../components/Timeline";
+import CaseStudyImage from "../components/CaseStudyImage";
 
 import ITASCASoftwareHeaderImage from '../assets/ITASCA Software Header Image.png';
 import ITASCASoftwareImage1 from '../assets/ITASCASoftware CaseStudy Image1.png';
@@ -295,132 +296,61 @@ const ITASCASoftwareCaseStudy = () => {
                             </p>
                         </div>
 
-                        <div className="image-row-1">
-                            <div className="image-column-left-1">
-                                <img
-                                    src={ITASCASoftwareImage6}
-                                    alt="This image depicts the information architecture layout, which illustrates the intuitive structure of the ecommerce platform. Categories, product flows, and services are organized to minimize friction, enabling users to quickly find and compare products, licenses, and explore additional services."
-                                    className="case-study-image"
-                                />
-                            </div>
-                            <div className="image-column-right-1">
-                                <p id="the-filter-bar-subtitle" className="image-subtitles">The information architecture layout illustrates the intuitive structure of the ecommerce platform. Categories, product flows, and services are organized to minimize friction, enabling users to quickly find and compare products, licenses, and explore additional services.</p>
-                            </div>
-                        </div>
-                        <br />
-                        <br />
-                        <div className="image-row-2">
-                            <div className="image-column">
-                                <p id="approach" className="image-subtitles-left-2">This product overview section simplifies complex software details into a clear, scannable layout. Key benefits and features are easy to digest, helping users quickly grasp value and decide with confidence, improving clarity and conversion.</p>
-                            </div>
-                            <div className="image-column-right-2 left-align">
-                                <img
-                                    src={ITASCASoftwareImage5}
-                                    alt="This image depicts the product overview section, which simplifies complex software details into a clear, scannable layout. Key benefits and features are easy to digest, helping users quickly grasp value and decide with confidence, improving clarity and conversion."
-                                    className="case-study-image"
-                                />
-                            </div>
+                        <div>
+                            <CaseStudyImage
+                                src={ITASCASoftwareImage6}
+                                alt="This image depicts the information architecture layout, which illustrates the intuitive structure of the ecommerce platform. Categories, product flows, and services are organized to minimize friction, enabling users to quickly find and compare products, licenses, and explore additional services."
+                                caption="The information architecture layout illustrates the intuitive structure of the ecommerce platform. Categories, product flows, and services are organized to minimize friction, enabling users to quickly find and compare products, licenses, and explore additional services."
+                            />
+
+                            <CaseStudyImage
+                                src={ITASCASoftwareImage5}
+                                alt="This image depicts the product overview section, which simplifies complex software details into a clear, scannable layout. Key benefits and features are easy to digest, helping users quickly grasp value and decide with confidence, improving clarity and conversion."
+                                caption="This product overview section simplifies complex software details into a clear, scannable layout. Key benefits and features are easy to digest, helping users quickly grasp value and decide with confidence, improving clarity and conversion."
+                            />
+
+                            <CaseStudyImage
+                                src={ITASCASoftwareImage2}
+                                alt="This image depicts the new “All Products” landing page brings every software offering into one clear view. Users can now explore solutions at a glance and understand their options instantly. Each product card highlights key details to guide informed decisions, improving usability and reducing friction in the buying process."
+                                caption="The new “All Products” landing page brings every software offering into one clear view. Users can now explore solutions at a glance and understand their options instantly. Each product card highlights key details to guide informed decisions, improving usability and reducing friction in the buying process."
+                            />
+
+                            <CaseStudyImage
+                                src={ITASCASoftwareImage4}
+                                alt="This image depicts the checkout cart design, which gives users a complete, organized summary of their selections. With all key info visible upfront, they can review and adjust before purchasing. Intelligent recommendations add relevance, enhancing discovery and boosting cross-sells."
+                                caption="The checkout cart design gives users a complete, organized summary of their selections. With all key info visible upfront, they can review and adjust before purchasing. Intelligent recommendations add relevance, enhancing discovery and boosting cross-sells."
+                            />
                         </div>
 
-                        <div className="image-row-1">
-                            <div className="image-column-left-1">
-                                <img
-                                    src={ITASCASoftwareImage2}
-                                    alt="This image depicts the new “All Products” landing page brings every software offering into one clear view. Users can now explore solutions at a glance and understand their options instantly. Each product card highlights key details to guide informed decisions, improving usability and reducing friction in the buying process."
-                                    className="case-study-image"
-                                />
-                            </div>
-                            <div className="image-column-right-1">
-                                <p id="the-filter-bar-subtitle" className="image-subtitles">The new “All Products” landing page brings every software offering into one clear view. Users can now explore solutions at a glance and understand their options instantly. Each product card highlights key details to guide informed decisions, improving usability and reducing friction in the buying process.</p>
-                            </div>
-                        </div>
-                        <br />
-                        <br />
-                         <div className="image-row-2">
-                            <div className="image-column">
-                                <p id="approach" className="image-subtitles-left-2">The checkout cart design gives users a complete, organized summary of their selections. With all key info visible upfront, they can review and adjust before purchasing. Intelligent recommendations add relevance, enhancing discovery and boosting cross-sells.</p>
-                            </div>
-                            <div className="image-column-right-2 left-align">
-                                <img
-                                    src={ITASCASoftwareImage4}
-                                    alt="This image depicts the checkout cart design, which gives users a complete, organized summary of their selections. With all key info visible upfront, they can review and adjust before purchasing. Intelligent recommendations add relevance, enhancing discovery and boosting cross-sells."
-                                    className="case-study-image"
-                                />
-                            </div>
-                        </div>
+                         <div>
+      <CaseStudyImage
+        src={ITASCASoftwareImage7}
+        alt="This image depicts the brand system, where consistent button styles and states were applied across the platform to guide users intuitively through key actions, ensuring clarity and visual hierarchy."
+        caption="A brand system with consistent button styles and states were applied across the platform to guide users intuitively through key actions, ensuring clarity and visual hierarchy."
+      />
 
+      <CaseStudyImage
+        src={ITASCASoftwareImage1}
+        alt="This image depicts the homepage design, which simplifies navigation and product discovery with clear, action-oriented CTAs and a modern, mobile-responsive layout. Every element was crafted to boost engagement, guide users seamlessly, and increase conversions."
+        caption="The homepage design simplifies navigation and product discovery with clear, action-oriented CTAs and a modern, mobile-responsive layout. Every element was crafted to boost engagement, guide users seamlessly, and increase conversions."
+      />
 
+      <CaseStudyImage
+        src={ITASCASoftwareImage3}
+        alt="This image depicts the new product landing pages, which highlights flexible options like multiple licenses and ‘Request a Demo,’ helping users compare plans effortlessly and make confident purchase decisions."
+        caption="The new product landing pages highlight flexible options like multiple licenses and ‘Request a Demo,’ helping users compare plans effortlessly and make confident purchase decisions."
+      />
 
-                        <div id="end-result" className="solution-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
-                                <h4>Elevating the experience</h4>
-                            </div>
-                            <p id="intro-redesign" className="redesign-description">
-                                The website goes beyond addressing pain points to elevate the overall experience:
-                                <ul>
-                                    <li>Applied a consistent brand system across to create a cohesive and professional experience.</li>
-                                    <li>Strategic CTAs make actions clear, save time, and encourage deeper engagement.</li>
-                                    <li>Analytics integration (Google Analytics, Hotjar, Optimizely) enables continuous UX refinement.</li>
-                                    <li>SEO and performance tuning improve visibility, load times, and traffic.</li>
-                                    <li>Smart recommendations and flexible options like multiple licenses and Request a Demo, support confident buying decisions.</li>
-                                </ul>
-                            </p>
-                        </div>
-
-                        <div className="image-row-1">
-                            <div className="image-column-left-1">
-                                <img
-                                    src={ITASCASoftwareImage7}
-                                    alt="This image depicts the brand system, where consistent button styles and states were applied across the platform to guide users intuitively through key actions, ensuring clarity and visual hierarchy."
-                                    className="case-study-image"
-                                />
-                            </div>
-                            <div className="image-column-right-1">
-                                <p className="image-subtitles">
-                                    A brand system with consistent button styles and states were applied across the platform to guide users intuitively through key actions, ensuring clarity and visual hierarchy.
-                                </p>
-                            </div>
-                        </div>
-                        <br />
-                        <br />
-                         <div className="image-row-2">
-                            <div className="image-column">
-                                <p id="approach" className="image-subtitles-left-2">The homepage design simplifies navigation and product discovery with clear, action-oriented CTAs and a modern, mobile-responsive layout. Every element was crafted to boost engagement, guide users seamlessly, and increase conversions.</p>
-                            </div>
-                            <div className="image-column-right-2 left-align">
-                                <img
-                                    src={ITASCASoftwareImage1}
-                                    alt="This image depicts the homepage design, which simplifies navigation and product discovery with clear, action-oriented CTAs and a modern, mobile-responsive layout. Every element was crafted to boost engagement, guide users seamlessly, and increase conversions."
-                                    className="case-study-image"
-                                />
-                            </div>
-                        </div>
-
-                         <div className="image-row-1">
-                            <div className="image-column-left-1">
-                                <img
-                                    src={ITASCASoftwareImage3}
-                                    alt="This image depicts the new product landing pages, which highlights flexible options like multiple licenses and ‘Request a Demo,’ helping users compare plans effortlessly and make confident purchase decisions."
-                                    className="case-study-image"
-                                />
-                            </div>
-                            <div className="image-column-right-1">
-                                <p className="image-subtitles">
-                                   The new product landing pages highlight flexible options like multiple licenses and ‘Request a Demo,’ helping users compare plans effortlessly and make confident purchase decisions.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="impact-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
-                                <h4>Results</h4>
-                            </div>
-                            <p id="intro-redesign" className="redesign-description">
-                                The redesigned platform increased software sales by 25% and improved lead generation by 30%. Users now navigate effortlessly, make informed decisions, and enjoy a streamlined journey from discovery to checkout, a truly data-driven experience built for global reach.
-                            </p>
-                        </div>
+      <div className="impact-context-item">
+        <div className="context-item-header clear-actionable-design">
+          <CircleCheckIcon className="circle-check-icon" />
+          <h4>Results</h4>
+        </div>
+        <p id="intro-redesign" className="redesign-description">
+          The redesigned platform increased software sales by 25% and improved lead generation by 30%. Users now navigate effortlessly, make informed decisions, and enjoy a streamlined journey from discovery to checkout, a truly data-driven experience built for global reach.
+        </p>
+      </div>
+    </div>
 
                     </div>
                 </div>
