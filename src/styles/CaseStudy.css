@@ -73,12 +73,6 @@ h5 {
   margin-top: 10px;
 }
 
-.image-subtitles {
-  text-align: center;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
 .section-right #section-intro {
   font-size: 18px;
   padding-top: 0px;
@@ -316,20 +310,6 @@ h5 {
   margin: 20px auto;
   border-radius: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-/* Image1 Image3 Image5 Caption */
-.image-row-2 .image-column p#approach.image-subtitles-left-2 {
-  margin: 0px;
-  font-size: 16px;
-  text-align: left;
-  padding-right: 10px;
-}
-.image-row-2-gg .image-column p#approach.image-subtitles-left-2 {
-  margin: 0px;
-  font-size: 16px;
-  text-align: left;
-  padding-right: 20px;
 }
 
 /* ----- Timeline Section ----- */
@@ -600,63 +580,6 @@ ul li {
 
 #intro-redesign.redesign-description {
 margin: 0px !important;
-}
-
-/* 1st Iamge Row */
-.image-row-1 {
-  display: grid;
-  grid-template-columns: 70% 30%;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.image-column-left-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  text-align: left;
-  margin: 0px;
-}
-
-.image-column-left-1 .case-study-image {
-  width: 100%; 
-  height: auto; 
-  object-fit: cover;
-  margin: 0px;
-}
-
-/* Image2 Image4 Caption */
-.image-column-right-1 .image-subtitles {
-  margin: 0px;
-  font-size: 16px;
-  align-items: left;
-  text-align: left;
-  padding-bottom: 20px;
-}
-
-/* 2nd Iamge Row */
-.image-row-2 {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  margin: 20px 0px 50px 0px;
-}
-.image-row-2-gg {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  margin: 20px 0px 50px 0px;
-}
-
-.image-column-right-2 {
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
-}
-
-.image-column-right-2 .case-study-image {
-  width: 100%; 
-  height: auto; 
-  object-fit: cover;
-  margin: 0px;
 }
 
 #end-result.context-item {
@@ -1246,30 +1169,11 @@ margin: 0px !important;
   .challenge-section-header .case-study-image {
     margin: 0px auto;
   }
-  .image-row-2 {
-    margin: 20px 0px 45px 0px;
-  }
   #end-result.context-item {
     margin-top: 45px;
   }
   .cta-options {
     padding-bottom: 45px;
-  }
-  .image-row-2 {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    margin: 0px 0px 40px 0px;
-    gap: 0px;
-  }
-  .image-row-1 {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-  }
-  .image-row-2 .image-column p#approach.image-subtitles-left-2 {
-    padding-bottom: 20px;
-  }
-  .image-row-2-gg .image-column p#approach.image-subtitles-left-2 {
-    padding-bottom: 20px;
   }
   .user-problems-context-item h4,
   .approach-context-item h4,
@@ -1280,31 +1184,6 @@ margin: 0px !important;
   .takeaways-context-item h4,
   .growth-context-item h4 {
     line-height: 1.3;
-  }
-  .image-row-1,
-  .image-row-2,
-  .imge-row-2-gg {
-    display: flex;
-    flex-direction: column;
-  }
-  .image-column-left-1,
-  .image-column-right-1,
-  .image-column,
-  .image-column-right-2 {
-    order: 2; 
-  }
-  .image-column-right-1,
-  .image-column, 
-  .image-column-left-1 p,
-  .image-column-right-2 p {
-    order: 1;
-  }
-  .image-row-2,
-  .image-row-2-gg{
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    margin: 0px 0px 40px 0px;
-    gap: 0px;
   }
   .image-caption {
     font-size: 16px;
@@ -1338,18 +1217,6 @@ margin: 0px !important;
   }
   .problem-section-header {
     margin: 50px 0px 40px 0px;
-  }
-  .image-column-right-1 .image-subtitles,
-  .image-row-2 .image-column p#approach.image-subtitles-left-2,
-  .image-row-2-gg .image-column p#approach.image-subtitles-left-2 {
-    font-size: 15px;
-  }
-   .image-row-2,
-  .image-row-2-gg{
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    margin: 0px 0px 40px 0px;
-    gap: 0px;
   }
   .solution-link a {
     font-size: 21px;
@@ -1518,11 +1385,6 @@ margin: 0px !important;
   .context-item h4 {
     font-size: 16px;
   }
-  .image-column-right-1 .image-subtitles,
-  .image-row-2 .image-column p#approach.image-subtitles-left-2,
-  .image-row-2-gg .image-column p#approach.image-subtitles-left-2 {
-  font-size: 14px;
-  }
   .problem-section-header {
     margin: 50px 0px 40px 0px;
   }
@@ -1561,17 +1423,6 @@ margin: 0px !important;
   }
   .cta-option {
     margin-bottom: 20px;
-  }
-  .image-row-2,
-  .image-row-2-gg{
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    margin: 0px 0px 40px 0px;
-    gap: 0px;
-  }
-  .image-row-1 {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
   }
   .carousel-item-casestudy {
     width: 180px;
@@ -1757,19 +1608,8 @@ margin: 0px !important;
   #unique-section .section-right p {
     margin-bottom: 20px;
   }
-  .image-row-2 {
-    margin-bottom: 40px;
-    margin-top: 40px;
-  }
-   .image-row-2-gg {
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
   .skills-carousel-section {
     margin: 20px 0px 40px 0px;
-  }
-  .image-column-right-2 .case-study-image {
-    margin: 20px 0px 0px 0px;
   }
   .parent-class .context-item.beyond-the-challenge {
     padding-bottom: 40px;
@@ -1778,10 +1618,6 @@ margin: 0px !important;
   .context-item-header.milestones {
   align-items: top;
   margin: 0px;
-  }
-  .image-row-1 {
-    padding: 0px;
-    margin: 0px;
   }
   .problem-section-header {
     grid-template-columns: 1fr;
@@ -1813,9 +1649,6 @@ margin: 0px !important;
   /* Solution Section */
   .solution-title-section-left {
     margin-top: 40px;
-  }
-  .image-column-right-2 {
-    padding-left: 0px;
   }
   .solution-link {
     text-align: center;
@@ -1901,12 +1734,6 @@ margin: 0px !important;
   .solution-context-item li {
     font-size: 21px;
     padding-top: 5px;
-  }
-  .image-column-right-1 .image-subtitles,
-  .image-row-2 .image-column p#approach.image-subtitles-left-2,
-  .image-row-2-gg .image-column p#approach.image-subtitles-left-2  {
-    font-size: 19px;
-    padding-bottom: 30px;
   }
   .approach-section-header h3 {
     font-size: 40px;
