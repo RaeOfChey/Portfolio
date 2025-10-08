@@ -173,7 +173,7 @@
   position: relative;
   width: 100%;
   border-radius: 8px;
-  overflow: hidden; 
+  overflow: hidden;
   margin: 2rem 0;
   border: 2px solid #fff;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
@@ -189,16 +189,78 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 0; 
+  right: 0;
   box-sizing: border-box;
   padding: 1rem;
-  background-color: rgba(221, 234, 255, 0.85); 
+  background-color: rgba(221, 234, 255, 0.85);
   color: #000;
   font-size: 1rem;
   line-height: 1.4;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
+  
+  /* Truncate caption text by default */
+  display: -webkit-box;        /* required for -webkit-line-clamp */
+  -webkit-box-orient: vertical; /* required for -webkit-line-clamp */
+  -webkit-line-clamp: 3;        /* actual clamp for WebKit browsers */
+  line-clamp: 3;                /* linter-friendly standard property */
+  overflow: hidden;
+  transition: max-height 0.3s ease, -webkit-line-clamp 0.3s ease;
+}
+
+/* Desktop hover: show full caption */
+@media (hover: hover) {
+  .image-overlay-container:hover .image-caption {
+    -webkit-line-clamp: unset; /* remove clamp */
+    line-clamp: unset;          /* standard property */
+    max-height: 500px;
+    overflow: visible;
+  }
+
+  .caption-toggle-icon {
+    display: none; /* hide toggle on desktop */
+  }
+}
+
+/* Mobile: show toggle icon, tap to expand */
+@media (max-width: 768px) {
+  .caption-toggle-icon {
+    display: block;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background: #ddeaff;
+    border: 2px solid #313647 !important;
+    border: none;
+    border-radius: 50%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .caption-toggle-icon:hover {
+  border-color: #ACBDDC !important;
+}
+
+.caption-toggle-icon.active {
+  border-color: #ACBDDC !important;
+}
+
+  .image-caption {
+    -webkit-line-clamp: unset;
+    line-clamp: unset;
+    max-height: 0;
+    overflow: hidden;
+    padding-bottom: 3.5rem;
+  }
+
+  .image-caption.open {
+    max-height: 500px;
+    overflow: visible;
+  }
+
+  .image-caption.hidden {
+  display: none;
+  }
 }
 
 /* Media Queries */
