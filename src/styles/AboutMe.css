@@ -138,7 +138,7 @@ body.homepage .header-container {
 .see-my-work-button {
   display: inline-block;
   padding: 12px 20px;
-  background-color: #fff;
+  background-color: #F8F9FB;
   color: var(--color-darkblue);
   text-decoration: none;
   font-family: 'neulis-sans', 'Arial', sans-serif;
@@ -188,6 +188,7 @@ body.homepage .header-container {
   border-radius: 10px;
   border: 2px solid var(--color-lightblue);
   margin-bottom: 20px;
+  background-color: #fff;
 }
 
 .experience-item-header {
@@ -258,6 +259,7 @@ body.homepage .header-container {
   width: 100px;
   flex-shrink: 0;
   padding: 5px;
+  background-color: #fff;
 }
 
 .carousel-item:hover {

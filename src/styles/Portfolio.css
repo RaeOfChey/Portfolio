@@ -191,17 +191,17 @@
   left: 0;
   right: 0;
   box-sizing: border-box;
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   background-color: rgba(221, 234, 255, 0.85);
   color: #000;
   font-size: 1rem;
   line-height: 1.4;
   
   /* Truncate caption text by default */
-  display: -webkit-box;        /* required for -webkit-line-clamp */
-  -webkit-box-orient: vertical; /* required for -webkit-line-clamp */
-  -webkit-line-clamp: 3;        /* actual clamp for WebKit browsers */
-  line-clamp: 3;                /* linter-friendly standard property */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3; 
   overflow: hidden;
   transition: max-height 0.3s ease, -webkit-line-clamp 0.3s ease;
 }
@@ -209,19 +209,19 @@
 /* Desktop hover: show full caption */
 @media (hover: hover) {
   .image-overlay-container:hover .image-caption {
-    -webkit-line-clamp: unset; /* remove clamp */
-    line-clamp: unset;          /* standard property */
+    -webkit-line-clamp: unset;
+    line-clamp: unset; 
     max-height: 500px;
     overflow: visible;
   }
 
   .caption-toggle-icon {
-    display: none; /* hide toggle on desktop */
+    display: none;
   }
 }
 
 /* Mobile: show toggle icon, tap to expand */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .caption-toggle-icon {
     display: block;
     position: absolute;
@@ -237,20 +237,16 @@
     z-index: 10;
   }
 
-  .caption-toggle-icon:hover {
+  .caption-toggle-icon.active {
   border-color: #ACBDDC !important;
-}
-
-.caption-toggle-icon.active {
-  border-color: #ACBDDC !important;
-}
+  }
 
   .image-caption {
     -webkit-line-clamp: unset;
     line-clamp: unset;
     max-height: 0;
     overflow: hidden;
-    padding-bottom: 3.5rem;
+    padding: 1rem 5rem 1rem 1rem;
   }
 
   .image-caption.open {

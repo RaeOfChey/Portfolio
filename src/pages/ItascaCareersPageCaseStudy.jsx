@@ -267,7 +267,7 @@ const EmployEaseCaseStudy = () => {
 
             <section className="challenge-section-header">
                 <div className="kelvix-solution-header-section-left">
-                    <h3>How The Hiring Experience Transformed</h3>
+                    <h3>How The Hiring Experience Improved</h3>
                 </div>
 
                 <div className="section-right">

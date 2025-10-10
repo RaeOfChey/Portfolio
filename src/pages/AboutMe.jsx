@@ -79,7 +79,7 @@ const AboutMe = () => {
                             When <span className="title-highlight">design</span> speaks for itself, <span className="title-highlight">users</span> listen.
                         </h5>
                         <p className="subtitle">
-                            Hello, I’m Cheyenna! I design for impact, creating digital experiences that draw users in and move them to act, from eCommerce sites that increase sales to SaaS platforms that boost adoption. With expertise in Graphic Design, UX/UI, and Development, I combine creativity with strategy to make every interaction effortless, intuitive, and impossible to ignore.
+                            Hello, I’m Cheyenna, a UX/UI and Digital Experience Strategist who designs for measurable impact. I help businesses define what to build, why it matters, and how to make it perform. My work spans eCommerce sites that increase sales and SaaS platforms that boost adoption. By combining creativity, research, and hands-on technical skill, I turn strategic insights into intuitive experiences that drive results.
                         </p>
                     </div>
                 </header>
@@ -144,35 +144,45 @@ const AboutMe = () => {
             </div>
           ) : (
             <>
-              <p className="my-goal-paragraph">My goal is to ensure each product is not only visually appealing but also accessible and highly functional, empowering users to connect with products easily and naturally. I accomplish this by following my design philosophy:</p>
+              <p className="my-goal-paragraph">
+                My goal is to create digital experiences that are both strategic and human. Every design decision is guided by research, data, and empathy. The outcome should not only look exceptional but also serve a clear purpose and deliver measurable results.
+              </p>
               <div className="experience-item-container">
                 <div className="experience-item">
                   <div className="experience-item-header">
                     <CircleCheckIcon className="circle-check-icon" />
                     <h2>A creative with a technical edge</h2>
                   </div>
-                  <p>Over 5 years of experience in design, expanded with development skills to create user-focused solutions for industries like marketing, education, and e-commerce.</p>
+                  <p>
+                    I have more than five years of experience blending design, UX, and front-end development to craft user-centered solutions that align with business goals across marketing, healthcare, and SaaS.
+                    </p>
                 </div>
                 <div className="experience-item">
                   <div className="experience-item-header">
                     <CircleCheckIcon className="circle-check-icon" />
                     <h2>A bridge between design and development</h2>
                   </div>
-                  <p>I bring designs to life through clean code, intuitive interfaces, and seamless user experiences that align with business goals.</p>
+                  <p>
+                    I translate insights into tangible products by connecting strategy, user experience, and technical feasibility. My goal is to deliver results that perform as beautifully as they look.
+                  </p>
                 </div>
                 <div className="experience-item">
                   <div className="experience-item-header">
                     <CircleCheckIcon className="circle-check-icon" />
                     <h2>A champion of thoughtful solutions</h2>
                   </div>
-                  <p>Combining analytical thinking and a love for creativity, I craft accessible, visually compelling, and highly functional web experiences.</p>
+                  <p>
+                    I combine analytical thinking with creativity to focus on accessibility, usability, and conversion. Every detail supports both user satisfaction and business growth.
+                  </p>
                 </div>
                 <div className="experience-item">
                   <div className="experience-item-header">
                     <CircleCheckIcon className="circle-check-icon" />
                     <h2>An advocate for user-first design</h2>
                   </div>
-                  <p>I prioritize the user in every project, leveraging my design expertise and technical skills to deliver engaging, accessible, and impactful digital experiences.</p>
+                  <p>
+                    Every project begins with understanding people, their motivations, challenges, and goals. I design experiences that feel effortless, intuitive, and impactful.
+                  </p>
                 </div>
               </div>
             </>
