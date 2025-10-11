@@ -38,7 +38,7 @@ const CaseStudyImage = ({ src, alt, caption, charLimit = 120 }) => {
       {/* Mobile toggle button */}
       {isMobile && (
         <button
-          className="caption-toggle-icon"
+          className={`caption-toggle-icon ${isOpen ? "active" : ""}`}
           onClick={() => setIsOpen(!isOpen)}
         >
           💬
@@ -47,10 +47,10 @@ const CaseStudyImage = ({ src, alt, caption, charLimit = 120 }) => {
 
       {/* Caption overlay */}
       <div
-  className={`image-caption ${ isMobile ? (isOpen ? "open" : "hidden") : ""}`}
->
-  {displayCaption}
-</div>
+        className={`image-caption ${isMobile ? (isOpen ? "open" : "hidden") : ""}`}
+      >
+        {displayCaption}
+      </div>
     </div>
   );
 };

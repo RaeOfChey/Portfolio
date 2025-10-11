@@ -404,6 +404,16 @@ const KelvixCaseStudy = () => {
                 alt="This image shows how the design makes browsing, purchasing, and tracking effortless. Real-time updates, clear layouts, and visible services ensure smooth, confident journeys for both customers and contractors."
                 caption="The design makes browsing, purchasing, and tracking effortless. Real-time updates, clear layouts, and visible services ensure smooth, confident journeys for both customers and contractors."
               />
+
+              <div className="impact-context-item">
+                <div className="context-item-header clear-actionable-design">
+                  <CircleCheckIcon className="circle-check-icon" />
+                  <h4>Results</h4>
+                </div>
+                <p id="intro-redesign" className="redesign-description">
+                  The redesigned platform increased online sales by 15% and organic traffic by 20%, while engagement grew 18%. Users now navigate effortlessly, discover products quickly, and complete purchases through clear CTAs and streamlined flows, a fast, accessible, and data-driven shopping experience.
+                </p>
+              </div>
             </div>
           </div>
         </div>

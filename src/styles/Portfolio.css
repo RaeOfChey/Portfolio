@@ -251,7 +251,7 @@
     z-index: 10;
   }
   .caption-toggle-icon.active {
-  border-color: #ACBDDC !important;
+    border-color: #ACBDDC !important;
   }
   .image-caption.hidden {
   display: none;

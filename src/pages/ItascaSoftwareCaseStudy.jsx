@@ -322,35 +322,62 @@ const ITASCASoftwareCaseStudy = () => {
                             />
                         </div>
 
-                         <div>
-      <CaseStudyImage
-        src={ITASCASoftwareImage7}
-        alt="This image depicts the brand system, where consistent button styles and states were applied across the platform to guide users intuitively through key actions, ensuring clarity and visual hierarchy."
-        caption="A brand system with consistent button styles and states were applied across the platform to guide users intuitively through key actions, ensuring clarity and visual hierarchy."
-      />
+                        <div id="end-result" className="solution-context-item">
+                                      <div className="context-item-header clear-actionable-design">
+                                        <CircleCheckIcon className="circle-check-icon" />
+                                        <h4>Elevating the experience</h4>
+                                      </div>
+                                      <p id="intro-redesign" className="redesign-description">
+                                        The website goes beyond addressing pain points to elevate the overall experience:
+                                        <ul>
+                                          <li>
+                                            Improved navigation and IA for faster product discovery.
+                                          </li>
+                                          <li>
+                                            Clear, strategic CTAs that guide user actions and boost engagement.
+                                          </li>
+                                          <li>
+                                            Analytics integration for continuous, data-driven UX improvements.
+                                          </li>
+                                          <li>
+                                            SEO and performance optimizations for better visibility and faster load times.
+                                          </li>
+                                          <li>
+                                            SEO and performance optimizations for better visibility and faster load times.
+                                          </li>
+                                        </ul>
+                                      </p>
+                                    </div>
 
-      <CaseStudyImage
-        src={ITASCASoftwareImage1}
-        alt="This image depicts the homepage design, which simplifies navigation and product discovery with clear, action-oriented CTAs and a modern, mobile-responsive layout. Every element was crafted to boost engagement, guide users seamlessly, and increase conversions."
-        caption="The homepage design simplifies navigation and product discovery with clear, action-oriented CTAs and a modern, mobile-responsive layout. Every element was crafted to boost engagement, guide users seamlessly, and increase conversions."
-      />
+                        <div>
+                            <CaseStudyImage
+                                src={ITASCASoftwareImage7}
+                                alt="This image depicts the brand system, where consistent button styles and states were applied across the platform to guide users intuitively through key actions, ensuring clarity and visual hierarchy."
+                                caption="A brand system with consistent button styles and states were applied across the platform to guide users intuitively through key actions, ensuring clarity and visual hierarchy."
+                            />
 
-      <CaseStudyImage
-        src={ITASCASoftwareImage3}
-        alt="This image depicts the new product landing pages, which highlights flexible options like multiple licenses and ‘Request a Demo,’ helping users compare plans effortlessly and make confident purchase decisions."
-        caption="The new product landing pages highlight flexible options like multiple licenses and ‘Request a Demo,’ helping users compare plans effortlessly and make confident purchase decisions."
-      />
+                            <CaseStudyImage
+                                src={ITASCASoftwareImage1}
+                                alt="This image depicts the homepage design, which simplifies navigation and product discovery with clear, action-oriented CTAs and a modern, mobile-responsive layout. Every element was crafted to boost engagement, guide users seamlessly, and increase conversions."
+                                caption="The homepage design simplifies navigation and product discovery with clear, action-oriented CTAs and a modern, mobile-responsive layout. Every element was crafted to boost engagement, guide users seamlessly, and increase conversions."
+                            />
 
-      <div className="impact-context-item">
-        <div className="context-item-header clear-actionable-design">
-          <CircleCheckIcon className="circle-check-icon" />
-          <h4>Results</h4>
-        </div>
-        <p id="intro-redesign" className="redesign-description">
-          The redesigned platform increased software sales by 25% and improved lead generation by 30%. Users now navigate effortlessly, make informed decisions, and enjoy a streamlined journey from discovery to checkout, a truly data-driven experience built for global reach.
-        </p>
-      </div>
-    </div>
+                            <CaseStudyImage
+                                src={ITASCASoftwareImage3}
+                                alt="This image depicts the new product landing pages, which highlights flexible options like multiple licenses and ‘Request a Demo,’ helping users compare plans effortlessly and make confident purchase decisions."
+                                caption="The new product landing pages highlight flexible options like multiple licenses and ‘Request a Demo,’ helping users compare plans effortlessly and make confident purchase decisions."
+                            />
+
+                            <div className="impact-context-item">
+                                <div className="context-item-header clear-actionable-design">
+                                    <CircleCheckIcon className="circle-check-icon" />
+                                    <h4>Results</h4>
+                                </div>
+                                <p id="intro-redesign" className="redesign-description">
+                                    The redesigned platform increased software sales by 25% and improved lead generation by 30%. Users now navigate effortlessly, make informed decisions, and enjoy a streamlined journey from discovery to checkout, a truly data-driven experience built for global reach.
+                                </p>
+                            </div>
+                        </div>
 
                     </div>
                 </div>

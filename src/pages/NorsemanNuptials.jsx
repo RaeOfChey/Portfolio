@@ -11,6 +11,8 @@ import { CogIcon } from '../components/CogIcon';
 import { TrendingUpIcon } from '../components/TrendingUpIcon';
 import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
+import TimelineItem from "../components/Timeline";
+import CaseStudyImage from "../components/CaseStudyImage";
 
 import NorsemanNuptialsHeaderImage from '../assets/norseman-nuptials/Norseman Nuptials Header Image.png';
 import CaseStudyImage1 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image1.png';
@@ -117,16 +119,82 @@ const NorsemanNuptialsCaseStudy = () => {
                 </section>
             </div>
 
+            <section className="challenge-section-header">
+                <div className="itasca-software-impact-outcome-section-left">
+                    <h3 className="impacts-header">Results That Moved The Needle</h3>
+                </div>
+
+                <div className="section-right">
+                    <p id="section-intro">
+                        Norseman Nuptials transformed from a niche, under-recognized wedding service into a bold, inclusive brand that immediately resonates with non-traditional couples. The refreshed identity not only captured attention but also strengthened trust, engagement, and bookings, positioning the company as a standout in a crowded industry.
+                    </p>
+
+                    <div className="context-item-container">
+
+                        <div className="impact-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>Outcomes</h4>
+                            </div>
+                            <p id="outcome-list" className="outcome-list">
+                                <ul>
+                                    <li>Social media engagement and followers grew by 50% within three months, signaling strong brand recognition.</li>
+                                    <li>Bookings increased by 35%, demonstrating the brand’s ability to convert interest into action.</li>
+                                    <li>90% of surveyed clients reported high satisfaction with the new identity and collateral, citing emotional resonance and professionalism.</li>
+                                    <li>Client feedback highlighted the brand’s inclusivity and uniqueness, with couples saying it felt like “a wedding brand made for people like us.”</li>
+                                </ul>
+                            </p>
+                        </div>
+                        
+                        <p className="section-label">Business Cards</p>
+                        <CaseStudyImage
+                                src={CaseStudyImage22}
+                                alt="This image depicts the front and back of Norseman Nuptials business cards, featuring bold typography and a minimal, elegant design for brand recognition."
+                                caption="Bold typography and a minimal layout create instant brand recognition, leaving a polished impression during vendor and client interactions."
+                        />
+
+                        <p className="section-label">Social Media</p>
+                        <CaseStudyImage
+                                src={CaseStudyImage1}
+                                alt="This image depicts a preview of Norseman Nuptials’ social media posts, showing cohesive visuals and brand elements that reflect inclusivity and modernity."
+                                caption="A cohesive social media presence amplifies visibility and engagement, reflecting the brand’s inclusivity and modern aesthetic."
+                        />
+
+                        <p className="section-label">Tri-Fold Brochure</p>
+                        <CaseStudyImage
+                                src={CaseStudyImage23}
+                                alt="This image depicts a trifold brochure for Norseman Nuptials, highlighting key services and brand elements in a clear, structured layout for couples and venues."
+                                caption="Structured, brand-forward brochure design communicates key services clearly, making it easy for venues and couples to engage."
+                        />
+
+                        <p className="section-label">Digital Advertisement</p>
+                        <CaseStudyImage
+                                src={CaseStudyImage25}
+                                alt="This image depicts a digital billboard concept for Norseman Nuptials, showing the brand’s high-impact, adaptable design at large scale."
+                                caption="High-impact digital billboard demonstrates the brand’s adaptability at scale, reinforcing visibility and memorability."
+                        />
+
+                        <p className="section-label">Planning Journal</p>
+                        <CaseStudyImage
+                                src={CaseStudyImage24}
+                                alt="This image depicts a custom-designed wedding planning journal for Norseman Nuptials, combining functional planning space with brand-aligned visuals."
+                                caption="Custom journal guides couples through their wedding journey, combining functionality with a stress-free, brand-aligned experience."
+                        />
+
+                    </div>
+                </div>
+            </section>
+
             <section className="section-title">
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Client Vision & Goals</h3>
+                        <h3>Vision For Growth</h3>
                     </div>
 
                     <div className="section-right">
                         <p id="section-intro">
-                            Norseman Nuptials set out to redefine the wedding experience by building a bold, inclusive brand rooted in ease and authenticity. Their goal was to offer a fully customizable, all-in-one service that removes stress from the planning process, all under one roof. They envisioned a brand that would:
+                            Norseman Nuptials aimed to redefine the wedding experience with a bold, inclusive brand offering a stress-free, all-in-one service. The brand needed to:
                         </p>
 
 
@@ -138,7 +206,7 @@ const NorsemanNuptialsCaseStudy = () => {
                                     <h4>Celebrate all love</h4>
                                 </div>
                                 <p>
-                                    Create a brand that welcomes couples who don’t see themselves in traditional wedding culture. Signal from the very first impression that every kind of love is valid, beautiful, and celebrated.
+                                    Signal that every kind of love is valid, beautiful, and celebrated.
                                 </p>
                             </div>
 
@@ -148,7 +216,7 @@ const NorsemanNuptialsCaseStudy = () => {
                                     <h4>Break the mold</h4>
                                 </div>
                                 <p>
-                                    Stand apart from a wedding industry saturated with soft pastels and scripted fonts with a visual identity that felt bold, romantic, and expressive. Something that captured their unconventional spirit while still feeling elevated and intentional.
+                                    Stand apart from the traditional wedding industry with a bold, romantic, and expressive visual identity.
                                 </p>
                             </div>
 
@@ -158,7 +226,7 @@ const NorsemanNuptialsCaseStudy = () => {
                                     <h4>One brand, one roof</h4>
                                 </div>
                                 <p>
-                                    Invoke seamless and trustworthy brand that could carry couples through every step of the journey as an all-in-one service provider. From florals and photography to venues and officiating, the visual identity had to reflect a polished, stress-free experience.
+                                    Convey a seamless, trustworthy system covering every step, from florals and photography to venues and officiating.
                                 </p>
                             </div>
 
@@ -168,7 +236,7 @@ const NorsemanNuptialsCaseStudy = () => {
                                     <h4>Honor nordic roots</h4>
                                 </div>
                                 <p>
-                                    Honor the founders’ Scandinavian heritage with a brand that channels the wild, quiet beauty of the north. Grounding couples in something meaningful while giving them space to write their own traditions.
+                                    Reference Scandinavian heritage through visual elements that feel meaningful, natural, and authentic.
                                 </p>
                             </div>
                         </div>
@@ -185,7 +253,7 @@ const NorsemanNuptialsCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        Create a bold, inclusive brand identity that reimagines the wedding experience. One that honors Nordic heritage, signals a fully integrated, stress-free service, and resonates deeply with non-traditional couples seeking something meaningful, personal, and refreshingly different.
+                        Create a bold, inclusive brand identity that reimagines the wedding experience, honors Nordic heritage, signals a fully integrated, stress-free service, and resonates deeply with non-traditional couples seeking something meaningful, personal, and refreshingly different.
                     </p>
                 </div>
             </section>
@@ -193,7 +261,7 @@ const NorsemanNuptialsCaseStudy = () => {
 
             <section className="challenge-section-header">
                 <div className="kelvix-solution-header-section-left">
-                    <h3>Solution</h3>
+                    <h3>How The Brand Came to Life</h3>
                 </div>
 
                 <div className="section-right">
@@ -205,7 +273,7 @@ const NorsemanNuptialsCaseStudy = () => {
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <UsersIcon className="users-icon" />
-                                <h4>How the design supports the clients goals</h4>
+                                <h4>Solving the Challenge</h4>
                             </div>
 
                             <p id="intro-redesign" className="redesign-description">
