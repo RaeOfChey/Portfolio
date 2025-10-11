@@ -180,7 +180,6 @@ const NorsemanNuptialsCaseStudy = () => {
                             alt="This image depicts a custom-designed wedding planning journal for Norseman Nuptials, combining functional planning space with brand-aligned visuals."
                             caption="Custom journal guides couples through their wedding journey, combining functionality with a stress-free, brand-aligned experience."
                         />
-
                     </div>
                 </div>
             </section>
