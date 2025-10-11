@@ -188,6 +188,7 @@ h5 {
   border-radius: 10px;
   border: 2px solid var(--color-lightblue);
   margin-bottom: 20px;
+  background-color: #fff;
 }
 
 .user-problems-context-item .context-item-header {
@@ -248,6 +249,7 @@ h5 {
   border-radius: 10px;
   border: 2px solid var(--color-lightblue);
   background-color: var(--color-lightblue);
+  border: 2px solid var(--color-white);
 }
 
 /* ----- Approach Section ----- */
@@ -275,6 +277,7 @@ h5 {
   border-radius: 10px;
   border: 2px solid var(--color-lightblue);
   margin-bottom: 20px;
+  background-color: #fff;
 }
 
 .approach-context-item .context-item-header {
@@ -438,6 +441,7 @@ ul li {
   height: 100px;
   width: 200px;
   flex-shrink: 0;
+  background-color: #fff;
 }
 
 .carousel-item-casestudy:hover {
@@ -468,6 +472,7 @@ ul li {
   border-radius: 10px;
   border: 2px solid var(--color-lightblue);
   margin-bottom: 20px;
+  background-color: #fff;
 }
 
 .obstacles-context-item .context-item-header {
@@ -515,6 +520,7 @@ ul li {
   border-radius: 10px;
   margin-bottom: 20px;
   margin-top: 20px;
+  background-color: #fff;
 }
 
 /* Context Items Styling */
@@ -556,7 +562,7 @@ ul li {
 .solution-link a {
   display: inline-block;
   padding: 12px 20px;
-  background-color: #fff;
+  background-color: #ddeaff;
   border: 2px solid var(--color-darkblue);
   color: var(--color-darkblue);
   text-decoration: none;
@@ -613,6 +619,7 @@ margin: 0px !important;
   border-radius: 10px;
   border: 2px solid var(--color-lightblue);
   margin-top: 20px;
+  background-color: #fff;
 }
 
 .impact-context-item .context-item-header {
@@ -723,6 +730,7 @@ margin: 0px !important;
   border-radius: 10px;
   border: 2px solid var(--color-lightblue);
   margin-bottom: 20px;
+  background-color: #fff;
 }
 
 .growth-context-item .context-item-header {
@@ -781,7 +789,7 @@ margin: 0px !important;
 
 .cta-option a {
   padding: 12px 20px;
-  background-color: #fff;
+  background-color: #ddeaff;
   border: 2px solid var(--color-darkblue);
   color: var(--color-darkblue);
   text-decoration: none;

@@ -277,8 +277,8 @@ main {
     padding-bottom: 10px;
     border-radius: 5px;
     padding-left: 0px;
-    background-color: #fff;
-    border: 2px solid var(--color-lightblue);
+    background-color: #ddeaff;
+    border: 2px solid var(--color-darkblue);
   }
   .navbar-links li {
     text-align: right;
@@ -362,8 +362,8 @@ main {
     border-radius: 5px;
     padding-left: 0px;
     padding-right: 0px;
-    background-color: #fff;
-    border: 2px solid var(--color-lightblue);
+    background-color: #ddeaff;
+    border: 2px solid var(--color-darkblue);
   }
   .navbar-links li {
     text-align: right;
@@ -442,8 +442,8 @@ main {
     padding-bottom: 10px;
     border-radius: 5px;
     padding-left: 50px;
-    background-color: #fff;
-    border: 2px solid var(--color-lightblue);
+    background-color: #ddeaff;
+    border: 2px solid var(--color-darkblue);
   }
   .navbar-links li {
     text-align: right;
@@ -516,8 +516,8 @@ main {
     padding-bottom: 10px;
     border-radius: 5px;
     padding-left: 50px;
-    background-color: #fff;
-    border: 2px solid var(--color-lightblue);
+    background-color: #ddeaff;
+    border: 2px solid var(--color-darkblue);
   }
 }
 

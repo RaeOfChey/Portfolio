@@ -221,7 +221,7 @@
 }
 
 /* Mobile: show toggle icon, tap to expand */
-@media (max-width: 1024px) {
+@media (max-width: 1281px) {
   .caption-toggle-icon {
     display: block;
     position: absolute;
@@ -235,6 +235,7 @@
     font-size: 1.2rem;
     cursor: pointer;
     z-index: 10;
+
   }
 
   .caption-toggle-icon.active {
@@ -250,8 +251,8 @@
   }
 
   .image-caption.open {
-    max-height: 500px;
-    overflow: visible;
+    max-height: 80vh;  /* max 80% of viewport height */
+    overflow-y: auto; 
   }
 
   .image-caption.hidden {
