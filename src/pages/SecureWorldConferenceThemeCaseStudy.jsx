@@ -11,11 +11,10 @@ import { CogIcon } from '../components/CogIcon';
 import { TrendingUpIcon } from '../components/TrendingUpIcon';
 import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
+import TimelineItem from "../components/Timeline";
+import CaseStudyImage from "../components/CaseStudyImage";
 
 import SecureWorldHeaderConfereneceImage from "../assets/secureworld-conference-theme/SecureWorld Conferenece Theme Thumbnail Image.png";
-
-
-// C:\Users\Cheyenna\Portfolio\src\assets\secureworld-conference-theme\SecureWorld Conference Signage Thumbnail Image.png
 
 import CaseStudyImage1 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image1.png';
 import CaseStudyImage2 from '../assets/secureworld-conference-theme/SW Conference Theme Case Study Image2.png';
@@ -130,16 +129,48 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                 </section>
             </div>
 
+            <section className="challenge-section-header">
+                <div className="itasca-software-impact-outcome-section-left">
+                    <h3 className="impacts-header">Results That Moved The Needle</h3>
+                </div>
+
+                <div className="section-right">
+                    <p id="section-intro">
+                        SecureWorld is a cybersecurity conference platform connecting industry leaders, practitioners, and innovators. This project created an immersive, high-energy brand identity that communicates the organization’s values, differentiates the event from competitors, and drives engagement, networking, and sponsorship across all touchpoints.
+                    </p>
+
+                    <div className="context-item-container">
+
+                        <div className="impact-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>Outcomes</h4>
+                            </div>
+                            <p id="outcome-list" className="outcome-list">
+                                <ul>
+                                    <li>92% of surveyed attendees reported the event felt “highly engaging and visually impactful,” citing cohesive design as a key factor.</li>
+                                    <li>Increased dwell time in networking areas and exhibitor booths, with vendors noting stronger traffic flow than previous years.</li>
+                                    <li>Faster production and digital updates thanks to reusable templates and a scalable design system.</li>
+                                    <li>Sponsors highlighted the polished environment as a reflection of the event’s professionalism and credibility.</li>
+                                    <li>Delivered all assets on schedule, setting a benchmark for efficiency and quality.</li>
+                                </ul>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
             <section className="section-title">
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Client Vision & Goals</h3>
+                        <h3>Vision For Growth</h3>
                     </div>
 
                     <div className="section-right">
                         <p id="section-intro">
-                            SecureWorld hosts cybersecurity conferences across North America, bringing together industry leaders, practitioners, and innovators to share insights and strengthen the cybersecurity community. For 2023, they aimed to create a one-of-a-kind conference experience that would:
+                            SecureWorld aimed to create a one-of-a-kind conference experience that would:
                         </p>
 
                         <div className="context-item-container">
@@ -150,7 +181,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Energized return of in-person events</h4>
                                 </div>
                                 <p>
-                                    Deliver a high-impact return to live conferences after years of virtual gatherings due to COVID, creating a sense of excitement, connection, and renewed momentum for the community.
+                                    Deliver a high-impact live experience after years of virtual gatherings, creating excitement, connection, and momentum for the community.
                                 </p>
                             </div>
 
@@ -160,7 +191,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Attract new career professionals</h4>
                                 </div>
                                 <p>
-                                    Appeal to a younger audience in order to expand beyond their core, long-standing attendees by modernizing the event experience with a fresh, forward-looking, and relevant feel.
+                                    Modernize the event experience to appeal to younger attendees while maintaining credibility with long-standing participants.
                                 </p>
                             </div>
 
@@ -170,7 +201,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Foster community and collaboration</h4>
                                 </div>
                                 <p>
-                                    Design an atmosphere that encourages professionals to connect, share knowledge, and build relationships, reinforcing the organization’s role as both an educational and community-building platform.
+                                    Design spaces that encourage networking, collaboration, and knowledge sharing.
                                 </p>
                             </div>
 
@@ -180,7 +211,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Stand out from competing tech conferences</h4>
                                 </div>
                                 <p>
-                                    Move beyond the common monotone, formal aesthetics in the tech industry with a bold, immersive identity that attendees would find memorable, energizing, and worth sharing.
+                                    Move beyond monotone, formal tech aesthetics with a bold, immersive identity that is memorable, energizing, and shareable.
                                 </p>
                             </div>
                         </div>
@@ -197,7 +228,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        Create a bold, immersive conference identity that reignited the excitement of in-person events, appeal to the next generation of cybersecurity professionals, and foster meaningful community while breaking away from the monotone, overly formal aesthetics of typical tech conferences.
+                        Create an immersive, high-energy conference identity that reignites excitement for live events, appeals to younger professionals, fosters community, and breaks away from typical tech conference monotony.
                     </p>
                 </div>
             </section>
@@ -205,35 +236,35 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
             <section className="challenge-section-header">
                 <div className="kelvix-solution-header-section-left">
-                    <h3>Solution</h3>
+                    <h3>How The Brand System Came to Life</h3>
                 </div>
 
                 <div className="section-right">
                     <p id="section-intro">
-                        The final brand system for 2023 SecureWorld Conference's transformed the event into an immersive, high-energy experience. By blending music-inspired visuals with the organization’s established credibility, the design system reenergized the return to in-person gatherings, modernized the brand to appeal to younger professionals, and fostered a stronger sense of community.
+                        The final brand system for 2023 blended music-inspired visuals with SecureWorld’s credibility, transforming the conference into a bold, dynamic, and immersive experience. It modernized the brand for younger attendees, fostered community engagement, and created memorable moments across all touchpoints.
                     </p>
 
                     <div className="context-item-container">
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <UsersIcon className="users-icon" />
-                                <h4>How the design supports the clients goals</h4>
+                                <h4>Solving the Challenge</h4>
                             </div>
 
                             <p id="intro-redesign" className="redesign-description">
-                                The conference theme design meets each of the core goals identified in the vision phase by:
+                                The conference theme design directly addressed key brand challenges by:
                                 <ul>
                                     <li>
-                                        Dynamic patterns, vibrant colors, and glowing textures injected energy into the venue, creating a high-impact environment that captured immediate attention and set an exciting tone for the conference.
+                                        Injecting energy through vibrant colors, dynamic patterns, and glowing textures that created an exciting, high-impact environment.
                                     </li>
                                     <li>
-                                        Prioritizing an approachable environment with clear, intuitive layouts across all touchpoints, making information easy to find, appealing to newer and younger professionals entering the cybersecurity community.
+                                        Ensuring accessibility with clear layouts and intuitive signage that made information easy to find for both newcomers and veteran attendees.
                                     </li>
                                     <li>
-                                        Tying every element together through a cohesive visual language, creating a fully immersive environment that fostered networking, engagement, and shared experiences among attendees.
+                                        Establishing a cohesive identity across banners, coasters, digital slides, and installations to foster engagement and shared experiences.
                                     </li>
                                     <li>
-                                        Featuring high-impact, signature themed assets that made the conference instantly recognizable, reinforced the brand’s innovative positioning, and created memorable moments, making unique events.
+                                        Reinforcing memorable branding with signature assets that strengthened the conference’s innovative positioning and encouraged social sharing.
                                     </li>
                                 </ul>
                             </p>
@@ -352,10 +383,6 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     src={CaseStudyImage5}
                                     alt="The image shows a set of Google display ad designs: large rectangle, medium rectangle, wide skyscraper, half page, and leaderboard, created to deliver a consistent, visually compelling brand presence across multiple formats and placements."
                                 />
-
-                                {/* <p id="image-caption">
-                                    A set of Google display ad designs: large rectangle, medium rectangle, wide skyscraper, half page, and leaderboard, created to deliver a consistent, visually compelling brand presence across multiple formats and placements.
-                                </p> */}
                             </div>
                         </div>
 
@@ -537,19 +564,19 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>How the design elevates beyond the brief</h4>
+                                <h4>Elevating the experience</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                                While meeting the original goals, the brand system also introduced:
+                                Beyond meeting the initial goals, the brand system elevates the experience with:
                                 <ul>
                                     <li>
-                                        Immersive photo opportunities through large-scale backdrops and branded touchpoints that encouraged attendees to capture and share their experience, amplifying SecureWorld’s reach.
+                                        Social sharing encouraged through immersive photo opportunities and visually striking assets.
                                     </li>
                                     <li>
-                                        Reusable assets that support sustainability, with physical signage made from recyclable, environmentally friendly materials and digital assets designed to be repurposed for future events.
+                                        Sustainability prioritized via recyclable signage and reusable digital templates.
                                     </li>
                                     <li>
-                                        Authentic brand alignment through every design choice, ensuring that everything felt true to the organizations identity and values, creating an experience that was memorable and reflective of the organization.
+                                        Authentic brand alignment, ensuring every design element reinforced SecureWorld’s identity and values.
                                     </li>
                                 </ul>
                             </p>
@@ -558,14 +585,10 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>End result</h4>
+                                <h4>Results</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                                The 2023 conference theme emerged as a high-energy, immersive experience that reinvigorated in-person attendance, engaged younger professionals, and strengthened the sense of community within the cybersecurity industry.
-                            </p>
-                            <br />
-                            <p id="intro-redesign" className="redesign-description">
-                                The cohesive and bold brand system made the event instantly recognizable, encouraged attendee interaction and social sharing, and set a new standard for conference design in the space. By combining sustainability, authenticity, and thoughtfully crafted assets, the theme design created a memorable, unique framework that evolved the brand and continued to elevate the attendee experience.
+                                The 2023 conference design system emerged as a high-energy, immersive experience that reinvigorated in-person attendance, engaged younger professionals, and strengthened the sense of community within the cybersecurity industry.
                             </p>
                         </div>
                     </div>
@@ -575,13 +598,13 @@ const SecureWorldConferenceThemeCaseStudy = () => {
             <section className="approach-section-header">
 
                 <div className="itasca-careers-title-section-left">
-                    <h3 className="approach-header">Approach</h3>
+                    <h3 className="approach-header">My Process To Bring The Vision To Life</h3>
                 </div>
 
                 <div className="section-right">
 
                     <p id="section-intro">
-                        To translate SecureWorld’s vision into a high-energy, authentic conference experience, I followed a process that combined thematic exploration, brand alignment, and practical execution across digital and physical touchpoints.
+                        My process for this project was guided by the following key principles:
                     </p>
 
                     <div className="context-item-container">
@@ -592,7 +615,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                 <h4>Thematic exploration</h4>
                             </div>
                             <p>
-                                Developed multiple moodboards exploring visual metaphors fusing music and cybersecurity, giving the internal teams a chance to provide input and securing a clear choice in direction in the final EDM-inspired creative system.
+                                Moodboards explored music, EDM, retro ‘70s, and Art Deco jazz aesthetics. The EDM-inspired direction was chosen for bold, immersive energy.
                             </p>
                         </div>
 
@@ -602,7 +625,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                 <h4>User-centered flow</h4>
                             </div>
                             <p>
-                                Mapped the attendee journey across signage, print, and digital platforms to ensure wayfinding was intuitive, information was accessible, and the overall environment felt approachable for professionals of all levels.
+                                Mapped attendee journeys across signage, print, and digital touchpoints to ensure intuitive wayfinding and accessible information.
                             </p>
                         </div>
 
@@ -612,7 +635,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                 <h4>Cohesive design language</h4>
                             </div>
                             <p>
-                                Built a consistent system of patterns, colors, and textures that tied together everything from banners and coasters to slide decks and digital assets, creating a fully immersive and recognizable experience.
+                                Patterns, colors, and textures tied together banners, coasters, slide decks, and digital assets into a fully immersive experience.
                             </p>
                         </div>
 
@@ -622,11 +645,11 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                 <h4>Sustainable execution</h4>
                             </div>
                             <p>
-                                Made intentional decisions for sustainability by selecting recyclable materials for printed signage and designing digital assets for reuse across future conferences, to align with the organization with Oregon's environmentally conscious values.
+                                Printed signage used recyclable materials; digital assets were designed for reuse across future events, aligning with environmental values.
                             </p>
                         </div>
 
-                          <p className="sub-section-label">Moodboards</p>
+                        <p className="sub-section-label">Moodboards</p>
 
                         <div className="image-section">
                             <div className="one-image-row">
@@ -655,49 +678,40 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                     </div>
                 </div>
 
-                
+
             </section>
 
-            
+
 
             <section className="process-section-header">
                 <div className="section-left">
-                    <h3>Timeline & Design Process</h3>
+                    <h3>From Concept To Launch</h3>
                 </div>
 
                 <div className="section-right">
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Week 1 Exploration & Direction</h4>
-                        </div>
+                    <TimelineItem title="Week 1 Exploration & Direction">
                         <ul>
-                            <li>Created moodboards that captured the energy of live music and nightlife, using layered textures, neon glows, and waveforms to establish a vibrant creative foundation.</li>
-                            <li>Defined the event’s visual tone in collaboration with internal teams, ensuring the design direction aligned with goals of energy, engagement, and innovation.</li>
-                            <li>Locked in a cohesive color palette and pattern system to carry across large and small-scale assets.</li>
+                            <li>Developed moodboards fusing live music and cybersecurity energy.</li>
+                            <li>Defined the event’s visual tone with internal teams.</li>
+                            <li>Locked in cohesive color palettes and pattern systems.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Week 2 Design Development</h4>
-                        </div>
+                    <TimelineItem title="Week 2 Design Development">
                         <ul>
-                            <li>Designed a complete asset system including banners, stage backdrops, coasters, and digital templates, building consistency across all attendee touchpoints.</li>
-                            <li>Developed slide deck templates and branded presentation graphics to unify the speaker and session experience.</li>
-                            <li>Iterated on layouts and patterns to maximize visual impact while maintaining readability and brand alignment.</li>
+                            <li>Built a complete asset system including banners, backdrops, coasters, and digital templates.</li>
+                            <li>Developed branded slide decks for speakers and sessions.</li>
+                            <li>Iterated layouts and patterns for visual impact and readability.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Week 3 Production & Delivery</h4>
-                        </div>
+                    <TimelineItem title="Week 3 Production & Delivery">
                         <ul>
-                            <li>Prepared all final artwork for production, ensuring precision through Pantone matching, prepress setup, and proof reviews.</li>
-                            <li>Coordinated with vendors to print large-scale signage on recyclable materials, balancing bold aesthetics with sustainable practices.</li>
-                            <li>Managed delivery timelines and vendor communication to guarantee all physical and digital assets were ready for the event launch.</li>
+                            <li>Prepared prepress and Pantone-matched artwork.</li>
+                            <li>Coordinated vendor printing with recyclable materials.</li>
+                            <li>Delivered all assets on time, ensuring flawless execution.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
                 </div>
             </section>
 
@@ -705,12 +719,16 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Obstacles & Milestones</h3>
+                        <h3>Overcoming Challenges</h3>
                     </div>
 
                     <div className="section-right">
 
                         <div className="context-item-container">
+
+                            <p id="section-intro">
+                                A bold vision met tight deadlines and high expectations. This project required transforming a traditional cybersecurity conference into an immersive, high-energy experience that balanced professionalism with excitement.
+                            </p>
 
                             <div className="obstacles-context-item">
                                 <div className="context-item-header obstacles">
@@ -718,10 +736,10 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Obstacles</h4>
                                 </div>
                                 <ul>
-                                    <li>Designing a high-energy visual system in only three weeks required balancing speed with creative depth, ensuring no corners were cut in exploration or execution.</li>
-                                    <li>Large-scale assets like banners and stage backdrops demanded visuals that were bold from a distance yet still cohesive with smaller touchpoints like coasters and digital templates.</li>
-                                    <li>Coordinating print production across multiple vendors introduced complexity, from Pantone matching to proof approval, all under a strict event deadline.</li>
-                                    <li>Integrating sustainable, recyclable materials into the design added another layer of intentional decision-making during production.</li>
+                                    <li>Balancing a high-energy design with a tight three-week timeline.</li>
+                                    <li>Ensuring large-scale visuals were bold from afar yet cohesive with smaller touchpoints.</li>
+                                    <li>Coordinating multiple vendors for color accuracy, proofing, and production deadlines.</li>
+                                    <li>Integrating sustainable materials without compromising design quality.</li>
                                 </ul>
                             </div>
 
@@ -731,10 +749,10 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Milestones</h4>
                                 </div>
                                 <ul>
-                                    <li>Established a unified design system spanning event signage, digital graphics, slide decks, and branded collateral.</li>
-                                    <li>Completed prepress, proofing, and Pantone-matched production setup across all physical assets, ensuring flawless print execution.</li>
-                                    <li>Delivered all large-scale signage, digital assets, and reusable templates on time for the first conference of the event season.</li>
-                                    <li>Reinforced the conference’s identity with a design system that celebrated innovation, music-inspired energy, and environmentally conscious practices.</li>
+                                    <li>Unified design system across digital, print, and environmental assets.</li>
+                                    <li>Completed prepress and proofing with Pantone-matched accuracy.</li>
+                                    <li>Delivered all assets on time for the first conference of the season.</li>
+                                    <li>Reinforced the conference identity with energy-driven, sustainable, and immersive design.</li>
                                 </ul>
                             </div>
 
@@ -744,89 +762,50 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                 </div>
 
-            </section>
-
-            <section className="challenge-section-header">
-                <div className="itasca-software-impact-outcome-section-left">
-                    <h3 className="impacts-header">Impact & Outcomes</h3>
-                </div>
-
-                <div className="section-right">
-                    <p id="section-intro">
-                        The immersive design system transformed SecureWorld’s Oregon conference into a dynamic, high-energy experience that reflected the innovation and urgency of the cybersecurity field.
-                    </p>
-
-                    <p id="section-intro-2">
-                        By delivering a consistent visual identity across signage, digital templates, and large-scale installations, the event stood out as both memorable and professional, strengthening SecureWorld’s position in a competitive conference landscape.
-                    </p>
-
-                    <br />
-
-                    <div className="context-item-container">
-
-                        <div className="impact-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
-                                <h4>Outcomes</h4>
-                            </div>
-                            <p id="outcome-list" className="outcome-list">
-                                <ul>
-                                    <li>92% of surveyed attendees reported that the event felt “highly engaging and visually impactful,” citing the cohesive design as a key factor in their positive experience.</li>
-                                    <li>Increased attendee dwell time in networking areas and exhibitor booths, with vendors noting stronger traffic flow compared to previous years.</li>
-                                    <li>Event organizers reported smoother execution and faster turnaround for digital updates, thanks to the scalable design system and reusable assets.</li>
-                                    <li>Strengthened reputation with sponsors and partners, who highlighted the polished brand environment as a reflection of the event’s professionalism.</li>
-                                    <li>Delivered all print and digital assets on schedule and error-free, setting a new benchmark for production efficiency and reliability.</li>
-                                </ul>
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
             </section>
 
             <section className="section-title">
 
                 <div className="problem-section-header">
                     <div className="itasca-software-takeaways-section-left">
-                        <h3 className="takeaways-header">Takeaways</h3>
+                        <h3 className="takeaways-header">Design Lessons That Stick</h3>
                     </div>
 
                     <div className="section-right">
 
                         <div className="context-item-container">
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header lessons-learned">
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
                                     <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Lessons learned</h4>
                                 </div>
-                                <p>
-                                    This project underscored the power of creating a brand system that is more than a collection of assets. It’s a visual language that can scale across mediums and events. I learned how consistency in typography, color, and structure can unify everything from large-format signage to digital screens, while still leaving room for adaptability for each events. Building a system also reinforced the importance of intentional design choices: each element had to work individually, but also contribute to a larger, cohesive identity that attendees could instantly recognize.
-                                </p>
+                                <ul>
+                                    <li>A brand system is more than assets, it’s a scalable visual language that unifies experiences across mediums.</li>
+                                    <li>Consistency in typography, color, and structure creates recognition and adaptability for future events.</li>
+                                </ul>
                             </div>
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header key-challenges-overcome">
-                                    <CogIcon className="cog-icon" />
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
+                                    <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Key challenges overcome</h4>
                                 </div>
-                                <p>
-                                    A key challenge was ensuring that the system felt both distinctive to SecureWorld and flexible enough to be reused across multiple conferences. Avoiding a “one-off” event look required thinking modularly. Which means creating patterns, grids, and templates that could be updated without losing brand integrity.
-                                </p>
-                                <br />
-                                <p>
-                                    Another challenge was maintaining system cohesion under production pressures. With dozens of deliverables and a tight timeline, it was easy for inconsistencies to creep in. Establishing clear visual rules and handling proofing with vendors directly helped ensure the system stayed intact from concept to execution.
-                                </p>
+                                <ul>
+                                    <li>Designed a flexible system that can be reused across conferences without feeling like a “one-off.”</li>
+                                    <li>Maintained cohesion under tight production timelines through clear rules and direct vendor proofing.</li>
+                                </ul>
                             </div>
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header key-challenges-overcome">
-                                    <SparklesIcon className="sparkles-icon" />
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
+                                    <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Personal reflections</h4>
                                 </div>
-                                <p>
-                                    This project showed me the real value of brand systems. They make events look polished and they also make them work better. Sponsors were more visible, wayfinding was more intuitive, and attendees described the environment as clear and energized. It was rewarding to see how a strong system can transform a conference into a branded experience that feels intentional at every touchpoint.
-                                </p>
+                                <ul>
+                                    <li>A strong system transforms a conference into a branded experience where sponsors, wayfinding, and attendee interactions all feel intentional.</li>
+                                    <li>Seeing increased engagement and streamlined operations reinforced the power of thoughtful design.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -837,13 +816,13 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Growth & Future Direction</h3>
+                        <h3>Where To Go Next</h3>
                     </div>
 
                     <div className="section-right">
 
-                        <p id="section-intro">
-                            There are several ways the event brand system could expand and adapt as the conference series grows:
+                         <p id="section-intro">
+                            The SecureWorld conference brand system was built for expansion. These next steps show how it could evolve while maintaining a cohesive, high-impact identity across future events.
                         </p>
 
                         <div className="context-item-container">
@@ -854,7 +833,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Refined event sub-branding</h4>
                                 </div>
                                 <p>
-                                    As new conference tracks, regional events, or virtual experiences are added, subtle variations of the system could help distinguish them while maintaining overall brand unity.
+                                    Introduce subtle variations for new tracks, regional events, or virtual experiences while maintaining brand unity.
                                 </p>
                             </div>
 
@@ -864,7 +843,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Expanded collateral suite</h4>
                                 </div>
                                 <p>
-                                    Developing more modular themed assets such as sponsor kits, exhibitor guides, and adaptable templates for presentations, could streamline communication and improve consistency across events.
+                                    Develop modular assets like sponsor kits, exhibitor guides, and adaptable templates for consistent communication across events.
                                 </p>
                             </div>
 
@@ -874,7 +853,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Digital-first design assets</h4>
                                 </div>
                                 <p>
-                                    Creating dedicated motion graphics, social media toolkits, and digital signage templates would strengthen the system’s presence in online channels and on-site environments alike.
+                                    Create motion graphics, social toolkits, and digital signage templates to strengthen online and on-site brand presence.
                                 </p>
                             </div>
 
@@ -884,7 +863,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Experience-driven enhancements</h4>
                                 </div>
                                 <p>
-                                    Future iterations of the system could expand into attendee experience design such as interactive schedules and apps to wayfinding systems, ensuring the brand identity is felt visually, and functional throughout the conference journey.
+                                    Expand into interactive schedules, apps, and wayfinding systems, ensuring the brand is felt visually and functionally throughout the attendee journey.
                                 </p>
                             </div>
 
