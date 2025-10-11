@@ -836,6 +836,11 @@ margin: 0px !important;
 }
 
 /* ----- Branding Assets ----- */
+.brand-assets-section {
+    background-color: #fff;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
 
 /* Logo */
 
@@ -878,6 +883,7 @@ margin: 0px !important;
   place-items: center;
   padding: 20px;
   text-align: center;
+  /* border-radius: 0px 10px 10px 0px; */
 }
 
 /* New specific style for single-image row */

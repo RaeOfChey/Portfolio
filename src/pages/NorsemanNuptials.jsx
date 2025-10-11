@@ -126,7 +126,7 @@ const NorsemanNuptialsCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        Norseman Nuptials transformed from a niche, under-recognized wedding service into a bold, inclusive brand that immediately resonates with non-traditional couples. The refreshed identity not only captured attention but also strengthened trust, engagement, and bookings, positioning the company as a standout in a crowded industry.
+                        Norseman Nuptials is a wedding company that offers an all-in-one, Nordic-inspired wedding experience who aims to provide non-traditional, inclusive, and emotionally rich celebrations. This project sought to create a bold, cohesive brand identity that communicates their values, differentiates them in a crowded market, and supports growth across services and touchpoints.
                     </p>
 
                     <div className="context-item-container">
@@ -145,40 +145,40 @@ const NorsemanNuptialsCaseStudy = () => {
                                 </ul>
                             </p>
                         </div>
-                        
+
                         <p className="section-label">Business Cards</p>
                         <CaseStudyImage
-                                src={CaseStudyImage22}
-                                alt="This image depicts the front and back of Norseman Nuptials business cards, featuring bold typography and a minimal, elegant design for brand recognition."
-                                caption="Bold typography and a minimal layout create instant brand recognition, leaving a polished impression during vendor and client interactions."
+                            src={CaseStudyImage22}
+                            alt="This image depicts the front and back of Norseman Nuptials business cards, featuring bold typography and a minimal, elegant design for brand recognition."
+                            caption="Bold typography and a minimal layout create instant brand recognition, leaving a polished impression during vendor and client interactions."
                         />
 
                         <p className="section-label">Social Media</p>
                         <CaseStudyImage
-                                src={CaseStudyImage1}
-                                alt="This image depicts a preview of Norseman Nuptials’ social media posts, showing cohesive visuals and brand elements that reflect inclusivity and modernity."
-                                caption="A cohesive social media presence amplifies visibility and engagement, reflecting the brand’s inclusivity and modern aesthetic."
+                            src={CaseStudyImage1}
+                            alt="This image depicts a preview of Norseman Nuptials’ social media posts, showing cohesive visuals and brand elements that reflect inclusivity and modernity."
+                            caption="A cohesive social media presence amplifies visibility and engagement, reflecting the brand’s inclusivity and modern aesthetic."
                         />
 
                         <p className="section-label">Tri-Fold Brochure</p>
                         <CaseStudyImage
-                                src={CaseStudyImage23}
-                                alt="This image depicts a trifold brochure for Norseman Nuptials, highlighting key services and brand elements in a clear, structured layout for couples and venues."
-                                caption="Structured, brand-forward brochure design communicates key services clearly, making it easy for venues and couples to engage."
+                            src={CaseStudyImage23}
+                            alt="This image depicts a trifold brochure for Norseman Nuptials, highlighting key services and brand elements in a clear, structured layout for couples and venues."
+                            caption="Structured, brand-forward brochure design communicates key services clearly, making it easy for venues and couples to engage."
                         />
 
                         <p className="section-label">Digital Advertisement</p>
                         <CaseStudyImage
-                                src={CaseStudyImage25}
-                                alt="This image depicts a digital billboard concept for Norseman Nuptials, showing the brand’s high-impact, adaptable design at large scale."
-                                caption="High-impact digital billboard demonstrates the brand’s adaptability at scale, reinforcing visibility and memorability."
+                            src={CaseStudyImage25}
+                            alt="This image depicts a digital billboard concept for Norseman Nuptials, showing the brand’s high-impact, adaptable design at large scale."
+                            caption="High-impact digital billboard demonstrates the brand’s adaptability at scale, reinforcing visibility and memorability."
                         />
 
                         <p className="section-label">Planning Journal</p>
                         <CaseStudyImage
-                                src={CaseStudyImage24}
-                                alt="This image depicts a custom-designed wedding planning journal for Norseman Nuptials, combining functional planning space with brand-aligned visuals."
-                                caption="Custom journal guides couples through their wedding journey, combining functionality with a stress-free, brand-aligned experience."
+                            src={CaseStudyImage24}
+                            alt="This image depicts a custom-designed wedding planning journal for Norseman Nuptials, combining functional planning space with brand-aligned visuals."
+                            caption="Custom journal guides couples through their wedding journey, combining functionality with a stress-free, brand-aligned experience."
                         />
 
                     </div>
@@ -266,7 +266,7 @@ const NorsemanNuptialsCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        The final visual identity for Norseman Nuptials brings their all-in-one, Nordic-inspired wedding experience to life with bold clarity and emotional depth. It positions them as a refreshing alternative in the wedding space that is modern, inclusive, and beautifully untamed.
+                        The new visual identity for Norseman Nuptials captures their Nordic-inspired, all-in-one wedding experience with emotional depth and modern sophistication. It positions the brand as a refreshing, inclusive alternative in the wedding space, bold, natural, and beautifully untamed.
                     </p>
 
                     <div className="context-item-container">
@@ -277,23 +277,25 @@ const NorsemanNuptialsCaseStudy = () => {
                             </div>
 
                             <p id="intro-redesign" className="redesign-description">
-                                The brand system meets each of the core goals identified in the vision phase by:
+                                The design directly addressed key brand challenges by:
                                 <ul>
                                     <li>
-                                        Resonating with non-traditional couples through non-traditional design: bold colors, imperfect textures, and expressive typography communicate individuality and freedom from convention.
+                                        Resonating with non-traditional couples through bold colors, expressive typography, and textured details that celebrate individuality.
                                     </li>
                                     <li>
-                                        Breaking from the bridal norm by avoiding pastels, lace, or overly gendered visuals with an identity that feels powerful, personal, and modern while still romantic.
+                                        Breaking from bridal clichés with a gender-neutral, contemporary aesthetic that feels powerful yet romantic.
                                     </li>
                                     <li>
-                                        Highlighting the stress-free model with a professional, unified system across touchpoints that suggests trust and polish from the first glance.
+                                        Reflecting trust and polish through a cohesive system that communicates a stress-free, all-in-one experience.
                                     </li>
                                     <li>
-                                        Honoring Nordic roots with a color palette inspired by the northern lights, Nordic-influenced fonts like “North,” and a name and logo that evoke natural beauty and minimalist strength.
+                                        Honoring Nordic roots with a palette inspired by the northern lights, minimalist structure, and natural symbolism.
                                     </li>
                                 </ul>
                             </p>
                         </div>
+
+                        <div className="brand-assets-section">
 
                         <div className="logo-section">
 
@@ -459,23 +461,24 @@ const NorsemanNuptialsCaseStudy = () => {
                                 className="photography-img"
                             />
                         </div>
+                        </div>
 
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>How the design elevates beyond the brief</h4>
+                                <h4>Elevating the experience</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                                While meeting the original goals, the branding also introduces:
+                                Beyond meeting the initial goals, the brand system elevates the experience with:
                                 <ul>
                                     <li>
-                                        A semi-custom typography system with handcrafted letterforms that feel artisanal and bespoke.
+                                        A custom typography system with handcrafted letterforms that feel artisanal and bespoke.
                                     </li>
                                     <li>
-                                        Iconography and visual motifs inspired by folklore and natural landscapes, deepening the emotional story.
+                                        Iconography and motifs inspired by Nordic folklore and symbolism to deepen emotional storytelling.
                                     </li>
                                     <li>
-                                        A flexible identity system that easily adapts for sub-brands, vendor collaborations, and event themes without losing cohesion.
+                                        A flexible, scalable identity that adapts seamlessly across vendors, events, and sub-brands while maintaining cohesion.
                                     </li>
                                 </ul>
                             </p>
@@ -484,10 +487,10 @@ const NorsemanNuptialsCaseStudy = () => {
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>End result</h4>
+                                <h4>Results</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                                Norseman Nuptials now has a brand identity that feels rich, rooted, and ready. It immediately differentiates them in a crowded space, emotionally resonates with their dream clients, and builds trust through its clarity and craftsmanship. The final brand system reflects their values and invites couples to break tradition and celebrate love on their own terms.
+                                Norseman Nuptials now stands out in a crowded industry with a brand that feels authentic, modern, and emotionally resonant. It captures the spirit of couples seeking freedom from tradition while building trust through clarity, craftsmanship, and a distinct visual voice.
                             </p>
                         </div>
                     </div>
@@ -497,13 +500,13 @@ const NorsemanNuptialsCaseStudy = () => {
             <section className="approach-section-header">
 
                 <div className="itasca-careers-title-section-left">
-                    <h3 className="approach-header">Approach</h3>
+                    <h3 className="approach-header">My Process To Bring The Vision To Life</h3>
                 </div>
 
                 <div className="section-right">
 
                     <p id="section-intro">
-                        To bring Norseman Nuptials’ bold, all-in-one wedding vision to life, I followed a process rooted in research, cultural resonance, and visual storytelling to create a distinct and meaningful brand identity.
+                        My process for this project was guided by the following key principles:
                     </p>
 
                     <div className="context-item-container">
@@ -514,7 +517,7 @@ const NorsemanNuptialsCaseStudy = () => {
                                 <h4>Audience alignment</h4>
                             </div>
                             <p>
-                                Defined the emotional tone through moodboards and creative direction rooted in intimacy, inclusivity, and independence, which are values that resonate deeply with couples outside the wedding mainstream.
+                                Defined the emotional tone through inclusive, independent, and intimate creative direction.
                             </p>
                         </div>
 
@@ -524,7 +527,7 @@ const NorsemanNuptialsCaseStudy = () => {
                                 <h4>Competitive contrast</h4>
                             </div>
                             <p>
-                                Conducted a brand landscape audit of regional and national wedding companies to pinpoint visual patterns and avoid them, creating a blueprint for how the client could stand out with originality and confidence.
+                                Identified overused industry visuals and crafted a distinct, modern aesthetic that breaks convention.
                             </p>
                         </div>
 
@@ -534,7 +537,7 @@ const NorsemanNuptialsCaseStudy = () => {
                                 <h4>Scalable identity system</h4>
                             </div>
                             <p>
-                                Planned a flexible brand system that would look polished across a wide range of touchpoints. From booking platforms to social media to printed invites while maintaining consistency and warmth.
+                                Built a flexible identity that stays cohesive across digital, print, and vendor touchpoints.
                             </p>
                         </div>
 
@@ -544,7 +547,7 @@ const NorsemanNuptialsCaseStudy = () => {
                                 <h4>Cultural grounding</h4>
                             </div>
                             <p>
-                                Researched Scandinavian art, landscapes, and minimalist design to extract authentic references that would anchor the brand in its Nordic identity without relying on clichés.
+                                Drew inspiration from Scandinavian art and landscapes to honor Nordic roots authentically.
                             </p>
                         </div>
 
@@ -554,53 +557,41 @@ const NorsemanNuptialsCaseStudy = () => {
 
             <section className="process-section-header">
                 <div className="section-left">
-                    <h3>Timeline & Design Process</h3>
+                    <h3>From Concept To Launch</h3>
                 </div>
 
                 <div className="section-right">
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Week 1-2 Discovery & Research</h4>
-                        </div>
+                    <TimelineItem title="Week 1-2 Discovery & Research">
                         <ul>
                             <li>Met with the founders to understand their vision, services, and target audience.</li>
-                            <li>Gathered inspiration from non-traditional weddings and bold editorial design to steer creative direction.</li>
+                            <li>Gathered inspiration from non-traditional weddings and bold editorial design to guide creative direction.</li>
                             <li>Audited competitor brands to identify gaps and opportunities for differentiation.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Week 3–4 Concept Development</h4>
-                        </div>
+                    <TimelineItem title="Week 3–4 Concept Development">
                         <ul>
                             <li>Sketched initial concepts and explored typography, color palettes, and visual motifs.</li>
                             <li>Presented and refined concepts based on client feedback.</li>
-                            <li>Iterated on 3 distinct creative directions, each with different personality traits: classic romance, edgy elegance, and modern minimalism.</li>
+                            <li>Developed three distinct creative directions: classic romance, edgy elegance, and modern minimalism.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Week 5–6 Brand Identity Design</h4>
-                        </div>
+                    <TimelineItem title="Week 5–6 Brand Identity Design">
                         <ul>
                             <li>Finalized logo suite, typography system, and core color palette.</li>
-                            <li>Designed supporting brand elements like icons, textures, and background patterns.</li>
-                            <li>Created a style guide to document visual rules and maintain consistency.</li>
+                            <li>Designed supporting brand elements, including icons, textures, and background patterns.</li>
+                            <li>Created a comprehensive style guide to ensure long-term visual consistency.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Week 7–8 Collateral Design & Delivery</h4>
-                        </div>
+                    <TimelineItem title="Week 7–8 Collateral Design & Delivery">
                         <ul>
-                            <li>Designed print and digital collateral, including business cards, social templates, and signage mockups.</li>
-                            <li>Packaged and delivered all brand assets, including editable files, templates, and usage instructions.</li>
-                            <li>Walked the client through the brand system to ensure confidence in using the new identity moving forward.</li>
+                            <li>Designed print and digital collateral such as business cards, social templates, and signage mockups.</li>
+                            <li>Packaged and delivered all brand assets, including editable files and usage instructions.</li>
+                            <li>Guided the client through the new brand system to ensure confident implementation.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
                 </div>
             </section>
 
@@ -608,12 +599,16 @@ const NorsemanNuptialsCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Obstacles & Milestones</h3>
+                        <h3>Overcoming Challenges</h3>
                     </div>
 
                     <div className="section-right">
 
                         <div className="context-item-container">
+
+                            <p id="section-intro">
+                                A bold vision met complex challenges. This project required transforming an emotionally rich, unconventional wedding brand into a system that balanced elegance with edge.
+                            </p>
 
                             <div className="obstacles-context-item">
                                 <div className="context-item-header obstacles">
@@ -621,9 +616,9 @@ const NorsemanNuptialsCaseStudy = () => {
                                     <h4>Obstacles</h4>
                                 </div>
                                 <ul>
-                                    <li>Translating an unconventional, emotionally rich wedding brand into a visual system that felt both elegant and edgy required careful aesthetic judgment.</li>
-                                    <li>Steering away from the traditional pastels, scripts, and floral motifs meant consciously breaking norms while still evoking beauty and celebration.</li>
-                                    <li>The brand had to encompass planning, styling, coordination, and more, all without feeling cluttered or generic.</li>
+                                    <li>Translating deep emotional storytelling into visual form demanded careful aesthetic judgment.</li>
+                                    <li>Breaking away from traditional pastels, scripts, and florals meant redefining what “beautiful” could look like while keeping it celebratory.</li>
+                                    <li>The brand had to represent multiple services like planning, styling, and coordination without feeling cluttered or losing clarity.</li>
                                 </ul>
                             </div>
 
@@ -633,9 +628,9 @@ const NorsemanNuptialsCaseStudy = () => {
                                     <h4>Milestones</h4>
                                 </div>
                                 <ul>
-                                    <li>Launched a fully integrated brand identity system including logo suite, typography, color palette, patterns, and collateral templates.</li>
-                                    <li>Delivered a comprehensive brand guide to ensure visual consistency as the business scaled.</li>
-                                    <li>Rolled out cohesive print and digital collateral, including business cards, signage, proposal decks, and social templates.</li>
+                                    <li>Launched a fully integrated system including logo suite, typography, color palette, patterns, and collateral templates.</li>
+                                    <li>Delivered a detailed brand guide to maintain visual consistency as the business expanded.</li>
+                                    <li>Rolled out cohesive print and digital materials such as business cards, signage, proposal decks, and social templates that brought the identity to life.</li>
                                 </ul>
                             </div>
 
@@ -645,164 +640,54 @@ const NorsemanNuptialsCaseStudy = () => {
 
                 </div>
 
-            </section>
-
-            <section className="challenge-section-header">
-                <div className="itasca-software-impact-outcome-section-left">
-                    <h3 className="impacts-header">Impact & Outcomes</h3>
-                </div>
-
-                <div className="section-right">
-                    <p id="section-intro">
-                        The new brand identity established Norseman Nuptials as a bold, inclusive presence in the wedding industry. One that resonates deeply with couples seeking authenticity and individuality.
-                    </p>
-
-                    <p id="section-intro-2">
-                        By crafting a visually distinct and emotionally rich system, the brand not only attracted more of their ideal clients but also increased engagement across key channels, strengthened client trust, and elevated their position in a highly competitive market.
-                    </p>
-
-                    <br />
-
-                    <div className="context-item-container">
-
-                        <div className="impact-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
-                                <h4>Outcomes</h4>
-                            </div>
-                            <p id="outcome-list" className="outcome-list">
-                                <ul>
-                                    <li>A 50% increase in social media engagement and followers within the first three months post-launch signaled strong brand recognition and audience connection.</li>
-                                    <li>35% more bookings were attributed directly to the new brand presence, proving the identity’s power to convert interest into action.</li>
-                                    <li>90% of surveyed clients reported high satisfaction with the updated brand identity and collateral, citing the emotional resonance and professionalism of the new look.</li>
-                                    <li>Client feedback consistently praised the brand’s uniqueness and inclusivity, noting that it finally felt like “a wedding brand made for people like us.”</li>
-                                </ul>
-                            </p>
-                        </div>
-                        
-                        <p className="section-label">Business Cards</p>
-                        <div className="image-row-1">
-                            <div className="image-column-left-1">
-                                <img
-                                    src={CaseStudyImage22}
-                                    alt="This image depicts the front and back of the business card mockup. Which features bold typography and a minimal, elegant layout. Reinforcing brand recognition during vendor and client interactions."
-                                    className="case-study-image"
-                                />
-                            </div>
-                            <div className="image-column-right-1">
-                                <p id="the-filter-bar-subtitle" className="image-subtitles">The front and back of the business card features bold typography and a minimal, elegant layout. Reinforcing brand recognition during vendor and client interactions.</p>
-                            </div>
-                        </div>
-
-                        <br />
-
-                        <p className="section-label">Social Media</p>
-                        <div className="image-row-2-gg">
-                            <div className="image-column">
-                                <p id="approach" className="image-subtitles-left-2">A preview of the new social media presence designed to align with the updated brand identity, a key role in boosting visibility and brand recognition.</p>
-                            </div>
-                            <div className="image-column-right-2 left-align">
-                                <img
-                                    src={CaseStudyImage1}
-                                    alt="This image shows a collection of social media posts featuring bold typography, rich color palettes, and inclusive messaging of the new branding. The posts reflect the updated brand identity and were key in increasing engagement and strengthening brand recognition."
-                                    className="case-study-image"
-                                />
-                            </div>
-                        </div>
-
-                        <p className="section-label">Tri-Fold Brochure</p>
-                        <div className="image-row-1">
-                            <div className="image-column-left-1">
-                                <img
-                                    src={CaseStudyImage23}
-                                    alt="This image depicts the promotional trifold brochure that highlights key services and visual identity elements in a structured, brand-forward layout designed for venue handouts and open houses."
-                                    className="case-study-image"
-                                />
-                            </div>
-                            <div className="image-column-right-1">
-                                <p id="the-filter-bar-subtitle" className="image-subtitles">The promotional trifold brochure highlights key services and visual identity elements in a structured, brand-forward layout designed for venue handouts and open houses.</p>
-                            </div>
-                        </div>
-
-                        <br />
-
-                        <p className="section-label">Digital Billboard</p>
-                        <div className="image-row-2-gg">
-                            <div className="image-column">
-                                <p id="approach" className="image-subtitles-left-2">A high-impact concept for a digital billboard highlights the power and adaptability of the brand system when scaled to large formats.</p>
-                            </div>
-                            <div className="image-column-right-2 left-align">
-                                <img
-                                    src={CaseStudyImage25}
-                                    alt="This image shows a high-impact concept for a digital billboard highlights the power and adaptability of the brand system when scaled to large formats."
-                                    className="case-study-image"
-                                />
-                            </div>
-                        </div>
-
-                        <br />
-
-                        <p className="section-label">Planning Journal</p>
-                        <div className="image-row-1">
-                            <div className="image-column-left-1">
-                                <img
-                                    src={CaseStudyImage24}
-                                    alt="This image depicts a custom-designed journal meant to accompany couples throughout their wedding planning journey. With planning space and brand-aligned visuals, it reinforces the all-in-one, stress-free promise while adding a personal touch."
-                                    className="case-study-image"
-                                />
-                            </div>
-                            <div className="image-column-right-1">
-                                <p id="the-filter-bar-subtitle" className="image-subtitles">A custom-designed journal meant to accompany couples throughout their wedding planning journey. With planning space and brand-aligned visuals, it reinforces the all-in-one, stress-free promise while adding a personal touch.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
             </section>
 
             <section className="section-title">
 
                 <div className="problem-section-header">
                     <div className="itasca-software-takeaways-section-left">
-                        <h3 className="takeaways-header">Takeaways</h3>
+                        <h3 className="takeaways-header">Design Lessons That Stick</h3>
                     </div>
 
                     <div className="section-right">
 
                         <div className="context-item-container">
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header lessons-learned">
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
                                     <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Lessons learned</h4>
                                 </div>
-                                <p>
-                                    This project was a powerful reminder that brand design is just as much about emotional connection as visual clarity. I learned how to express values like inclusivity, individuality, and intimacy through color, type, and tone, not just copy or messaging. It also underscored the importance of designing flexible systems that feel intentional at every touchpoint.
-                                </p>
+                                <ul>
+                                    <li>Realized that brand design is as much about emotional connection as visual clarity.</li>
+                                    <li>Learned to express inclusivity, individuality, and intimacy through color, typography, and tone.</li>
+                                    <li>Discovered the value of flexible systems that feel intentional and cohesive across every touchpoint.</li>
+                                </ul>
                             </div>
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header key-challenges-overcome">
-                                    <CogIcon className="cog-icon" />
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
+                                    <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Key challenges overcome</h4>
                                 </div>
-                                <p>
-                                    One of the biggest creative challenges was resisting the temptation to include “wedding” visual tropes while still communicating love, elegance, and celebration. It required deep exploration and a confident design direction to stay true to the brand’s vision.
-                                </p>
-                                <br />
-                                <p>
-                                    Another challenge was crafting a unified identity for a company that wears many hats, from event design to logistics. Creating a flexible system that could stretch across so many service areas, while still feeling cohesive, was a rewarding design puzzle.
-                                </p>
+
+                                <ul>
+                                    <li>Avoided predictable “wedding” aesthetics while still communicating love, elegance, and celebration.</li>
+                                    <li>Balanced creativity and restraint to maintain a confident design direction aligned with the brand’s vision.</li>
+                                    <li>Built a unified identity that could stretch across event design, styling, and logistics without losing cohesion.</li>
+                                </ul>
                             </div>
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header key-challenges-overcome">
-                                    <SparklesIcon className="sparkles-icon" />
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
+                                    <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Personal reflections</h4>
                                 </div>
-                                <p>
-                                    This was one of the most emotionally rich and creatively freeing branding projects I’ve worked on. The chance to design something that challenges outdated norms and empowers couples to celebrate their love authentically was deeply meaningful. I’m proud to have created a system that balances beauty, functionality, and boldness.
-                                </p>
+                                <ul>
+                                    <li>Found deep fulfillment in creating a brand that empowers couples to celebrate authentically.</li>
+                                    <li>Appreciated the opportunity to challenge outdated norms and redefine what modern romance looks like.</li>
+                                    <li>Proud to have designed a visual system that balances emotion, functionality, and bold beauty.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -813,13 +698,13 @@ const NorsemanNuptialsCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Growth & Future Direction</h3>
+                        <h3>Where To Go Next</h3>
                     </div>
 
                     <div className="section-right">
 
                         <p id="section-intro">
-                            There are several ways the Norseman Nuptials brand system could evolve as the business expands:
+                            The Norseman Nuptials brand system was built for growth. These next steps show how it could evolve while staying true to its vision.
                         </p>
 
                         <div className="context-item-container">
@@ -830,7 +715,7 @@ const NorsemanNuptialsCaseStudy = () => {
                                     <h4>Refined sub-branding</h4>
                                 </div>
                                 <p>
-                                    As new services are added (e.g., elopement packages or destination events), creating subtle variations in the brand system could allow for clearer segmentation while maintaining visual unity.
+                                    Create subtle variations in the brand system could allow for clearer segmentation while maintaining visual unity for each service.
                                 </p>
                             </div>
 
@@ -840,7 +725,7 @@ const NorsemanNuptialsCaseStudy = () => {
                                     <h4>Expanded collateral suite</h4>
                                 </div>
                                 <p>
-                                    Designing more customizable assets like editable pricing guides, client welcome kits, and proposal templates to streamline client communications.
+                                    Design more customizable assets like editable pricing guides, client welcome kits, and proposal templates to streamline client communications.
                                 </p>
                             </div>
 
@@ -850,7 +735,7 @@ const NorsemanNuptialsCaseStudy = () => {
                                     <h4>Social-first design assets</h4>
                                 </div>
                                 <p>
-                                    Building a dedicated set of animated or interactive social templates could further boost engagement and brand reach on platforms like Instagram and TikTok.
+                                    Build a dedicated set of animated or interactive social templates to further boost engagement and brand reach on platforms.
                                 </p>
                             </div>
 
@@ -860,7 +745,7 @@ const NorsemanNuptialsCaseStudy = () => {
                                     <h4>Experience-driven website update</h4>
                                 </div>
                                 <p>
-                                    As the business grows, expanding the website to include behind-the-scenes content, love stories, or booking portals could deepen the user experience and reinforce the brand narrative.
+                                    Create a website to include behind-the-scenes content, love stories, or booking portals could deepen the user experience and reinforce the brand narrative.
                                 </p>
                             </div>
 

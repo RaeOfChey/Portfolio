@@ -343,7 +343,7 @@ const ITASCASoftwareCaseStudy = () => {
                                             SEO and performance optimizations for better visibility and faster load times.
                                           </li>
                                           <li>
-                                            SEO and performance optimizations for better visibility and faster load times.
+                                            Features like product recommendations, flexible licensing, and Request a Demo to support confident purchases.
                                           </li>
                                         </ul>
                                       </p>
