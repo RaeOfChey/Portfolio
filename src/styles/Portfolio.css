@@ -233,8 +233,8 @@
 
   /* When the toggle is active */
   .image-caption.open {
-    max-height: 60vh;       /* allow the overlay to grow */
-    overflow-y: auto;       /* enable scrolling */
+    max-height: 500px;
+    overflow: visible;
   }
 
   .caption-toggle-icon {
@@ -301,6 +301,9 @@
   }
   .project-card h2 {
     padding: 10px;
+  }
+  .image-caption {
+    padding: 1rem 4.25rem 1rem 1rem;
   }
 }
 
