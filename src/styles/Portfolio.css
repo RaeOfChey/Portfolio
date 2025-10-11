@@ -172,7 +172,7 @@
 .image-overlay-container {
   position: relative;
   width: 100%;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   margin: 2rem 0;
   border: 2px solid #fff;
@@ -222,6 +222,21 @@
 
 /* Mobile: show toggle icon, tap to expand */
 @media (max-width: 1281px) {
+  .image-caption {
+    -webkit-line-clamp: unset;
+    line-clamp: unset;
+    max-height: 0;
+    overflow: hidden;
+    padding: 1rem 5rem 1rem 1rem;
+    transition: max-height 0.3s ease;
+  }
+
+  /* When the toggle is active */
+  .image-caption.open {
+    max-height: 60vh;       /* allow the overlay to grow */
+    overflow-y: auto;       /* enable scrolling */
+  }
+
   .caption-toggle-icon {
     display: block;
     position: absolute;
@@ -229,39 +244,19 @@
     right: 1rem;
     background: #ddeaff;
     border: 2px solid #313647 !important;
-    border: none;
     border-radius: 50%;
     padding: 0.5rem;
     font-size: 1.2rem;
     cursor: pointer;
     z-index: 10;
-
   }
-
   .caption-toggle-icon.active {
   border-color: #ACBDDC !important;
   }
-
-  .image-caption {
-    -webkit-line-clamp: unset;
-    line-clamp: unset;
-    max-height: 0;
-    overflow: hidden;
-    padding: 1rem 5rem 1rem 1rem;
-  }
-
-  .image-caption.open {
-    max-height: 80vh;  /* max 80% of viewport height */
-    overflow-y: auto; 
-  }
-
   .image-caption.hidden {
   display: none;
   }
-}
 
-/* Media Queries */
-@media (max-width: 1281px) {
   .portfolio-h2 {
     font-size: 45px;
   }

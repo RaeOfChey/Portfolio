@@ -47,9 +47,7 @@ const CaseStudyImage = ({ src, alt, caption, charLimit = 120 }) => {
 
       {/* Caption overlay */}
       <div
-  className={`image-caption ${
-    isMobile ? (isOpen ? "open" : "hidden") : ""
-  }`}
+  className={`image-caption ${ isMobile ? (isOpen ? "open" : "hidden") : ""}`}
 >
   {displayCaption}
 </div>
