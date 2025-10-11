@@ -977,12 +977,13 @@ margin: 0px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1;
+  flex: 1 1 auto; 
 }
 
 .color-swatch {
   height: auto;
   width: 100px;
+  max-width: 100px;
 }
 
 .swatch-label {
@@ -1014,6 +1015,14 @@ margin: 0px !important;
   height: auto;
   object-fit: contain;
 }
+
+.font-sample {
+  margin: 0;
+  font-size: 22px; /* keep desired display size */
+  white-space: normal; /* allow wrapping */
+  word-break: break-word; /* prevent overflow */
+}
+
 
 /* Illustrations */
 .illustration-row {
@@ -1276,7 +1285,7 @@ margin: 0px !important;
   }
   .color-swatch {
     width: 80px;
-    height: 80px;
+    height: auto;
   }
   .font-row {
     flex-direction: row;

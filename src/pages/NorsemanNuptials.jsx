@@ -670,7 +670,6 @@ const NorsemanNuptialsCaseStudy = () => {
                                     <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Key challenges overcome</h4>
                                 </div>
-
                                 <ul>
                                     <li>Avoided predictable “wedding” aesthetics while still communicating love, elegance, and celebration.</li>
                                     <li>Balanced creativity and restraint to maintain a confident design direction aligned with the brand’s vision.</li>
