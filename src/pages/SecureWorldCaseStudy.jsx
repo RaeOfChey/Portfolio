@@ -826,7 +826,7 @@ const SecureworldCaseStudy = () => {
                             <div className="growth-context-item">
                                 <div className="context-item-header key-challenges-overcome">
                                     <TrendingUpIcon className="trendingup-icon" />
-                                    <h4>Extended brand expression</h4>
+                                    <h4>Extended b rand expression</h4>
                                 </div>
                                 <p>
                                     Adding new iconography, illustrations, or photography styles allows the brand to adapt to campaigns, services, and audiences while staying cohesive.

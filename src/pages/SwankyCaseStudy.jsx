@@ -11,6 +11,8 @@ import { CogIcon } from '../components/CogIcon';
 import { TrendingUpIcon } from '../components/TrendingUpIcon';
 import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
+import TimelineItem from "../components/Timeline";
+import CaseStudyImage from "../components/CaseStudyImage";
 
 import SwankyHeaderImage from "../assets/swanky/Swanky Marketing Collateral Thumbnail Image.png";
 import CaseStudyImage1 from '../assets/swanky/Swanky Case Study Image1.png';
@@ -114,16 +116,48 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                 </section>
             </div>
 
+            <section className="challenge-section-header">
+                <div className="itasca-software-impact-outcome-section-left">
+                    <h3 className="impacts-header">Results That Moved The Needle</h3>
+                </div>
+
+                <div className="section-right">
+                    <p id="section-intro">
+                        A global LED lighting manufacturer, Kelvix, needed to consistently apply their brand identity across marketing and product materials to strengthen visibility and credibility in a competitive market. This project implemented their existing brand system across documentation, campaigns, and digital assets, creating a cohesive and professional presence across all touchpoints.
+                    </p>
+
+                    <div className="context-item-container">
+
+                        <div className="impact-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>Outcomes</h4>
+                            </div>
+                            <p id="outcome-list" className="outcome-list">
+                                <ul>
+                                    <li>Standardized product documents improved clarity and usability, reducing customer confusion and supporting confident purchasing decisions.</li>
+                                    <li>Branded email and social campaigns increased visibility and engagement, creating a repeatable marketing system.</li>
+                                    <li>Modular templates and reusable design assets improved internal efficiency and collaboration.</li>
+                                    <li>Sales teams gained tools that bridged technical detail with marketing messaging, accelerating distributor and contractor conversations.</li>
+                                    <li>The unified brand positioned Kelvix as credible and modern, laying a foundation for future growth.</li>
+                                </ul>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
             <section className="section-title">
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Client Vision & Goals</h3>
+                        <h3>Vision For Growth</h3>
                     </div>
 
                     <div className="section-right">
                         <p id="section-intro">
-                            For years, Swanky had relied almost entirely on word-of-mouth, with little formal marketing and no consistent materials to support its sales team. As competitors grew more sophisticated and customer expectations shifted, it became clear that Swanky needed to evolve. The company set out to modernize its brand and communications to strengthen its presence in the industry and create a platform for growth. Their goals were:
+                            Kelvix aimed to modernize its brand and communications into an experience that would:
                         </p>
 
                         <div className="context-item-container">
@@ -134,7 +168,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Drive competitive growth</h4>
                                 </div>
                                 <p>
-                                    Ensure Swanky could compete on equal footing with established players in the LED lighting industry. Growth was not only about increasing revenue, but about securing the company’s long-term relevance in a rapidly advancing market.
+                                    Ensure Kelvix could compete with established LED lighting players, not just in revenue, but in credibility and long-term market relevance.
                                 </p>
                             </div>
 
@@ -144,7 +178,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Build customer trust and transparency</h4>
                                 </div>
                                 <p>
-                                    Strengthen relationships by showing customers that Swanky was reliable, professional, and open in its business practices. Trust was central to earning repeat business and positioning the company as a dependable choice in an industry where credibility is everything.
+                                    Show reliability and professionalism through clear, consistent communications, reinforcing confidence and repeat business.
                                 </p>
                             </div>
 
@@ -154,7 +188,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Establish a strong, modern brand identity</h4>
                                 </div>
                                 <p>
-                                    Express the company’s values and ambitions through a consistent, contemporary identity. A clear and confident brand presence was essential to standing out in a crowded industry and signaling that Swanky was evolving with the times.
+                                    Unify visual and messaging elements to reflect the company’s values and ambitions, standing out in a crowded industry.
                                 </p>
                             </div>
 
@@ -164,7 +198,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Empower marketing and communication</h4>
                                 </div>
                                 <p>
-                                    Create the foundation for Swanky to connect with customers in meaningful ways. Building communication channels and a recognizable brand voice was key to reaching wider audiences and supporting the company’s vision for sustainable growth.
+                                    Provide repeatable systems and assets that allow Kelvix to engage audiences consistently and scale campaigns efficiently.
                                 </p>
                             </div>
                         </div>
@@ -181,7 +215,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        Unify a fragmented brand presence into a modern, credible identity that could build trust with customers, establish Swanky as a serious competitor in the LED lighting industry, and create the foundation for sustainable marketing and growth.
+                        Unify a fragmented brand presence into a modern, credible identity that would strengthen credibility, increase visibility in a competitive LED lighting market, and create a cohesive, professional presence that resonates with customers.
                     </p>
                 </div>
             </section>
@@ -189,35 +223,35 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
             <section className="challenge-section-header">
                 <div className="kelvix-solution-header-section-left">
-                    <h3>Solution</h3>
+                    <h3>How The Brand Came to Life</h3>
                 </div>
 
                 <div className="section-right">
                     <p id="section-intro">
-                        The refreshed visual identity and marketing system for Swanky unified its fragmented presence into a modern, credible brand that customers could trust. By updating technical documentation, marketing collateral, and digital communications, the design work modernized how the company presented itself, gave clarity to its product offerings, and positioned the organization as a legitimate competitor in the LED lighting industry.
+                        This project implemented the organization’s brand system across marketing and product materials, turning fragmented assets into a cohesive, professional presence. The work clarified messaging, strengthened visual consistency, and positioned Kelvix as a credible competitor in the LED lighting market.
                     </p>
 
                     <div className="context-item-container">
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <UsersIcon className="users-icon" />
-                                <h4>How the design supports the clients goals</h4>
+                                <h4>Solving the Challenge</h4>
                             </div>
 
                             <p id="intro-redesign" className="redesign-description">
-                                The new identity and materials addressed each of the core goals by:
+                                The design directly addressed key brand challenges by:
                                 <ul>
                                     <li>
-                                        Produced clear, professional sales and marketing materials that gave Swanky the credibility to compete for larger projects and capture attention in a crowded industry.
+                                        Created professional sales and marketing materials that improved client perception and trust.
                                     </li>
                                     <li>
-                                        Developed polished, consistent product specification documents that not only explained technical details but also functioned as a persuasive sales tool, bridging accuracy with accessibility.
+                                        Standardized product specification documents that made technical details clear and persuasive.
                                     </li>
                                     <li>
-                                        Unified all visual touchpoints, including social media, email, documentation, and collateral, all under a cohesive and contemporary design system that signaled innovation and professionalism.
+                                        Unified all touchpoints including social, email, documentation, and collateral, under a cohesive system that signaled professionalism.
                                     </li>
                                     <li>
-                                        Launched branded social media and email campaigns that transformed Swanky from an almost invisible company into a visible, approachable presence with a scalable system for future campaigns.
+                                        Launched branded campaigns that increased visibility and engagement while providing a scalable framework for future initiatives.
                                     </li>
                                 </ul>
                             </p>
@@ -228,8 +262,8 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                         <p className="sub-section-label">Uniform Tape Assets</p>
 
                         <p id="image-caption">
-                                A cohesive marketing campaign was built around the launch of Uniform Tape, spanning digital and print channels. Social media graphics, email promotions, product spec sheets, and installation guides all worked together to introduce the product, highlight its features, and support customers through adoption.
-                            </p>
+                            A cohesive marketing campaign was built around the launch of Uniform Tape, spanning digital and print channels. Social media graphics, email promotions, product spec sheets, and installation guides all worked together to introduce the product, highlight its features, and support customers through adoption.
+                        </p>
 
                         <div className="image-section">
                             <div className="one-image-row">
@@ -298,8 +332,8 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                         <p className="sub-section-label">CH-3000 Channel Assets</p>
 
                         <p id="image-caption">
-                                    The CH-3000 Channel launch was supported with a complete suite of marketing assets, including social media graphics, email campaigns, product spec sheets, and installation guides. Together, these materials created a consistent, informative campaign that introduced the product, educated customers, and streamlined adoption.
-                                </p>
+                            The CH-3000 Channel launch was supported with a complete suite of marketing assets, including social media graphics, email campaigns, product spec sheets, and installation guides. Together, these materials created a consistent, informative campaign that introduced the product, educated customers, and streamlined adoption.
+                        </p>
 
                         <div className="image-section">
                             <div className="one-image-row">
@@ -382,8 +416,8 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                         </div>
 
                         <p id="image-caption" className="left">
-                                The Luxium campaign was introduced through an email announcement and a video sneak peek, building anticipation ahead of the full product launch. These assets were designed to spark curiosity, highlight key product benefits, and generate early engagement with customers.
-                            </p>
+                            The Luxium campaign was introduced through an email announcement and a video sneak peek, building anticipation ahead of the full product launch. These assets were designed to spark curiosity, highlight key product benefits, and generate early engagement with customers.
+                        </p>
 
                         <p className="section-label">Services Marketing Campaigns</p>
 
@@ -412,7 +446,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                         <p className="sub-section-label">Newsletter Sign Up Email</p>
 
-                         <div className="image-section">
+                        <div className="image-section">
                             <div className="one-image-row">
                                 <img
                                     src={CaseStudyImage19}
@@ -452,22 +486,22 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>How the design elevates beyond the brief</h4>
+                                <h4>Elevating the experience</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                                While meeting the original goals, the design work advanced Swanky's brand presence by:
+                                Beyond meeting the initial goals, the design elevates the experience with:
                                 <ul>
                                     <li>
-                                        Introducing multimedia assets like videos and animations that expanded how Swanky could tell its story and connect with audiences visually.
+                                        Introducing adaptable templates and reusable asset libraries to reduce production costs and streamline internal workflows.
                                     </li>
                                     <li>
-                                        Designing adaptable templates and systems that reduced future production costs, improved internal efficiency, and allowed for brand consistency across every department.
+                                        Designing visuals that felt authentic to Kelvix’s culture, making the brand approachable and human.
                                     </li>
                                     <li>
-                                        Establishing a visual language that felt authentic to Swanky's culture and values, making the company’s brand not just more modern, but more human and approachable.
+                                        Establishing a visual language that felt authentic, making the company’s brand more human and approachable.
                                     </li>
                                     <li>
-                                        Anticipating client needs by building reusable asset libraries, giving Swanky long-term tools to create new materials quickly and consistently without relying heavily on external support.
+                                        Anticipating client needs by building reusable asset libraries with long-term tools without relying heavily on external support.
                                     </li>
                                 </ul>
                             </p>
@@ -476,14 +510,10 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>End result</h4>
+                                <h4>Results</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                                The refreshed identity and marketing system reintroduced Swanky as a credible, competitive force in the LED lighting industry. Clear, consistent product documentation built trust and transparency with customers, while a unified brand identity and polished sales tools gave the company the professional presence it had been missing.
-                            </p>
-                            <br />
-                            <p id="intro-redesign" className="redesign-description">
-                                Social media and email campaigns brought the brand into the spotlight, turning a once-quiet organization into an engaging industry player. Adaptable templates, multimedia assets, and reusable design libraries equipped the team with the tools to market confidently, scale efficiently, and sustain growth well into the future.
+                                The Kelvix brand system brought consistency and clarity across marketing and product materials, boosting engagement, streamlining workflows, and positioning the company as a credible, competitive force in the LED lighting industry.
                             </p>
                         </div>
                     </div>
@@ -493,13 +523,13 @@ const SecureWorldConferenceThemeCaseStudy = () => {
             <section className="approach-section-header">
 
                 <div className="itasca-careers-title-section-left">
-                    <h3 className="approach-header">Approach</h3>
+                    <h3 className="approach-header">My Process To Bring The Vision To Life</h3>
                 </div>
 
                 <div className="section-right">
 
                     <p id="section-intro">
-                        To translate a company with virtually no marketing presence into a credible, competitive brand, I used a process that blended research, design system development, and hands-on execution across every customer touchpoint.
+                        My process for this project was guided by the following key principles:
                     </p>
 
                     <div className="context-item-container">
@@ -510,7 +540,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                 <h4>Competitive positioning</h4>
                             </div>
                             <p>
-                                Audited the LED lighting industry, where competitors were already established, and identified both gaps to differentiate and successes to surpass. From this, I built a foundation that positioned the company as a forward-thinking alternative to established players.
+                                Analyzed the LED lighting market to identify gaps and opportunities, positioning Kelvix as a forward-thinking alternative to established competitors.
                             </p>
                         </div>
 
@@ -520,7 +550,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                 <h4>Trust through clarity</h4>
                             </div>
                             <p>
-                                Standardized and redesigned product specification documentation, balancing technical accuracy with clean layouts and visuals. This reduced confusion for architects, contractors, and distributors and gave sales teams a tool that communicated credibility and professionalism.
+                                Redesigned product specification documents with clear layouts and visuals, reducing confusion for customers and giving sales teams credible, persuasive tools.
                             </p>
                         </div>
 
@@ -530,7 +560,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                 <h4>Cohesive identity system</h4>
                             </div>
                             <p>
-                                Developed a design system that unified color palettes, typography, and imagery into a consistent brand language. I applied this system across the website, documentation, email campaigns, social media, and internal tools, ensuring every interaction reinforced a modern, trustworthy brand image.
+                                Unified color, typography, and imagery into a consistent brand language across all touchpoints, reinforcing a modern, trustworthy image.
                             </p>
                         </div>
 
@@ -540,7 +570,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                 <h4>Scalable marketing foundation</h4>
                             </div>
                             <p>
-                                Built modular templates for digital campaigns, print collateral, and presentations, giving the internal team reusable tools for future initiatives. By establishing clear design libraries and marketing-ready assets, I created a framework that allowed the company to maintain consistency and scale outreach long after launch.
+                                Created modular templates and reusable assets for campaigns, collateral, and presentations, enabling the team to maintain consistency and scale efficiently.
                             </p>
                         </div>
                     </div>
@@ -553,64 +583,49 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
             <section className="process-section-header">
                 <div className="section-left">
-                    <h3>Timeline & Design Process</h3>
+                    <h3>From Concept To Launch</h3>
                 </div>
 
                 <div className="section-right">
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Month 1-2 Discovery & Research</h4>
-                        </div>
+                    <TimelineItem title="Month 1-2 Discovery & Research">
                         <ul>
-                            <li>Audited the LED lighting industry to understand competitor positioning, brand strategies, and communication gaps.</li>
-                            <li>Conducted stakeholder interviews to clarify goals, customer pain points, and documentation needs.</li>
-                            <li>Compiled insights to guide consistent application of the new brand across all materials.</li>
+                            <li>DAudited competitors and industry trends to find opportunities and gaps.</li>
+                            <li>Conducted stakeholder interviews to clarify goals and pain points.</li>
+                            <li>Compiled insights to guide consistent brand application across all materials.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Month 3-4 Brand Implementation & Systemization</h4>
-                        </div>
+                    <TimelineItem title="Month 3-4 Brand Implementation & Systemization">
                         <ul>
-                            <li>Applied the recently updated brand identity across existing materials, ensuring consistency in color, typography, imagery, and tone.</li>
-                            <li>Expanded the brand system to include new templates, internal tools, and collateral, creating a cohesive framework for all communications.</li>
-                            <li>Collaborated with stakeholders to refine the system for both marketing and technical materials, balancing visual consistency with functional usability.</li>
+                            <li>Applied the updated brand across existing marketing and technical materials.</li>
+                            <li>Expanded templates, tools, and collateral to create a cohesive system.</li>
+                            <li>Collaborated with stakeholders to balance visual consistency with usability.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Month 5-6 Digital & Marketing Foundations</h4>
-                        </div>
+                    <TimelineItem title="Month 5-6 Digital & Marketing Foundations">
                         <ul>
-                            <li>Standardized and redesigned product specification documentation, translating technical details into clear, professional, and brand-aligned assets.</li>
-                            <li>Developed templates for email campaigns and social media content to establish a repeatable marketing system.</li>
-                            <li>Updated digital presence and internal assets to reflect the newly systematized brand consistently.</li>
+                            <li>Redesigned product documentation for clarity and brand alignment.</li>
+                            <li>Developed reusable email and social media templates for scalable campaigns.</li>
+                            <li>Updated digital assets to reflect the unified brand system.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Month 7-8 Campaign Development & Collateral Expansion</h4>
-                        </div>
+                    <TimelineItem title="Month 7-8 Campaign Development & Collateral Expansion">
                         <ul>
-                            <li>Designed modular collateral, sales tools, and presentation decks to support internal teams and external partners.</li>
-                            <li>Built a library of reusable assets and templates to allow the team to maintain brand consistency and scale campaigns efficiently.</li>
-                            <li>Coordinated alignment of print and digital materials to reinforce credibility and professionalism.</li>
+                            <li>Designed modular collateral, sales tools, and presentation decks.</li>
+                            <li>Built reusable asset libraries to maintain brand consistency across campaigns.</li>
+                            <li>Coordinated print and digital materials for professionalism and clarity.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Month 9 Finalization & Handoff</h4>
-                        </div>
+                    <TimelineItem title="Month 9 Finalization & Handoff">
                         <ul>
-                            <li>Delivered comprehensive design libraries, templates, and style guides for ongoing use.</li>
-                            <li>Provided guidance to internal staff on applying the system effectively across all channels.</li>
-                            <li>Supported the launch of coordinated marketing initiatives, giving the company a strong foundation for ongoing engagement and growth.</li>
+                            <li>Delivered design libraries, templates, and style guides for ongoing use.</li>
+                            <li>Trained internal teams on applying the system effectively.</li>
+                            <li>Supported coordinated marketing initiatives to ensure sustainable growth.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
                 </div>
             </section>
 
@@ -618,12 +633,16 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Obstacles & Milestones</h3>
+                        <h3>Overcoming Challenges</h3>
                     </div>
 
                     <div className="section-right">
 
                         <div className="context-item-container">
+
+                            <p id="section-intro">
+                                Bringing the organization’s brand to life meant transforming a fragmented marketing presence into a cohesive, professional system, under tight deadlines and high expectations.
+                            </p>
 
                             <div className="obstacles-context-item">
                                 <div className="context-item-header obstacles">
@@ -631,10 +650,10 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Obstacles</h4>
                                 </div>
                                 <ul>
-                                    <li>Applying a recently updated brand across a wide variety of materials required careful adaptation to ensure consistency without redesigning the core identity.</li>
-                                    <li>Legacy documents, internal assets, and inconsistent materials made it challenging to standardize layouts and visual language while maintaining accuracy.</li>
-                                    <li>Balancing technical accuracy with marketing appeal in product documentation demanded iterative collaboration with engineering, sales, and marketing teams.</li>
-                                    <li>Building a marketing system from a near-zero presence meant creating templates, campaigns, and content strategies without pre-existing infrastructure or reference points.</li>
+                                    <li>Adapting the updated brand across diverse materials without redesigning the core identity.</li>
+                                    <li>Standardizing legacy documents and inconsistent assets while maintaining accuracy.</li>
+                                    <li>Balancing technical precision with marketing appeal in product documentation.</li>
+                                    <li>Building a marketing system from near-zero, creating templates and campaigns without pre-existing infrastructure.</li>
                                 </ul>
                             </div>
 
@@ -644,10 +663,10 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Milestones</h4>
                                 </div>
                                 <ul>
-                                    <li>Implemented and systematized the new brand identity across product documentation, marketing materials, digital assets, and internal templates.</li>
-                                    <li>Standardized product specification documents into visually consistent, easy-to-use sales and marketing tools.</li>
-                                    <li>Developed modular email and social media templates to enable repeatable, scalable marketing campaigns.</li>
-                                    <li>Built reusable design libraries and templates that empowered internal teams to maintain brand consistency and scale outreach efficiently.</li>
+                                    <li>Systematized the brand across documentation, marketing materials, and digital assets.</li>
+                                    <li>Standardized product specification documents into clear, professional sales tools.</li>
+                                    <li>Developed modular email and social media templates for scalable campaigns.</li>
+                                    <li>Built reusable libraries and templates, enabling internal teams to maintain consistency and efficiency.</li>
                                 </ul>
                             </div>
 
@@ -657,89 +676,53 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                 </div>
 
-            </section>
-
-            <section className="challenge-section-header">
-                <div className="itasca-software-impact-outcome-section-left">
-                    <h3 className="impacts-header">Impact & Outcomes</h3>
-                </div>
-
-                <div className="section-right">
-                    <p id="section-intro">
-                        The systematized brand implementation and marketing assets transformed a previously fragmented and low-visibility company into a professional, credible, and market-ready presence.
-                    </p>
-
-                    <p id="section-intro-2">
-                        By delivering consistent documentation, polished marketing materials, and scalable digital templates, the organization was able to communicate its offerings clearly, engage customers effectively, and establish itself as a legitimate competitor in the LED lighting industry.
-                    </p>
-
-                    <br />
-
-                    <div className="context-item-container">
-
-                        <div className="impact-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
-                                <h4>Outcomes</h4>
-                            </div>
-                            <p id="outcome-list" className="outcome-list">
-                                <ul>
-                                    <li>Standardized product documentation improved clarity and usability, reducing customer confusion and supporting more confident purchasing decisions.</li>
-                                    <li>Branded email and social media campaigns increased visibility and engagement, creating a repeatable marketing system that could reach new audiences efficiently.</li>
-                                    <li>Internal teams reported faster turnaround and easier collaboration thanks to modular templates, reusable assets, and organized design libraries.</li>
-                                    <li>Sales teams gained practical tools that effectively bridged technical detail with marketing messaging, helping to accelerate conversations with distributors and contractors.</li>
-                                    <li>The unified, professional brand presence positioned the organization as credible and modern, laying the foundation for future growth and competitive differentiation.</li>
-                                </ul>
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
             </section>
 
             <section className="section-title">
 
                 <div className="problem-section-header">
                     <div className="itasca-software-takeaways-section-left">
-                        <h3 className="takeaways-header">Takeaways</h3>
+                        <h3 className="takeaways-header">Design Lessons That Stick</h3>
                     </div>
 
                     <div className="section-right">
 
                         <div className="context-item-container">
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header lessons-learned">
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
                                     <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Lessons learned</h4>
                                 </div>
-                                <p>
-                                    This project showed me how powerful a brand can be when treated as a system rather than a collection of isolated assets. Applying the new identity across product documentation, marketing materials, and digital touchpoints taught me that consistency builds credibility, but scalability is just as important. Modular templates, reusable assets, and clear visual rules make it possible for a brand to grow and evolve without losing professionalism or cohesion.
-                                </p>
+                                <ul>
+                                    <li>Treat a brand as a system rather than a collection of isolated assets.</li>
+                                    <li>Consistency across documentation, marketing, and digital touchpoints builds credibility.</li>
+                                    <li>Scalability is key: modular templates, reusable assets, and clear visual rules enable growth without losing professionalism.</li>
+                                </ul>
                             </div>
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header key-challenges-overcome">
-                                    <CogIcon className="cog-icon" />
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
+                                    <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Key challenges overcome</h4>
                                 </div>
-                                <p>
-                                    A major challenge was transforming fragmented, outdated materials into a cohesive, brand-aligned system that could be used immediately by internal teams. Balancing technical accuracy with marketing appeal in product documentation required careful iteration, making complex information clear while maintaining integrity.
-                                </p>
-                                <br />
-                                <p>
-                                    Building a marketing system from almost no pre-existing presence pushed me to think strategically about processes, templates, and repeatable workflows that would sustain the brand long-term.
-                                </p>
+                                <ul>
+                                    <li>Transformed fragmented, outdated materials into a cohesive, brand-aligned system ready for internal use.</li>
+                                    <li>Balanced technical accuracy with marketing appeal to make complex information clear and persuasive.</li>
+                                    <li>Built a marketing system from near-zero infrastructure, designing repeatable workflows and templates for long-term use.</li>
+                                </ul>
                             </div>
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header key-challenges-overcome">
-                                    <SparklesIcon className="sparkles-icon" />
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
+                                    <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Personal reflections</h4>
                                 </div>
-                                <p>
-                                    Working on this project reinforced that good design is of course about aesthetics but also about making a company function better and communicate more effectively. Seeing the work immediately improve internal workflows, enhance customer trust, and give the team tools to scale their marketing was incredibly rewarding. It reminded me that intentional design can transform not just how a brand looks, but how it operates, engages audiences, and grows sustainably.
-                                </p>
+                                <ul>
+                                    <li>Design improves operations and communication.</li>
+                                    <li>Seeing work immediately enhance internal workflows and customer trust was highly rewarding.</li>
+                                    <li>Intentional, system-focused design can transform not just how a brand looks, but how it functions and grows sustainably.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -750,7 +733,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Growth & Future Direction</h3>
+                        <h3>Where To Go Next</h3>
                     </div>
 
                     <div className="section-right">
@@ -767,7 +750,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Enhanced digital marketing toolkit</h4>
                                 </div>
                                 <p>
-                                    Develop advanced social media templates, motion graphics, and email campaign variations to further streamline content creation and increase engagement across digital channels.
+                                    Expand social media templates, motion graphics, and email campaigns to streamline content creation and boost engagement.
                                 </p>
                             </div>
 
@@ -777,7 +760,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Scalable internal design systems</h4>
                                 </div>
                                 <p>
-                                    Expand the modular templates and reusable design components to cover additional marketing materials, presentations, and sales collateral, allowing teams to maintain consistency and efficiency as initiatives grow.
+                                    Grow modular templates and reusable assets to cover presentations, collateral, and other materials, keeping teams efficient and consistent.
                                 </p>
                             </div>
 
@@ -787,7 +770,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Future-proofed brand adaptation</h4>
                                 </div>
                                 <p>
-                                    Introduce flexible sub-branding or campaign-specific adaptations that retain the core identity while supporting new product lines, seasonal campaigns, or regional initiatives, ensuring the brand remains cohesive yet adaptable.
+                                    Introduce flexible sub-branding or campaign-specific variations that maintain cohesion while supporting new products, seasonal campaigns, or regional initiatives.
                                 </p>
                             </div>
 
@@ -797,7 +780,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                                     <h4>Performance tracking & optimization</h4>
                                 </div>
                                 <p>
-                                    Implement a system for monitoring the effectiveness of marketing campaigns and collateral usage, enabling data-driven refinements to improve customer engagement and ROI over time.
+                                    Monitor campaign and collateral effectiveness to enable data-driven improvements in engagement and ROI.
                                 </p>
                             </div>
 
