@@ -108,7 +108,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                 <section className="section-title">
                     <div className="project-overview">
-                        <p><strong>Client<br /></strong>Swanky</p>
+                        <p><strong>Client<br /></strong>Kelvix</p>
                         <p><strong>Duration<br /></strong>9 months</p>
                         <p><strong>Completed<br /></strong>May 2022</p>
                         <p><strong>Roles<br /></strong>Graphic Designer, Digital Marketing Specialist</p>
@@ -123,7 +123,7 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        A global LED lighting manufacturer, Kelvix, needed to consistently apply their brand identity across marketing and product materials to strengthen visibility and credibility in a competitive market. This project implemented their existing brand system across documentation, campaigns, and digital assets, creating a cohesive and professional presence across all touchpoints.
+                        A global LED lighting manufacturer, needed to consistently apply their brand identity across marketing and product materials to strengthen visibility and credibility in a competitive market. This project implemented their existing brand system across documentation, campaigns, and digital assets, creating a cohesive and professional presence across all touchpoints.
                     </p>
 
                     <div className="context-item-container">
