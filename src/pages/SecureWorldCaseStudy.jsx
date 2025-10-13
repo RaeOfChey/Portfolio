@@ -136,14 +136,8 @@ const SecureworldCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        The new brand identity established SecureWorld as a cohesive, professional, and modern presence in the cybersecurity space. One that signals authority, builds trust, and engages audiences across print, digital, and multimedia channels.
+                        SecureWorld is a cybersecurity conference platform connecting industry leaders, practitioners, and innovators. After several past rebrands failed to take hold, this project focused on refining and expanding the existing system rather than starting over to strengthen cohesion, usability, and credibility across every touchpoint while ensuring the brand could finally be implemented effectively.
                     </p>
-
-                    <p id="section-intro-2">
-                        By creating a flexible and consistent visual system, the brand not only improved internal workflows and adoption across departments but also drove measurable engagement, strengthened credibility, and positioned SecureWorld as a thought leader in a competitive industry.
-                    </p>
-
-                    <br />
 
                     <div className="context-item-container">
 
@@ -154,11 +148,11 @@ const SecureworldCaseStudy = () => {
                             </div>
                             <p id="outcome-list" className="outcome-list">
                                 <ul>
-                                    <li>A 60% increase in digital engagement across social media platforms and email campaigns, signaling stronger audience connection and visibility.</li>
-                                    <li>35% increase in brochure and flyer response rates, demonstrating improved clarity, hierarchy, and audience comprehension.</li>
-                                    <li>50% increase in video viewer retention for presentations and promotional content, reflecting the effectiveness of cohesive motion graphics and multimedia assets.</li>
-                                    <li>Internal teams adopted templates and brand guidelines consistently, streamlining content creation and ensuring a unified brand experience across departments.</li>
-                                    <li>Stakeholders consistently praised the brand’s clarity, professionalism, and usability, noting that the system finally made it easy to implement a cohesive identity across all channels.</li>
+                                    <li>60% increase in digital engagement across social and email, reflecting stronger audience connection and recognition.</li>
+                                    <li>35% higher response rates for brochures and flyers, driven by improved clarity and hierarchy.</li>
+                                    <li>50% increase in video viewer retention, proving the impact of cohesive motion design.</li>
+                                    <li>Internal teams fully adopted templates and guidelines, streamlining production and maintaining brand consistency.</li>
+                                    <li>Stakeholders praised the new system’s clarity, professionalism, and ease of use, noting it finally unified the brand across every channel.</li>
                                 </ul>
                             </p>
                         </div>
@@ -176,12 +170,8 @@ const SecureworldCaseStudy = () => {
 
                     <div className="section-right">
                         <p id="section-intro">
-                            SecureWorld is a recognized leader in the cybersecurity industry, best known for its nationwide conference series that brings professionals together to share knowledge and stay ahead of emerging threats.
+                            SecureWorld aimed to create a brand and marketing experience that would:
                         </p>
-                        <p id="section-intro">
-                            The organization had undergone several rebrandings in the past, but none had fully taken hold, and there was no system in place to maintain consistency across channels or departments. They wanted a brand that could finally be implemented effectively, reflect their authority in the cybersecurity space, and engage audiences across multiple touchpoints. Their vision was to:
-                        </p>
-
 
                         <div className="context-item-container">
 
@@ -191,7 +181,7 @@ const SecureworldCaseStudy = () => {
                                     <h4>Unify the brand across channels</h4>
                                 </div>
                                 <p>
-                                    Create a cohesive visual system that could be applied consistently across print, digital, and multimedia assets. Ensure every department could implement the brand without losing fidelity, so that every touchpoint felt part of a unified whole.
+                                    Build a cohesive visual system for print, digital, and multimedia assets, ensuring every department could implement the brand consistently and maintain a unified presence.
                                 </p>
                             </div>
 
@@ -201,7 +191,7 @@ const SecureworldCaseStudy = () => {
                                     <h4>Elevate credibility and recognition</h4>
                                 </div>
                                 <p>
-                                    Modernize the brand while maintaining trust and professionalism, signaling to conference attendees, partners, and digital audiences that SecureWorld is a leading authority in cybersecurity. Every visual element should reinforce expertise and reliability.
+                                    Modernize the brand while preserving trust and professionalism, positioning SecureWorld as a credible leader in cybersecurity and reinforcing expertise at every touchpoint.
                                 </p>
                             </div>
 
@@ -211,7 +201,7 @@ const SecureworldCaseStudy = () => {
                                     <h4>Empower internal teams</h4>
                                 </div>
                                 <p>
-                                    Provide templates, guides, and a flexible design system that made it easy for marketing, sales, and other departments to produce on-brand assets efficiently. Reduce dependence on ad-hoc design decisions or inconsistent vendor implementations.
+                                    Equip departments with templates, guides, and a flexible system to create on-brand materials efficiently, reducing reliance on ad-hoc design and external vendors.
                                 </p>
                             </div>
 
@@ -221,7 +211,7 @@ const SecureworldCaseStudy = () => {
                                     <h4>Create a sustainable, future-proof system</h4>
                                 </div>
                                 <p>
-                                    Move beyond one-off designs to a scalable, maintainable brand system. Ensure the identity could evolve with SecureWorld while retaining core visual standards, avoiding the pitfalls of past rebranding attempts.
+                                    Develop a scalable brand system that can evolve with SecureWorld while maintaining visual integrity and avoiding the fragmentation of past rebrands.
                                 </p>
                             </div>
                         </div>
@@ -238,7 +228,7 @@ const SecureworldCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        Take the organization’s latest branding, refine and expand it into a comprehensive, flexible system, and implement it in a way that empowered internal teams, engaged audiences effectively, and reinforced SecureWorld’s position as a trusted cybersecurity leader.
+                        Refine and expand SecureWorld’s existing brand into a cohesive, scalable system that strengthens credibility, empowers internal teams, and enhances audience engagement, allowing the organization to be consistently represented as a trusted, modern leader in cybersecurity education.
                     </p>
                 </div>
             </section>
@@ -251,7 +241,7 @@ const SecureworldCaseStudy = () => {
 
                 <div className="section-right">
                     <p id="section-intro">
-                        The solution transforms the organization's cybersecurity presence into a cohesive, professional, and flexible system that communicates authority, credibility, and clarity. It positions SecureWorld as a modern, trustworthy leader in cybersecurity while providing internal teams with the tools to implement the brand consistently across print, digital, and multimedia channels.
+                        The project amplified the existing brand, refining its structure and expanding the system to create a cohesive, professional, and flexible identity. The goal was to communicate authority and credibility while providing internal teams with the tools to consistently implement the brand across print, digital, and multimedia channels.
                     </p>
 
                     <div className="context-item-container">
@@ -265,16 +255,16 @@ const SecureworldCaseStudy = () => {
                                 The design directly addressed key brand challenges by:
                                 <ul>
                                     <li>
-                                        Modular templates, grid systems, and layout standards ensure consistency across brochures, social media, presentations, and multimedia assets, reducing fragmentation and confusion.
+                                        Modular templates, grid systems, and layout standards ensure consistency across brochures, social media, presentations, and multimedia assets.
                                     </li>
                                     <li>
-                                        A consolidated color palette, clean typography, and professional photography communicate authority and trust, reinforcing SecureWorld’s thought leadership in cybersecurity.
+                                        A consolidated color palette, clean typography, and professional photography communicate trust and expertise.
                                     </li>
                                     <li>
-                                        Flexible templates, brand documentation, and scalable design tools allow marketing and other departments to produce on-brand content efficiently without relying on ad-hoc design decisions.
+                                        Scalable templates, guides, and documentation empower internal teams to produce on-brand content efficiently.
                                     </li>
                                     <li>
-                                        Custom illustrations and iconography simplify complex cybersecurity topics, making content clear and relevant for conference attendees, digital audiences, and corporate partners.
+                                        Custom illustrations and iconography simplify complex cybersecurity concepts for diverse audiences.
                                     </li>
                                 </ul>
                             </p>
@@ -387,7 +377,7 @@ const SecureworldCaseStudy = () => {
 
                         <p className="sub-section-label">Signage</p>
 
-                         <div className="two-in-a-row">
+                        <div className="two-in-a-row">
                             <CaseStudyImage
                                 src={CaseStudyImage34}
                                 alt="SecureWorld Digital signage for in-person events, featuring live schedules, wayfinding, and sponsor recognition to guide and inform attendees onsite."
@@ -440,7 +430,7 @@ const SecureworldCaseStudy = () => {
                                 />
 
                                 <p id="image-caption"
-                                style={{ backgroundColor: "#fff", padding: "10px", borderRadius: "10px",border: "2px solid #ddeaff"  }}
+                                    style={{ backgroundColor: "#fff", padding: "10px", borderRadius: "10px", border: "2px solid #ddeaff" }}
                                 >
                                     A high-energy promotional video highlighting conference atmosphere, speakers, and sessions—designed to build excitement and drive attendance.
                                 </p>
@@ -453,7 +443,7 @@ const SecureworldCaseStudy = () => {
 
                         <p className="sub-section-label">Sponsorship Prospectus</p>
 
-                         <div className="two-in-a-row">
+                        <div className="two-in-a-row">
 
                             <CaseStudyImage
                                 src={CaseStudyImage1}
@@ -467,15 +457,15 @@ const SecureworldCaseStudy = () => {
                             />
                         </div>
 
-                            <div className="links">
-                                <a href="/assets/SecureWorld 2023 Marketing Sponsorhsip Prospectus.pdf" target="_blank" rel="noopener noreferrer">
-                                    View Full PDF
-                                </a>
-                            </div>
+                        <div className="links">
+                            <a href="/assets/SecureWorld 2023 Marketing Sponsorhsip Prospectus.pdf" target="_blank" rel="noopener noreferrer">
+                                View Full PDF
+                            </a>
+                        </div>
 
                         <p className="sub-section-label">Sponsorship Flyer</p>
 
-                         <div className="two-in-a-row">
+                        <div className="two-in-a-row">
                             <CaseStudyImage
                                 src={CaseStudyImage3}
                                 alt="SecureWorld Sponsorship flyer design for in-person distribution, highlighting event purpose, reach, and engagement opportunities with a clear, credible layout."
@@ -554,16 +544,16 @@ const SecureworldCaseStudy = () => {
                                 <h4>Elevating the experience</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                                While meeting the original goals, the branding also introduces:
+                                While meeting the original goals, the brand update also introduces:
                                 <ul>
                                     <li>
-                                        A flexible, scalable system designed to evolve with SecureWorld’s needs, supporting future campaigns, interactive digital experiences, and event activations while maintaining visual cohesion.
+                                        A scalable, flexible structure that evolves with future campaigns, interactive experiences, and event activations.
                                     </li>
                                     <li>
-                                        Enhanced multimedia integration with motion graphics, video templates, and looping animations align with the brand, improving engagement and retention across presentations, online campaigns, and live events.
+                                        Enhanced multimedia integration, including motion graphics, video templates, and looping animations, to boost engagement and retention.
                                     </li>
                                     <li>
-                                        Custom visual elements like icons, patterns, and photography standards enhance comprehension and storytelling for complex cybersecurity concepts, strengthening the brand’s clarity and professionalism.
+                                        Custom icons, patterns, and photography standards that improve clarity, storytelling, and comprehension of technical topics.
                                     </li>
                                 </ul>
                             </p>
@@ -575,7 +565,7 @@ const SecureworldCaseStudy = () => {
                                 <h4>Results</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
-                                SecureWorld now has a brand system that is unified, professional, and scalable. It immediately elevates the organization’s credibility in the cybersecurity space, streamlines internal workflows, and engages audiences with clarity and impact. The final visual identity ensures consistency across every touchpoint while remaining adaptable for evolving digital and event experiences, giving SecureWorld a sustainable, future-proof brand presence.
+                                The brand system is unified, professional, and adaptable. It strengthens SecureWorld’s credibility, streamlines workflows, and engages audiences across all touchpoints. The refreshed identity provides a sustainable, future-proof framework that supports digital, print, and event experiences while remaining flexible for growth.
                             </p>
                         </div>
                     </div>
@@ -591,7 +581,7 @@ const SecureworldCaseStudy = () => {
                 <div className="section-right">
 
                     <p id="section-intro">
-                        To bring SecureWorld’s vision of a cohesive, professional, and scalable cybersecurity brand to life, I followed a process rooted in research, systematization, and audience-focused design to create a flexible and implementable brand identity.
+                        My process for this project was guided by the following key principles:
                     </p>
 
                     <div className="context-item-container">
@@ -602,7 +592,7 @@ const SecureworldCaseStudy = () => {
                                 <h4>Audience alignment</h4>
                             </div>
                             <p>
-                                Defined the visual tone through moodboards, creative direction, and brand expansion that resonated with multiple stakeholders, ensuring clarity, trust, and professionalism across all touchpoints.
+                                Established the visual tone through moodboards and creative direction that resonated with stakeholders, ensuring clarity, trust, and professionalism across all touchpoints.
                             </p>
                         </div>
 
@@ -612,7 +602,7 @@ const SecureworldCaseStudy = () => {
                                 <h4>Competitive contrast</h4>
                             </div>
                             <p>
-                                Conducted a brand landscape audit of cybersecurity organizations and conference brands to identify visual gaps and avoid industry clichés, creating a blueprint for a modern, differentiated identity that signals thought leadership.
+                                Audited cybersecurity and conference brands to identify visual gaps, avoid clichés, and create a differentiated, modern identity that signals thought leadership.
                             </p>
                         </div>
 
@@ -622,7 +612,7 @@ const SecureworldCaseStudy = () => {
                                 <h4>Internal collaboration</h4>
                             </div>
                             <p>
-                                Met with teams across marketing, sales, and events to understand their workflows, pain points, and the types of materials they needed. This ensured the brand system addressed real-world challenges and was practical for day-to-day use.
+                                Worked with marketing, sales, and events teams to understand workflows and pain points, ensuring the system addressed real-world needs and was practical for daily use.
                             </p>
                         </div>
 
@@ -632,7 +622,7 @@ const SecureworldCaseStudy = () => {
                                 <h4>Iterative feedback</h4>
                             </div>
                             <p>
-                                Shared prototypes, templates, and draft assets with stakeholders to gather input, refine the system, and confirm that the visual identity met both functional needs and audience expectations. This iterative approach built buy-in and made the brand system adaptable for multiple departments.
+                                Tested prototypes, templates, and draft assets with stakeholders to refine the system, confirm usability, and build buy-in across departments for consistent implementation.
                             </p>
                         </div>
 
@@ -648,41 +638,41 @@ const SecureworldCaseStudy = () => {
                 <div className="section-right">
                     <TimelineItem title="Months 1–3 Discovery & Brand Audit">
                         <ul>
-                            <li>Met with leadership and marketing teams to understand the organization’s goals, workflows, and pain points.</li>
-                            <li>Reviewed existing brand assets to identify inconsistencies and gaps across print, digital, and multimedia.</li>
-                            <li>Conducted competitive benchmarking to define opportunities for differentiation and modernized visual positioning.</li>
+                            <li>Met with leadership and marketing teams to understand goals, workflows, and pain points.</li>
+                            <li>Reviewed existing assets to identify gaps and inconsistencies across print, digital, and multimedia.</li>
+                            <li>Benchmarked competitors to uncover opportunities for differentiation and modern positioning.</li>
                         </ul>
                     </TimelineItem>
 
                     <TimelineItem title="Months 4–6 Concept Exploration & System Development">
                         <ul>
-                            <li>Expanded and refined the latest SecureWorld branding into multiple visual directions.</li>
-                            <li>Developed initial typography, color palette, iconography, illustration styles, and layout standards.</li>
-                            <li>Iterated concepts based on stakeholder feedback, ensuring flexibility and usability across departments.</li>
+                            <li>Expanded and refined existing branding into multiple visual directions.</li>
+                            <li>Developed typography, color palette, iconography, illustration styles, and layout standards.</li>
+                            <li>Iterated concepts with stakeholder feedback to ensure flexibility and usability across teams.</li>
                         </ul>
                     </TimelineItem>
 
                     <TimelineItem title="Months 7–10 Brand Identity Finalization">
                         <ul>
-                            <li>Finalized logo suite, typography system, core color palette, and supporting visual elements like patterns, textures, and photography standards.</li>
-                            <li>Documented the brand system in comprehensive guides and templates for print, digital, and multimedia applications.</li>
-                            <li>Conducted collaborative review sessions with internal teams to confirm functionality and ease of implementation.</li>
+                            <li>Finalized logos, typography, core colors, and supporting visual elements.</li>
+                            <li>Documented the system in comprehensive guides and templates for print, digital, and multimedia.</li>
+                            <li>Conducted collaborative reviews to confirm ease of implementation and practical functionality.</li>
                         </ul>
                     </TimelineItem>
 
                     <TimelineItem title="Months 11–13 Collateral Design & Multimedia Implementation">
                         <ul>
-                            <li>Designed and delivered a wide range of collateral, including brochures, flyers, social media assets, presentations, email templates, event signage, and video content.</li>
-                            <li>Created modular, adaptable templates to streamline content creation for marketing and event teams.</li>
-                            <li>Provided hands-on guidance and walkthroughs to ensure teams could confidently use the new brand system.</li>
+                            <li>Designed collateral including brochures, flyers, social media assets, presentations, email templates, event signage, and video content.</li>
+                            <li>Created modular templates to streamline production across marketing and event teams.</li>
+                            <li>Provided hands-on guidance to ensure teams could confidently implement the brand.</li>
                         </ul>
                     </TimelineItem>
 
                     <TimelineItem title="Months 14–15 Maintenance, Updates & Iteration">
                         <ul>
-                            <li>Continuously updated templates, graphics, and assets based on evolving campaign needs and stakeholder feedback.</li>
-                            <li>Ensured the brand system remained consistent, functional, and relevant across all touchpoints.</li>
-                            <li>Worked with departments to troubleshoot implementation issues and refine guidelines as new formats or mediums were introduced.</li>
+                            <li>Updated templates and assets based on evolving campaign needs and stakeholder feedback.</li>
+                            <li>Ensured brand consistency and relevance across all touchpoints.</li>
+                            <li>Refined guidelines as new formats or mediums emerged, keeping the system scalable and practical.</li>
                         </ul>
                     </TimelineItem>
                 </div>
@@ -699,16 +689,20 @@ const SecureworldCaseStudy = () => {
 
                         <div className="context-item-container">
 
+                            <p id="section-intro">
+                                A bold vision required transforming the established but fragmented brand into a cohesive, professional, and flexible system that could engage audiences, empower teams, and scale across touchpoints.
+                            </p>
+
                             <div className="obstacles-context-item">
                                 <div className="context-item-header obstacles">
                                     <CogIcon className="cog-icon" />
                                     <h4>Obstacles</h4>
                                 </div>
                                 <ul>
-                                    <li>Translating a cybersecurity organization’s complex, technical content into a visual system that was professional, approachable, and flexible required careful design judgment.</li>
-                                    <li>Existing assets were inconsistent and fragmented across departments, creating a challenge in establishing cohesion while respecting past branding.</li>
-                                    <li>Ensuring the brand system could work across print, digital, social, and multimedia formats—including videos and motion graphics, without becoming overly complex or rigid.</li>
-                                    <li>Introducing new templates, guidelines, and workflows as a new designer required patience, diplomacy, and clear demonstrations to secure buy-in from stakeholders accustomed to long-standing processes.</li>
+                                    <li>Translating complex cybersecurity content into clear, professional visuals.</li>
+                                    <li>Fragmented assets and inconsistent usage across departments.</li>
+                                    <li>Ensuring consistency across print, digital, social, and multimedia formats.</li>
+                                    <li>Introducing new templates and workflows as a new designer while gaining stakeholder buy-in.</li>
                                 </ul>
                             </div>
 
@@ -718,10 +712,10 @@ const SecureworldCaseStudy = () => {
                                     <h4>Milestones</h4>
                                 </div>
                                 <ul>
-                                    <li>Launched a fully integrated brand identity system including logo suite, typography, color palette, iconography, patterns, and templates for print, digital, and multimedia applications.</li>
-                                    <li>Delivered comprehensive brand documentation and templates to empower internal teams and maintain consistency across departments.</li>
-                                    <li>Rolled out cohesive collateral including brochures, flyers, event signage, social media graphics, presentations, email templates, and multimedia content.</li>
-                                    <li>Achieved measurable engagement improvements: 60% increase in digital engagement, 35% increase in brochure/flyer response rates, and 50% increase in video retention for presentations and promotional content.</li>
+                                    <li>Unified brand system with logos, typography, color palette, patterns, and templates.</li>
+                                    <li>Delivered comprehensive guides and templates for internal teams.</li>
+                                    <li>Rolled out cohesive collateral across print, digital, and multimedia channels.</li>
+                                    <li>Boosted engagement: 60% increase in digital, 35% higher brochure/flyer response, 50% higher video retention.</li>
                                 </ul>
                             </div>
 
@@ -744,38 +738,40 @@ const SecureworldCaseStudy = () => {
 
                         <div className="context-item-container">
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header lessons-learned">
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
                                     <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Lessons learned</h4>
                                 </div>
-                                <p>
-                                    This project was a powerful reminder that brand design is as much about usability and internal adoption as it is about visual clarity. I learned how to create a system that communicates professionalism, trust, and authority through color, type, imagery, and layout, not just logos or copy. It also underscored the importance of building flexible, scalable systems that can adapt across departments and touchpoints while maintaining cohesion.
-                                </p>
+                                <ul>
+                                    <li>Brand design requires usability and internal adoption as much as visual clarity.</li>
+                                    <li>Professionalism, trust, and authority are communicated through color, type, imagery, and layout, not just logos.</li>
+                                    <li>Flexible, scalable systems maintain cohesion across departments and touchpoints.</li>
+                                </ul>
                             </div>
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header key-challenges-overcome">
-                                    <CogIcon className="cog-icon" />
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
+                                    <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Key challenges overcome</h4>
                                 </div>
-                                <p>
-                                    One of the biggest challenges was gaining internal buy-in as a new designer introducing changes to long-standing processes. Persuading stakeholders to adopt new templates, guidelines, and workflows required patience, diplomacy, and clear demonstrations of the system’s benefits.
-                                </p>
-                                <br />
-                                <p>
-                                    Another challenge was translating complex, technical cybersecurity concepts into visuals that were both clear and engaging across print, digital, and multimedia formats. Creating a system that was flexible enough to adapt to multiple audiences while maintaining credibility and consistency was a rewarding design puzzle.
-                                </p>
+                                <ul>
+                                    <li>Gaining internal buy-in as a new designer required patience, diplomacy, and clear demonstrations.</li>
+                                    <li>Translating complex cybersecurity content into visuals that were clear, engaging, and credible across formats.</li>
+                                    <li>Designing a system flexible enough to serve multiple audiences while maintaining consistency.</li>
+                                </ul>
                             </div>
 
-                            <div className="takeaways-context-item">
-                                <div className="context-item-header key-challenges-overcome">
-                                    <SparklesIcon className="sparkles-icon" />
+                            <div className="obstacles-context-item">
+                                <div className="context-item-header obstacles">
+                                    <FilePenLineIcon className="filepenline-icon" />
                                     <h4>Personal reflections</h4>
                                 </div>
-                                <p>
-                                    This project was one of the most comprehensive branding experiences I’ve led. The opportunity to modernize a long-standing organization’s identity, create measurable impact, and empower internal teams to confidently use the brand system was deeply meaningful. I’m proud to have delivered a solution that balances professionalism, clarity, and flexibility while elevating SecureWorld’s presence in the cybersecurity space.
-                                </p>
+                                <ul>
+                                    <li>Modernizing a long-standing identity while creating measurable impact was deeply meaningful.</li>
+                                    <li>Empowering internal teams to confidently use the brand system reinforced its long-term value.</li>
+                                    <li>Delivered a solution that balances professionalism, clarity, and flexibility, elevating the organizations presence in cybersecurity.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -792,7 +788,7 @@ const SecureworldCaseStudy = () => {
                     <div className="section-right">
 
                         <p id="section-intro">
-                            There are several ways the SecureWorld brand system could evolve as the organization continues to expand and engage its audiences:
+                            As the organization continues to grow, the brand system can evolve to support new initiatives and deepen audience engagement:
                         </p>
 
                         <div className="context-item-container">
@@ -803,7 +799,7 @@ const SecureworldCaseStudy = () => {
                                     <h4>Expanded multimedia capabilities</h4>
                                 </div>
                                 <p>
-                                    Developing more advanced motion graphics, animated templates, and short-form video assets could enhance engagement across digital channels and event presentations.
+                                    Advanced motion graphics, animated templates, and short-form video can boost digital engagement and event experiences.
                                 </p>
                             </div>
 
@@ -813,7 +809,7 @@ const SecureworldCaseStudy = () => {
                                     <h4>Interactive digital experiences</h4>
                                 </div>
                                 <p>
-                                    Creating interactive web features, data visualizations, or immersive event content could deepen audience understanding of complex cybersecurity topics while reinforcing brand authority.
+                                    Interactive web features, data visualizations, and immersive content can clarify complex cybersecurity topics and reinforce authority.
                                 </p>
                             </div>
 
@@ -823,7 +819,7 @@ const SecureworldCaseStudy = () => {
                                     <h4>Refined internal templates</h4>
                                 </div>
                                 <p>
-                                    As departments’ needs evolve, updating templates and guides for presentations, emails, and collateral will ensure ongoing usability and consistency, making it easier for teams to maintain the brand independently.
+                                    Updating templates and guides ensures consistency, usability, and independence for internal teams.
                                 </p>
                             </div>
 
@@ -833,7 +829,7 @@ const SecureworldCaseStudy = () => {
                                     <h4>Extended brand expression</h4>
                                 </div>
                                 <p>
-                                    Expanding the visual system with new iconography, illustration sets, or photography styles could allow the brand to adapt to emerging campaigns, new services, or specialized audiences while maintaining cohesion.
+                                    Adding new iconography, illustrations, or photography styles allows the brand to adapt to campaigns, services, and audiences while staying cohesive.
                                 </p>
                             </div>
 
