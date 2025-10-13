@@ -296,170 +296,169 @@ const NorsemanNuptialsCaseStudy = () => {
 
                         <div className="brand-assets-section">
 
-                        <div className="logo-section">
+                            <div className="logo-section">
 
-                            <p className="section-label">Primary Logo</p>
+                                <p className="section-label">Primary Logo</p>
 
-                            <div className="primary-logo-row full-color-row">
-                                <div className="primary-logo-single">
+                                <div className="primary-logo-row full-color-row">
+                                    <div className="primary-logo-single">
+                                        <img
+                                            src={CaseStudyImage9}
+                                            alt="Norseman Nuptials Primary Logo Full Color"
+                                            className="primary-logo-img"
+                                        />
+                                    </div>
+                                </div>
+
+                                <div className="primary-logo-row bw-row">
+                                    <div className="primary-logo-half bg-black">
+                                        <img
+                                            src={CaseStudyImage10}
+                                            alt="Norseman Nuptials Primary Logo Black"
+                                            className="logo-img"
+                                        />
+                                    </div>
+                                    <div className="primary-logo-half bg-white">
+                                        <img
+                                            src={CaseStudyImage11}
+                                            alt="Norseman Nuptials Primary Logo White"
+                                            className="logo-img"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p className="section-label">Alternative Logos</p>
+
+                            <p className="sub-section-label">Lettermark</p>
+
+                            <div className="alt-logo-row">
+                                <div className="alt-logo-box bg-white-alt">
                                     <img
-                                        src={CaseStudyImage9}
-                                        alt="Norseman Nuptials Primary Logo Full Color"
-                                        className="primary-logo-img"
+                                        src={CaseStudyImage12}
+                                        alt="Norseman Nuptials Alternative Logo Lettermark Full Color"
+                                        className="alt-logo-img"
+                                    />
+                                </div>
+
+                                <div className="alt-logo-box bg-white-alt">
+                                    <img
+                                        src={CaseStudyImage13}
+                                        alt="Norseman Nuptials Alternative Logo Lettermark Black"
+                                        className="alt-logo-img"
+                                    />
+                                </div>
+
+                                <div className="alt-logo-box bg-black-alt">
+                                    <img
+                                        src={CaseStudyImage14}
+                                        alt="Norseman Nuptials Alternative Logo Lettermark White"
+                                        className="alt-logo-img"
                                     />
                                 </div>
                             </div>
 
-                            <div className="primary-logo-row bw-row">
-                                <div className="primary-logo-half bg-black">
+                            <p className="sub-section-label">Wordmark</p>
+
+                            <div className="alt-logo-row">
+                                <div className="alt-logo-box bg-white-alt">
                                     <img
-                                        src={CaseStudyImage10}
-                                        alt="Norseman Nuptials Primary Logo Black"
-                                        className="logo-img"
+                                        src={CaseStudyImage15}
+                                        alt="Norseman Nuptials Alternative Logo Lettermark Full Color"
+                                        className="alt-logo-img"
                                     />
                                 </div>
-                                <div className="primary-logo-half bg-white">
+
+                                <div className="alt-logo-box bg-white-alt">
                                     <img
-                                        src={CaseStudyImage11}
-                                        alt="Norseman Nuptials Primary Logo White"
-                                        className="logo-img"
+                                        src={CaseStudyImage16}
+                                        alt="Norseman Nuptials Alternative Logo Lettermark Black"
+                                        className="alt-logo-img"
+                                    />
+                                </div>
+
+                                <div className="alt-logo-box bg-black-alt">
+                                    <img
+                                        src={CaseStudyImage17}
+                                        alt="Norseman Nuptials Alternative Logo Lettermark White"
+                                        className="alt-logo-img"
                                     />
                                 </div>
                             </div>
 
-                        </div>
+                            <p className="section-label">Color Palette</p>
 
-                        <p className="section-label">Alternative Logos</p>
+                            <div className="color-palette-row">
+                                <div className="swatch-container">
+                                    <p className="swatch-label">Nótt</p>
+                                    <img src={CaseStudyImage2} alt="Nótt color swatch" className="color-swatch" />
+                                </div>
+                                <div className="swatch-container">
+                                    <p className="swatch-label">Freya’s Veil</p>
+                                    <img src={CaseStudyImage3} alt="Freya’s Veil color swatch" className="color-swatch" />
+                                </div>
+                                <div className="swatch-container">
+                                    <p className="swatch-label">Aurora</p>
+                                    <img src={CaseStudyImage4} alt="Aurora’s Breath color swatch" className="color-swatch" />
+                                </div>
+                                <div className="swatch-container">
+                                    <p className="swatch-label">Skadi Sky</p>
+                                    <img src={CaseStudyImage5} alt="Skadi Sky color swatch" className="color-swatch" />
+                                </div>
+                                <div className="swatch-container">
+                                    <p className="swatch-label">Fjord</p>
+                                    <img src={CaseStudyImage6} alt="Midnight Fjord color swatch" className="color-swatch" />
+                                </div>
+                            </div>
 
-                        <p className="sub-section-label">Lettermark</p>
+                            <p className="section-label">Typography</p>
 
-                        <div className="alt-logo-row">
-                            <div className="alt-logo-box bg-white-alt">
+                            <div className="font-row">
+                                <div className="font-container">
+                                    <p className="swatch-label">North Typeface</p>
+                                    <img src={CaseStudyImage7} alt="North Typeface" className="font" />
+                                </div>
+                                <div className="font-container">
+                                    <p className="swatch-label">Custom Typeface</p>
+                                    <img src={CaseStudyImage8} alt="Custom Typeface" className="font" />
+                                </div>
+                            </div>
+
+                            <p className="section-label">Illustrations</p>
+
+                            <div className="illustration-row">
+                                <div className="illustration-box">
+                                    <img
+                                        src={CaseStudyImage18}
+                                        alt="Norseman Nuptials Illustration Set 1"
+                                        className="illustration-img"
+                                    />
+                                </div>
+                                <div className="illustration-box">
+                                    <img
+                                        src={CaseStudyImage19}
+                                        alt="Norseman Nuptials Illustration Set 2"
+                                        className="illustration-img"
+                                    />
+                                </div>
+                                <div className="illustration-box">
+                                    <img
+                                        src={CaseStudyImage20}
+                                        alt="Norseman Nuptials Illustration Set 3"
+                                        className="illustration-img"
+                                    />
+                                </div>
+                            </div>
+
+                            <p className="section-label">Photography</p>
+
+                            <div className="photo-row">
                                 <img
-                                    src={CaseStudyImage12}
-                                    alt="Norseman Nuptials Alternative Logo Lettermark Full Color"
-                                    className="alt-logo-img"
+                                    src={CaseStudyImage21}
+                                    alt="Norseman Nuptials Photography"
+                                    className="photography-img"
                                 />
                             </div>
-
-                            <div className="alt-logo-box bg-white-alt">
-                                <img
-                                    src={CaseStudyImage13}
-                                    alt="Norseman Nuptials Alternative Logo Lettermark Black"
-                                    className="alt-logo-img"
-                                />
-                            </div>
-
-                            <div className="alt-logo-box bg-black-alt">
-                                <img
-                                    src={CaseStudyImage14}
-                                    alt="Norseman Nuptials Alternative Logo Lettermark White"
-                                    className="alt-logo-img"
-                                />
-                            </div>
-                        </div>
-
-                        <p className="sub-section-label">Wordmark</p>
-
-                        <div className="alt-logo-row">
-                            <div className="alt-logo-box bg-white-alt">
-                                <img
-                                    src={CaseStudyImage15}
-                                    alt="Norseman Nuptials Alternative Logo Lettermark Full Color"
-                                    className="alt-logo-img"
-                                />
-                            </div>
-
-                            <div className="alt-logo-box bg-white-alt">
-                                <img
-                                    src={CaseStudyImage16}
-                                    alt="Norseman Nuptials Alternative Logo Lettermark Black"
-                                    className="alt-logo-img"
-                                />
-                            </div>
-
-                            <div className="alt-logo-box bg-black-alt">
-                                <img
-                                    src={CaseStudyImage17}
-                                    alt="Norseman Nuptials Alternative Logo Lettermark White"
-                                    className="alt-logo-img"
-                                />
-                            </div>
-                        </div>
-
-                        <p className="section-label">Color Palette</p>
-
-                        <div className="color-palette-row">
-                            <div className="swatch-container">
-                                <p className="swatch-label">Nótt</p>
-                                <img src={CaseStudyImage2} alt="Nótt color swatch" className="color-swatch" />
-                            </div>
-                            <div className="swatch-container">
-                                <p className="swatch-label">Freya’s Veil</p>
-                                <img src={CaseStudyImage3} alt="Freya’s Veil color swatch" className="color-swatch" />
-                            </div>
-                            <div className="swatch-container">
-                                <p className="swatch-label">Aurora</p>
-                                <img src={CaseStudyImage4} alt="Aurora’s Breath color swatch" className="color-swatch" />
-                            </div>
-                            <div className="swatch-container">
-                                <p className="swatch-label">Skadi Sky</p>
-                                <img src={CaseStudyImage5} alt="Skadi Sky color swatch" className="color-swatch" />
-                            </div>
-                            <div className="swatch-container">
-                                <p className="swatch-label">Fjord</p>
-                                <img src={CaseStudyImage6} alt="Midnight Fjord color swatch" className="color-swatch" />
-                            </div>
-                        </div>
-
-                        <p className="section-label">Typography</p>
-
-                        <div className="font-row">
-                            <div className="font-container">
-                                <p className="swatch-label">North Typeface</p>
-                                <img src={CaseStudyImage7} alt="North Typeface" className="font" />
-                            </div>
-                            <div className="font-container">
-                                <p className="swatch-label">Custom Typeface</p>
-                                <img src={CaseStudyImage8} alt="Custom Typeface" className="font" />
-                            </div>
-                        </div>
-
-                        <p className="section-label">Illustrations</p>
-
-                        <div className="illustration-row">
-                            <div className="illustration-box">
-                                <img
-                                    src={CaseStudyImage18}
-                                    alt="Norseman Nuptials Illustration Set 1"
-                                    className="illustration-img"
-                                />
-                            </div>
-                            <div className="illustration-box">
-                                <img
-                                    src={CaseStudyImage19}
-                                    alt="Norseman Nuptials Illustration Set 2"
-                                    className="illustration-img"
-                                />
-                            </div>
-                            <div className="illustration-box">
-                                <img
-                                    src={CaseStudyImage20}
-                                    alt="Norseman Nuptials Illustration Set 3"
-                                    className="illustration-img"
-                                />
-                            </div>
-                        </div>
-
-                        <p className="section-label">Photography</p>
-
-                        <div className="photo-row">
-                            <img
-                                src={CaseStudyImage21}
-                                alt="Norseman Nuptials Photography"
-                                className="photography-img"
-                            />
-                        </div>
                         </div>
 
                         <div id="end-result" className="solution-context-item">

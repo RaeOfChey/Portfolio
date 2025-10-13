@@ -982,8 +982,7 @@ margin: 0px !important;
 
 .color-swatch {
   height: auto;
-  width: 100px;
-  max-width: 100px;
+  width: 90px;
 }
 
 .swatch-label {
@@ -1314,7 +1313,8 @@ margin: 0px !important;
     font-size: 16px;
   }
   .illustration-img {
-  height: 250px;  
+    height: auto;
+    max-width: 75%;
   }  
     .two-image-row {
     display: flex;
@@ -1584,6 +1584,19 @@ margin: 0px !important;
   /* SecureWorld */
   #image-caption {
   font-size: 14px;
+  }
+  .two-in-a-row {
+  grid-template-columns: 1fr;
+  background-color: none;
+  }
+  .image-overlay-container {
+    margin: 0px;
+  }
+  .two-in-a-row > :first-child {
+    margin-top: 20px;
+  }
+  .two-in-a-row > :last-child {
+    margin-bottom: 50px;
   }
 }
 

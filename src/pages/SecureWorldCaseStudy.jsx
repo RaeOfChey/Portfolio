@@ -11,6 +11,8 @@ import { CogIcon } from '../components/CogIcon';
 import { TrendingUpIcon } from '../components/TrendingUpIcon';
 import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
+import TimelineItem from "../components/Timeline";
+import CaseStudyImage from "../components/CaseStudyImage";
 
 import SecureWorldHeaderImage from '../assets/secureworld-branding/SecureWorld Marketing Collateral Thumbnail Image.png';
 import CaseStudyImage1 from '../assets/secureworld-branding/SW Marketing Case Study Image1.png';
@@ -127,11 +129,49 @@ const SecureworldCaseStudy = () => {
                 </section>
             </div>
 
+            <section className="challenge-section-header">
+                <div className="itasca-software-impact-outcome-section-left">
+                    <h3 className="impacts-header">Results That Moved The Needle</h3>
+                </div>
+
+                <div className="section-right">
+                    <p id="section-intro">
+                        The new brand identity established SecureWorld as a cohesive, professional, and modern presence in the cybersecurity space. One that signals authority, builds trust, and engages audiences across print, digital, and multimedia channels.
+                    </p>
+
+                    <p id="section-intro-2">
+                        By creating a flexible and consistent visual system, the brand not only improved internal workflows and adoption across departments but also drove measurable engagement, strengthened credibility, and positioned SecureWorld as a thought leader in a competitive industry.
+                    </p>
+
+                    <br />
+
+                    <div className="context-item-container">
+
+                        <div className="impact-context-item">
+                            <div className="context-item-header clear-actionable-design">
+                                <CircleCheckIcon className="circle-check-icon" />
+                                <h4>Outcomes</h4>
+                            </div>
+                            <p id="outcome-list" className="outcome-list">
+                                <ul>
+                                    <li>A 60% increase in digital engagement across social media platforms and email campaigns, signaling stronger audience connection and visibility.</li>
+                                    <li>35% increase in brochure and flyer response rates, demonstrating improved clarity, hierarchy, and audience comprehension.</li>
+                                    <li>50% increase in video viewer retention for presentations and promotional content, reflecting the effectiveness of cohesive motion graphics and multimedia assets.</li>
+                                    <li>Internal teams adopted templates and brand guidelines consistently, streamlining content creation and ensuring a unified brand experience across departments.</li>
+                                    <li>Stakeholders consistently praised the brand’s clarity, professionalism, and usability, noting that the system finally made it easy to implement a cohesive identity across all channels.</li>
+                                </ul>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
             <section className="section-title">
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Client Vision & Goals</h3>
+                        <h3>Vision For Growth</h3>
                     </div>
 
                     <div className="section-right">
@@ -206,7 +246,7 @@ const SecureworldCaseStudy = () => {
 
             <section className="challenge-section-header">
                 <div className="kelvix-solution-header-section-left">
-                    <h3>Solution</h3>
+                    <h3>How The Brand Came to Life</h3>
                 </div>
 
                 <div className="section-right">
@@ -218,11 +258,11 @@ const SecureworldCaseStudy = () => {
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <UsersIcon className="users-icon" />
-                                <h4>How the design supports the clients goals</h4>
+                                <h4>Solving the Challenge</h4>
                             </div>
 
                             <p id="intro-redesign" className="redesign-description">
-                                The brand system meets each of the core goals identified in the vision phase by:
+                                The design directly addressed key brand challenges by:
                                 <ul>
                                     <li>
                                         Modular templates, grid systems, and layout standards ensure consistency across brochures, social media, presentations, and multimedia assets, reducing fragmentation and confusion.
@@ -595,7 +635,7 @@ const SecureworldCaseStudy = () => {
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>How the design elevates beyond the brief</h4>
+                                <h4>Elevating the experience</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
                                 While meeting the original goals, the branding also introduces:
@@ -616,7 +656,7 @@ const SecureworldCaseStudy = () => {
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
                                 <CircleCheckIcon className="circle-check-icon" />
-                                <h4>End result</h4>
+                                <h4>Results</h4>
                             </div>
                             <p id="intro-redesign" className="redesign-description">
                                 SecureWorld now has a brand system that is unified, professional, and scalable. It immediately elevates the organization’s credibility in the cybersecurity space, streamlines internal workflows, and engages audiences with clarity and impact. The final visual identity ensures consistency across every touchpoint while remaining adaptable for evolving digital and event experiences, giving SecureWorld a sustainable, future-proof brand presence.
@@ -629,7 +669,7 @@ const SecureworldCaseStudy = () => {
             <section className="approach-section-header">
 
                 <div className="itasca-careers-title-section-left">
-                    <h3 className="approach-header">Approach</h3>
+                    <h3 className="approach-header">My Process To Bring The Vision To Life</h3>
                 </div>
 
                 <div className="section-right">
@@ -686,64 +726,49 @@ const SecureworldCaseStudy = () => {
 
             <section className="process-section-header">
                 <div className="section-left">
-                    <h3>Timeline & Design Process</h3>
+                    <h3>From Concept To Launch</h3>
                 </div>
 
                 <div className="section-right">
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Months 1–3 Discovery & Brand Audit</h4>
-                        </div>
+                    <TimelineItem title="Months 1–3 Discovery & Brand Audit">
                         <ul>
                             <li>Met with leadership and marketing teams to understand the organization’s goals, workflows, and pain points.</li>
                             <li>Reviewed existing brand assets to identify inconsistencies and gaps across print, digital, and multimedia.</li>
                             <li>Conducted competitive benchmarking to define opportunities for differentiation and modernized visual positioning.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Months 4–6 Concept Exploration & System Development</h4>
-                        </div>
+                    <TimelineItem title="Months 4–6 Concept Exploration & System Development">
                         <ul>
                             <li>Expanded and refined the latest SecureWorld branding into multiple visual directions.</li>
                             <li>Developed initial typography, color palette, iconography, illustration styles, and layout standards.</li>
                             <li>Iterated concepts based on stakeholder feedback, ensuring flexibility and usability across departments.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Months 7–10 Brand Identity Finalization</h4>
-                        </div>
+                    <TimelineItem title="Months 7–10 Brand Identity Finalization">
                         <ul>
                             <li>Finalized logo suite, typography system, core color palette, and supporting visual elements like patterns, textures, and photography standards.</li>
                             <li>Documented the brand system in comprehensive guides and templates for print, digital, and multimedia applications.</li>
                             <li>Conducted collaborative review sessions with internal teams to confirm functionality and ease of implementation.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Months 11–13 Collateral Design & Multimedia Implementation</h4>
-                        </div>
+                    <TimelineItem title="Months 11–13 Collateral Design & Multimedia Implementation">
                         <ul>
                             <li>Designed and delivered a wide range of collateral, including brochures, flyers, social media assets, presentations, email templates, event signage, and video content.</li>
                             <li>Created modular, adaptable templates to streamline content creation for marketing and event teams.</li>
                             <li>Provided hands-on guidance and walkthroughs to ensure teams could confidently use the new brand system.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
 
-                    <div className="timeline-context-item">
-                        <div className="context-item-header">
-                            <h4>Months 14–15 Maintenance, Updates & Iteration</h4>
-                        </div>
+                    <TimelineItem title="Months 14–15 Maintenance, Updates & Iteration">
                         <ul>
                             <li>Continuously updated templates, graphics, and assets based on evolving campaign needs and stakeholder feedback.</li>
                             <li>Ensured the brand system remained consistent, functional, and relevant across all touchpoints.</li>
                             <li>Worked with departments to troubleshoot implementation issues and refine guidelines as new formats or mediums were introduced.</li>
                         </ul>
-                    </div>
+                    </TimelineItem>
                 </div>
             </section>
 
@@ -751,7 +776,7 @@ const SecureworldCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Obstacles & Milestones</h3>
+                        <h3>Overcoming Challenges</h3>
                     </div>
 
                     <div className="section-right">
@@ -792,49 +817,11 @@ const SecureworldCaseStudy = () => {
 
             </section>
 
-            <section className="challenge-section-header">
-                <div className="itasca-software-impact-outcome-section-left">
-                    <h3 className="impacts-header">Impact & Outcomes</h3>
-                </div>
-
-                <div className="section-right">
-                    <p id="section-intro">
-                        The new brand identity established SecureWorld as a cohesive, professional, and modern presence in the cybersecurity space. One that signals authority, builds trust, and engages audiences across print, digital, and multimedia channels.
-                    </p>
-
-                    <p id="section-intro-2">
-                        By creating a flexible and consistent visual system, the brand not only improved internal workflows and adoption across departments but also drove measurable engagement, strengthened credibility, and positioned SecureWorld as a thought leader in a competitive industry.
-                    </p>
-
-                    <br />
-
-                    <div className="context-item-container">
-
-                        <div className="impact-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
-                                <h4>Outcomes</h4>
-                            </div>
-                            <p id="outcome-list" className="outcome-list">
-                                <ul>
-                                    <li>A 60% increase in digital engagement across social media platforms and email campaigns, signaling stronger audience connection and visibility.</li>
-                                    <li>35% increase in brochure and flyer response rates, demonstrating improved clarity, hierarchy, and audience comprehension.</li>
-                                    <li>50% increase in video viewer retention for presentations and promotional content, reflecting the effectiveness of cohesive motion graphics and multimedia assets.</li>
-                                    <li>Internal teams adopted templates and brand guidelines consistently, streamlining content creation and ensuring a unified brand experience across departments.</li>
-                                    <li>Stakeholders consistently praised the brand’s clarity, professionalism, and usability, noting that the system finally made it easy to implement a cohesive identity across all channels.</li>
-                                </ul>
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
             <section className="section-title">
 
                 <div className="problem-section-header">
                     <div className="itasca-software-takeaways-section-left">
-                        <h3 className="takeaways-header">Takeaways</h3>
+                        <h3 className="takeaways-header">Design Lessons That Stick</h3>
                     </div>
 
                     <div className="section-right">
@@ -883,7 +870,7 @@ const SecureworldCaseStudy = () => {
 
                 <div className="problem-section-header">
                     <div className="section-left">
-                        <h3>Growth & Future Direction</h3>
+                        <h3>Where To Go Next</h3>
                     </div>
 
                     <div className="section-right">
