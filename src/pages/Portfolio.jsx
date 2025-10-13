@@ -28,7 +28,7 @@ const projects = [
     title: 'Redesigning a B2B eCommerce SaaS platform to enhance user experience and drive software sales growth by 25%.',
     link: '/itasca-software-case-study',
     type: '#UX/UI Design #Front-end Development #Branding #Marketing #Advertising',
-    category: ['Development', 'UX/UI Design'],
+    category: ['UX/UI Design'],
     cta: 'See More',
     image: ITASCASoftwareThumbnail,
   },
@@ -36,7 +36,7 @@ const projects = [
     title: 'Redesigning a B2B eCommerce platform to enhance user experience and drive product sales growth by 15%.',
     link: '/kelvix-case-study',
     type: '#UX/UI Design #Front-end Development #Branding #Marketing #Advertising',
-    category: ['Development', 'UX/UI Design'],
+    category: ['UX/UI Design'],
     cta: 'See More',
     image: KelvixImg,
   },
@@ -44,7 +44,7 @@ const projects = [
     title: 'Developing a global careers landing page to streamline the hiring process, improve candidate experience, and attract top-tier talent.',
     link: '/itasca-careers-page-case-study',
     type: '#UX/UI Design #Front-end Development',
-    category: ['Development', 'UX/UI Design'],
+    category: ['UX/UI Design'],
     cta: 'See More',
     image: ITASCACareersPageImg,
   },
@@ -52,7 +52,7 @@ const projects = [
     title: 'Streamlining the job application process on a unified platform to reduce complexity and increase efficiency.',
     link: '/employease-case-study',
     type: '#UX/UI Design #Front-end Development',
-    category: ['Development', 'UX/UI Design'],
+    category: ['UX/UI Design'],
     cta: 'See More',
     image: EmployEaseImg,
   },
@@ -146,30 +146,30 @@ const projects = [
     cta: 'See More',
     image: SwankyCollateralImg,
   },
-  {
-    title: 'Creating seasonal label designs that captured the adventurous spirit of cold brew coffee and increased sales by 25%.',
-    link: 'https://cheyennaraelynn.myportfolio.com/branding-north-woods-cold-brew',
-    type: '#Branding #Packaging',
-    category: 'Graphic Design',
-    cta: 'See More',
-    image: NorthWoodsImg,
-  },
-  {
-    title: 'Rebranding to increase brand awareness and attract new customers with a refreshed logo and engaging collateral.',
-    link: 'https://cheyennaraelynn.myportfolio.com/rebranding-politos-pizza',
-    type: '#Branding #Marketing #Packaging #Print',
-    category: 'Graphic Design',
-    cta: 'See More',
-    image: PolitosPizzaImg,
-  },
-  {
-    title: 'Designing a personalized fitness and nutrition app that educates users and encourages healthy balanced habits.',
-    link: 'https://cheyennaraelynn.myportfolio.com/app-design-healthfulli',
-    type: '#Branding #Web Design #App Design',
-    category: 'Graphic Design',
-    cta: 'See More',
-    image: HealthfulliImg,
-  },
+  // {
+  //   title: 'Creating seasonal label designs that captured the adventurous spirit of cold brew coffee and increased sales by 25%.',
+  //   link: 'https://cheyennaraelynn.myportfolio.com/branding-north-woods-cold-brew',
+  //   type: '#Branding #Packaging',
+  //   category: 'Graphic Design',
+  //   cta: 'See More',
+  //   image: NorthWoodsImg,
+  // },
+  // {
+  //   title: 'Rebranding to increase brand awareness and attract new customers with a refreshed logo and engaging collateral.',
+  //   link: 'https://cheyennaraelynn.myportfolio.com/rebranding-politos-pizza',
+  //   type: '#Branding #Marketing #Packaging #Print',
+  //   category: 'Graphic Design',
+  //   cta: 'See More',
+  //   image: PolitosPizzaImg,
+  // },
+  // {
+  //   title: 'Designing a personalized fitness and nutrition app that educates users and encourages healthy balanced habits.',
+  //   link: 'https://cheyennaraelynn.myportfolio.com/app-design-healthfulli',
+  //   type: '#Branding #Web Design #App Design',
+  //   category: 'Graphic Design',
+  //   cta: 'See More',
+  //   image: HealthfulliImg,
+  // },
 ];
 
 function Portfolio() {
@@ -189,9 +189,9 @@ function Portfolio() {
       <p className="portfolio-message">Look through my work, read through my case studies, have a look at final designs, and try out prototypes I’ve built.</p>
       <div className="filter-buttons">
         <button onClick={() => setFilter('All')} className={filter === 'All' ? 'active' : ''}>All</button>
-        <button onClick={() => setFilter('Graphic Design')} className={filter === 'Graphic Design' ? 'active' : ''}>Graphic Design</button>
         <button onClick={() => setFilter('UX/UI Design')} className={filter === 'UX/UI Design' ? 'active' : ''}>UX/UI Design</button>
-        <button onClick={() => setFilter('Development')} className={filter === 'Development' ? 'active' : ''}>Development</button>
+        <button onClick={() => setFilter('Graphic Design')} className={filter === 'Graphic Design' ? 'active' : ''}>Graphic Design</button>
+        {/* <button onClick={() => setFilter('Development')} className={filter === 'Development' ? 'active' : ''}>Development</button> */}
       </div>
 
       <div className="project-cards">

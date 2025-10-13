@@ -278,22 +278,22 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                             <CaseStudyImage
                                 src={CaseStudyImage1}
-                                alt="Editable slide deck templates designed to extend the SecureWorld Conference theme across presentations, providing departments with a cohesive and visually engaging format for consistent communication."
+                                alt="Editable slide deck templates, providing departments with a cohesive and visually engaging format for consistent communication."
                                 caption="Editable slide deck templates maintain a cohesive theme across presentations, allowing teams to customize content while preserving the event’s high-energy branding."
                             />
                             <CaseStudyImage
                                 src={CaseStudyImage2}
-                                alt="Editable slide deck templates designed to extend the SecureWorld Conference theme across presentations, providing departments with a cohesive and visually engaging format for consistent communication."
+                                alt="Editable slide deck templates, providing departments with a cohesive and visually engaging format for consistent communication."
                                 caption="Editable slide deck templates maintain a cohesive theme across presentations, allowing teams to customize content while preserving the event’s high-energy branding."
                             />
                             <CaseStudyImage
                                 src={CaseStudyImage3}
-                                alt="Editable slide deck templates designed to extend the SecureWorld Conference theme across presentations, providing departments with a cohesive and visually engaging format for consistent communication."
+                                alt="Editable slide deck templates, providing departments with a cohesive and visually engaging format for consistent communication."
                                 caption="Editable slide deck templates maintain a cohesive theme across presentations, allowing teams to customize content while preserving the event’s high-energy branding."
                             />
                             <CaseStudyImage
                                 src={CaseStudyImage4}
-                                alt="Editable slide deck templates designed to extend the SecureWorld Conference theme across presentations, providing departments with a cohesive and visually engaging format for consistent communication."
+                                alt="Editable slide deck templates, providing departments with a cohesive and visually engaging format for consistent communication."
                                 caption="Editable slide deck templates maintain a cohesive theme across presentations, allowing teams to customize content while preserving the event’s high-energy branding."
                             />
                         </div>
