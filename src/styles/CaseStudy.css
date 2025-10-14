@@ -505,7 +505,7 @@ ul li {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0px auto;
+  margin: 20px auto;
   border-radius: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   background-color: #fff;
@@ -1200,7 +1200,7 @@ padding: 20px 0px 0px 0px;
     margin: 90px 0px 45px 0px;
   }
   .challenge-section-header .case-study-image {
-    margin: 0px auto;
+    margin: 20px auto;
   }
   #end-result.context-item {
     margin-top: 45px;

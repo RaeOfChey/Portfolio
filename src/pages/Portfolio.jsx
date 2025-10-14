@@ -13,7 +13,7 @@ import NorthWoodsImg from '../assets/North Woods Cold Brew Thumbnail Image.png';
 import SecureWorldSignageImg from '../assets/SecureWorld Conference Signage Thumbnail Image.png';
 import SecureWorldCollateralImg from '../assets/SecureWorld Marketing Collateral Thumbnail Image.png';
 import SwankyCollateralImg from '../assets/Swanky Marketing Collateral Thumbnail Image.png';
-import PolitosPizzaImg from '../assets/Politos Pizza Regular Thumbnail Image.png';
+// import PolitosPizzaImg from '../assets/Politos Pizza Regular Thumbnail Image.png';
 import CodexXImg from '../assets/CodexX Thumbnail Image.png';
 import BookVaultImg from '../assets/BookVault Thumbnail Image.png';
 import EmployEaseImg from '../assets/EmployEase Thumbnail Image.png';
@@ -21,6 +21,7 @@ import ITASCASoftwareThumbnail from '../assets/ITASCA Software Thumbnail Image.p
 import KelvixImg from '../assets/Kelvix Thumbnail Image.png';
 import ITASCACareersPageImg from '../assets/ITASCA Careers Page Thumbnail Image.png';
 import HealthfulliImg from '../assets/Healthfulli Thumbnail Image.png';
+import PolitosPizzaImg from '../assets/politos-pizza/Politos Pizza Thumbnail Image.png';
 
 const projects = [
   // Development Projects
@@ -145,6 +146,14 @@ const projects = [
     category: 'Graphic Design',
     cta: 'See More',
     image: SwankyCollateralImg,
+  },
+  {
+    title: 'Refreshing a bold and eclectic brand identity for a regional pizza chain to celebrate heritage, highlight product variety, and engage modern audiences.',
+    link: '/politos-pizza',
+    type: '#Branding #Marketing #Advertising #Print #Social Media',
+    category: 'Graphic Design',
+    cta: 'See More',
+    image: PolitosPizzaImg,
   },
   // {
   //   title: 'Creating seasonal label designs that captured the adventurous spirit of cold brew coffee and increased sales by 25%.',
