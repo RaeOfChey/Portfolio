@@ -15,6 +15,7 @@ import { SparklesIcon } from "../components/SparklesIcon";
 import { ArrowRightIcon } from "../components/ArrowRightIcon";
 import TimelineItem from "../components/Timeline";
 import CaseStudyImage from "../components/CaseStudyImage";
+import CaseStudySection from "../components/CaseStudySection";
 
 // import KelvixCaseStudyImage8 from "../assets/Kelvix Thumbnail Image.png";
 import KelvixHeaderImage from "../assets/Kelvix Header Image.png";
@@ -336,25 +337,41 @@ const KelvixCaseStudy = () => {
               </p>
             </div>
 
-            <div>
-              <CaseStudyImage
-                src={KelvixCaseStudyImage6}
-                alt="This image depicts the information architecture layout, which illustrates the intuitive structure of the Kelvix ecommerce platform. Categories, product flows, and services are organized to minimize friction, enabling users to quickly find products, access order information, and explore additional services."
-                caption="The information architecture layout illustrates the intuitive structure of the Kelvix ecommerce platform. Categories, product flows, and services are organized to minimize friction, enabling users to quickly find products, access order information, and explore additional services."
-              />
+            <CaseStudySection
+              title="Information Architecture"
+              images={[
+                {
+                  src: KelvixCaseStudyImage6,
+                  alt: "This image depicts the information architecture layout, which illustrates the intuitive structure of the Kelvix ecommerce platform. Categories, product flows, and services are organized to minimize friction, enabling users to quickly find products, access order information, and explore additional services.",
+                  caption:
+                    "The information architecture layout illustrates the intuitive structure of the Kelvix ecommerce platform. Categories, product flows, and services are organized to minimize friction, enabling users to quickly find products, access order information, and explore additional services.",
+                },
+              ]}
+            />
 
-              <CaseStudyImage
-                src={KelvixCaseStudyImage3}
-                alt="This image shows a new contact form that centralizes communication, letting users reach the right department instantly. No more email delays, support is faster, easier, and more responsive."
-                caption="A new contact form centralizes communication, letting users reach the right department instantly. No more email delays, support is faster, easier, and more responsive."
-              />
+            <CaseStudySection
+              title="Contact Form"
+              images={[
+                {
+                  src: KelvixCaseStudyImage3,
+                  alt: "This image shows a new contact form that centralizes communication, letting users reach the right department instantly. No more email delays, support is faster, easier, and more responsive.",
+                  caption:
+                    "A new contact form centralizes communication, letting users reach the right department instantly. No more email delays, support is faster, easier, and more responsive.",
+                },
+              ]}
+            />
 
-              <CaseStudyImage
-                src={KelvixCaseStudyImage2}
-                alt="This image depicts integrated key services throughout the site so customers and contractors can quickly find what they need—like Project Management support for timelines, budgets, and troubleshooting—building confidence and streamlining projects."
-                caption="Integrated key services throughout the site so customers and contractors can quickly find what they need like Project Management support for timelines, budgets, and troubleshooting, building confidence and streamlining projects."
-              />
-            </div>
+            <CaseStudySection
+              title="Key Services"
+              images={[
+                {
+                  src: KelvixCaseStudyImage2,
+                  alt: "This image depicts integrated key services throughout the site so customers and contractors can quickly find what they need—like Project Management support for timelines, budgets, and troubleshooting—building confidence and streamlining projects.",
+                  caption:
+                    "Integrated key services throughout the site so customers and contractors can quickly find what they need like Project Management support for timelines, budgets, and troubleshooting, building confidence and streamlining projects.",
+                },
+              ]}
+            />
 
             <div id="end-result" className="solution-context-item">
               <div className="context-item-header clear-actionable-design">
@@ -386,25 +403,43 @@ const KelvixCaseStudy = () => {
               </p>
             </div>
 
+            <CaseStudySection
+              title="Product Spec Sheet Library"
+              images={[
+                {
+                  src: KelvixCaseStudyImage5,
+                  alt: "This image shows the product spec sheet library, where all product documentation is now in one place. Customers, contractors, and reps can quickly find specs, technical details, and resources, simplifying decision-making and project planning.",
+                  caption:
+                    "All product documentation is now in one place. Customers, contractors, and reps can quickly find specs, technical details, and resources, simplifying decision-making and project planning.",
+                },
+              ]}
+            />
+
+            <CaseStudySection
+              title="Log-in / Sign-up Page"
+              images={[
+                {
+                  src: KelvixCaseStudyImage4,
+                  alt: "This image showcases the log-in and sign-up page for the order management system feature, designed to provide users with a personalized project management dashboard. Users can access their accounts to access a range of features, including the Interactive Project Builder and exclusive Rep Portal access. This integration ensures a seamless experience for managing projects, accessing product specifications, and staying updated with the latest offerings.",
+                  caption:
+                    "Users can login or sign-up for the order management system for a personalized project management dashboard that contain a range of features, including the Interactive Project Builder and exclusive Rep Portal access.",
+                },
+              ]}
+            />
+
+            <CaseStudySection
+              title="Browsing"
+              images={[
+                {
+                  src: KelvixCaseStudyImage1,
+                  alt: "This image shows how the design makes browsing, purchasing, and tracking effortless. Real-time updates, clear layouts, and visible services ensure smooth, confident journeys for both customers and contractors.",
+                  caption:
+                    "The design makes browsing, purchasing, and tracking effortless. Real-time updates, clear layouts, and visible services ensure smooth, confident journeys for both customers and contractors.",
+                },
+              ]}
+            />
+
             <div>
-              <CaseStudyImage
-                src={KelvixCaseStudyImage5}
-                alt="This image shows the product spec sheet library, where all product documentation is now in one place. Customers, contractors, and reps can quickly find specs, technical details, and resources, simplifying decision-making and project planning."
-                caption="All product documentation is now in one place. Customers, contractors, and reps can quickly find specs, technical details, and resources, simplifying decision-making and project planning."
-              />
-
-              <CaseStudyImage
-                src={KelvixCaseStudyImage4}
-                alt="This image showcases the login and sign-up page for the order management system feature, designed to provide users with a personalized project management dashboard. Users can access their accounts to access a range of features, including the Interactive Project Builder and exclusive Rep Portal access. This integration ensures a seamless experience for managing projects, accessing product specifications, and staying updated with the latest offerings."
-                caption="Users can login or sign-up for the order management system for a personalized project management dashboard that contain a range of features, including the Interactive Project Builder and exclusive Rep Portal access."
-              />
-
-              <CaseStudyImage
-                src={KelvixCaseStudyImage1}
-                alt="This image shows how the design makes browsing, purchasing, and tracking effortless. Real-time updates, clear layouts, and visible services ensure smooth, confident journeys for both customers and contractors."
-                caption="The design makes browsing, purchasing, and tracking effortless. Real-time updates, clear layouts, and visible services ensure smooth, confident journeys for both customers and contractors."
-              />
-
               <div className="impact-context-item">
                 <div className="context-item-header clear-actionable-design">
                   <CircleCheckIcon className="circle-check-icon" />

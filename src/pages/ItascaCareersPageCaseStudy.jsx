@@ -15,6 +15,7 @@ import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 import TimelineItem from "../components/Timeline";
 import CaseStudyImage from "../components/CaseStudyImage";
+import CaseStudySection from "../components/CaseStudySection";
 
 import ItascaCareersHeaderImage from '../assets/ITASCA Careers Page Header Image.png';
 import CaseStudyImage1 from '../assets/ITASCA Careers Page CaseStudy Image1.png';
@@ -309,25 +310,29 @@ const EmployEaseCaseStudy = () => {
                             </p>
                         </div>
 
-                        <div>
-                            <CaseStudyImage
-                                src={CaseStudyImage5}
-                                alt="Information architecture organizes global content into clear, intuitive pathways."
-                                caption="The information architecture organizes global content into clear, intuitive pathways, balancing local office needs with a cohesive global structure to reduce friction in candidate navigation."
-                            />
+                        <CaseStudySection
+                            title="Opportunities Section"
+                            images={[
+                                {
+                                    src: CaseStudyImage3,
+                                    alt: "Opportunities section highlights diverse roles and internship programs.",
+                                    caption:
+                                        "The Opportunities section highlights diverse roles and internship programs, connecting candidates with positions that match their skills and career goals while showing the company’s commitment to professional growth.",
+                                },
+                            ]}
+                        />
 
-                            <CaseStudyImage
-                                src={CaseStudyImage3}
-                                alt="Opportunities section highlights diverse roles and internship programs."
-                                caption="The Opportunities section highlights diverse roles and internship programs, connecting candidates with positions that match their skills and career goals while showing the company’s commitment to professional growth."
-                            />
-
-                            <CaseStudyImage
-                                src={CaseStudyImage4}
-                                alt="Global office locations help candidates identify opportunities nearby."
-                                caption="Global office locations are clearly presented, helping candidates identify opportunities nearby while emphasizing the company’s international reach and credibility as a globally connected employer."
-                            />
-                        </div>
+                        <CaseStudySection
+                            title="Global Office Locations"
+                            images={[
+                                {
+                                    src: CaseStudyImage4,
+                                    alt: "Global office locations help candidates identify opportunities nearby.",
+                                    caption:
+                                        "Global office locations are clearly presented, helping candidates identify opportunities nearby while emphasizing the company’s international reach and credibility as a globally connected employer.",
+                                },
+                            ]}
+                        />
 
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
@@ -356,37 +361,54 @@ const EmployEaseCaseStudy = () => {
                             </p>
                         </div>
 
-                         <div>
-                            <CaseStudyImage
-                                src={CaseStudyImage6}
-                                alt="This image displays the brand system, which ensures consistent visuals, messaging, and tone across regions, strengthening employer branding and creating a polished, professional impression for prospective candidates."
-                                caption="The brand system ensures consistent visuals, messaging, and tone across regions, strengthening employer branding and creating a polished, professional impression for prospective candidates."
-                            />
+                        <CaseStudySection
+                            title="Brand System"
+                            images={[
+                                {
+                                    src: CaseStudyImage6,
+                                    alt: "This image displays the brand system, which ensures consistent visuals, messaging, and tone across regions, strengthening employer branding and creating a polished, professional impression for prospective candidates.",
+                                    caption:
+                                        "The brand system ensures consistent visuals, messaging, and tone across regions, strengthening employer branding and creating a polished, professional impression for prospective candidates.",
+                                },
+                            ]}
+                        />
 
-                            <CaseStudyImage
-                                src={ItascaCareersHeaderImage}
-                                alt="The careers page header immediately highlights the company's employee-owned structure, inclusive culture, and career growth opportunities, with a clear “View Open Positions” CTA guiding candidates to act."
-                                caption="The careers page header immediately highlights the company's employee-owned structure, inclusive culture, and career growth opportunities, with a clear “View Open Positions” CTA guiding candidates to act."
-                            />
+                        <CaseStudySection
+                            title="Careers Page Header"
+                            images={[
+                                {
+                                    src: ItascaCareersHeaderImage,
+                                    alt: "The careers page header immediately highlights the company's employee-owned structure, inclusive culture, and career growth opportunities, with a clear “View Open Positions” CTA guiding candidates to act.",
+                                    caption:
+                                        "The careers page header immediately highlights the company's employee-owned structure, inclusive culture, and career growth opportunities, with a clear “View Open Positions” CTA guiding candidates to act.",
+                                },
+                            ]}
+                        />
 
-                            <CaseStudyImage
-                                src={CaseStudyImage2}
-                                alt="This image displays the Perks section, which showcases employee benefits, flexible work options, mentorship programs, and a collaborative culture, making the company appealing to candidates seeking growth, balance, and inclusion."
-                                caption="The Perks section showcases employee benefits, flexible work options, mentorship programs, and a collaborative culture, making the company appealing to candidates seeking growth, balance, and inclusion."
-                            />
-                        </div>
+                        <CaseStudySection
+                            title="Careers Page Header"
+                            images={[
+                                {
+                                    src: CaseStudyImage2,
+                                    alt: "This image displays the Perks section, which showcases employee benefits, flexible work options, mentorship programs, and a collaborative culture, making the company appealing to candidates seeking growth, balance, and inclusion.",
+                                    caption:
+                                        "The Perks section showcases employee benefits, flexible work options, mentorship programs, and a collaborative culture, making the company appealing to candidates seeking growth, balance, and inclusion.",
+                                },
+                            ]}
+                        />
 
-                        <div id="end-result" className="solution-context-item">
-                            <div className="context-item-header clear-actionable-design">
-                                <CircleCheckIcon className="circle-check-icon" />
-                                <h4>Results</h4>
+                        <div>
+                            <div id="end-result" className="solution-context-item">
+                                <div className="context-item-header clear-actionable-design">
+                                    <CircleCheckIcon className="circle-check-icon" />
+                                    <h4>Results</h4>
+                                </div>
+                                <p id="intro-redesign" className="redesign-description">
+                                    The careers page design strengthened the employer brand, improved candidate alignment, and streamlined the application process. Job seekers can now easily explore opportunities, understand culture and benefits, and submit applications seamlessly, creating an inclusive, globally consistent experience that supports HR efficiency and talent acquisition goals.
+                                </p>
                             </div>
-                            <p id="intro-redesign" className="redesign-description">
-                                The careers page design strengthened the employer brand, improved candidate alignment, and streamlined the application process. Job seekers can now easily explore opportunities, understand culture and benefits, and submit applications seamlessly, creating an inclusive, globally consistent experience that supports HR efficiency and talent acquisition goals.
-                            </p>
                         </div>
                     </div>
-                </div>
             </section>
 
             <section className="approach-section-header">

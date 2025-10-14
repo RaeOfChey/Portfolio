@@ -12,6 +12,7 @@ import { TrendingUpIcon } from '../components/TrendingUpIcon';
 import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 import TimelineItem from "../components/Timeline";
+import CaseStudySection from "../components/CaseStudySection";
 import CaseStudyImage from "../components/CaseStudyImage";
 
 import OchaTeaHouseHeaderImage from '../assets/ocha-tea-house/Ocha Tea House Header Image.png';
@@ -147,53 +148,65 @@ const OchaTeaHouseCaseStudy = () => {
 
                         <br />
 
-                        <p className="section-label">Tri-Fold Brochure</p>
-                        <p id="the-filter-bar-subtitle" className="image-subtitles">Outside Panels</p>
-                        <CaseStudyImage
-                            src={CaseStudyImage1}
-                            alt="Outside panels of the promotional trifold brochure use minimalist illustrations and an earthy color palette to evoke Ocha Tea House’s inviting atmosphere while highlighting key company details and a welcoming message."
-                            caption="The outside panels use minimalist illustrations and an earthy color palette to create an approachable and inviting first impression while emphasizing staff expertise and contact info."
+                        <CaseStudySection
+                            title="Tri-Fold Brochure: Outside Panels"
+                            images={[
+                                {
+                                    src: CaseStudyImage1,
+                                    alt: "Outside panels of the promotional trifold brochure for Ocha Tea House, featuring minimalist illustrations and an earthy color palette that evoke an inviting atmosphere and highlight key company details.",
+                                    caption: "The outside panels use minimalist illustrations and an earthy color palette to create an approachable and inviting first impression while emphasizing staff expertise and contact info.",
+                                },
+                            ]}
                         />
 
-                        <p id="the-filter-bar-subtitle" className="image-subtitles">Inside Panels</p>
-                        <CaseStudyImage
-                            src={CaseStudyImage2}
-                            alt="Interior panels guide readers through Ocha Tea House’s tea-making process, showcasing the benefits of different teas and explaining the signature second processing step for exceptional quality."
-                            caption="The interior panels walk customers through the tea-making process and highlight the unique qualities of green, black, white, and herbal teas for a memorable, informative experience."
+                        <CaseStudySection
+                            title="Tri-Fold Brochure: Inside Panels"
+                            images={[
+                                {
+                                    src: CaseStudyImage2,
+                                    alt: "Interior panels of the Ocha Tea House trifold brochure, guiding readers through the tea-making process and highlighting the unique qualities of green, black, white, and herbal teas.",
+                                    caption: "The interior panels walk customers through the tea-making process and highlight the unique qualities of green, black, white, and herbal teas for a memorable, informative experience.",
+                                },
+                            ]}
                         />
 
-                        <p className="section-label">Tea Packaging</p>
-                        <CaseStudyImage
-                            src={CaseStudyImage26}
-                            alt="Evergreen Matcha packaging balances Japanese tradition with approachability for new tea drinkers, making the ritual of tea accessible to a North American audience."
-                            caption="The Evergreen Matcha packaging grounds the brand in Japanese tradition while remaining welcoming and accessible for new tea drinkers."
+                        <CaseStudySection
+                            title="Tea Packaging"
+                            images={[
+                                {
+                                    src: CaseStudyImage26,
+                                    alt: "Evergreen Matcha packaging balances Japanese tradition with approachability for new tea drinkers, making the ritual of tea accessible to a North American audience.",
+                                    caption: "The Evergreen Matcha packaging grounds the brand in Japanese tradition while remaining welcoming and accessible for new tea drinkers.",
+                                },
+                                {
+                                    src: CaseStudyImage27,
+                                    alt: "Smoked Plum Ember packaging introduces a bold, atmospheric edge that distinguishes Ocha Tea House from competitors while maintaining cultural authenticity.",
+                                    caption: "Smoked Plum Ember’s bold, atmospheric design brings a modern edge and reinforces the brand’s authentic yet innovative identity.",
+                                },
+                                {
+                                    src: CaseStudyImage28,
+                                    alt: "Blushed Sakura Sencha packaging highlights elegance and delicacy inspired by Japanese culture, creating a contemporary and memorable touchpoint for customers.",
+                                    caption: "The Blushed Sakura Sencha flavor emphasizes cultural elegance and creates a memorable, contemporary brand experience.",
+                                },
+                            ]}
                         />
 
-                        <CaseStudyImage
-                            src={CaseStudyImage27}
-                            alt="Smoked Plum Ember packaging introduces a bold, atmospheric edge that distinguishes Ocha Tea House from competitors while maintaining cultural authenticity."
-                            caption="Smoked Plum Ember’s bold, atmospheric design brings a modern edge and reinforces the brand’s authentic yet innovative identity."
+                        <CaseStudySection
+                            title="Teabar Menu"
+                            images={[
+                                {
+                                    src: CaseStudyImage29,
+                                    alt: "Front of the teabar menu presents teas with a refined, approachable aesthetic using clear layouts and cultural motifs, making the brand accessible while honoring Japanese roots.",
+                                    caption: "The menu showcases teas with a clean, culturally inspired layout that feels modern and welcoming.",
+                                },
+                                {
+                                    src: CaseStudyImage30,
+                                    alt: "Back of the teabar menu presents detailed offerings in a clean, intuitive structure, balancing authenticity with readability for new and experienced tea drinkers alike.",
+                                    caption: "The menu showcases teas with a clean, culturally inspired layout that feels modern and welcoming.",
+                                },
+                            ]}
                         />
 
-                        <CaseStudyImage
-                            src={CaseStudyImage28}
-                            alt="Blushed Sakura Sencha packaging highlights elegance and delicacy inspired by Japanese culture, creating a contemporary and memorable touchpoint for customers."
-                            caption="The Blushed Sakura Sencha flavor emphasizes cultural elegance and creates a memorable, contemporary brand experience."
-                        />
-
-                        <p className="section-label">Teabar Menu</p>
-
-                        <CaseStudyImage
-                            src={CaseStudyImage29}
-                            alt="Front of the teabar menu presents teas with a refined, approachable aesthetic using clear layouts and cultural motifs, making the brand accessible while honoring Japanese roots."
-                            caption="The front of the teabar menu showcases teas with a clean, culturally inspired layout that feels modern and welcoming."
-                        />
-
-                        <CaseStudyImage
-                            src={CaseStudyImage30}
-                            alt="Back of the teabar menu presents detailed offerings in a clean, intuitive structure, balancing authenticity with readability for new and experienced tea drinkers alike."
-                            caption="The back of the menu presents offerings clearly and intuitively, reinforcing the brand’s approachable, authentic identity."
-                        />
                     </div>
                 </div>
             </section>

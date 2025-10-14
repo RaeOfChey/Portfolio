@@ -13,6 +13,7 @@ import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 import TimelineItem from "../components/Timeline";
 import CaseStudyImage from "../components/CaseStudyImage";
+import CaseStudySection from "../components/CaseStudySection";
 
 import SwankyHeaderImage from "../assets/swanky/Swanky Marketing Collateral Thumbnail Image.png";
 import CaseStudyImage1 from '../assets/swanky/Swanky Case Study Image1.png';
@@ -259,229 +260,187 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                         <p className="section-label">Product Marketing Campaigns</p>
 
-                        <p className="sub-section-label">Uniform Tape Assets</p>
+                        <CaseStudySection
+                            title="Uniform Tape Assets"
+                            images={[
+                                {
+                                    src: CaseStudyImage1,
+                                    alt: "Social media graphics, email promotions, product spec sheets, and installation guides for the Uniform Tape launch, showing cohesive branding across channels.",
+                                    caption:
+                                        "A cohesive marketing campaign was built around the launch of Uniform Tape, spanning digital and print channels. Social media graphics, email promotions, product spec sheets, and installation guides all worked together to introduce the product, highlight its features, and support customers through adoption.",
+                                },
+                            ]}
+                        />
 
-                        <p id="image-caption">
-                            A cohesive marketing campaign was built around the launch of Uniform Tape, spanning digital and print channels. Social media graphics, email promotions, product spec sheets, and installation guides all worked together to introduce the product, highlight its features, and support customers through adoption.
-                        </p>
-
-                        <div className="image-section">
-                            <div className="one-image-row">
-                                <img
-                                    src={CaseStudyImage1}
-                                    alt="The image shows x."
-                                />
-
-                            </div>
-                        </div>
+                        < br/>
 
                         <div className="image-section">
                             <div className="one-image-row">
                                 <img
                                     src={CaseStudyImage2}
-                                    alt="The image shows x."
+                                    alt="Social media graphics, email promotions, product spec sheets, and installation guides for the Uniform Tape launch, showing cohesive branding across channels."
                                     style={{ boxShadow: "none" }}
                                 />
 
                             </div>
                         </div>
 
-                        <div className="image-section">
-                            <div className="two-image-row">
-                                <img
-                                    src={CaseStudyImage3}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                />
-                                <img
-                                    src={CaseStudyImage4}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                />
-                            </div>
-                            <div className="two-image-row">
-                                <img
-                                    src={CaseStudyImage5}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                />
-                                <img
-                                    src={CaseStudyImage22}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                />
-                            </div>
+                        <div className="two-in-a-row">
+                            <CaseStudyImage
+                                src={CaseStudyImage3}
+                                alt="Social media graphics, email promotions, product spec sheets, and installation guides for the Uniform Tape launch, showing cohesive branding across channels."
+                            />
+                            <CaseStudyImage
+                                src={CaseStudyImage4}
+                                alt="Social media graphics, email promotions, product spec sheets, and installation guides for the Uniform Tape launch, showing cohesive branding across channels."
+                            />
+                            <CaseStudyImage
+                                src={CaseStudyImage5}
+                                alt="Social media graphics, email promotions, product spec sheets, and installation guides for the Uniform Tape launch, showing cohesive branding across channels."
+                            />
+                            <CaseStudyImage
+                                src={CaseStudyImage22}
+                                alt="Social media graphics, email promotions, product spec sheets, and installation guides for the Uniform Tape launch, showing cohesive branding across channels."
+                            />
+                            <CaseStudyImage
+                                src={CaseStudyImage6}
+                                alt="Social media graphics, email promotions, product spec sheets, and installation guides for the Uniform Tape launch, showing cohesive branding across channels."
+                            />
+                            <CaseStudyImage
+                                src={CaseStudyImage7}
+                                alt="Social media graphics, email promotions, product spec sheets, and installation guides for the Uniform Tape launch, showing cohesive branding across channels."
+                            />
                         </div>
 
-                        <div className="image-section">
-                            <div className="two-image-row">
-                                <img
-                                    src={CaseStudyImage6}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                />
-                                <img
-                                    src={CaseStudyImage7}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                />
-                            </div>
+                        <CaseStudySection
+                            title="CH-3000 Channel Assets"
+                            images={[
+                                {
+                                    src: CaseStudyImage8,
+                                    alt: "Marketing assets including social media graphics, emails, product spec sheets, and installation guides for the CH-3000 Channel, emphasizing consistency and clarity.",
+                                    caption:
+                                        "The CH-3000 Channel launch was supported with a complete suite of marketing assets, including social media graphics, email campaigns, product spec sheets, and installation guides. Together, these materials created a consistent, informative campaign that introduced the product, educated customers, and streamlined adoption.",
+                                },
+                            ]}
+                        />
 
-                        </div>
-
-                        <p className="sub-section-label">CH-3000 Channel Assets</p>
-
-                        <p id="image-caption">
-                            The CH-3000 Channel launch was supported with a complete suite of marketing assets, including social media graphics, email campaigns, product spec sheets, and installation guides. Together, these materials created a consistent, informative campaign that introduced the product, educated customers, and streamlined adoption.
-                        </p>
-
-                        <div className="image-section">
-                            <div className="one-image-row">
-                                <img
-                                    src={CaseStudyImage8}
-                                    alt="The image shows x."
-                                />
-                            </div>
-                        </div>
+                        < br/>
 
                         <div className="image-section">
                             <div className="one-image-row">
                                 <img
                                     src={CaseStudyImage9}
-                                    alt="The image shows x."
-                                    style={{ boxShadow: "none" }}
+                                    alt="Marketing assets including social media graphics, emails, product spec sheets, and installation guides for the CH-3000 Channel, emphasizing consistency and clarity."
                                 />
                             </div>
                         </div>
 
-                        <div className="image-section">
-                            <div className="two-image-row">
-                                <img
-                                    src={CaseStudyImage10}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                />
-                                <img
-                                    src={CaseStudyImage11}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                />
-                            </div>
-                            <div className="two-image-row">
-                                <img
-                                    src={CaseStudyImage12}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                />
-                            </div>
-                        </div>
-
-                        <div className="image-section">
-                            <div className="two-image-row">
-                                <img
-                                    src={CaseStudyImage13}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                />
-                                <img
-                                    src={CaseStudyImage14}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                />
-                            </div>
-                        </div>
-
-                        <p className="sub-section-label">Luxium</p>
-
-                        <div className="image-section">
-                            <div className="one-image-row">
-                                <img
-                                    src={CaseStudyImage17}
-                                    alt="The image shows x."
-                                    style={{ boxShadow: "none" }}
-                                />
-                            </div>
-                        </div>
-
-                        <div className="image-section">
-                            <video
-                                src={CaseStudyVideo18}
-                                alt="x"
-                                controls
-                                autoPlay
-                                loop
-                                muted
-                                style={{ width: "100%", height: "auto" }}
+                        <div className="two-in-a-row">
+                            <CaseStudyImage
+                                src={CaseStudyImage10}
+                                alt="Social media graphics, email promotions, product spec sheets, and installation guides for the Uniform Tape launch, showing cohesive branding across channels."
+                            />
+                            <CaseStudyImage
+                                src={CaseStudyImage11}
+                                alt="Social media graphics, email promotions, product spec sheets, and installation guides for the Uniform Tape launch, showing cohesive branding across channels."
+                            />
+                            <CaseStudyImage
+                                src={CaseStudyImage12}
+                                alt="Social media graphics, email promotions, product spec sheets, and installation guides for the Uniform Tape launch, showing cohesive branding across channels."
+                            />
+                            <CaseStudyImage
+                                src={CaseStudyImage13}
+                                alt="Social media graphics, email promotions, product spec sheets, and installation guides for the Uniform Tape launch, showing cohesive branding across channels."
+                            />
+                            <CaseStudyImage
+                                src={CaseStudyImage14}
+                                alt="Social media graphics, email promotions, product spec sheets, and installation guides for the Uniform Tape launch, showing cohesive branding across channels."
                             />
                         </div>
 
-                        <p id="image-caption" className="left">
-                            The Luxium campaign was introduced through an email announcement and a video sneak peek, building anticipation ahead of the full product launch. These assets were designed to spark curiosity, highlight key product benefits, and generate early engagement with customers.
-                        </p>
+                        {/* <CaseStudySection
+                            title="Luxium"
+                            images={[
+                                {
+                                    src: CaseStudyVideo40,
+                                    alt: "SecureWorld promotional video highlighting conference atmosphere, speakers, and sessions—designed to build excitement and drive attendance.",
+                                    caption:
+                                        "A high-energy promotional video highlighting conference atmosphere, speakers, and sessions—designed to build excitement and drive attendance.",
+                                    isVideo: true,
+                                },
+                            ]}
+                        /> */}
+
+                        <CaseStudySection
+                            title="Luxium"
+                            images={[
+                                {
+                                    src: CaseStudyImage17,
+                                    alt: "Email announcement and video sneak peek for the Luxium product launch, highlighting features and generating early customer engagement.",
+                                    caption:
+                                        "The Luxium campaign was introduced through an email announcement and a video sneak peek, building anticipation ahead of the full product launch. These assets were designed to spark curiosity, highlight key product benefits, and generate early engagement with customers.",
+                                },
+                            ]}
+                        />
+
+                        <CaseStudySection
+                            title="Sneak Peek"
+                            images={[
+                                {
+                                    src: CaseStudyVideo18,
+                                    alt: "The Luxium campaign was introduced through an email announcement and a video sneak peek, building anticipation ahead of the full product launch. These assets were designed to spark curiosity, highlight key product benefits, and generate early engagement with customers.",
+                                    caption:
+                                        "The Luxium campaign was introduced through an email announcement and a video sneak peek, building anticipation ahead of the full product launch. These assets were designed to spark curiosity, highlight key product benefits, and generate early engagement with customers.",
+                                    isVideo: true,
+                                },
+                            ]}
+                        />
 
                         <p className="section-label">Services Marketing Campaigns</p>
 
-                        <p className="sub-section-label">Rep Portal Assets</p>
+                         <CaseStudySection
+                            title="Rep Portal Assets"
+                            images={[
+                                {
+                                    src: CaseStudyImage15,
+                                    alt: "Coordinated email and social media posts introducing the Rep Portal, demonstrating its benefits and encouraging adoption.",
+                                    caption: "The Rep Portal campaign launched with an email announcement and coordinated social media posts, highlighting the new platform and its benefits for customers. These assets introduced the tool, encouraged adoption, and reinforced the value of a streamlined digital experience.",
+                                },
+                                {
+                                    src: CaseStudyImage16,
+                                    alt: "Coordinated email and social media posts introducing the Rep Portal, demonstrating its benefits and encouraging adoption.",
+                                },
+                            ]}
+                            customClass="two-in-row"
+                        />
 
-                        <div className="image-section">
-                            <div className="two-image-row">
-                                <img
-                                    src={CaseStudyImage15}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                    style={{ boxShadow: "none" }}
-                                />
-                                <img
-                                    src={CaseStudyImage16}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                    style={{ boxShadow: "none" }}
-                                />
-                            </div>
+                        <CaseStudySection
+                            title="Newsletter Sign Up Email"
+                            images={[
+                                {
+                                    src: CaseStudyImage19,
+                                    alt: "Branded email designed to encourage newsletter subscriptions, highlighting updates, product news, and exclusive insights.",
+                                    caption:
+                                        "The newsletter sign-up email was designed to promote ongoing engagement by encouraging users to subscribe for updates, product news, and exclusive insights. It provided a clear call-to-action and emphasized the value of staying connected with the brand.",
+                                },
+                            ]}
+                        />
 
-                            <p id="image-caption">
-                                The Rep Portal campaign launched with an email announcement and coordinated social media posts, highlighting the new platform and its benefits for customers. These assets introduced the tool, encouraged adoption, and reinforced the value of a streamlined digital experience.
-                            </p>
-                        </div>
-
-                        <p className="sub-section-label">Newsletter Sign Up Email</p>
-
-                        <div className="image-section">
-                            <div className="one-image-row">
-                                <img
-                                    src={CaseStudyImage19}
-                                    alt="The image shows x."
-                                    style={{ boxShadow: "none" }}
-                                />
-
-                                <p id="image-caption">
-                                    The newsletter sign-up email was designed to promote ongoing engagement by encouraging users to subscribe for updates, product news, and exclusive insights. It provided a clear call-to-action and emphasized the value of staying connected with the brand.
-                                </p>
-                            </div>
-                        </div>
-
-                        <p className="section-label">Documentation</p>
-
-                        <p className="sub-section-label">Warranty</p>
-
-                        <div className="image-section">
-                            <div className="two-image-row">
-                                <img
-                                    src={CaseStudyImage20}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                />
-                                <img
-                                    src={CaseStudyImage21}
-                                    alt="Editable slide deck template design"
-                                    className="logo-img"
-                                />
-                            </div>
-
-                            <p id="image-caption">
-                                Key company documents including warranties were updated to reflect the unified brand identity. Consistent layouts, typography, and visual cues ensured professionalism, clarity, and a cohesive experience across all customer-facing materials.
-                            </p>
-                        </div>
+                        <CaseStudySection
+                            title="Documentation"
+                            images={[
+                                {
+                                    src: CaseStudyImage20,
+                                    alt: "Updated warranties and other documents reflecting the unified brand identity with consistent layouts, typography, and visual cues.",
+                                    caption: "Key company documents including warranties were updated to reflect the unified brand identity. Consistent layouts, typography, and visual cues ensured professionalism, clarity, and a cohesive experience across all customer-facing materials.",
+                                },
+                                {
+                                    src: CaseStudyImage21,
+                                    alt: "Updated warranties and other documents reflecting the unified brand identity with consistent layouts, typography, and visual cues.",
+                                },
+                            ]}
+                            customClass="two-in-row"
+                        />
 
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">

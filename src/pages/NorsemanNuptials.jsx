@@ -12,7 +12,7 @@ import { TrendingUpIcon } from '../components/TrendingUpIcon';
 import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 import TimelineItem from "../components/Timeline";
-import CaseStudyImage from "../components/CaseStudyImage";
+import CaseStudySection from "../components/CaseStudySection";
 
 import NorsemanNuptialsHeaderImage from '../assets/norseman-nuptials/Norseman Nuptials Header Image.png';
 import CaseStudyImage1 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image1.png';
@@ -40,6 +40,7 @@ import CaseStudyImage22 from '../assets/norseman-nuptials/Norseman Nuptials Case
 import CaseStudyImage23 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image23.png';
 import CaseStudyImage24 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image24.png';
 import CaseStudyImage25 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image25.png';
+import CaseStudyImage26 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image26.png';
 
 const NorsemanNuptialsCaseStudy = () => {
 
@@ -146,40 +147,62 @@ const NorsemanNuptialsCaseStudy = () => {
                             </p>
                         </div>
 
-                        <p className="section-label">Business Cards</p>
-                        <CaseStudyImage
-                            src={CaseStudyImage22}
-                            alt="This image depicts the front and back of Norseman Nuptials business cards, featuring bold typography and a minimal, elegant design for brand recognition."
-                            caption="Bold typography and a minimal layout create instant brand recognition, leaving a polished impression during vendor and client interactions."
+                        <CaseStudySection
+                            title="Business Cards"
+                            images={[
+                                {
+                                    src: CaseStudyImage22,
+                                    alt: "This image depicts the front and back of Norseman Nuptials business cards, featuring bold typography and a minimal, elegant design for brand recognition.",
+                                    caption:
+                                        "Bold typography and a minimal layout create instant brand recognition, leaving a polished impression during vendor and client interactions.",
+                                },
+                            ]}
                         />
 
-                        <p className="section-label">Social Media</p>
-                        <CaseStudyImage
-                            src={CaseStudyImage1}
-                            alt="This image depicts a preview of Norseman Nuptials’ social media posts, showing cohesive visuals and brand elements that reflect inclusivity and modernity."
-                            caption="A cohesive social media presence amplifies visibility and engagement, reflecting the brand’s inclusivity and modern aesthetic."
+                        <CaseStudySection
+                            title="Social Media"
+                            images={[
+                                {
+                                    src: CaseStudyImage1,
+                                    alt: "This image depicts a preview of Norseman Nuptials’ social media posts, showing cohesive visuals and brand elements that reflect inclusivity and modernity.",
+                                    caption: "A cohesive social media presence amplifies visibility and engagement, reflecting the brand’s inclusivity and modern aesthetic.",
+                                },
+                            ]}
                         />
 
-                        <p className="section-label">Tri-Fold Brochure</p>
-                        <CaseStudyImage
-                            src={CaseStudyImage23}
-                            alt="This image depicts a trifold brochure for Norseman Nuptials, highlighting key services and brand elements in a clear, structured layout for couples and venues."
-                            caption="Structured, brand-forward brochure design communicates key services clearly, making it easy for venues and couples to engage."
+                        <CaseStudySection
+                            title="Tri-Fold Brochure"
+                            images={[
+                                {
+                                    src: CaseStudyImage23,
+                                    alt: "This image depicts a trifold brochure for Norseman Nuptials, highlighting key services and brand elements in a clear, structured layout for couples and venues.",
+                                    caption: "Structured, brand-forward brochure design communicates key services clearly, making it easy for venues and couples to engage.",
+                                },
+                            ]}
                         />
 
-                        <p className="section-label">Digital Advertisement</p>
-                        <CaseStudyImage
-                            src={CaseStudyImage25}
-                            alt="This image depicts a digital billboard concept for Norseman Nuptials, showing the brand’s high-impact, adaptable design at large scale."
-                            caption="High-impact digital billboard demonstrates the brand’s adaptability at scale, reinforcing visibility and memorability."
+                        <CaseStudySection
+                            title="Digital Advertisement"
+                            images={[
+                                {
+                                    src: CaseStudyImage25,
+                                    alt: "This image depicts a digital billboard concept for Norseman Nuptials, showing the brand’s high-impact, adaptable design at large scale.",
+                                    caption: "High-impact digital billboard demonstrates the brand’s adaptability at scale, reinforcing visibility and memorability.",
+                                },
+                            ]}
                         />
 
-                        <p className="section-label">Planning Journal</p>
-                        <CaseStudyImage
-                            src={CaseStudyImage24}
-                            alt="This image depicts a custom-designed wedding planning journal for Norseman Nuptials, combining functional planning space with brand-aligned visuals."
-                            caption="Custom journal guides couples through their wedding journey, combining functionality with a stress-free, brand-aligned experience."
+                        <CaseStudySection
+                            title="Planning Journal"
+                            images={[
+                                {
+                                    src: CaseStudyImage24,
+                                    alt: "This image depicts a custom-designed wedding planning journal for Norseman Nuptials, combining functional planning space with brand-aligned visuals.",
+                                    caption: "Custom journal guides couples through their wedding journey, combining functionality with a stress-free, brand-aligned experience.",
+                                },
+                            ]}
                         />
+
                     </div>
                 </div>
             </section>
@@ -245,7 +268,7 @@ const NorsemanNuptialsCaseStudy = () => {
             </section>
 
 
-            <section class="challenge-section-header" id="unique-section">
+            <section className="challenge-section-header" id="unique-section">
                 <div className="itasca-software-challenge-header-section-left">
                     <h3 className="challenge-header">Challenge</h3>
                 </div>
@@ -549,6 +572,18 @@ const NorsemanNuptialsCaseStudy = () => {
                             </p>
                         </div>
 
+                        <CaseStudySection
+                            title="Moodbard"
+                            images={[
+                                {
+                                    src: CaseStudyImage26,
+                                    alt: "Norseman Nuptials moodboard featuring Scandinavian minimalism, jewel-toned northern lights, bold geometric typography, and Viking-inspired patterns, combining traditional and modern wedding aesthetics.",
+                                    caption:
+                                        "A moodboard blending Scandinavian minimalism with jewel-toned northern lights, bold geometric typography, and Viking-inspired patterns. An ode to timeless traditions meeting modern, minimalist wedding aesthetics.",
+                                },
+                            ]}
+                        />
+
                     </div>
                 </div>
             </section>
@@ -751,7 +786,7 @@ const NorsemanNuptialsCaseStudy = () => {
                 </div>
             </section>
 
-            <section class="cta-section">
+            <section className="cta-section">
 
                 <div class="cta-options">
 

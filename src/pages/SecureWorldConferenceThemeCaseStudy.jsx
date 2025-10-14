@@ -13,6 +13,7 @@ import { SparklesIcon } from '../components/SparklesIcon';
 import { ArrowRightIcon } from '../components/ArrowRightIcon';
 import TimelineItem from "../components/Timeline";
 import CaseStudyImage from "../components/CaseStudyImage";
+import CaseStudySection from "../components/CaseStudySection";
 
 import SecureWorldHeaderConfereneceImage from "../assets/secureworld-conference-theme/SecureWorld Conferenece Theme Thumbnail Image.png";
 
@@ -272,93 +273,95 @@ const SecureWorldConferenceThemeCaseStudy = () => {
 
                         <p className="section-label">Digital Collateral</p>
 
-                        <p className="sub-section-label">Slide Deck Templates</p>
-
-                        <div className="two-in-a-row">
-
-                            <CaseStudyImage
-                                src={CaseStudyImage1}
-                                alt="Editable slide deck templates, providing departments with a cohesive and visually engaging format for consistent communication."
-                                caption="Editable slide deck templates maintain a cohesive theme across presentations, allowing teams to customize content while preserving the event’s high-energy branding."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage2}
-                                alt="Editable slide deck templates, providing departments with a cohesive and visually engaging format for consistent communication."
-                                caption="Editable slide deck templates maintain a cohesive theme across presentations, allowing teams to customize content while preserving the event’s high-energy branding."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage3}
-                                alt="Editable slide deck templates, providing departments with a cohesive and visually engaging format for consistent communication."
-                                caption="Editable slide deck templates maintain a cohesive theme across presentations, allowing teams to customize content while preserving the event’s high-energy branding."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage4}
-                                alt="Editable slide deck templates, providing departments with a cohesive and visually engaging format for consistent communication."
-                                caption="Editable slide deck templates maintain a cohesive theme across presentations, allowing teams to customize content while preserving the event’s high-energy branding."
-                            />
-                        </div>
-
-                        <p className="sub-section-label">Signage</p>
-
-                        <div className="two-in-a-row">
-
-                            <CaseStudyImage
-                                src={CaseStudyImage22}
-                                alt="Digital signage designed for in-person events, featuring live session schedules and sponsor highlights to guide and engage attendees throughout the conference."
-                                caption="Digital signage clearly communicates schedules and sponsors, keeping attendees informed and enhancing the immersive experience."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage23}
-                                alt="Digital signage designed for in-person events, featuring live session schedules and sponsor highlights to guide and engage attendees throughout the conference."
-                                caption="Digital signage clearly communicates schedules and sponsors, keeping attendees informed and enhancing the immersive experience."
-                            />
-                        </div>
-
-                        <p className="sub-section-label">Email Templates</p>
-
-                        <div className="two-in-a-row">
-
-                            <CaseStudyImage
-                                src={CaseStudyImage24}
-                                alt="Custom-themed email templates with branded headers and footers, ensuring every communication reinforced the high-energy conference identity."
-                                caption="Branded email templates maintain a visually engaging, cohesive identity across all attendee communications."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage25}
-                                alt="Custom-themed email templates with branded headers and footers, ensuring every communication reinforced the high-energy conference identity."
-                                caption="Branded email templates maintain a visually engaging, cohesive identity across all attendee communications."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage26}
-                                alt="Custom-themed email templates with branded headers and footers, ensuring every communication reinforced the high-energy conference identity."
-                                caption="Branded email templates maintain a visually engaging, cohesive identity across all attendee communications."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage27}
-                                alt="Custom-themed email templates with branded headers and footers, ensuring every communication reinforced the high-energy conference identity."
-                                caption="Branded email templates maintain a visually engaging, cohesive identity across all attendee communications."
-                            />
-                        </div>
-
-                        <p className="section-label">Print Collateral</p>
-
-                        <p className="sub-section-label">Large Banner</p>
-
-                        <CaseStudyImage
-                            src={CaseStudyImage18}
-                            alt="Large-scale banner serving as a visual centerpiece and popular photo backdrop, unifying the event’s brand identity across the conference space."
-                            caption="The large banner establishes the tone for the event, providing a striking, cohesive focal point for attendees."
+                        <CaseStudySection
+                            title="Slide Deck Templates"
+                            images={[
+                                {
+                                    src: CaseStudyImage1,
+                                    alt: "Editable slide deck templates, providing departments with a cohesive and visually engaging format for consistent communication.",
+                                    caption: "Editable slide deck templates maintain a cohesive theme across presentations, allowing teams to customize content while preserving the event’s high-energy branding.",
+                                },
+                                {
+                                    src: CaseStudyImage2,
+                                    alt: "Editable slide deck templates, providing departments with a cohesive and visually engaging format for consistent communication.",
+                                },
+                                {
+                                    src: CaseStudyImage3,
+                                    alt: "Editable slide deck templates, providing departments with a cohesive and visually engaging format for consistent communication.",
+                                },
+                                {
+                                    src: CaseStudyImage4,
+                                    alt: "Editable slide deck templates, providing departments with a cohesive and visually engaging format for consistent communication.",
+                                },
+                            ]}
+                            customClass="two-in-row"
                         />
 
-                        <p className="sub-section-label">Coasters</p>
+                        <CaseStudySection
+                            title="Signage"
+                            images={[
+                                {
+                                    src: CaseStudyImage22,
+                                    alt: "Digital signage designed for in-person events, featuring live session schedules and sponsor highlights to guide and engage attendees throughout the conference.",
+                                    caption: "Digital signage clearly communicates schedules and sponsors, keeping attendees informed and enhancing the immersive experience.",
+                                },
+                                {
+                                    src: CaseStudyImage23,
+                                    alt: "Digital signage designed for in-person events, featuring live session schedules and sponsor highlights to guide and engage attendees throughout the conference.",
+                                },
+                            ]}
+                            customClass="two-in-row"
+                        />
+
+                        <CaseStudySection
+                            title="Email Templates"
+                            images={[
+                                {
+                                    src: CaseStudyImage24,
+                                    alt: "Custom-themed email templates with branded headers and footers, ensuring every communication reinforced the high-energy conference identity.",
+                                    caption: "Branded email templates maintain a visually engaging, cohesive identity across all attendee communications.",
+                                },
+                                {
+                                    src: CaseStudyImage25,
+                                    alt: "Custom-themed email templates with branded headers and footers, ensuring every communication reinforced the high-energy conference identity.",
+                                },
+                                {
+                                    src: CaseStudyImage26,
+                                    alt: "Custom-themed email templates with branded headers and footers, ensuring every communication reinforced the high-energy conference identity.",
+                                },
+                                {
+                                    src: CaseStudyImage27,
+                                    alt: "Custom-themed email templates with branded headers and footers, ensuring every communication reinforced the high-energy conference identity.",
+                                },
+                            ]}
+                            customClass="two-in-row"
+                        />
+
+                        <CaseStudySection
+                            title="Large Banner"
+                            images={[
+                                {
+                                    src: CaseStudyImage18,
+                                    alt: "Large-scale banner serving as a visual centerpiece and popular photo backdrop, unifying the event’s brand identity across the conference space.",
+                                    caption:
+                                        "The large banner establishes the tone for the event, providing a striking, cohesive focal point for attendees.",
+                                },
+                            ]}
+                        />
+
+                        <CaseStudySection
+                            title="Coasters"
+                            images={[
+                                {
+                                    src: CaseStudyImage5,
+                                    alt: "Collectible coasters and sleeves that blend music and cybersecurity themes, creating memorable keepsakes for attendees.",
+                                    caption:
+                                        "Coasters fuse bold visuals and fun facts to make a lasting impression while reinforcing the event’s immersive theme.",
+                                },
+                            ]}
+                        />
 
                         <div className="two-in-a-row">
-                            <CaseStudyImage
-                                src={CaseStudyImage5}
-                                alt="Collectible coasters and sleeves that blend music and cybersecurity themes, creating memorable keepsakes for attendees."
-                                caption="Coasters fuse bold visuals and fun facts to make a lasting impression while reinforcing the event’s immersive theme."
-                            />
-
                             <CaseStudyImage
                                 src={CaseStudyImage6}
                                 alt="Collectible coasters and sleeves that blend music and cybersecurity themes, creating memorable keepsakes for attendees."
@@ -381,44 +384,42 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                             />
                         </div>
 
-                        <p className="sub-section-label">Banners</p>
-
-                        <div className="two-in-a-row">
-
-                            <CaseStudyImage
-                                src={CaseStudyImage13}
-                                alt="Pop-up banners featuring pun-filled titles and iconic musicians, connecting music heritage to the conference theme to capture attention and spark engagement."
-                                caption="Pop-up banners combine storytelling and bold visuals to reinforce the music-meets-tech identity throughout the venue."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage14}
-                                alt="Pop-up banners featuring pun-filled titles and iconic musicians, connecting music heritage to the conference theme to capture attention and spark engagement."
-                                caption="Pop-up banners combine storytelling and bold visuals to reinforce the music-meets-tech identity throughout the venue."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage15}
-                                alt="Pop-up banners featuring pun-filled titles and iconic musicians, connecting music heritage to the conference theme to capture attention and spark engagement."
-                                caption="Pop-up banners combine storytelling and bold visuals to reinforce the music-meets-tech identity throughout the venue."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage16}
-                                alt="Pop-up banners featuring pun-filled titles and iconic musicians, connecting music heritage to the conference theme to capture attention and spark engagement."
-                                caption="Pop-up banners combine storytelling and bold visuals to reinforce the music-meets-tech identity throughout the venue."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage17}
-                                alt="Pop-up banners featuring pun-filled titles and iconic musicians, connecting music heritage to the conference theme to capture attention and spark engagement."
-                                caption="Pop-up banners combine storytelling and bold visuals to reinforce the music-meets-tech identity throughout the venue."
-                            />
-                        </div>
-
-                        <p className="sub-section-label">Registration Desk</p>
-
-                        <CaseStudyImage
-                            src={CaseStudyImage19}
-                            alt="Custom registration signage and footboards designed to guide attendees efficiently while creating a cohesive, branded first impression."
-                            caption="Registration signage ensures clarity, efficiency, and a polished introduction to the conference experience."
+                        <CaseStudySection
+                            title="Banners"
+                            images={[
+                                {
+                                    src: CaseStudyImage13,
+                                    alt: "Pop-up banners featuring pun-filled titles and iconic musicians, connecting music heritage to the conference theme to capture attention and spark engagement.",
+                                    caption: "Pop-up banners combine storytelling and bold visuals to reinforce the music-meets-tech identity throughout the venue.",
+                                },
+                                {
+                                    src: CaseStudyImage14,
+                                    alt: "Pop-up banners featuring pun-filled titles and iconic musicians, connecting music heritage to the conference theme to capture attention and spark engagement.",
+                                },
+                                {
+                                    src: CaseStudyImage15,
+                                    alt: "Pop-up banners featuring pun-filled titles and iconic musicians, connecting music heritage to the conference theme to capture attention and spark engagement.",
+                                },
+                                {
+                                    src: CaseStudyImage16,
+                                    alt: "Pop-up banners featuring pun-filled titles and iconic musicians, connecting music heritage to the conference theme to capture attention and spark engagement.",
+                                },
+                            ]}
+                            customClass="two-in-row"
                         />
+
+                        <CaseStudySection
+                            title="Registration Desk"
+                            images={[
+                                {
+                                    src: CaseStudyImage19,
+                                    alt: "Custom registration signage and footboards designed to guide attendees efficiently while creating a cohesive, branded first impression.",
+                                    caption:
+                                        "Registration signage ensures clarity, efficiency, and a polished introduction to the conference experience.",
+                                },
+                            ]}
+                        />
+
                         <div className="two-in-a-row">
 
                             <CaseStudyImage
@@ -433,57 +434,64 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                             />
                         </div>
 
-                        <p className="sub-section-label">Tent Cards</p>
-
-                        <div className="two-in-a-row">
-
-                            <CaseStudyImage
-                                src={CaseStudyImage10}
-                                alt="Printed theme tent cards for reserved seating, advisory councils, and sponsor tables, maintaining consistency and professionalism across all touchpoints."
-                                caption="Tent cards reinforce branding and organization at key seating areas, highlighting sponsors and leadership tables."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage11}
-                                alt="Printed theme tent cards for reserved seating, advisory councils, and sponsor tables, maintaining consistency and professionalism across all touchpoints."
-                                caption="Tent cards reinforce branding and organization at key seating areas, highlighting sponsors and leadership tables."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage12}
-                                alt="Printed theme tent cards for reserved seating, advisory councils, and sponsor tables, maintaining consistency and professionalism across all touchpoints."
-                                caption="Tent cards reinforce branding and organization at key seating areas, highlighting sponsors and leadership tables."
-                            />
-                        </div>
-
-                        <p className="sub-section-label">Signage</p>
-
-                        <div className="two-in-a-row">
-
-                            <CaseStudyImage
-                                src={CaseStudyImage28}
-                                alt="Printed signage displaying registration passes, Executive Roundtable events, and sponsor recognition, reflecting the high-energy conference theme."
-                                caption="Event signage communicates details and sponsor information while maintaining immersive, consistent branding."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage29}
-                                alt="Printed signage displaying registration passes, Executive Roundtable events, and sponsor recognition, reflecting the high-energy conference theme."
-                                caption="Event signage communicates details and sponsor information while maintaining immersive, consistent branding."
-                            />
-                        </div>
-
-                        <p className="sub-section-label">Podium</p>
-
-                        <CaseStudyImage
-                            src={CaseStudyImage30}
-                            alt="Custom podium design featuring bold colors, patterns, and textures, providing a visually engaging focal point for speakers."
-                            caption="The podium reinforces the immersive conference identity on stage, tying together visual branding with presentation spaces."
+                         <CaseStudySection
+                            title="Tent Cards"
+                            images={[
+                                {
+                                    src: CaseStudyImage10,
+                                    alt: "Printed theme tent cards for reserved seating, advisory councils, and sponsor tables, maintaining consistency and professionalism across all touchpoints.",
+                                    caption: "Tent cards reinforce branding and organization at key seating areas, highlighting sponsors and leadership tables.",
+                                },
+                                {
+                                    src: CaseStudyImage11,
+                                    alt: "Printed theme tent cards for reserved seating, advisory councils, and sponsor tables, maintaining consistency and professionalism across all touchpoints.",
+                                },
+                                {
+                                    src: CaseStudyImage12,
+                                    alt: "Printed theme tent cards for reserved seating, advisory councils, and sponsor tables, maintaining consistency and professionalism across all touchpoints.",
+                                },
+                            ]}
+                            customClass="two-in-row"
                         />
 
-                        <p className="sub-section-label">Lunch Ticket</p>
+                        <CaseStudySection
+                            title="Signage"
+                            images={[
+                                {
+                                    src: CaseStudyImage28,
+                                    alt: "Printed signage displaying registration passes, Executive Roundtable events, and sponsor recognition, reflecting the high-energy conference theme",
+                                    caption: "Event signage communicates details and sponsor information while maintaining immersive, consistent branding.",
+                                },
+                                {
+                                    src: CaseStudyImage29,
+                                    alt: "Printed signage displaying registration passes, Executive Roundtable events, and sponsor recognition, reflecting the high-energy conference theme",
+                                },
+                            ]}
+                            customClass="two-in-row"
+                        />
 
-                        <CaseStudyImage
-                            src={CaseStudyImage31}
-                            alt="Themed lunch tickets with bold patterns and cohesive branding, transforming even small details into memorable, on-theme experiences for attendees."
-                            caption="Branded lunch tickets extend the high-energy identity to every touchpoint, making small details part of the immersive experience."
+                        <CaseStudySection
+                            title="Podium"
+                            images={[
+                                {
+                                    src: CaseStudyImage30,
+                                    alt: "Custom podium design featuring bold colors, patterns, and textures, providing a visually engaging focal point for speakers.",
+                                    caption:
+                                        "The podium reinforces the immersive conference identity on stage, tying together visual branding with presentation spaces.",
+                                },
+                            ]}
+                        />
+
+                        <CaseStudySection
+                            title="Lunch Ticket"
+                            images={[
+                                {
+                                    src: CaseStudyImage31,
+                                    alt: "Themed lunch tickets with bold patterns and cohesive branding, transforming even small details into memorable, on-theme experiences for attendees.",
+                                    caption:
+                                        "Branded lunch tickets extend the high-energy identity to every touchpoint, making small details part of the immersive experience.",
+                                },
+                            ]}
                         />
 
                         <div id="end-result" className="solution-context-item">
@@ -575,23 +583,24 @@ const SecureWorldConferenceThemeCaseStudy = () => {
                         </div>
                     </div>
 
-                    <p className="sub-section-label">Moodboards</p>
-
-                            <CaseStudyImage
-                                src={CaseStudyImage32}
-                                alt="Exploratory moodboards presenting three visual directions—high-energy EDM/tech, retro ’70s, and Art Deco jazz—to define the conference’s creative tone."
-                                caption="Moodboards explored three distinct aesthetics to shape the conference theme, with the final EDM-inspired system chosen for its bold, immersive energy and alignment with SecureWorld’s brand goals."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage33}
-                                alt="Exploratory moodboards presenting three visual directions—high-energy EDM/tech, retro ’70s, and Art Deco jazz—to define the conference’s creative tone."
-                                caption="Moodboards explored three distinct aesthetics to shape the conference theme, with the final EDM-inspired system chosen for its bold, immersive energy and alignment with SecureWorld’s brand goals."
-                            />
-                            <CaseStudyImage
-                                src={CaseStudyImage34}
-                                alt="Exploratory moodboards presenting three visual directions—high-energy EDM/tech, retro ’70s, and Art Deco jazz—to define the conference’s creative tone."
-                                caption="Moodboards explored three distinct aesthetics to shape the conference theme, with the final EDM-inspired system chosen for its bold, immersive energy and alignment with SecureWorld’s brand goals."
-                            />
+                    <CaseStudySection
+                            title="Moodboards"
+                            images={[
+                                {
+                                    src: CaseStudyImage32,
+                                    alt: "Exploratory moodboards presenting three visual directions—high-energy EDM/tech, retro ’70s, and Art Deco jazz—to define the conference’s creative tone.",
+                                    caption: "Moodboards explored three distinct aesthetics to shape the conference theme, with the final EDM-inspired system chosen for its bold, immersive energy and alignment with SecureWorld’s brand goals.",
+                                },
+                                {
+                                    src: CaseStudyImage33,
+                                    alt: "Exploratory moodboards presenting three visual directions—high-energy EDM/tech, retro ’70s, and Art Deco jazz—to define the conference’s creative tone.",
+                                },
+                                {
+                                    src: CaseStudyImage34,
+                                    alt: "Exploratory moodboards presenting three visual directions—high-energy EDM/tech, retro ’70s, and Art Deco jazz—to define the conference’s creative tone.",
+                                },
+                            ]}
+                        />
                 </div>
             </section>
 
