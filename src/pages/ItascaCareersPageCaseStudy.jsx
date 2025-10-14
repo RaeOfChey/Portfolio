@@ -398,6 +398,7 @@ const EmployEaseCaseStudy = () => {
                         />
 
                         <div>
+
                             <div id="end-result" className="solution-context-item">
                                 <div className="context-item-header clear-actionable-design">
                                     <CircleCheckIcon className="circle-check-icon" />
@@ -408,7 +409,9 @@ const EmployEaseCaseStudy = () => {
                                 </p>
                             </div>
                         </div>
+
                     </div>
+                </div>
             </section>
 
             <section className="approach-section-header">
