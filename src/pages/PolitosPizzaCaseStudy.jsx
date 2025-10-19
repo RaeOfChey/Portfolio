@@ -18,31 +18,28 @@ import PolitosPizzaHeaderImage from '../assets/politos-pizza/Politos Pizza Heade
 import CaseStudyImage1 from '../assets/politos-pizza/Politos Pizza Case Study Image1.png';
 import CaseStudyImage2 from '../assets/politos-pizza/Politos Pizza Case Study Image2.png';
 import CaseStudyImage5 from '../assets/politos-pizza/Politos Pizza Case Study Image5.png';
-
-import CaseStudyImage8 from '../assets/politos-pizza/Politos Pizza Case Study Image8.png';
-import CaseStudyImage9 from '../assets/politos-pizza/Politos Pizza Case Study Image9.png';
-import CaseStudyImage10 from '../assets/politos-pizza/Politos Pizza Case Study Image10.png';
-
 import CaseStudyImage12 from '../assets/politos-pizza/Politos Pizza Case Study Image12.png';
+import CaseStudyImage13 from '../assets/politos-pizza/Politos Pizza Case Study Image13.png';
+import CaseStudyImage14 from '../assets/politos-pizza/Politos Pizza Case Study Image14.png';
+import CaseStudyImage15 from '../assets/politos-pizza/Politos Pizza Case Study Image15.png';
+import CaseStudyImage16 from '../assets/politos-pizza/Politos Pizza Case Study Image16.png';
+import CaseStudyImage17 from '../assets/politos-pizza/Politos Pizza Case Study Image17.png';
+import CaseStudyImage18 from '../assets/politos-pizza/Politos Pizza Case Study Image18.png';
+import CaseStudyImage19 from '../assets/politos-pizza/Politos Pizza Case Study Image19.png';
+import CaseStudyImage20 from '../assets/politos-pizza/Politos Pizza Case Study Image20.png';
+import CaseStudyImage21 from '../assets/politos-pizza/Politos Pizza Case Study Image21.png';
+import CaseStudyImage22 from '../assets/politos-pizza/Politos Pizza Case Study Image22.png';
+import CaseStudyImage23 from '../assets/politos-pizza/Politos Pizza Case Study Image23.png';
+import PolitosGif1 from '../assets/politos-pizza/Politos Pizza Case Study Image24.gif';
+import PolitosGif2 from '../assets/politos-pizza/Politos Pizza Case Study Image25.gif';
+import CaseStudyImage26 from '../assets/politos-pizza/Politos Pizza Case Study Image26.png';
+import PolitosGif3 from '../assets/politos-pizza/Politos Pizza Case Study Image27.gif';
+import CaseStudyImage28 from '../assets/politos-pizza/Politos Pizza Case Study Image28.png';
+
+import CaseStudyImage35 from '../assets/politos-pizza/Politos Pizza Case Study Image35.png';
+import CaseStudyImage36 from '../assets/politos-pizza/Politos Pizza Case Study Image36.png';
 
 
-
-import CaseStudyImage11 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image11.png';
-
-import CaseStudyImage13 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image13.png';
-import CaseStudyImage14 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image14.png';
-import CaseStudyImage15 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image15.png';
-import CaseStudyImage16 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image16.png';
-import CaseStudyImage17 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image17.png';
-import CaseStudyImage18 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image18.png';
-import CaseStudyImage19 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image19.png';
-import CaseStudyImage20 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image20.png';
-import CaseStudyImage21 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image21.png';
-import CaseStudyImage22 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image22.png';
-import CaseStudyImage23 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image23.png';
-import CaseStudyImage24 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image24.png';
-import CaseStudyImage25 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image25.png';
-import CaseStudyImage26 from '../assets/norseman-nuptials/Norseman Nuptials Case Study Image26.png';
 
 const NorsemanNuptialsCaseStudy = () => {
 
@@ -188,8 +185,6 @@ const NorsemanNuptialsCaseStudy = () => {
                             ]}
                         />
 
-                       
-
                     </div>
                 </div>
             </section>
@@ -304,7 +299,7 @@ const NorsemanNuptialsCaseStudy = () => {
                             </p>
                         </div>
 
-                        {/* <div className="brand-assets-section">
+                        <div className="brand-assets-section">
 
                             <div className="logo-section">
 
@@ -313,8 +308,8 @@ const NorsemanNuptialsCaseStudy = () => {
                                 <div className="primary-logo-row full-color-row">
                                     <div className="primary-logo-single">
                                         <img
-                                            src={CaseStudyImage9}
-                                            alt="Norseman Nuptials Primary Logo Full Color"
+                                            src={CaseStudyImage14}
+                                            alt="Poltios Pizza Primary Logo Full Color"
                                             className="primary-logo-img"
                                         />
                                     </div>
@@ -323,15 +318,15 @@ const NorsemanNuptialsCaseStudy = () => {
                                 <div className="primary-logo-row bw-row">
                                     <div className="primary-logo-half bg-black">
                                         <img
-                                            src={CaseStudyImage10}
-                                            alt="Norseman Nuptials Primary Logo Black"
+                                            src={CaseStudyImage15}
+                                            alt="Poltios Pizza Primary Logo Black"
                                             className="logo-img"
                                         />
                                     </div>
                                     <div className="primary-logo-half bg-white">
                                         <img
-                                            src={CaseStudyImage11}
-                                            alt="Norseman Nuptials Primary Logo White"
+                                            src={CaseStudyImage16}
+                                            alt="Poltios Pizza Primary Logo White"
                                             className="logo-img"
                                         />
                                     </div>
@@ -340,57 +335,29 @@ const NorsemanNuptialsCaseStudy = () => {
 
                             <p className="section-label">Alternative Logos</p>
 
-                            <p className="sub-section-label">Lettermark</p>
+                            <p className="sub-section-label">Horizontal</p>
 
                             <div className="alt-logo-row">
                                 <div className="alt-logo-box bg-white-alt">
-                                    <img
-                                        src={CaseStudyImage12}
-                                        alt="Norseman Nuptials Alternative Logo Lettermark Full Color"
-                                        className="alt-logo-img"
-                                    />
-                                </div>
-
-                                <div className="alt-logo-box bg-white-alt">
-                                    <img
-                                        src={CaseStudyImage13}
-                                        alt="Norseman Nuptials Alternative Logo Lettermark Black"
-                                        className="alt-logo-img"
-                                    />
-                                </div>
-
-                                <div className="alt-logo-box bg-black-alt">
-                                    <img
-                                        src={CaseStudyImage14}
-                                        alt="Norseman Nuptials Alternative Logo Lettermark White"
-                                        className="alt-logo-img"
-                                    />
-                                </div>
-                            </div>
-
-                            <p className="sub-section-label">Wordmark</p>
-
-                            <div className="alt-logo-row">
-                                <div className="alt-logo-box bg-white-alt">
-                                    <img
-                                        src={CaseStudyImage15}
-                                        alt="Norseman Nuptials Alternative Logo Lettermark Full Color"
-                                        className="alt-logo-img"
-                                    />
-                                </div>
-
-                                <div className="alt-logo-box bg-white-alt">
-                                    <img
-                                        src={CaseStudyImage16}
-                                        alt="Norseman Nuptials Alternative Logo Lettermark Black"
-                                        className="alt-logo-img"
-                                    />
-                                </div>
-
-                                <div className="alt-logo-box bg-black-alt">
                                     <img
                                         src={CaseStudyImage17}
-                                        alt="Norseman Nuptials Alternative Logo Lettermark White"
+                                        alt="Poltios Pizza Alternative Logo Lettermark Full Color"
+                                        className="alt-logo-img"
+                                    />
+                                </div>
+
+                                <div className="alt-logo-box bg-white-alt">
+                                    <img
+                                        src={CaseStudyImage18}
+                                        alt="Poltios Pizza Alternative Logo Lettermark Black"
+                                        className="alt-logo-img"
+                                    />
+                                </div>
+
+                                <div className="alt-logo-box bg-black-alt">
+                                    <img
+                                        src={CaseStudyImage19}
+                                        alt="Poltios Pizza Alternative Logo Lettermark White"
                                         className="alt-logo-img"
                                     />
                                 </div>
@@ -398,74 +365,86 @@ const NorsemanNuptialsCaseStudy = () => {
 
                             <p className="section-label">Color Palette</p>
 
-                            <div className="color-palette-row">
+                            <div className="color-palette-row politos-pizza-palette">
                                 <div className="swatch-container">
-                                    <p className="swatch-label">Nótt</p>
-                                    <img src={CaseStudyImage2} alt="Nótt color swatch" className="color-swatch" />
+                                    <p className="swatch-label">Tuscan Basilico</p>
+                                    <img src={CaseStudyImage20} alt="Tuscan Basilico color swatch" className="color-swatch" />
                                 </div>
                                 <div className="swatch-container">
-                                    <p className="swatch-label">Freya’s Veil</p>
-                                    <img src={CaseStudyImage3} alt="Freya’s Veil color swatch" className="color-swatch" />
+                                    <p className="swatch-label">Rose Crust</p>
+                                    <img src={CaseStudyImage21} alt="Rose Crust color swatch" className="color-swatch" />
                                 </div>
                                 <div className="swatch-container">
-                                    <p className="swatch-label">Aurora</p>
-                                    <img src={CaseStudyImage4} alt="Aurora’s Breath color swatch" className="color-swatch" />
-                                </div>
-                                <div className="swatch-container">
-                                    <p className="swatch-label">Skadi Sky</p>
-                                    <img src={CaseStudyImage5} alt="Skadi Sky color swatch" className="color-swatch" />
-                                </div>
-                                <div className="swatch-container">
-                                    <p className="swatch-label">Fjord</p>
-                                    <img src={CaseStudyImage6} alt="Midnight Fjord color swatch" className="color-swatch" />
+                                    <p className="swatch-label">Roma Ember</p>
+                                    <img src={CaseStudyImage22} alt="Roma Ember color swatch" className="color-swatch" />
                                 </div>
                             </div>
+
 
                             <p className="section-label">Typography</p>
 
                             <div className="font-row">
                                 <div className="font-container">
-                                    <p className="swatch-label">North Typeface</p>
-                                    <img src={CaseStudyImage7} alt="North Typeface" className="font" />
+                                    <p className="swatch-label">Lust Display Typeface</p>
+                                    <img src={CaseStudyImage35} alt="North Typeface" className="font" />
                                 </div>
                                 <div className="font-container">
-                                    <p className="swatch-label">Custom Typeface</p>
-                                    <img src={CaseStudyImage8} alt="Custom Typeface" className="font" />
+                                    <p className="swatch-label">Proxima Nova Typeface</p>
+                                    <img src={CaseStudyImage36} alt="Custom Typeface" className="font" />
                                 </div>
                             </div>
 
-                            <p className="section-label">Illustrations</p>
+                            <p className="section-label">Illustrations and Patterns</p>
 
                             <div className="illustration-row">
                                 <div className="illustration-box">
                                     <img
-                                        src={CaseStudyImage18}
-                                        alt="Norseman Nuptials Illustration Set 1"
+                                        src={CaseStudyImage23}
+                                        alt="Politos Pizza Illustration"
                                         className="illustration-img"
                                     />
                                 </div>
                                 <div className="illustration-box">
                                     <img
-                                        src={CaseStudyImage19}
-                                        alt="Norseman Nuptials Illustration Set 2"
+                                        src={PolitosGif1}
+                                        alt="Politos Pizza Illustration"
                                         className="illustration-img"
                                     />
                                 </div>
                                 <div className="illustration-box">
                                     <img
-                                        src={CaseStudyImage20}
-                                        alt="Norseman Nuptials Illustration Set 3"
+                                        src={PolitosGif2}
+                                        alt="Politos Pizza Illustration"
                                         className="illustration-img"
                                     />
                                 </div>
+                            </div>
+
+                            < br />
+                            < br />
+
+                            <div className="photo-row">
+                                <img
+                                    src={CaseStudyImage26}
+                                    alt="Politos Pizza Pattern"
+                                    className="photography-img"
+                                />
+                            </div>
+
+                            <div className="photo-row">
+                                <img
+                                    src={PolitosGif3}
+                                    alt="Politos Pizza Pattern"
+                                    className="photography-img"
+                                />
                             </div>
 
                             <p className="section-label">Photography</p>
 
                             <div className="photo-row">
                                 <img
-                                    src={CaseStudyImage21}
-                                    alt="Norseman Nuptials Photography"
+                                    src={CaseStudyImage28}
+                                    alt="Politos Pizza Photography"
                                     className="photography-img"
                                 />
                             </div>
@@ -480,17 +459,17 @@ const NorsemanNuptialsCaseStudy = () => {
                                 Beyond the initial goals, the brand system elevates the customer experience with:
                                 <ul>
                                     <li>
-                                        Custom typography that balances bold, funky serif with thin, modern sans serif to convey size, variety, and personality.
+                                        A custom typography system combining bold, playful serifs with modern sans serifs to reflect Polito’s eclectic personality.
                                     </li>
                                     <li>
-                                        Illustrations and patterns that are geometric and modern but reference old-world Italian heritage.
+                                        Iconography and illustrations of pizza toppings and slices that celebrate the brand’s heritage while adding visual fun.
                                     </li>
                                     <li>
-                                        Flexible, scalable elements that adapt across locations, merchandise, menus, and social media while maintaining cohesion.
+                                        A flexible, scalable identity system that works seamlessly across signage, menus, packaging, social media, and store interiors.
                                     </li>
                                 </ul>
                             </p>
-                        </div> */}
+                        </div>
 
                         <div id="end-result" className="solution-context-item">
                             <div className="context-item-header clear-actionable-design">
@@ -559,17 +538,17 @@ const NorsemanNuptialsCaseStudy = () => {
                             </p>
                         </div>
 
-                        {/* <CaseStudySection
+                        <CaseStudySection
                             title="Moodbard"
                             images={[
                                 {
-                                    src: CaseStudyImage26,
-                                    alt: "Norseman Nuptials moodboard featuring Scandinavian minimalism, jewel-toned northern lights, bold geometric typography, and Viking-inspired patterns, combining traditional and modern wedding aesthetics.",
+                                    src: CaseStudyImage13,
+                                    alt: "Moodboard featuring vibrant pinks, greens, reds, geometric pizza slice illustrations, eclectic typography, and textured patterns representing Polito’s Pizza’s modern, bold, and Italian-inspired brand identity.",
                                     caption:
-                                        "A moodboard blending Scandinavian minimalism with jewel-toned northern lights, bold geometric typography, and Viking-inspired patterns. An ode to timeless traditions meeting modern, minimalist wedding aesthetics.",
+                                        "A curated moodboard capturing Polito’s Pizza’s bold, eclectic personality. Bright colors, geometric shapes, and playful textures reflect the brand’s Italian heritage and “big slice” identity.",
                                 },
                             ]}
-                        /> */}
+                        />
 
                     </div>
                 </div>
