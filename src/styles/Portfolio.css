@@ -75,12 +75,13 @@
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   border: 2px solid var(--color-darkblue);
   position: relative;
+  background-color: var(--color-lightblue)
 }
 
 .project-card:hover {
   transform: scale(1.03);
   transition: box-shadow 0.3s ease, transform 0.3s ease;
-  border: 2px solid var(--color-blue);
+  border: 2px solid var(--color-blue)
 }
 
 .project-card img {
