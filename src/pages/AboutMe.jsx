@@ -79,7 +79,7 @@ const AboutMe = () => {
                             When <span className="title-highlight">design</span> speaks for itself, <span className="title-highlight">users</span> listen.
                         </h5>
                         <p className="subtitle">
-                            Hello, I’m Cheyenna, a UX/UI and Digital Experience Strategist who designs for measurable impact. I help businesses define what to build, why it matters, and how to make it perform. My work spans eCommerce sites that increase sales and SaaS platforms that boost adoption. By combining creativity, research, and hands-on technical skill, I turn strategic insights into intuitive experiences that drive results.
+                            Hello, I’m Cheyenna, a Digital Experience Designer and Strategist who combines strategy, UX/UI, design, and technology to create meaningful digital experiences. My work spans eCommerce, SaaS, and nonprofit, with experience ranging from product and interface design to information architecture, content strategy, and front-end development. I bring research, creativity, and technical thinking together to solve complex problems and create experiences that work for both people and organizations.
                         </p>
                     </div>
                 </header>
@@ -145,25 +145,25 @@ const AboutMe = () => {
           ) : (
             <>
               <p className="my-goal-paragraph">
-                My goal is to create digital experiences that are both strategic and human. Every design decision is guided by research, data, and empathy. The outcome should not only look exceptional but also serve a clear purpose and deliver measurable results.
+                My goal is to create digital experiences that are strategic, human, and built to make an impact. I bring together creativity, research, and technical thinking to solve problems and create experiences that work for both people and organizations.
               </p>
               <div className="experience-item-container">
+                <div className="experience-item">
+                  <div className="experience-item-header">
+                    <CircleCheckIcon className="circle-check-icon" />
+                    <h2>A strategic thinker</h2>
+                  </div>
+                  <p>
+                    I look beyond the interface to understand the bigger picture, connecting user needs, business goals, content, and technology to define thoughtful solutions.
+                    </p>
+                </div>
                 <div className="experience-item">
                   <div className="experience-item-header">
                     <CircleCheckIcon className="circle-check-icon" />
                     <h2>A creative with a technical edge</h2>
                   </div>
                   <p>
-                    I have more than five years of experience blending design, UX, and front-end development to craft user-centered solutions that align with business goals across marketing, healthcare, and SaaS.
-                    </p>
-                </div>
-                <div className="experience-item">
-                  <div className="experience-item-header">
-                    <CircleCheckIcon className="circle-check-icon" />
-                    <h2>A bridge between design and development</h2>
-                  </div>
-                  <p>
-                    I translate insights into tangible products by connecting strategy, user experience, and technical feasibility. My goal is to deliver results that perform as beautifully as they look.
+                    With experience across UX, UI, and front-end development, I bring ideas to life with an understanding of what makes them both effective and feasible.
                   </p>
                 </div>
                 <div className="experience-item">
@@ -172,7 +172,7 @@ const AboutMe = () => {
                     <h2>A champion of thoughtful solutions</h2>
                   </div>
                   <p>
-                    I combine analytical thinking with creativity to focus on accessibility, usability, and conversion. Every detail supports both user satisfaction and business growth.
+                    I use research, data, and creativity to create experiences that are accessible, intuitive, and purposeful.
                   </p>
                 </div>
                 <div className="experience-item">
@@ -207,15 +207,11 @@ const AboutMe = () => {
             ) : (
               [
                 "Adobe Creative Cloud", "Figma", "FigJam", "Canva", "LottieFiles",
-                "Hotjar", "UserTesting", "Maze", "WordPress", "Google Analytics",
-                "HubSpot", "Git/GitHub", "JavaScript", "TypeScript", "MERN Stack",
-                "REST APIs", "GraphQL", "Bootstrap", "Monday.com", "Micro", "ChatGPT"
+                "Hotjar", "UserTesting", "Maze", "AB Tasty", "Google Analytics", "WordPress", "Drupal", "Salesforce", "HubSpot", "Git/GitHub", "JavaScript", "TypeScript", "REST APIs", "GraphQL", "Bootstrap", "Monday.com"
               ]
               .concat([
                 "Adobe Creative Cloud", "Figma", "FigJam", "Canva", "LottieFiles",
-                "Hotjar", "UserTesting", "Maze", "WordPress", "Google Analytics",
-                "HubSpot", "Git/GitHub", "JavaScript", "TypeScript", "MERN Stack",
-                "REST APIs", "GraphQL", "Bootstrap", "Monday.com", "Micro", "ChatGPT"
+                "Hotjar", "UserTesting", "Maze", "AB Tasty", "Google Analytics", "WordPress", "Drupal", "Salesforce", "HubSpot", "Git/GitHub", "JavaScript", "TypeScript", "REST APIs", "GraphQL", "Bootstrap", "Monday.com"
               ])
               .map((tool, index) => (
                 <div className="carousel-item" key={`${tool}-${index}`} title={tool}>
